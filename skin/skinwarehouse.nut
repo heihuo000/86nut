@@ -1,25 +1,29 @@
-DAME_SHAKE_VAR <- 0; //--ÓÎÏ·Õð¶¯Ð§¹E
-//ÉËº¦×ÖÌåÅäÖÃ
-FONT_CURRENT_ID <- 0; //--µ±Ç°×ÖÌåID
-DAMAGE_FONT_ALPHA <- 255; //--Í¸Ã÷¶È
-DAMAGE_FONT_MAX <- 9999999; //--×ûÐóÉËº¦Öµ
-FONT_ADD_SKILL_INEDX <- 169; //--¸½¼Ó×ÖÊý¾Ý¼¼ÄÜ±àºÅ
-FONT_ADD_STATIC_START <- 1; //--¾²Ì¬¿ªÊ¼Î»ÖÃ
-FONT_ADD_STATIC_END <- 2; //--¾²Ì¬½áÊøÎ»ÖÃ
-FONT_ADD_DATA_RATE <- 10; //--Êý¾Ý±ÈÂÊ£¨1£º10£©
-ACTIVE_ADD_CONTROL <- 1; //--ÒE£ÉËº¦¸½¼Ó¿ª¹Ø£¨1¿ª£¬0¹Ø£©
-DAMAGE_FONT_TEXT_RATE <- 100; //--×ÖÌå´óÐ¡±ÈÂÊ
-//·Ç¼¼ÄÜ¿EÝÀ¸µÄ¼¼ÄÜÀäÈ´Í¼±ESKILL_COOLTIME_POS_X <- 537;//×ø±êX
-SKILL_COOLTIME_POS_Y <- 483; //×ø±êY
-SKILL_COOLTIME_LINE <- 6; //Ò»ÅÅ×ûÐóÊýÁ¿£¬³¬¹ýÔòÍùÉÏ¼ÓÒ»ÅÅ
-SKILL_COOLTIME_ALPHA <- 200; //Í¸Ã÷¶È
-SKILL_COOLTIME_INTERVAL <- 24; //Í¼±E»ÖÃ¼ä¸ESKILL_COOLTIME_WIDERATE <- 80;//Í¼±EúÐóÐ¡±ÈÂÊ
-SKILL_COOLTIME_HIGHRATE <- 80; //Í¼±Eß´óÐ¡±ÈÂÊ
-ANTON_RAID_ITEM <- 10308800; //°²Í¼¶÷ÍÅ±¾ÃÅÆ±
-ANTON_RAID_TOWN <- 34; //°²Í¼¶÷ÍÅ±¾³ÇÕòID
-//ÍÁ¹ÞÎE·¸ÅÂÊÏÔÊ¾
-//Ò»ÐÐÎªÒ»ÌE//index = ÎE·´úÂE//count = ÊýÁ¿
-//probability = ¼¸ÂÊ(¿É´øÐ¡ÊýµE
+DAME_SHAKE_VAR <- 0; //--æ¸¸æˆç‰¹æ•ˆå€¼
+//ä¼¤å®³å­—ä½“è®¾ç½®
+FONT_CURRENT_ID <- 0; //--å½“å‰å­—ä½“ID
+DAMAGE_FONT_ALPHA <- 255; //--é€æ˜Žåº¦
+DAMAGE_FONT_MAX <- 9999999; //--æœ€å¤§ä¼¤å®³å€¼
+FONT_ADD_SKILL_INEDX <- 169; //--é™„åŠ æ•°æ®æŠ€èƒ½æ ‡è¯†
+FONT_ADD_STATIC_START <- 1; //--é™æ€èµ·å§‹ä½ç½®
+FONT_ADD_STATIC_END <- 2; //--é™æ€ç»“æŸä½ç½®
+FONT_ADD_DATA_RATE <- 10; //--æ•°æ®æ¯”çŽ‡ï¼ˆ1åˆ°10ï¼‰
+ACTIVE_ADD_CONTROL <- 1; //--ä¼¤å®³é™„åŠ æŽ§åˆ¶ï¼ˆ1å¼€ï¼Œ0å…³ï¼‰
+DAMAGE_FONT_TEXT_RATE <- 100; //--å­—ä½“å¤§å°æ¯”çŽ‡
+//éžæŠ€èƒ½å¿«æ·æ çš„æŠ€èƒ½å†·å´å›¾æ ‡
+SKILL_COOLTIME_POS_X <- 537; //åæ ‡X
+SKILL_COOLTIME_POS_Y <- 483; //åæ ‡Y
+SKILL_COOLTIME_LINE <- 6; //ä¸€è¡Œæ˜¾ç¤ºæ•°é‡ï¼ˆè¶…è¿‡æ•°é‡å‘ä¸ŠåŠ ä¸€è¡Œï¼‰
+SKILL_COOLTIME_ALPHA <- 200; //é€æ˜Žåº¦
+SKILL_COOLTIME_INTERVAL <- 24; //å›¾æ ‡é—´éš”è·ç¦»
+SKILL_COOLTIME_WIDERATE <- 80; //å›¾æ ‡å®½åº¦å¤§å°æ¯”çŽ‡
+SKILL_COOLTIME_HIGHRATE <- 80; //å›¾æ ‡é«˜åº¦å¤§å°æ¯”çŽ‡
+ANTON_RAID_ITEM <- 10308800; //å®‰å›¾æ©å‰¯æœ¬é—¨ç¥¨
+ANTON_RAID_TOWN <- 34; //å®‰å›¾æ©å‰¯æœ¬åŸŽé•‡ID
+//ä¸¹é’ç½ç‰©å“æ˜¾ç¤º
+//ä¸€è¡Œä¸ºä¸€æ¡è®°å½•
+//index = ç‰©å“ç¼–å·
+//count = æ•°é‡
+//probability = æ¦‚çŽ‡ï¼ˆä»Žå¤§åˆ°å°æŽ’åºï¼‰
 DANJINJAR_ITEM_INFO <- [{
 	index = 3037,
 	count = 10,
@@ -231,10 +235,10 @@ DANJINJAR_ITEM_INFO <- [{
 	probability = 1.50
 },
 
-//½áÎ²£¬±£ÁE	{ index = 0, count = 0, probability = 0 }
+//æ•°ç»„å°¾éƒ¨æ ‡è®° { index = 0, count = 0, probability = 0 }
 ];
 
-//ÉËº¦Ð¡×ÖÌåÊý¾ÝÉèÖÃ
+//ä¼¤å®³å°æ•°ç‚¹æ•°æ®å¤„ç†
 function getCommonDamageFontAddInfo(obj, number) {
 	local AddArray = [];
 	for (local i = FONT_ADD_STATIC_START; i <= FONT_ADD_STATIC_END; i++) {
