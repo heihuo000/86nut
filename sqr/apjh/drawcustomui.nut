@@ -32,19 +32,19 @@ function SkillIcon(obj)
 	local Skill_Y = sq_var.GetAnimationMap("Skill_Y", "ui/hud/animation/skillkey/skill_y.ani");
 
 
-	sq_AnimationProc(Skill_Q);
-	sq_AnimationProc(Skill_W);
-	sq_AnimationProc(Skill_E);
-	sq_AnimationProc(Skill_R);
-	sq_AnimationProc(Skill_T);
-	sq_AnimationProc(Skill_Y);
+	//sq_AnimationProc(Skill_Q);
+	//sq_AnimationProc(Skill_W);
+	//sq_AnimationProc(Skill_E);
+	//sq_AnimationProc(Skill_R);
+	//sq_AnimationProc(Skill_T);
+	//sq_AnimationProc(Skill_Y);
 
-	sq_drawCurrentFrame(Skill_Q, 538, 519, false);
-	sq_drawCurrentFrame(Skill_W, 568, 519, false);
-	sq_drawCurrentFrame(Skill_E, 598, 519, false);
-	sq_drawCurrentFrame(Skill_R, 628, 519, false);
-	sq_drawCurrentFrame(Skill_T, 658, 519, false);
-	sq_drawCurrentFrame(Skill_Y, 688, 519, false);
+	//sq_drawCurrentFrame(Skill_Q, 538, 519, false);
+	//sq_drawCurrentFrame(Skill_W, 568, 519, false);
+	//sq_drawCurrentFrame(Skill_E, 598, 519, false);
+	//sq_drawCurrentFrame(Skill_R, 628, 519, false);
+	//sq_drawCurrentFrame(Skill_T, 658, 519, false);
+	//sq_drawCurrentFrame(Skill_Y, 688, 519, false);
 
 }
 

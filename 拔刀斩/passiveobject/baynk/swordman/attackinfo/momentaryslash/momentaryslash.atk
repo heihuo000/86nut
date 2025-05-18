@@ -1,0 +1,36 @@
+#PVF_File
+
+[attack type]
+
+[physic]
+
+[weapon damage apply]
+	1
+
+[attack enemy]
+	1
+
+[elemental property]
+
+[no element]
+
+[damage reaction]
+
+[damage]
+
+[push aside]
+	200
+
+[lift up]
+	200
+
+[attack direction]
+
+[hit horizon]
+
+[hit wav]
+
+[cut]
+
+[blood]
+	100	1.0

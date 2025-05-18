@@ -1,0 +1,268 @@
+#PVF_File
+
+[name]
+	`拔刀斩`
+
+[name2]
+	`拔刀`
+
+[basic explain]
+	`拔刀并快速向周围敌人击出强大威力的斩击，可以攻击大范围的敌人，但准备动作时间稍长。`
+
+[explain]
+	`拔刀并快速向周围敌人击出强大威力的斩击，可以攻击大范围的敌人，但准备动作时间稍长。
+若已学一定等级以上的[太刀精通]或[光剑精通]并使用太刀或光剑系武器，则可以追加一个拔刀追击。`
+
+[purchase cost]
+	40
+[/purchase cost]
+
+[required level]
+	35
+
+[required level range]
+	2
+
+[type]
+	`[active]`
+
+[skill class]
+	1
+
+[maximum level]
+	70
+
+[growtype maximum level]
+	0	50	0	0	0	50
+
+[skill fitness growtype]
+	1
+[/skill fitness growtype]
+
+[skill under cooltime effect]
+[/skill under cooltime effect]
+
+[consume item]
+	3037	1	1
+[/consume item]
+
+[durability decrease rate]
+	70
+
+[icon]
+	`Character/Swordman/Effect/SkillIcon.img`	8
+	`Character/Swordman/Effect/SkillIcon.img`	9
+
+[weapon effect type]
+	`[physical]`
+
+[command]
+	{6=`(LEFT)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(SKILL)`}
+[/command]
+
+[command key explain]
+	`操作指令 : ←↓→ + Z`
+
+[skill command advantage]
+	20	40
+
+[dungeon]
+	[consume MP]
+		110	924
+	[cool time]
+		15000	15000
+	[static data]
+		500	300	225	150	75	0	100	0
+	[/static data]
+	[level info]
+		1
+		1080
+		1192
+		1303
+		1415
+		1526
+		1639
+		1751
+		1862
+		1974
+		2086
+		2197
+		2309
+		2420
+		2532
+		2644
+		2756
+		2868
+		2980
+		3091
+		3203
+		3314
+		3426
+		3538
+		3649
+		3761
+		3874
+		3985
+		4097
+		4208
+		4320
+		4432
+		4543
+		4655
+		4766
+		4879
+		4991
+		5102
+		5214
+		5326
+		5437
+		5549
+		5660
+		5772
+		5884
+		5996
+		6108
+		6220
+		6331
+		6443
+		6554
+		6666
+		6778
+		6890
+		7001
+		7113
+		7225
+		7337
+		7448
+		7560
+		7672
+		7784
+		7895
+		8007
+		8119
+		8230
+		8342
+		8454
+		8566
+		8677
+		8789
+	[/level info]
+[/dungeon]
+
+[pvp]
+	[start cool time]
+		18000	18000
+	[cool time]
+		18000	18000
+	[static data]
+		500	30	20	10	5	0
+	[/static data]
+	[level info]
+		1
+		180
+		198
+		217
+		235
+		254
+		272
+		291
+		310
+		328
+		347
+		365
+		384
+		402
+		421
+		440
+		458
+		477
+		495
+		514
+		532
+		551
+		570
+		588
+		607
+		625
+		644
+		662
+		681
+		700
+		718
+		737
+		755
+		774
+		792
+		811
+		830
+		848
+		867
+		885
+		904
+		923
+		941
+		960
+		978
+		997
+		1015
+		1034
+		1053
+		1071
+		1090
+		1108
+		1127
+		1145
+		1164
+		1183
+		1201
+		1220
+		1238
+		1257
+		1275
+		1294
+		1313
+		1331
+		1350
+		1368
+		1387
+		1405
+		1424
+		1443
+		1461
+	[/level info]
+[/pvp]
+
+[death tower]
+[/death tower]
+
+[warroom]
+[/warroom]
+
+[level property]
+	1	99
+	`拔刀斩武器物理攻击力 : <int>%%
+攻击5只以上时攻击力增加率 : <float1>%%
+攻击4只时攻击力增加率 : <float1>%%
+攻击3只时攻击力增加率 : <float1>%%
+攻击2只时攻击力增加率 : <float1>%%
+攻击1只时攻击力增加率 : <float1>%%`
+	-1	0	1.0
+	5	5	0.1
+	4	4	0.1
+	3	3	0.1
+	2	2	0.1
+	1	1	0.1
+[/level property]
+
+[skill preloading image]
+	`Character/Swordman/Effect/MomentarySlashBlade.img`
+[/skill preloading image]
+
+[feature skill index]
+	154

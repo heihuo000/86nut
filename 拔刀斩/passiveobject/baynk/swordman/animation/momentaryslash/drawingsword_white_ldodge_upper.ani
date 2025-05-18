@@ -1,0 +1,61 @@
+#PVF_File
+
+[SHADOW]
+	0
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`character/swordman/effect/momentaryslash/drawingsword_white_ldodge_upper.img`
+		0
+	[IMAGE POS]
+		-300	-280
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME001]
+	[IMAGE]
+		`character/swordman/effect/momentaryslash/drawingsword_white_ldodge_upper.img`
+		1
+	[IMAGE POS]
+		-300	-280
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME002]
+	[IMAGE]
+		`character/swordman/effect/momentaryslash/drawingsword_white_ldodge_upper.img`
+		2
+	[IMAGE POS]
+		-300	-280
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME003]
+	[IMAGE]
+		`character/swordman/effect/momentaryslash/drawingsword_white_ldodge_upper.img`
+		3
+	[IMAGE POS]
+		-300	-280
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50
+
+[FRAME004]
+	[IMAGE]
+		`character/swordman/effect/momentaryslash/drawingsword_white_ldodge_upper.img`
+		4
+	[IMAGE POS]
+		-300	-280
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		50

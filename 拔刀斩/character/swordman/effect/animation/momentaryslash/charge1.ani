@@ -1,0 +1,125 @@
+#PVF_File
+
+[LOOP]
+	1
+[SHADOW]
+	0
+[FRAME MAX]
+	9
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/MomentarySlashEx/ChargeDodge1.img`
+		0
+	[IMAGE POS]
+		-104	-225
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/MomentarySlashEx/ChargeDodge1.img`
+		1
+	[IMAGE POS]
+		-104	-225
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/MomentarySlashEx/ChargeDodge1.img`
+		2
+	[IMAGE POS]
+		-104	-225
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME003]
+	[IMAGE]
+		`Character/Swordman/Effect/MomentarySlashEx/ChargeDodge1.img`
+		3
+	[IMAGE POS]
+		-104	-225
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME004]
+	[IMAGE]
+		`Character/Swordman/Effect/MomentarySlashEx/ChargeDodge1.img`
+		4
+	[IMAGE POS]
+		-104	-225
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME005]
+	[IMAGE]
+		`Character/Swordman/Effect/MomentarySlashEx/ChargeDodge1.img`
+		5
+	[IMAGE POS]
+		-104	-225
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME006]
+	[IMAGE]
+		`Character/Swordman/Effect/MomentarySlashEx/ChargeDodge1.img`
+		6
+	[IMAGE POS]
+		-104	-225
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME007]
+	[IMAGE]
+		`Character/Swordman/Effect/MomentarySlashEx/ChargeDodge1.img`
+		7
+	[IMAGE POS]
+		-104	-225
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70
+
+[FRAME008]
+	[IMAGE]
+		`Character/Swordman/Effect/MomentarySlashEx/ChargeDodge1.img`
+		8
+	[IMAGE POS]
+		-104	-225
+	[IMAGE RATE]
+		0.5	0.5
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		70

@@ -1,0 +1,59 @@
+#PVF_File
+
+[SHADOW]
+	0
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`Character/Swordman/Effect/MomentarySlashEx/BigWaveDodge.img`
+		0
+	[IMAGE POS]
+		-112	-102
+	[IMAGE RATE]
+		0.7	0.7
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		10000
+	[FLIP TYPE]
+		`VERTICAL`
+	[ATTACK BOX]
+	-20	-69	-68	220	137	137
+	[ATTACK BOX]
+	202	-69	-43	44	137	88
+
+[FRAME001]
+	[IMAGE]
+		`Character/Swordman/Effect/MomentarySlashEx/BigWaveDodge.img`
+		0
+	[IMAGE POS]
+		-112	-102
+	[IMAGE RATE]
+		0.7	0.7
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		200
+	[FLIP TYPE]
+		`VERTICAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Swordman/Effect/MomentarySlashEx/BigWaveDodge.img`
+		0
+	[IMAGE POS]
+		-112	-102
+	[IMAGE RATE]
+		0.7	0.7
+	[RGBA]
+		255	255	255	0
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[FLIP TYPE]
+		`VERTICAL`

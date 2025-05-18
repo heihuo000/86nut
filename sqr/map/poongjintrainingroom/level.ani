@@ -1,0 +1,15 @@
+#PVF_File
+
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`login.img`
+		10
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		0.5	0.5
+	[DELAY]
+		1000

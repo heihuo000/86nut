@@ -1,0 +1,42 @@
+#PVF_File
+
+[weapon damage apply]
+	1
+
+[damage bonus]
+	100
+
+[attack type]
+
+[physic]
+
+[attack enemy]
+	1
+
+[elemental property]
+
+[no element]
+
+[damage reaction]
+
+[down]
+
+[push aside]
+	200
+
+[lift up]
+	200
+
+[attack direction]
+
+[hit horizon]
+
+[hit wav]
+	`SLASH_HIT`
+
+[hit info]
+
+[cut]
+
+[blood]
+	70	1.0

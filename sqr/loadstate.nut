@@ -16,10 +16,10 @@ sq_RunScript("Character/mage_load_state.nut");
 sq_RunScript("Character/gunner_load_state.nut");
 sq_RunScript("Character/new_atmage_load_state.nut");
 sq_RunScript("Character/new_thief_load_state.nut");
-//sq_RunScript("Character/demonicswordman_load_state.nut");
+sq_RunScript("Character/demonicswordman_load_state.nut");
 sq_RunScript("apjh/lue.nut");
 
-sq_RunScript("Character/atpriest_load_state.nut"); //“≥ÔøΩÔøΩÔøΩÔøΩÔøΩœ∑ÔøΩÔøΩÔøΩÃÅE
+sq_RunScript("Character/atpriest_load_state.nut"); //“≥·°Ú≈À¡œ∑˘∫ËÃÅE
 
 sq_RunScript("../common/monster/config/monster_flash_screen.dat");
 sq_RunScript("../common/monster/config/monster_play_animation.dat");
@@ -36,11 +36,11 @@ sq_RunScript("ui/ui.nut");
 sq_RunScript("common_function.nut");
 sq_RunScript("qq358332886_monster_appendage/monster.nut");
 
-//dofile("SoundPacks/dnftrain/summer_monster.nut");
-//dofile("SoundPacks/dnftrain/changqing_trainroom1.c");
-//dofile("SoundPacks/dnftrain/changqing_trainroom2.c");
-//dofile("SoundPacks/dnftrain/changqing_trainroom3.c");
-//dofile("soundpacks/sounds_mon_acts.npk");
-//dofile("SoundPacks/tenparts.dat");
-//dofile("SoundPacks/sounds_mon_act17.npk");
-//dofile("SoundPacks/sounds_mon_act18.npk");
+dofile("SoundPacks/dnftrain/summer_monster.nut");
+dofile("SoundPacks/dnftrain/changqing_trainroom1.c");
+dofile("SoundPacks/dnftrain/changqing_trainroom2.c");
+dofile("SoundPacks/dnftrain/changqing_trainroom3.c");
+dofile("soundpacks/sounds_mon_acts.npk");
+dofile("SoundPacks/tenparts.dat");
+dofile("SoundPacks/sounds_mon_act17.npk");
+dofile("SoundPacks/sounds_mon_act18.npk");

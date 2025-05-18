@@ -1,0 +1,215 @@
+#PVF_File
+
+[SHADOW]
+	0
+[FRAME MAX]
+	19
+
+[FRAME000]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		0
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME001]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		1
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME002]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		2
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME003]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		3
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME004]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		4
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME005]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		5
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME006]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		6
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME007]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		7
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME008]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		8
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME009]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		9
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME010]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		10
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME011]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		11
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME012]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		12
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME013]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		13
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME014]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		14
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME015]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		15
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME016]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		16
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME017]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		17
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50
+
+[FRAME018]
+	[IMAGE]
+		`character/priest/effect/cutin/neo_priestf_sorceress_buff.img`
+		18
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		-1	1
+	[DELAY]
+		50

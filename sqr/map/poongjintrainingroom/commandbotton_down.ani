@@ -1,0 +1,31 @@
+#PVF_File
+
+[FRAME MAX]
+	3
+
+[FRAME000]
+	[IMAGE]
+		`login.img`
+		7
+	[IMAGE POS]
+		50	16
+	[DELAY]
+		100
+
+[FRAME001]
+	[IMAGE]
+		`login.img`
+		7
+	[IMAGE POS]
+		50	17
+	[DELAY]
+		100
+
+[FRAME002]
+	[IMAGE]
+		`login.img`
+		7
+	[IMAGE POS]
+		50	18
+	[DELAY]
+		100

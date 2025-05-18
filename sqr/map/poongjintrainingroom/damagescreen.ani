@@ -1,0 +1,15 @@
+#PVF_File
+
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`damagescreen.img`
+		0
+	[IMAGE POS]
+		0	0
+	[IMAGE RATE]
+		0.8	1
+	[DELAY]
+		1

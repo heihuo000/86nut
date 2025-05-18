@@ -1,0 +1,29 @@
+#PVF_File
+
+[name]
+	`Baynk_Swordman_Passive_Object`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	``
+
+[etc motion]
+	``
+[/etc motion]
+
+[etc attack info]
+	``
+	`swordman/attackInfo/momentaryslash/momentaryslash.atk`
+	`swordman/attackInfo/momentaryslash/momentaryslash_katana2.atk`
+[/etc attack info]

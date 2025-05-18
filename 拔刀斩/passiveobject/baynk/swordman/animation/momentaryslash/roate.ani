@@ -1,0 +1,95 @@
+#PVF_File
+
+[LOOP]
+	1
+[SHADOW]
+	0
+[SPECTRUM]
+	1
+	[SPECTRUM TERM]
+		80
+	[SPECTRUM LIFE TIME]
+		400
+	[SPECTRUM COLOR]
+		0	0	0	127
+	[SPECTRUM EFFECT]
+		`LINEARDODGE`
+[FRAME MAX]
+	5
+
+[FRAME000]
+	[IMAGE]
+		`Character/Knight/Effect/UpperShield/UpperShield4.img`
+		0
+	[IMAGE POS]
+		-101	-91
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+
+[FRAME001]
+	[IMAGE]
+		`Character/Knight/Effect/UpperShield/UpperShield4.img`
+		0
+	[IMAGE POS]
+		-101	-91
+	[IMAGE ROTATE]
+		-1.57
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME002]
+	[IMAGE]
+		`Character/Knight/Effect/UpperShield/UpperShield4.img`
+		0
+	[IMAGE POS]
+		-101	-91
+	[IMAGE ROTATE]
+		-3.14
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME003]
+	[IMAGE]
+		`Character/Knight/Effect/UpperShield/UpperShield4.img`
+		0
+	[IMAGE POS]
+		-101	-91
+	[IMAGE ROTATE]
+		-4.71
+	[INTERPOLATION]
+		1
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DELAY]
+		80
+	[DAMAGE TYPE]
+		`NORMAL`
+
+[FRAME004]
+	[IMAGE]
+		`Character/Knight/Effect/UpperShield/UpperShield4.img`
+		0
+	[IMAGE POS]
+		-101	-91
+	[IMAGE ROTATE]
+		-6.28
+	[GRAPHIC EFFECT]
+		`LINEARDODGE`
+	[DAMAGE TYPE]
+		`NORMAL`

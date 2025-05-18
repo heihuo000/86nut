@@ -1,0 +1,13 @@
+#PVF_File
+
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`Monster/MonsterFace.img`
+		1413
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		1000

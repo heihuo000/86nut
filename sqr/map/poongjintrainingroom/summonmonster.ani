@@ -1,0 +1,15 @@
+#PVF_File
+
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`poonintaringroom.img`
+		0
+	[IMAGE POS]
+		0	0
+	[DELAY]
+		1000
+	[IMAGE RATE]
+		0.5	0.5

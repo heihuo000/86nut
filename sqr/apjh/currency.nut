@@ -19,17 +19,27 @@ function proc_appendage_monsterdraw ( appendage )
 	local sourceObj = appendage.getSource ( );//ÔğÓğê¹ÓßßÚ	--	ã¿Ê¥APîÜìÑ
 	parentObj = sq_GetCNRDObjectToSQRCharacter ( parentObj );//íâĞñõ¨×¾ÓßßÚï®ûù? ÊÇßäÓßßÚ
 
-	local target = appendage.getVar ( "damagerHPHP" ).get_vector ( 1 );//ÏÑİ»Ü¨Õá target ?î¹ğíĞï1ûÜêÈâ¦Ëà
-	local object = sq_GetObjectByObjectId ( parentObj, target );//ÔğÓğÓßßÚ  
-	object = sq_GetCNRDObjectToActiveObject ( object );//íâĞñõ¨×¾ÓßßÚï®ûù? üÀÔÑ×¾ÓßßÚ
-	local currhp = object.getHp ( );//ÏÑİ»Ü¨Õá currhp ?ÓßßÚÓ×îñßæÙ¤?
-	if ( currhp <= 0 )//åıÍıßæÙ¤?á³éÍÔõéÍ0ãÁ
-	{
-		appendage.getVar ( "damagerSta" ).set_vector ( 0, 1 );//àâöÇ î¹ğíĞïSta 0ûÜêÈ?1
+	local target = appendage.getVar ( "damagerHP" ).get_vector ( 1 );//ÏÑİ»Ü¨Õá target ?î¹ğíĞï1ûÜêÈâ¦Ëà
+	local object = sq_GetObjectByObjectId ( parentObj, target );//ÔğÓğÓßßÚ
+	// ??ßÚ???üÀ??ßÚ
+	object = sq_GetCNRDObjectToActiveObject ( object );
+	// ?ö¢ÙÍ??îñúìÕá£¬ñòÊ¥ÛÁåÙàõ÷÷?
+	local currhp = 0;
+	if (object != null && "getHp" in object) { // ÷÷??ßÚğíî¤ó¦êógetHpÛ°Ûö
+		currhp = object.getHp(); // ?ö¢úìÕá
+	} else {
+		currhp = 0; // å´ÙégetHpÛ°Ûö£¬Ùù?úìÕá?0
 	}
-	else//ÜúöÎ
+	// ÷÷?ÙÍ?ãÀÜúŞİØÌ
+	if ( currhp <= 0 )
 	{
-		appendage.getVar ( "damagerSta" ).set_vector ( 0, 0 );//àâöÇ î¹ğíĞïSta 0ûÜêÈ?0
+		// ÙÍ?ŞİØÌ,?öÇ???1
+		appendage.getVar ( "damagerSta" ).set_vector ( 0, 1 );
+	}
+	else
+	{
+		// ÙÍ?ğíüÀ,?öÇ???0
+		appendage.getVar ( "damagerSta" ).set_vector ( 0, 0 );
 	}
 
 }
@@ -45,7 +55,7 @@ function onAttackParent_appendage_monsterdraw(appendage, realAttacker, damagerHP
 	local parentObj = appendage.getParent();//ÔğÓğİ«ÓßßÚ	--	APİ¾îÊîÜìÑ
 	local sourceObj = appendage.getSource();//ÔğÓğê¹ÓßßÚ	--	ã¿Ê¥APîÜìÑ
 	parentObj = sq_GetCNRDObjectToSQRCharacter(parentObj);//íâĞñõ¨×¾ÓßßÚï®ûù? ÊÇßäÓßßÚ
-	
+
 
 	local object = sq_GetCNRDObjectToActiveObject(damagerHP);
 	local id = sq_GetObjectId(object);//üòÔğß¿úªÓßßÚîÜú±ÏÑâËÑ¦øºûÜ

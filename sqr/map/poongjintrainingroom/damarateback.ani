@@ -1,0 +1,17 @@
+#PVF_File
+
+[FRAME MAX]
+	1
+
+[FRAME000]
+	[IMAGE]
+		`interface/windowcommon.img`
+		129
+	[IMAGE POS]
+		6	6
+	[DELAY]
+		100
+	[IMAGE RATE]
+		0.4	0.4
+	[RGBA]
+		0	0	0	100

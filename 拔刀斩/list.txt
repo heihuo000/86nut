@@ -1,0 +1,5 @@
+passiveobject需要添加的list
+24399	`baynk/swordman_baynk.obj`
+
+
+
