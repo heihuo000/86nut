@@ -1,3 +1,8 @@
+
+
+
+
+
 function setMonsterActAppendageEffect(passiveobj, damager, bounding_box, is_stuck)
 {
 
@@ -2456,7 +2461,7 @@ function scanObjectManagerMonsterByID(obj,findID)
     return null;
 }
 
-//ÎÊøìÍ§÷Ö
+//ï¿½ï¿½ï¿½ï¿½Í§ï¿½ï¿½
 function gal_DrawMonsterRageCustomUIEffect(obj)
 {
 
@@ -2487,7 +2492,7 @@ function gal_DrawMonsterRageCustomUIEffect(obj)
 
 }
 
-//ÒöÕáÏ¹
+//ï¿½ï¿½ï¿½ï¿½Ï¹
 function gal_DrawMonsterEnergyBallCustomUIEffect(obj)
 {
     local apd = getComboUiAppendage(obj);

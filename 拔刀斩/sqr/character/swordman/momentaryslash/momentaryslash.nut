@@ -9,7 +9,7 @@ function onSetState_swordman_momentaryslashre(obj, state, datas, isResetTimer) {
 	obj.sq_StopMove();
 
 	if (subState == 0) {
-		obj.sq_SetCurrentAnimation(122);
+		obj.sq_SetCurrentAnimation(122);//ç¼–å·æ˜¯æ ¹æ®character/swordman/swordman.chr æ–‡ä»¶çš„[etc motion]æ ‡ç­¾ä¸­çš„åºå·è¿›è¡Œæ’åº
 		obj.getVar("extraEnterCount").setInt(0, sq_GetIntData(obj, 9, 7));
 		obj.getVar("momentaryslashTarget").clear_obj_vector();
 		obj.getVar().setBool(0, true);
@@ -90,15 +90,15 @@ function onProcCon_swordman_momentaryslashre(obj) {
 
 	local subState = obj.getSkillSubState();
 	local weaponSubType = obj.getVar().get_vector(0);
-	// ?ùŞ?éÄéÍ?×â?ŞÍ¡°âë?¡±ĞüÒöîÜ?ïïÍóğ¤??
-	// obj: ĞüÒöá¶?îÜÊÇßä?ßÚ
-	// subState: ĞüÒö?îñîÜí­??
-	// weaponSubType: ÙëĞïí­?úş£¨ç¯?ĞüÒöøú?£©
-	// ù»ØüĞÆËßÜôÔÒîÜsubStateûúÙëĞï?úş£¬Íóğ¤ĞüÒö×µïïûú??
+	// ?ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½?ï¿½Í¡ï¿½ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½??
+	// obj: ï¿½ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½
+	// subState: ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½??
+	// weaponSubType: ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½
+	// ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½subStateï¿½ï¿½ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½×µï¿½ï¿½ï¿½ï¿½??
 
-	local ani = obj.getCurrentAnimation();//getCurrentAnimation()?ö¢?îñ???ßÚ
+	local ani = obj.getCurrentAnimation();//getCurrentAnimation()?ï¿½ï¿½?ï¿½ï¿½???ï¿½ï¿½
 	local frameIndex = -1;
-	// ñòÊ¥÷÷ÍöûúÛ°Ûöğíî¤àõ÷÷?£¬ÛÁò­???ßÚÜôğíî¤ûäÜôò¨ò¥GetCurrentFrameIndexÛ°Ûö???
+	// ï¿½ï¿½Ê¥ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Û°ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½?ï¿½ï¿½ï¿½ï¿½ï¿½???ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½GetCurrentFrameIndexÛ°ï¿½ï¿½???
 	if (ani != null && "GetCurrentFrameIndex" in ani) {
 		frameIndex = ani.GetCurrentFrameIndex();
 	}

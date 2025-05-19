@@ -1,7 +1,52 @@
 
 
 
- 
+// 逐行解释：
+// 该文件用于加载剑士（swordman）角色的相关状态、被动对象和脚本文件。
+// 下面的每一行代码都负责注册或加载剑士职业的某个技能、被动对象或功能脚本。
+// 例如：
+// IRDSQRCharacter.pushPassiveObj("js60_qq506807329/share_obj/share_po_swordman_24370.nut", 24370);
+// 这行代码将ID为24370的被动对象脚本注册到角色系统中。
+// sq_RunScript("js60_qq506807329/share_obj/swordman/setcustomdata.nut");
+// 这行代码加载剑士的自定义数据设置脚本。
+// sq_RunScript("js60_qq506807329/share_obj/swordman/setstate.nut");
+// 这行代码加载剑士的状态设置脚本。
+// sq_RunScript("js60_qq506807329/share_obj/swordman/procappend.nut");
+// 这行代码加载剑士的附加处理脚本。
+// sq_RunScript("js60_qq506807329/share_obj/swordman/onendcurrentani.nut");
+// 这行代码加载剑士动画结束时的处理脚本。
+// sq_RunScript("js60_qq506807329/share_obj/swordman/else.nut");
+// 这行代码加载剑士的其他相关脚本。
+// IRDSQRCharacter.pushScriptFiles("character/swordman/swordman_header.nut");
+// 这行代码注册剑士的头文件脚本。
+// IRDSQRCharacter.pushScriptFiles("character/swordman/swordman_common.nut");
+// 这行代码注册剑士的通用功能脚本。
+// IRDSQRCharacter.pushScriptFiles("character/swordman/passive_skill_swordman.nut");
+// 这行代码注册剑士的被动技能脚本。
+// IRDSQRCharacter.pushState(0, "character/Swordman/wave/wave.nut", "WaveSword", 24 ,-1 );
+// 这行代码注册ID为24的“波动剑”技能状态。
+// IRDSQRCharacter.pushPassiveObj("character/Swordman/wave/po_bloodcut.nut", 24357);
+// 这行代码注册ID为24357的“血之斩击”被动对象。
+// IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/bloodboom/bloodboom.nut", "swordman_bloodboom", 229, 229);
+// 这行代码注册剑士职业ID下的“血爆”技能状态，技能ID为229。
+// IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/bloodmarble/bloodmarble.nut", "swordman_bloodmarble", 230, 230);
+// 这行代码注册剑士职业ID下的“血珠”技能状态，技能ID为230。
+// IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/bloodriven/bloodriven.nut", "swordman_bloodriven", 231, 231);
+// 这行代码注册剑士职业ID下的“血驱”技能状态，技能ID为231。
+// IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/rage/rage.nut", "swordman_rage", 232, 232);
+// 这行代码注册剑士职业ID下的“狂怒”技能状态，技能ID为232。
+// IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/bloodsnatch/bloodsnatch.nut", "swordman_bloodsnatch", 233, 233);
+// 这行代码注册剑士职业ID下的“血之掠夺”技能状态，技能ID为233。
+// IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/fatalblood/fatalblood.nut", "swordman_fatalblood", 245, 245);
+// 这行代码注册剑士职业ID下的“致命之血”技能状态，技能ID为245。
+// IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/swordofmind/swordofmind.nut", "swordman_swordofmind", 234, 234);
+// 这行代码注册剑士职业ID下的“心之剑”技能状态，技能ID为234。
+// IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/meteorsword/meteorsword.nut", "swordman_meteorsword", 235, 235);
+// 这行代码注册剑士职业ID下的“流星剑”技能状态，技能ID为235。
+// IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/flashcut/flashcut.nut", "swordman_flashcut", 236, 236);
+// 这行代码注册剑士职业ID下的“闪光斩”技能状态，技能ID为236。
+// IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/handlingsword/handlingsword.nut", "swordman_handlingsword", 246, 246);
+// 这行代码注册剑士职业ID下的“操控之剑”技能状态，技能ID为246。
 IRDSQRCharacter.pushPassiveObj("js60_qq506807329/share_obj/share_po_swordman_24370.nut", 24370);
 sq_RunScript("js60_qq506807329/share_obj/swordman/setcustomdata.nut");
 sq_RunScript("js60_qq506807329/share_obj/swordman/setstate.nut");
@@ -16,8 +61,8 @@ IRDSQRCharacter.pushScriptFiles("character/swordman/swordman_header.nut");
 IRDSQRCharacter.pushScriptFiles("character/swordman/swordman_common.nut");  
 IRDSQRCharacter.pushScriptFiles("character/swordman/passive_skill_swordman.nut");  
 
-IRDSQRCharacter.pushState(0, "character/Swordman/wave/wave.nut", "WaveSword", 24 ,-1 );//��?���
-IRDSQRCharacter.pushPassiveObj("character/Swordman/wave/po_bloodcut.nut", 24357);//��?���
+IRDSQRCharacter.pushState(0, "character/Swordman/wave/wave.nut", "WaveSword", 24 ,-1 );//��?���
+IRDSQRCharacter.pushPassiveObj("character/Swordman/wave/po_bloodcut.nut", 24357);//��?���
  
 IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/bloodboom/bloodboom.nut", "swordman_bloodboom", 229, 229);
 
@@ -148,11 +193,11 @@ IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/flowmi
 IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/jump/swordman_jump.nut", "SwordmanJump", 6, -1);
 
 
-IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/weaponmaster/flowmind/flowmind.nut", "FlowMind", 61, 105);//׵������
+IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/weaponmaster/flowmind/flowmind.nut", "FlowMind", 61, 105);//׵������
 
-IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/weaponmaster/flowmind/flowmindone.nut", "FlowMindOne", 62, 107);//׵��������
+IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/weaponmaster/flowmind/flowmindone.nut", "FlowMindOne", 62, 107);//׵��������
 
-IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/weaponmaster/flowmind/flowmindtwo.nut", "FlowMindTwo", 63, 108);//׵�������
+IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/weaponmaster/flowmind/flowmindtwo.nut", "FlowMindTwo", 63, 108);//׵�������
 
 IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/attack/grandwave.nut", "GrandWave", 27, 50);
 
