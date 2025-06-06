@@ -1,0 +1,5 @@
+IRDSQRCharacter.pushState(ENUM_CHARACTERJOB_SWORDMAN, "character/swordman/0_elesc/BladeSpirit/bladespirit_skill.nut", "BladeSpirit", 101, -1);
+IRDSQRCharacter.pushPassiveObj("character/swordman/0_elesc/passiveobject/po_bladespirit_skill.nut", 243445);
+sq_RunScript("character/swordman/0_elesc/passiveobject/po_procappend.nut");
+sq_RunScript("character/swordman/0_elesc/passiveobject/po_timeevent.nut");
+sq_RunScript("character/swordman/0_elesc/passiveobject/po_endcurrentani.nut");

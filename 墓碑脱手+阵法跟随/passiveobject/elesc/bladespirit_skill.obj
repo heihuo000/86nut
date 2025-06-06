@@ -1,0 +1,30 @@
+#PVF_File
+
+[name]
+	`脱手墓碑`
+
+[floating height]
+	1
+
+[layer]
+	`[normal]`
+
+[pass type]
+	`[pass all]`
+
+[piercing power]
+	1000
+
+[basic motion]
+	``
+
+[etc motion]
+	``
+[/etc motion]
+
+[attack info]
+	``
+
+[etc attack info]
+	`attackinfo/tombstone.atk`
+[/etc attack info]

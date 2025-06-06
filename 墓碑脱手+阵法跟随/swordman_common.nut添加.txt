@@ -1,0 +1,28 @@
+
+function apocalypseFollow_zhengfa(obj)
+{
+	if(!obj) return;
+	local skill = sq_GetSkill(obj, 244);
+	if(!skill.isSealFunction())
+	{
+		local skillLevel = sq_GetSkillLevel(obj, 244);
+		if(skillLevel<=0) return;
+		local x = obj.getXPos();
+		local y = obj.getYPos();
+		local array = [20011,20012,20013,20040,20062];
+		for(local z=0;z<array.len();++z)
+		{
+			local MonsterID = array[z];
+			local num = obj.getMyPassiveObjectCount(MonsterID);
+			for(local i=0;i<num;++i)
+			{
+				local object = obj.getMyPassiveObject(MonsterID, i);
+				if(!object) continue;
+				local z = object.getZPos();
+				object.setCurrentPos(x, y, z+3000);
+				object.setMapFollowType(1);
+				object.setMapFollowParent(obj);
+			}
+		}
+	}
+}

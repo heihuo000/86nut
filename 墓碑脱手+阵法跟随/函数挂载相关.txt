@@ -1,0 +1,35 @@
+技能树[character job]
+	`[swordman]`
+	`soulbringer`	
+
+下添加
+	[skill info]
+		[index]
+			244
+		[icon pos]
+			235	804
+	[/skill info]
+
+
+鬼剑技能添加：244	`Swordman/PhantomMastery.skl`
+被动加：243445	`elesc/bladespirit_skill.obj`
+
+function procAppend_Swordman(obj)
+{
+	if(!obj) return;
+============================
+	if (sq_getGrowType(obj) == 2) 	//鬼泣
+	{
+		apocalypseFollow_zhengfa(obj);//陣法?隨
+		local iEnterSkill = obj.sq_IsEnterSkill(44);//墓碑脫手
+		if(iEnterSkill != -1 )
+		{
+			local UseSkill = obj.sq_IsUseSkill(44);
+			if(UseSkill)
+			{
+				obj.sq_IntVectClear();
+				obj.sq_IntVectPush(44);
+				obj.sq_AddSetStatePacket(101, STATE_PRIORITY_IGNORE_FORCE, true);
+			}
+		}
+	}

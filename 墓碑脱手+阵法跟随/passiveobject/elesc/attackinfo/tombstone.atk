@@ -1,0 +1,41 @@
+#PVF_File
+
+[attack type]
+
+[magic]
+
+[attack enemy]
+	1
+
+[elemental property]
+
+[dark element]
+
+[damage reaction]
+
+[down]
+
+[push aside]
+	50
+
+[lift up]
+	0
+
+[hit wav]
+	`R_DARK_KNIGHT_HIT`
+
+[attack direction]
+
+[hit down]
+
+[active status]
+
+[curse]
+	0	0	0	0	0	0	0
+
+[hit info]
+
+[blow]
+
+[no blood]
+	50	1.0
