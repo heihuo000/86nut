@@ -7,11 +7,11 @@ function onSetState_BladeSpirit(obj, state, datas, isResetTimer)
 	obj.sq_StopMove();
 	switch(subState)
 	{
-		case 44:
+		case 103:
 			local ani = obj.sq_GetThrowChargeAni(1);
 			obj.setCurrentAnimation(ani);
-			local skill_level = sq_GetSkillLevel(obj, 44);
-			local castTime = sq_GetCastTime(obj, 44, skill_level);
+			local skill_level = sq_GetSkillLevel(obj, 103);
+			local castTime = sq_GetCastTime(obj, 103, skill_level);
 			local animation = sq_GetCurrentAnimation(obj);
 			obj.sq_SetStaticSpeedInfo(SPEED_TYPE_CAST_SPEED, SPEED_TYPE_CAST_SPEED, SPEED_VALUE_DEFAULT, SPEED_VALUE_DEFAULT, 1.0, 1.0);
 			local setdelay = animation.getDelaySum(2, 2);
@@ -26,7 +26,7 @@ function onSetState_BladeSpirit(obj, state, datas, isResetTimer)
 			sq_StartDrawCastGauge(obj, castTime, true);
 			obj.sq_PlaySound("SM_STONE_SHOWER");
 		break;
-		case 45:
+		case 104:
 			local ani = obj.sq_GetThrowShootAni(1);
 			obj.setCurrentAnimation(ani);
 			obj.sq_StartWrite();
@@ -43,9 +43,9 @@ function onEndState_BladeSpirit(obj, new_state)
 	if(!obj) return;
 	if(new_state != 101)
 	{
-		if(subState == 44 || subState == 45)
+		if(subState == 103 || subState == 104)
 			sq_EndDrawCastGauge(obj);
-		if(subState == 45)
+		if(subState == 104)
 			obj.sq_RemoveSuperArmor(POD_VAR_SUPERARMOR);
 	}
 }

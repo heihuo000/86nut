@@ -1,0 +1,49 @@
+#PVF_File
+
+[set name]
+	`七伤剑气  套装`
+
+[piece set ability]
+	2	
+	[skill data up]
+		`[swordman]`	9	`[dungeon type]`	`[level]`	0	`%`	20
+		`[swordman]`	9	`[dungeon type]`	`[static]`	0	`%`	-30
+		`[swordman]`	9	`[dungeon type]`	`[cooltime]`	0	`%`	-99
+		`[swordman]`	9	`[dungeon type]`	`[static]`	6	`%`	90
+	[/skill data up]
+	[parameter basic explain]
+		`[拔刀斩]攻击力 +20%%
+[拔刀斩]准备时间 -30%%
+[拔刀斩]冷却时间 -99%%
+[拔刀斩]攻击范围+90%%`
+[/piece set ability]
+
+[piece set ability]
+	3	
+	[skill data up]
+		`[swordman]`	9	`[dungeon type]`	`[cooltime]`	0	`%`	-30
+		`[swordman]`	9	`[dungeon type]`	`[level]`	0	`%`	40
+		`[swordman]`	97	`[dungeon type]`	`[cooltime]`	0	`%`	-30
+		`[swordman]`	97	`[dungeon type]`	`[level]`	1	`%`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[拔刀斩]冷却时间 -30%%
+[拔刀斩]攻击力 +40%%
+[破空拔刀斩]冷却时间 -30%%
+[破空拔刀斩]剑气攻击力 +50%%`
+[/piece set ability]
+
+[piece set ability]
+	5	
+	[skill data up]
+		`[swordman]`	97	`[dungeon type]`	`[level]`	2	`%`	-99
+		`[swordman]`	97	`[dungeon type]`	`[level]`	0	`%`	60
+		`[swordman]`	9	`[dungeon type]`	`[level]`	0	`%`	20
+		`[swordman]`	97	`[dungeon type]`	`[level]`	3	`%`	50
+	[/skill data up]
+	[parameter basic explain]
+		`[拔刀斩]攻击力 +20%%
+[破空拔刀斩]最大蓄气时间 -100%%
+[破空拔刀斩]剑气移动距离 +50%%
+[破空拔刀斩]攻击力 +60%%`
+[/piece set ability]

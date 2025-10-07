@@ -303,14 +303,14 @@ function procAppend_Swordman(obj) {
 		}
 	}
 	
-	local iEnterSkill = obj.sq_IsEnterSkill(44);
+	local iEnterSkill = obj.sq_IsEnterSkill(103);
 	if(iEnterSkill != -1 && obj.sq_GetSkillLevel(SKILL_MONARCH) > 0)
 	{
-		local UseSkill = obj.sq_IsUseSkill(44);
+		local UseSkill = obj.sq_IsUseSkill(103);
 		if(UseSkill)
 		{
 			obj.sq_IntVectClear();
-			obj.sq_IntVectPush(44);
+			obj.sq_IntVectPush(103);
 			obj.sq_AddSetStatePacket(101, STATE_PRIORITY_IGNORE_FORCE, true);
 		}
 	}

@@ -6,7 +6,7 @@
 [FRAME000]
 	[IMAGE]
 		`Character/Swordman/Equipment/Avatar/hair/sm_hair%02d%02dc.img`
-		7
+		21
 	[IMAGE POS]
 		-232	-333
 	[DELAY]

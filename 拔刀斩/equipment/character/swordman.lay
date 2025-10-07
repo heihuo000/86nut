@@ -1,0 +1,256 @@
+#PVF_File
+
+[LAYER]
+	0
+
+[waiting motion]
+	`%s/Stay.ani`
+
+[move motion]
+	`%s/Move.ani`
+
+[sit motion]
+	`%s/Sit.ani`
+
+[damage motion 1]
+	`%s/Damage1.ani`
+
+[damage motion 2]
+	`%s/Damage2.ani`
+
+[down motion]
+	`%s/Down.ani`
+
+[overturn motion]
+	`%s/Overturn.ani`
+
+[jump motion]
+	`%s/Jump.ani`
+
+[jumpattack motion]
+	`%s/JumpAttack.ani`
+
+[rest motion]
+	`%s/Rest.ani`
+
+[throw motion 1-1]
+	`%s/Throw1.ani`
+
+[throw motion 1-2]
+	`%s/Throw2.ani`
+
+[throw motion 2-1]
+	`%s/Summon1.ani`
+
+[throw motion 2-2]
+	`%s/Summon2.ani`
+
+[dash motion]
+	`%s/Dash.ani`
+
+[dashattack motion]
+	`%s/DashAttack.ani`
+
+[getitem motion]
+	`%s/GetItem.ani`
+
+[buff motion]
+	`%s/Summon2.ani`
+
+[back motion]
+	`%s/Attack3.ani`
+
+[attack motion]
+	`%s/Attack1.ani`
+	`%s/Attack2.ani`
+	`%s/Attack3.ani`
+[/attack motion]
+
+[etc motion]
+	`%s/Guard.ani`
+	`%s/HardAttack.ani`
+	`%s/HitBack.ani`
+	`%s/TripleSlash1.ani`
+	`%s/TripleSlash2.ani`
+	`%s/TripleSlash3.ani`
+	`%s/TripleSlash4.ani`
+	`%s/TripleSlash5.ani`
+	`%s/MomentarySlash.ani`
+	`%s/Wave.ani`
+	`%s/Grab.ani`
+	`%s/DashAttackMultiHit.ani`
+	`%s/ShockWaveAreaCast.ani`
+	`%s/ShockWaveAreaSmash.ani`
+	`%s/VaneSlashTry.ani`
+	`%s/VaneSlash.ani`
+	`%s/UpperSlashAfter.ani`
+	`%s/HardAttackChargeAfter.ani`
+	`%s/GhostStepSlashReady.ani`
+	`%s/GhostStepSlashMove.ani`
+	`%s/StandAloneWaveReady.ani`
+	`%s/StandAloneWaveBasic.ani`
+	`%s/StandAloneWaveStrong.ani`
+	`%s/JumpAttackMultiSlash1.ani`
+	`%s/JumpAttackMultiSlash2.ani`
+	`%s/GoreCross.ani`
+	`%s/HopSmashReady.ani`
+	`%s/HopSmash.ani`
+	`%s/WeaponComboShort1.ani`
+	`%s/WeaponComboShort2.ani`
+	`%s/WeaponComboShort3.ani`
+	`%s/WeaponComboBlade1.ani`
+	`%s/WeaponComboBlade2.ani`
+	`%s/WeaponComboBlade3.ani`
+	`%s/WeaponComboBlade4.ani`
+	`%s/WeaponComboBlunt1.ani`
+	`%s/WeaponComboBlunt2.ani`
+	`%s/WeaponComboBlunt3.ani`
+	`%s/WeaponComboHeavy1.ani`
+	`%s/WeaponComboHeavy2.ani`
+	`%s/WeaponComboLight1.ani`
+	`%s/WeaponComboLight2.ani`
+	`%s/WeaponComboLight3.ani`
+	`%s/ChargeCrashDash.ani`
+	`%s/ChargeCrashUpper.ani`
+	`%s/ChargeCrashFinish.ani`
+	`%s/ReflectGuard.ani`
+	`%s/RapidMoveSlashReady1.ani`
+	`%s/RapidMoveSlashReady2.ani`
+	`%s/RapidMoveSlashMove1.ani`
+	`%s/RapidMoveSlashMove2.ani`
+	`%s/IllusionSlash1.ani`
+	`%s/IllusionSlash2.ani`
+	`%s/IllusionSlash3.ani`
+	`%s/IllusionSlash4.ani`
+	`%s/IllusionSlashFinal.ani`
+	`%s/WaveSpinAreaBomb.ani`
+	`%s/Frenzy1.ani`
+	`%s/Frenzy2.ani`
+	`%s/Frenzy3.ani`
+	`%s/Frenzy4.ani`
+	`%s/MoonlightSlash1.ani`
+	`%s/MoonlightSlash2.ani`
+	`%s/BloodyRaveInhale.ani`
+	`%s/BloodyRaveSlash.ani`
+	`%s/MoonlightSlashFull.ani`
+	`%s/OutRageBreakReady.ani`
+	`%s/OutRageBreakSlash.ani`
+	`%s/KallaLand.ani`
+	`%s/KallaAir.ani`
+	`%s/KallaFinishReady.ani`
+	`%s/KallaFinish1.ani`
+	`%s/KallaFinish2.ani`
+	`%s/KallaFinish3.ani`
+	`%s/HellbenterFinish.ani`
+	`%s/HundredSwordReady.ani`
+	`%s/HundredSwordMoveReady1.ani`
+	`%s/HundredSwordMoveReady2.ani`
+	`%s/HundredSwordMoveReady3.ani`
+	`%s/HundredSwordMoveReady4.ani`
+	`%s/HundredSwordMoveReady5.ani`
+	`%s/HundredSwordMoveSlash1.ani`
+	`%s/HundredSwordMoveSlash2.ani`
+	`%s/HundredSwordMoveSlash3.ani`
+	`%s/HundredSwordMoveSlash4.ani`
+	`%s/HundredSwordMoveSlash5.ani`
+	`%s/HundredSwordFinish.ani`
+	`%s/BlacheCast.ani`
+	`%s/BlacheSmash.ani`
+	`%s/WaveEyeCast.ani`
+	`%s/WaveEyeStart.ani`
+	`%s/WaveEyeAttack1.ani`
+	`%s/WaveEyeAttack2.ani`
+	`%s/WaveEyeAttack3.ani`
+	`%s/WaveEyeClaw.ani`
+	`%s/WaveEyeWing.ani`
+	`%s/WaveEyeSpear.ani`
+	`%s/TombStoneEx.ani`
+	`%s/MomentarySlashEx.ani`
+	`%s/ChargeCrashExShoulder.ani`
+	`%s/ChargeCrashExPick.ani`
+	`%s/ChargeCrashExUpper.ani`
+	`%s/BloodSwordMake.ani`
+	`%s/BloodSwordCharge.ani`
+	`%s/FlowMindStart.ani`
+	`%s/FlowMindStay.ani`
+	`%s/FlowMindOne.ani`
+	`%s/FlowMindOneAdd.ani`
+	`%s/FlowMindTwoJump.ani`
+	`%s/FlowMindTwoLanding.ani`
+	`%s/FlowMindTwoAttack1.ani`
+	`%s/FlowMindTwoAttack2.ani`
+	`%s/FlowMindThreeReady.ani`
+	`%s/FlowMindThreeAttack.ani`
+	`%s/StaySacrifice.ani`
+	`%s/SpiritAttack1.ani`
+	`%s/SpiritAttack2.ani`
+	`%s/SpiritAttack3.ani`
+	`%s/SpiritAttack4.ani`
+	`%s/SpiritDashAttack.ani`
+	`%s/GhostSideWind.ani`
+	`%s/TripleStab.ani`
+	`%s/bloodboom.ani`
+	`%s/BloodRivenCast.ani`
+	`%s/BloodRivenCharge.ani`
+	`%s/BloodRivenChange.ani`
+	`%s/BloodRivenJump.ani`
+	`%s/BloodRivenFinish.ani`
+	`%s/BloodMarbleExtractReady_Body.ani`
+	`%s/RageStartBody_body.ani`
+	`%s/RageLoop01Body_body.ani`
+	`%s/RageLoop02Body_body.ani`
+	`%s/RageLoop03Body_body.ani`
+	`%s/RageLoop04Body_body.ani`
+	`%s/RageEndBody_body.ani`
+	`%s/BloodSnatchCast_body.ani`
+	`%s/BloodSnatchDash_body.ani`
+	`%s/BloodSnatchCatch_body.ani`
+	`%s/BloodSnatchDashCatch_body.ani`
+	`%s/BloodSnatchSpin_body.ani`
+	`%s/BloodSnatchFinish_body.ani`
+	`%s/SwordOfMindCharge.ani`
+	`%s/SwordOfMindChargeAttract.ani`
+	`%s/SwordOfMindChargeAttack.ani`
+	`%s/MeteorSwordStart.ani`
+	`%s/MeteorSwordCharge.ani`
+	`%s/MeteorSwordChargeFinish.ani`
+	`%s/MeteorSwordUp.ani`
+	`%s/MeteorSwordDrop.ani`
+	`%s/MeteorSwordExplosion.ani`
+	`%s/FlashCutReady_Body.ani`
+	`%s/FlashCutAtk_Body.ani`
+	`%s/FlashCutEnd_Body.ani`
+	`%s/SlashOfBoom_Ready.ani`
+	`%s/SlashOfBoom_Attack.ani`
+	`%s/SlashOfHell.ani`
+	`%s/BladePhantomEx_Cast_body.ani`
+	`%s/BladePhantomEx_Jump_body.ani`
+	`%s/BladePhantomEx_Slash_body.ani`
+	`%s/ZigAdvent_New.ani`
+	`%s/Indaramang.ani`
+	`%s/VajraCast.ani`
+	`%s/VajraFinish.ani`
+	`%s/LightningGod.ani`
+	`%s/FatalBlood1Hit_Body.ani`
+	`%s/FatalBlood2Hit_Body.ani`
+	`%s/FatalBlood3Hit_Body.ani`
+	`%s/FatalBlood3HitFail_Body.ani`
+	`%s/Handlingsword_Srart_Body.ani`
+	`%s/TombStoneSwamp_Body.ani`
+	`%s/WeaponComboBlunt4.ani`
+	`%s/DarkFlameSlash_Ready_Body.ani`
+	`%s/DarkFlameSlash_Atk1_Body.ani`
+	`%s/DarkFlameSlash_Atk2_Body.ani`
+	`%s/DarkFlameSlash_Atk3_Body.ani`
+	`%s/DarkFlameSlash_Finish_Body.ani`
+	`%s/flowmindonefallstate.ani`
+	`%s/flowmindonefallone.ani`
+	`%s/flowmindonefalltwo.ani`
+	`%s/flowmindonefallstateend.ani`
+	`%s/JumpAttack.ani`
+	`%s/GetItem.ani`
+	`%s/Throw1.ani`
+	`%s/Throw2.ani`
+	`%s/momentaryslashre_ready.ani`
+	`%s/momentaryslashre_attack.ani`
+[/etc motion]

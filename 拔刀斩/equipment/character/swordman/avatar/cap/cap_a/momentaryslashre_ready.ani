@@ -6,7 +6,7 @@
 [FRAME000]
 	[IMAGE]
 		`Character/Swordman/Equipment/Avatar/cap/sm_cap%02d%02da.img`
-		7
+		21
 	[IMAGE POS]
 		-232	-333
 	[DELAY]

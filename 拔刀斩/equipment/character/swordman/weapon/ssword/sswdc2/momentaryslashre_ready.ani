@@ -6,7 +6,7 @@
 [FRAME000]
 	[IMAGE]
 		`Character/Swordman/Equipment/Weapon/sswd/sswd%02d%02dc2.img`
-		7
+		21
 	[IMAGE POS]
 		-232	-333
 	[DELAY]

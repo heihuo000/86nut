@@ -6,10 +6,8 @@
 [FRAME000]
 	[IMAGE]
 		`Character/Swordman/Equipment/Avatar/face/sm_face%02d%02dg.img`
-		7
+		21
 	[IMAGE POS]
 		-232	-333
-	[RGBA]
-		255	255	255	170
 	[DELAY]
 		100000

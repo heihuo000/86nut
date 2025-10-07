@@ -6,7 +6,7 @@
 [FRAME000]
 	[IMAGE]
 		`Character/Swordman/Equipment/Weapon/beamswd/beamswd%02d%02dc1.img`
-		7
+		21
 	[IMAGE POS]
 		-232	-333
 	[GRAPHIC EFFECT]

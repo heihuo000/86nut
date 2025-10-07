@@ -1,0 +1,1147 @@
+#PVF_File
+
+[job]
+	`[swordman]`
+
+[growtype name]
+	`鬼剑士`
+	`剑魂`
+	`鬼泣`
+	`狂战士`
+	`阿修罗`
+	`征服者`
+
+[width]
+	40	10
+
+[initial value]
+
+[HP MAX]
+	180.0
+
+[MP MAX]
+	140.0
+
+[physical attack]
+	7.5
+
+[physical defense]
+	7.5
+
+[magical attack]
+	4.5
+
+[magical defense]
+	4.5
+
+[dark resistance]
+	20.0
+
+[light resistance]
+	-20.0
+
+[inventory limit]
+	48000.0
+
+[MP regen speed]
+	50.0
+
+[move speed]
+	850.0
+
+[attack speed]
+	850.0
+
+[cast speed]
+	700.0
+
+[hit recovery]
+	600.0
+
+[jump power]
+	430.0
+
+[weight]
+	68000.0
+
+[jump speed]
+	95
+
+[skill]
+	181	2
+	182	2
+	184	1
+	179	7
+	5	1
+	46	1
+	169	1
+	174	1
+	254	1
+[/skill]
+
+[growtype 1]
+
+[HP MAX]
+	45.0
+
+[MP MAX]
+	25.0
+
+[physical attack]
+	4.8
+
+[physical defense]
+	4.8
+
+[magical attack]
+	4.2
+
+[magical defense]
+	4.2
+
+[inventory limit]
+	300.0
+
+[MP regen speed]
+	2.5
+
+[hit recovery]
+	1.5
+
+[module damage rate]
+	0.95	1.0	1.0	0.95
+
+[growtype 2]
+
+[HP MAX]
+	50.0
+
+[MP MAX]
+	20.0
+
+[physical attack]
+	5.0
+
+[physical defense]
+	5.0
+
+[magical attack]
+	4.0
+
+[magical defense]
+	4.0
+
+[inventory limit]
+	300.0
+
+[MP regen speed]
+	2.5
+
+[hit recovery]
+	2.0
+
+[skill]
+	27	1
+	33	1
+	37	1
+	8	1
+	25	1
+	65	1
+	94	1
+	197	1
+[/skill]
+
+[module damage rate]
+	0.7	1.0	1.1	0.7
+
+[awakening name]
+	`剑神`
+	`剑神`
+
+[awakening 1]
+
+[HP MAX]
+	50.0
+
+[MP MAX]
+	20.0
+
+[physical attack]
+	5.0
+
+[physical defense]
+	5.0
+
+[magical attack]
+	4.0
+
+[magical defense]
+	4.0
+
+[inventory limit]
+	300.0
+
+[MP regen speed]
+	2.5
+
+[hit recovery]
+	2.0
+
+[awakening skill]
+	91	1
+[/awakening skill]
+
+[module damage rate]
+	0.7	1.0	1.1	0.7
+
+[awakening 2]
+
+[HP MAX]
+	50.0
+
+[MP MAX]
+	20.0
+
+[physical attack]
+	5.0
+
+[physical defense]
+	5.0
+
+[magical attack]
+	4.0
+
+[magical defense]
+	4.0
+
+[inventory limit]
+	300.0
+
+[MP regen speed]
+	2.5
+
+[hit recovery]
+	2.0
+
+[awakening skill]
+[/awakening skill]
+
+[module damage rate]
+	0.7	1.0	1.1	0.7
+
+[growtype 3]
+
+[HP MAX]
+	40.0
+
+[MP MAX]
+	30.0
+
+[physical attack]
+	3.5
+
+[physical defense]
+	3.5
+
+[magical attack]
+	5.5
+
+[magical defense]
+	5.5
+
+[inventory limit]
+	300.0
+
+[MP regen speed]
+	5.0
+
+[hit recovery]
+	1.0
+
+[skill]
+	35	1
+	29	1
+	25	1
+	65	1
+	93	1
+	197	1
+[/skill]
+
+[module damage rate]
+	1.0	1.0	1.2	1.0
+
+[awakening name]
+	`黑暗君主`
+	`黑暗君主`
+
+[awakening 1]
+
+[HP MAX]
+	40.0
+
+[MP MAX]
+	30.0
+
+[physical attack]
+	3.5
+
+[physical defense]
+	3.5
+
+[magical attack]
+	5.5
+
+[magical defense]
+	5.5
+
+[inventory limit]
+	300.0
+
+[MP regen speed]
+	5.0
+
+[hit recovery]
+	1.0
+
+[awakening skill]
+	89	1
+[/awakening skill]
+
+[module damage rate]
+	1.0	1.0	1.2	1.0
+
+[awakening 2]
+
+[HP MAX]
+	40.0
+
+[MP MAX]
+	30.0
+
+[physical attack]
+	3.5
+
+[physical defense]
+	3.5
+
+[magical attack]
+	5.5
+
+[magical defense]
+	5.5
+
+[inventory limit]
+	300.0
+
+[MP regen speed]
+	5.0
+
+[hit recovery]
+	1.0
+
+[awakening skill]
+[/awakening skill]
+
+[module damage rate]
+	1.0	1.0	1.2	1.0
+
+[growtype 4]
+
+[HP MAX]
+	55.0
+
+[MP MAX]
+	15.0
+
+[physical attack]
+	5.5
+
+[physical defense]
+	5.5
+
+[magical attack]
+	3.5
+
+[magical defense]
+	3.5
+
+[inventory limit]
+	300.0
+
+[MP regen speed]
+	2.5
+
+[hit recovery]
+	2.0
+
+[skill]
+	56	1
+	25	1
+	65	1
+	76	1
+	197	1
+[/skill]
+
+[module damage rate]
+	0.84	1.0	0.8	0.9
+
+[awakening name]
+	`帝血弑天`
+	`帝血弑天`
+
+[awakening 1]
+
+[HP MAX]
+	55.0
+
+[MP MAX]
+	15.0
+
+[physical attack]
+	5.5
+
+[physical defense]
+	5.5
+
+[magical attack]
+	3.5
+
+[magical defense]
+	3.5
+
+[inventory limit]
+	300.0
+
+[MP regen speed]
+	2.5
+
+[hit recovery]
+	2.0
+
+[awakening skill]
+	90	1
+[/awakening skill]
+
+[module damage rate]
+	0.84	1.0	0.8	0.9
+
+[awakening 2]
+
+[HP MAX]
+	55.0
+
+[MP MAX]
+	15.0
+
+[physical attack]
+	5.5
+
+[physical defense]
+	5.5
+
+[magical attack]
+	3.5
+
+[magical defense]
+	3.5
+
+[inventory limit]
+	300.0
+
+[MP regen speed]
+	2.5
+
+[hit recovery]
+	2.0
+
+[awakening skill]
+[/awakening skill]
+
+[module damage rate]
+	0.84	1.0	0.8	0.9
+
+[growtype 5]
+
+[HP MAX]
+	45.0
+
+[MP MAX]
+	25.0
+
+[physical attack]
+	4.5
+
+[physical defense]
+	4.5
+
+[magical attack]
+	4.5
+
+[magical defense]
+	4.5
+
+[inventory limit]
+	300.0
+
+[MP regen speed]
+	4.0
+
+[hit recovery]
+	2.0
+
+[skill]
+	47	1
+	55	1
+	61	1
+	25	1
+	65	1
+	20	1
+	197	1
+[/skill]
+
+[module damage rate]
+	0.81	1.0	1.1	0.9
+
+[awakening name]
+	`天帝`
+	`天帝`
+
+[awakening 1]
+
+[HP MAX]
+	45.0
+
+[MP MAX]
+	25.0
+
+[physical attack]
+	4.5
+
+[physical defense]
+	4.5
+
+[magical attack]
+	4.5
+
+[magical defense]
+	4.5
+
+[inventory limit]
+	300.0
+
+[MP regen speed]
+	4.0
+
+[hit recovery]
+	2.0
+
+[awakening skill]
+	92	1
+[/awakening skill]
+
+[module damage rate]
+	0.81	1.0	1.1	0.9
+
+[awakening 2]
+
+[HP MAX]
+	45.0
+
+[MP MAX]
+	25.0
+
+[physical attack]
+	4.5
+
+[physical defense]
+	4.5
+
+[magical attack]
+	4.5
+
+[magical defense]
+	4.5
+
+[inventory limit]
+	300.0
+
+[MP regen speed]
+	4.0
+
+[hit recovery]
+	2.0
+
+[awakening skill]
+[/awakening skill]
+
+[module damage rate]
+	0.9	1.0	1.1	0.9
+
+[growtype 6]
+
+[HP MAX]
+	47.5
+
+[MP MAX]
+	22.5
+
+[physical attack]
+	5.0
+
+[physical defense]
+	4.0
+
+[magical attack]
+	5.0
+
+[magical defense]
+	4.0
+
+[inventory limit]
+	270.0
+
+[MP regen speed]
+	3.5
+
+[hit recovery]
+	2.0
+
+[skill]
+	8	1
+	25	1
+	65	1
+	20	1
+	94	1
+	27	1
+	33	1
+	37	1
+	56	1
+	187	1
+[/skill]
+
+[module damage rate]
+	1.0	1.0	1.0	1.0
+
+[awakening name]
+	`大暗黑天`
+	`天帝`
+
+[awakening 1]
+
+[HP MAX]
+	55.0
+
+[MP MAX]
+	15.0
+
+[physical attack]
+	5.0
+
+[physical defense]
+	6.0
+
+[magical attack]
+	3.5
+
+[magical defense]
+	3.5
+
+[inventory limit]
+	270.0
+
+[MP regen speed]
+	3.0
+
+[hit recovery]
+	3.0
+
+[awakening skill]
+[/awakening skill]
+
+[module damage rate]
+	1.0	1.0	1.0	1.0
+
+[awakening 2]
+
+[HP MAX]
+	55.0
+
+[MP MAX]
+	15.0
+
+[physical attack]
+	5.0
+
+[physical defense]
+	6.0
+
+[magical attack]
+	3.5
+
+[magical defense]
+	3.5
+
+[inventory limit]
+	270.0
+
+[MP regen speed]
+	3.0
+
+[hit recovery]
+	3.0
+
+[awakening skill]
+[/awakening skill]
+
+[module damage rate]
+	1.0	1.0	1.0	1.0
+
+[waiting motion]
+	`Animation/Stay.ani`
+
+[move motion]
+	`Animation/Move.ani`
+
+[sit motion]
+	`Animation/Sit.ani`
+
+[damage motion 1]
+	`Animation/Damage1.ani`
+
+[damage motion 2]
+	`Animation/Damage2.ani`
+
+[down motion]
+	`Animation/Down.ani`
+
+[overturn motion]
+	`Animation/Overturn.ani`
+
+[jump motion]
+	`Animation/Jump.ani`
+
+[jumpattack motion]
+	`Animation/JumpAttack.ani`
+
+[rest motion]
+	`Animation/Rest.ani`
+
+[throw motion 1-1]
+	`Animation/Throw1.ani`
+
+[throw motion 1-2]
+	`Animation/Throw2.ani`
+
+[throw motion 2-1]
+	`Animation/Summon1.ani`
+
+[throw motion 2-2]
+	`Animation/Summon2.ani`
+
+[dash motion]
+	`Animation/Dash.ani`
+
+[dashattack motion]
+	`Animation/DashAttack.ani`
+
+[getitem motion]
+	`Animation/GetItem.ani`
+
+[buff motion]
+	`Animation/Summon2.ani`
+
+[simple rest motion]
+	`Animation/SIMPLE_Rest.ani`
+
+[simple move motion]
+	`Animation/SIMPLE_Move.ani`
+
+[back motion]
+	`Animation/Attack3.ani`
+
+[attack motion]
+	`Animation/Attack1.ani`
+	`Animation/Attack2.ani`
+	`Animation/Attack3.ani`
+[/attack motion]
+
+[ghost motion]
+	`Animation/Ghost.ani`
+	`Animation/Ghost_Dodge.ani`
+[/ghost motion]
+
+[etc motion]
+	`Animation/Guard.ani`
+	`Animation/HardAttack.ani`
+	`Animation/HitBack.ani`
+	`Animation/TripleSlash1.ani`
+	`Animation/TripleSlash2.ani`
+	`Animation/TripleSlash3.ani`
+	`Animation/TripleSlash4.ani`
+	`Animation/TripleSlash5.ani`
+	`Animation/MomentarySlash.ani`
+	`Animation/Wave.ani`
+	`Animation/Grab.ani`
+	`Animation/DashAttackMultiHit.ani`
+	`Animation/ShockWaveAreaCast.ani`
+	`Animation/ShockWaveAreaSmash.ani`
+	`Animation/VaneSlashTry.ani`
+	`Animation/VaneSlash.ani`
+	`Animation/UpperSlashAfter.ani`
+	`Animation/HardAttackChargeAfter.ani`
+	`Animation/GhostStepSlashReady.ani`
+	`Animation/GhostStepSlashMove.ani`
+	`Animation/StandAloneWaveReady.ani`
+	`Animation/StandAloneWaveBasic.ani`
+	`Animation/StandAloneWaveStrong.ani`
+	`Animation/JumpAttackMultiSlash1.ani`
+	`Animation/JumpAttackMultiSlash2.ani`
+	`Animation/GoreCross.ani`
+	`Animation/HopSmashReady.ani`
+	`Animation/HopSmash.ani`
+	`Animation/WeaponComboShort1.ani`
+	`Animation/WeaponComboShort2.ani`
+	`Animation/WeaponComboShort3.ani`
+	`Animation/WeaponComboBlade1.ani`
+	`Animation/WeaponComboBlade2.ani`
+	`Animation/WeaponComboBlade3.ani`
+	`Animation/WeaponComboBlade4.ani`
+	`Animation/WeaponComboBlunt1.ani`
+	`Animation/WeaponComboBlunt2.ani`
+	`Animation/WeaponComboBlunt3.ani`
+	`Animation/WeaponComboHeavy1.ani`
+	`Animation/WeaponComboHeavy2.ani`
+	`Animation/WeaponComboLight1.ani`
+	`Animation/WeaponComboLight2.ani`
+	`Animation/WeaponComboLight3.ani`
+	`Animation/ChargeCrashDash.ani`
+	`Animation/ChargeCrashUpper.ani`
+	`Animation/ChargeCrashFinish.ani`
+	`Animation/ReflectGuard.ani`
+	`Animation/RapidMoveSlashReady1.ani`
+	`Animation/RapidMoveSlashReady2.ani`
+	`Animation/RapidMoveSlashMove1.ani`
+	`Animation/RapidMoveSlashMove2.ani`
+	`Animation/IllusionSlash1.ani`
+	`Animation/IllusionSlash2.ani`
+	`Animation/IllusionSlash3.ani`
+	`Animation/IllusionSlash4.ani`
+	`Animation/IllusionSlashFinal.ani`
+	`Animation/WaveSpinAreaBomb.ani`
+	`Animation/Frenzy1.ani`
+	`Animation/Frenzy2.ani`
+	`Animation/Frenzy3.ani`
+	`Animation/Frenzy4.ani`
+	`Animation/MoonlightSlash1.ani`
+	`Animation/MoonlightSlash2.ani`
+	`Animation/BloodyRaveInhale.ani`
+	`Animation/BloodyRaveSlash.ani`
+	`Animation/MoonlightSlashFull.ani`
+	`Animation/OutRageBreakReady.ani`
+	`Animation/OutRageBreakSlash.ani`
+	`Animation/KallaLand.ani`
+	`Animation/KallaAir.ani`
+	`Animation/KallaFinishReady.ani`
+	`Animation/KallaFinish1.ani`
+	`Animation/KallaFinish2.ani`
+	`Animation/KallaFinish3.ani`
+	`Animation/HellbenterFinish.ani`
+	`Animation/HundredSwordReady.ani`
+	`Animation/HundredSwordMoveReady1.ani`
+	`Animation/HundredSwordMoveReady2.ani`
+	`Animation/HundredSwordMoveReady3.ani`
+	`Animation/HundredSwordMoveReady4.ani`
+	`Animation/HundredSwordMoveReady5.ani`
+	`Animation/HundredSwordMoveSlash1.ani`
+	`Animation/HundredSwordMoveSlash2.ani`
+	`Animation/HundredSwordMoveSlash3.ani`
+	`Animation/HundredSwordMoveSlash4.ani`
+	`Animation/HundredSwordMoveSlash5.ani`
+	`Animation/HundredSwordFinish.ani`
+	`Animation/BlacheCast.ani`
+	`Animation/BlacheSmash.ani`
+	`Animation/WaveEyeCast.ani`
+	`Animation/WaveEyeStart.ani`
+	`Animation/WaveEyeAttack1.ani`
+	`Animation/WaveEyeAttack2.ani`
+	`Animation/WaveEyeAttack3.ani`
+	`Animation/WaveEyeClaw.ani`
+	`Animation/WaveEyeWing.ani`
+	`Animation/WaveEyeSpear.ani`
+	`Animation/TombStoneEx.ani`
+	`Animation/MomentarySlashEx.ani`
+	`Animation/ChargeCrashExShoulder.ani`
+	`Animation/ChargeCrashExPick.ani`
+	`Animation/ChargeCrashExUpper.ani`
+	`Animation/BloodSwordMake.ani`
+	`Animation/BloodSwordCharge.ani`
+	`Animation/FlowMindStart.ani`
+	`Animation/FlowMindStay.ani`
+	`Animation/FlowMindOne.ani`
+	`Animation/FlowMindOneAdd.ani`
+	`Animation/FlowMindTwoJump.ani`
+	`Animation/FlowMindTwoLanding.ani`
+	`Animation/FlowMindTwoAttack1.ani`
+	`Animation/FlowMindTwoAttack2.ani`
+	`Animation/FlowMindThreeReady.ani`
+	`Animation/FlowMindThreeAttack.ani`
+	`Animation/StaySacrifice.ani`
+	`Animation/SpiritAttack1.ani`
+	`Animation/SpiritAttack2.ani`
+	`Animation/SpiritAttack3.ani`
+	`Animation/SpiritAttack4.ani`
+	`Animation/SpiritDashAttack.ani`
+	`Animation/GhostSideWind.ani`
+	`Animation/TripleStab.ani`
+	`Animation/bloodboom.ani`
+	`Animation/BloodRivenCast.ani`
+	`Animation/BloodRivenCharge.ani`
+	`Animation/BloodRivenChange.ani`
+	`Animation/BloodRivenJump.ani`
+	`Animation/BloodRivenFinish.ani`
+	`Animation/BloodMarbleExtractReady_Body.ani`
+	`Animation/RageStartBody_body.ani`
+	`Animation/RageLoop01Body_body.ani`
+	`Animation/RageLoop02Body_body.ani`
+	`Animation/RageLoop03Body_body.ani`
+	`Animation/RageLoop04Body_body.ani`
+	`Animation/RageEndBody_body.ani`
+	`Animation/BloodSnatchCast_body.ani`
+	`Animation/BloodSnatchDash_body.ani`
+	`Animation/BloodSnatchCatch_body.ani`
+	`Animation/BloodSnatchDashCatch_body.ani`
+	`Animation/BloodSnatchSpin_body.ani`
+	`Animation/BloodSnatchFinish_body.ani`
+	`Animation/SwordOfMindCharge.ani`
+	`Animation/SwordOfMindChargeAttract.ani`
+	`Animation/SwordOfMindChargeAttack.ani`
+	`Animation/MeteorSwordStart.ani`
+	`Animation/MeteorSwordCharge.ani`
+	`Animation/MeteorSwordChargeFinish.ani`
+	`Animation/MeteorSwordUp.ani`
+	`Animation/MeteorSwordDrop.ani`
+	`Animation/MeteorSwordExplosion.ani`
+	`Animation/FlashCutReady_Body.ani`
+	`Animation/FlashCutAtk_Body.ani`
+	`Animation/FlashCutEnd_Body.ani`
+	`Animation/SlashOfBoom_Ready.ani`
+	`Animation/SlashOfBoom_Attack.ani`
+	`Animation/SlashOfHell.ani`
+	`Animation/BladePhantomEx_Cast_body.ani`
+	`Animation/BladePhantomEx_Jump_body.ani`
+	`Animation/BladePhantomEx_Slash_body.ani`
+	`Animation/ZigAdvent_New.ani`
+	`Animation/Indaramang.ani`
+	`Animation/VajraCast.ani`
+	`Animation/VajraFinish.ani`
+	`Animation/LightningGod.ani`
+	`Animation/FatalBlood1Hit_Body.ani`
+	`Animation/FatalBlood2Hit_Body.ani`
+	`Animation/FatalBlood3Hit_Body.ani`
+	`Animation/FatalBlood3HitFail_Body.ani`
+	`Animation/Handlingsword_Srart_Body.ani`
+	`Animation/TombStoneSwamp_Body.ani`
+	`Animation/WeaponComboBlunt4.ani`
+	`Animation/DarkFlameSlash_Ready_Body.ani`
+	`Animation/DarkFlameSlash_Atk1_Body.ani`
+	`Animation/DarkFlameSlash_Atk2_Body.ani`
+	`Animation/DarkFlameSlash_Atk3_Body.ani`
+	`Animation/DarkFlameSlash_Finish_Body.ani`
+	`animation/flowmindonefallstate.ani`
+	`animation/flowmindonefallone.ani`
+	`animation/flowmindonefalltwo.ani`
+	`animation/flowmindonefallstateend.ani`
+	`Animation/JumpAttack.ani`
+	`Animation/GetItem.ani`
+	`Animation/Throw1.ani`
+	`Animation/Throw2.ani`
+	`Animation/momentaryslashre_ready.ani`
+	`Animation/momentaryslashre_attack.ani`
+[/etc motion]
+
+[jumpattack info]
+	`AttackInfo/JumpAttack.atk`
+
+[dashattack info]
+	`AttackInfo/DashAttack.atk`
+
+[attack info]
+	`AttackInfo/Attack1.atk`
+	`AttackInfo/Attack2.atk`
+	`AttackInfo/Attack3.atk`
+[/attack info]
+
+[etc attack info]
+	`AttackInfo/HardAttack.atk`
+	`AttackInfo/HitBack.atk`
+	`AttackInfo/TripleSlash1.atk`
+	`AttackInfo/TripleSlash2.atk`
+	`AttackInfo/TripleSlash3.atk`
+	`AttackInfo/TripleSlash4.atk`
+	`AttackInfo/TripleSlash5.atk`
+	`AttackInfo/TripleSlash3Down.atk`
+	`AttackInfo/MomentarySlash.atk`
+	`AttackInfo/GiveBlood.atk`
+	`AttackInfo/AshenFork.atk`
+	`AttackInfo/UpperSlash.atk`
+	`AttackInfo/Grab.atk`
+	`AttackInfo/GrabBlastBlood.atk`
+	`AttackInfo/DashAttackMultiHIt.atk`
+	`AttackInfo/ShockWaveArea.atk`
+	`AttackInfo/VaneSlashTry.atk`
+	`AttackInfo/VaneSlashUpper.atk`
+	`AttackInfo/VaneSlashSmash.atk`
+	`AttackInfo/UpperSlashAfter.atk`
+	`AttackInfo/HardAttackChargeAfter.atk`
+	`AttackInfo/GhostStepSlash.atk`
+	`AttackInfo/StandAloneWave.atk`
+	`AttackInfo/GoreCross1.atk`
+	`AttackInfo/GoreCross2.atk`
+	`AttackInfo/HopSmash.atk`
+	`AttackInfo/HopSmashFinal.atk`
+	`AttackInfo/WeaponComboShort1.atk`
+	`AttackInfo/WeaponComboShort2.atk`
+	`AttackInfo/WeaponComboShort3.atk`
+	`AttackInfo/WeaponComboBlade1.atk`
+	`AttackInfo/WeaponComboBlade2.atk`
+	`AttackInfo/WeaponComboBlade3.atk`
+	`AttackInfo/WeaponComboBlade4.atk`
+	`AttackInfo/WeaponComboBlunt1.atk`
+	`AttackInfo/WeaponComboBlunt2.atk`
+	`AttackInfo/WeaponComboBlunt3.atk`
+	`AttackInfo/WeaponComboHeavy1.atk`
+	`AttackInfo/WeaponComboHeavy2.atk`
+	`AttackInfo/WeaponComboLight1.atk`
+	`AttackInfo/WeaponComboLight2.atk`
+	`AttackInfo/WeaponComboLight3.atk`
+	`AttackInfo/ChargeCrashDash.atk`
+	`AttackInfo/ChargeCrashUpper.atk`
+	`AttackInfo/ChargeCrashFinish.atk`
+	`AttackInfo/RapidMoveSlash1.atk`
+	`AttackInfo/RapidMoveSlash2.atk`
+	`AttackInfo/IllusionSlashUpper.atk`
+	`AttackInfo/IllusionSlashSmash.atk`
+	`AttackInfo/Frenzy1.atk`
+	`AttackInfo/Frenzy2.atk`
+	`AttackInfo/Frenzy3.atk`
+	`AttackInfo/Frenzy4.atk`
+	`AttackInfo/BloodyRave.atk`
+	`AttackInfo/MoonlightSlash1.atk`
+	`AttackInfo/MoonlightSlash2.atk`
+	`AttackInfo/MoonlightSlashFull.atk`
+	`AttackInfo/OutRageBreak.atk`
+	`AttackInfo/KallaFinish1.atk`
+	`AttackInfo/KallaFinish2.atk`
+	`AttackInfo/KallaFinish3.atk`
+	`AttackInfo/HellbenterFinish.atk`
+	`AttackInfo/HundredSwordFinish.atk`
+	`AttackInfo/WaveEyeAttack1.atk`
+	`AttackInfo/WaveEyeAttack2.atk`
+	`AttackInfo/WaveEyeAttack3.atk`
+	`AttackInfo/WaveEyeWing.atk`
+	`AttackInfo/MomentarySlashEx.atk`
+	`AttackInfo/ChargeCrashExShoulder.atk`
+	`AttackInfo/ChargeCrashExPick.atk`
+	`AttackInfo/ChargeCrashExUpper.atk`
+	`AttackInfo/GrabBlastBloodEx.atk`
+	`AttackInfo/BloodSword.atk`
+	`AttackInfo/FlowMindOne.atk`
+	`AttackInfo/FlowMindOneAdd.atk`
+	`AttackInfo/FlowMindTwoAttack1.atk`
+	`AttackInfo/FlowMindTwoAttack2.atk`
+	`AttackInfo/FlowMindTwoAttack3.atk`
+	`AttackInfo/FlowMindThreeAttack.atk`
+	`AttackInfo/SpiritAttack1.atk`
+	`AttackInfo/SpiritAttack2.atk`
+	`AttackInfo/SpiritAttack3.atk`
+	`AttackInfo/SpiritAttack4.atk`
+	`AttackInfo/SpiritDashAttack.atk`
+	`AttackInfo/GhostSideWind.atk`
+	`AttackInfo/TripleStab.atk`
+	`AttackInfo/TripleStabFinish.atk`
+	`AttackInfo/BloodRivenMultiHit.atk`
+	`AttackInfo/BloodRivenChargeHit.atk`
+	`AttackInfo/Rage_atk3.atk`
+	`AttackInfo/BloodSnatch.atk`
+	`AttackInfo/SwordOfMindAttack.atk`
+	`AttackInfo/MeteorSwordExplosion.atk`
+	`AttackInfo/FlashCutDelayAttack.atk`
+	`AttackInfo/FlashCutDelayAttackFinish.atk`
+	`AttackInfo/SlashOfHell.atk`
+	`AttackInfo/FatalBlood1Hit.atk`
+	`AttackInfo/FatalBlood2Hit.atk`
+	`AttackInfo/FatalBlood3Hit.atk`
+	`AttackInfo/FatalBlood4Hit.atk`
+	`AttackInfo/WeaponComboBlunt4.atk`
+	`AttackInfo/DarkFlameSlash_Atk1.atk`
+	`AttackInfo/DarkFlameSlash_Atk2.atk`
+	`AttackInfo/DarkFlameSlash_Atk3.atk`
+	`AttackInfo/DarkFlameSlash_Finish.atk`
+[/etc attack info]
+
+[weapon wav]
+	`R_MINERALSWDA`
+	`MINERALSWDB`
+	`R_MINERALSWDA_HIT`
+	`MINERAL_SWDB_HIT`
+[/weapon wav]
+
+[weapon wav]
+	`R_KATANAA`
+	`KATANAB`
+	`R_KATANAA_HIT`
+	`KATANAB_HIT`
+[/weapon wav]
+
+[weapon wav]
+	`R_STICKA`
+	`STICKB_01`
+	`R_STICKA_HIT`
+	`STICKB_HIT_01`
+[/weapon wav]
+
+[weapon wav]
+	`R_SQUARESWDA`
+	`SQUARESWDB`
+	`R_SQUARESWDA_HIT`
+	`SQUARESWDB_HIT`
+[/weapon wav]
+
+[weapon wav]
+[/weapon wav]
+
+[weapon wav]
+	`R_BEAMSWDA`
+	`BEAMSWDB`
+	`R_BEAMSWDA_HIT`
+	`BEAMSWDB_HIT`
+[/weapon wav]
+
+[weapon hit info]
+	`[cut]`
+	`[blood]`	90	1.0	0.0	0.0
+	`[cut]`
+	`[blood]`	70	0.86	-0.1	0.0
+	`[blow]`
+	`[no blood]`	100	1.2	0.1	-0.95
+	`[cut]`
+	`[blood]`	120	1.4	0.2	0.0
+	`[cut]`
+	`[blood]`	100	1.0	0.0	0.0
+	`[cut]`
+	`[blood]`	60	0.85	-0.15	0.0
+[/weapon hit info]
+
+[weapon skill info]
+	1.0	1.0	1.15	1.05	0.95	0.95	1.05	1.0	1.1	1.05	0.95	1.0	1.2	1.1	0.9	1.0	1.0	1.0	1.0	1.0	0.9	0.9	1.0	1.0
+[/weapon skill info]
+
+[upgrade weapon attack power rate]
+	0.95	1.15	0.95	1.05	1.1	0.95	1.2	0.9	1.0	1.0	0.93	0.9
+[/upgrade weapon attack power rate]
+
+[body image path]
+	`Character/swordman/Equipment/Avatar/skin/sm_body%04d.img`
+
+[weapon durability decrease rate]
+	1.0	0.9	1.05	0.9	1.0	1.0

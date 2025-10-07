@@ -1,5 +1,23 @@
 
+关键技术讲解
+momentaryslash文件中		obj.sq_SetCurrentAnimation(123);   的123是ani的编号,根据swordman.chr文件的[etc motion]标签确定,标签第一个编号是0以此类推 
+找到
+	`Animation/momentaryslashre_ready.ani`
+	`Animation/momentaryslashre_attack.ani`
+的位置的编号
 
+//=============================
+swordman.chr文件下
+[etc motion]
+	`Animation/momentaryslashre_ready.ani`
+	`Animation/momentaryslashre_attack.ani`
+[etc motion]
+//=============================
+swordman.lay文件下
+[etc motion]
+	`%s/momentaryslashre_ready.ani`
+	`%s/momentaryslashre_attack.ani`
+[etc motion]
 
 sqr/character/swordman_load_state.nut 文件下加
 
@@ -24,8 +42,9 @@ IRDSQRCharacter.pushPassiveObj("baynk/po_swordman_baynk.nut", 24399); //obj for 
 	`[拔刀斩]冷却时间 -99%%
 [拔刀斩]攻击范围+90%%`
 
-
+passiveobject需要添加的list
 24399	`baynk/swordman_baynk.obj`
+
 
 -------------sqr/loadstate.nut------------------------------------
 sq_RunScript("common.nut"); // 
@@ -136,4 +155,6 @@ function createDamageRateByTargetAndIDWithNextTarget(obj, target, id, number, x,
 	appendage.getVar("damageNum").set_vector(4 * i + 3, (target.getYPos() + y) * 1000 + target.getZPos() + z);
 	return true;
 }
+
+
 

@@ -6,11 +6,9 @@
 [FRAME000]
 	[IMAGE]
 		`Character/Swordman/Equipment/Avatar/pants/sm_pants%02d%02df.img`
-		7
+		21
 	[IMAGE POS]
 		-232	-333
-	[RGBA]
-		255	255	255	150
 	[GRAPHIC EFFECT]
 		`LINEARDODGE`
 	[DELAY]
