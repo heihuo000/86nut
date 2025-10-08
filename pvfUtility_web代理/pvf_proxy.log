@@ -1,0 +1,174 @@
+2025-10-08 11:18:36,405 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.6:8080
+2025-10-08 11:18:36,406 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-08 11:18:51,344 - INFO - 192.168.1.6 - - [08/Oct/2025 11:18:51] "GET /health HTTP/1.1" 200 -
+2025-10-08 11:19:08,074 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/getVersion
+2025-10-08 11:19:08,075 - INFO - 查询参数: {}
+2025-10-08 11:19:08,079 - INFO - 响应状态码: 200
+2025-10-08 11:19:08,080 - INFO - 192.168.1.6 - - [08/Oct/2025 11:19:08] "GET /Api/PvfUtiltiy/getVersion HTTP/1.1" 200 -
+2025-10-08 11:19:25,600 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/getPvfRootDirectory
+2025-10-08 11:19:25,601 - INFO - 查询参数: {}
+2025-10-08 11:19:25,616 - INFO - 响应状态码: 200
+2025-10-08 11:19:25,618 - INFO - 192.168.1.6 - - [08/Oct/2025 11:19:25] "GET /Api/PvfUtiltiy/getPvfRootDirectory HTTP/1.1" 200 -
+2025-10-08 11:21:25,125 - INFO - 192.168.1.6 - - [08/Oct/2025 11:21:25] "GET / HTTP/1.1" 200 -
+2025-10-08 11:21:25,138 - INFO - 192.168.1.6 - - [08/Oct/2025 11:21:25] "GET /health HTTP/1.1" 200 -
+2025-10-08 11:21:25,145 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/getVersion
+2025-10-08 11:21:25,146 - INFO - 查询参数: {}
+2025-10-08 11:21:25,149 - INFO - 响应状态码: 200
+2025-10-08 11:21:25,150 - INFO - 192.168.1.6 - - [08/Oct/2025 11:21:25] "GET /Api/PvfUtiltiy/getVersion HTTP/1.1" 200 -
+2025-10-08 11:21:25,156 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/getPvfRootDirectory
+2025-10-08 11:21:25,157 - INFO - 查询参数: {}
+2025-10-08 11:21:25,161 - INFO - 响应状态码: 200
+2025-10-08 11:21:25,162 - INFO - 192.168.1.6 - - [08/Oct/2025 11:21:25] "GET /Api/PvfUtiltiy/getPvfRootDirectory HTTP/1.1" 200 -
+2025-10-08 11:21:27,183 - INFO - 127.0.0.1 - - [08/Oct/2025 11:21:27] "GET /health HTTP/1.1" 200 -
+2025-10-08 11:21:29,202 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/getVersion
+2025-10-08 11:21:29,203 - INFO - 查询参数: {}
+2025-10-08 11:21:29,206 - INFO - 响应状态码: 200
+2025-10-08 11:21:29,207 - INFO - 127.0.0.1 - - [08/Oct/2025 11:21:29] "GET /Api/PvfUtiltiy/getVersion HTTP/1.1" 200 -
+2025-10-08 11:21:33,702 - INFO - 代理请求: POST http://localhost:27000/Api/PvfUtiltiy/SearchPvf
+2025-10-08 11:21:33,703 - INFO - 查询参数: {}
+2025-10-08 11:21:36,370 - INFO - POST JSON数据: {'SearchFolder': '', 'Keyword': '[width]', 'Type': 1, 'SourceType': 0, 'NormalUsing': 1, 'IsStartMatch': False, 'SearchResult': None, 'ScriptContentSearchMode': 1, 'IsUseLikeSearchPath': False, 'Trait': False, 'UseRegularExpression': False, 'WholeWordMatch': False, 'RemoveOrKeep': 1, 'FileTypesString': None, 'ScriptContent': '', 'ScriptContentStart': '', 'ScriptContentStop': ''}
+2025-10-08 11:21:36,371 - INFO - 响应状态码: 200
+2025-10-08 11:21:36,372 - INFO - 192.168.1.7 - - [08/Oct/2025 11:21:36] "POST /Api/PvfUtiltiy/SearchPvf HTTP/1.1" 200 -
+2025-10-08 11:21:54,738 - INFO - 192.168.1.6 - - [08/Oct/2025 11:21:54] "GET / HTTP/1.1" 200 -
+2025-10-08 11:21:55,213 - INFO - 192.168.1.6 - - [08/Oct/2025 11:21:55] "[33mGET /@vite/client HTTP/1.1[0m" 404 -
+2025-10-08 11:37:39,150 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/getVersion
+2025-10-08 11:37:39,150 - INFO - 查询参数: {}
+2025-10-08 11:37:39,153 - INFO - 响应状态码: 200
+2025-10-08 11:37:39,154 - INFO - 192.168.1.7 - - [08/Oct/2025 11:37:39] "GET /Api/PvfUtiltiy/getVersion HTTP/1.1" 200 -
+2025-10-08 11:37:44,741 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/getPvfRootDirectory
+2025-10-08 11:37:44,741 - INFO - 查询参数: {}
+2025-10-08 11:37:44,744 - INFO - 响应状态码: 200
+2025-10-08 11:37:44,744 - INFO - 192.168.1.7 - - [08/Oct/2025 11:37:44] "GET /Api/PvfUtiltiy/getPvfRootDirectory HTTP/1.1" 200 -
+2025-10-08 11:37:47,714 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileList
+2025-10-08 11:37:47,714 - INFO - 查询参数: {'dirName': 'skill', 'fileType': '.skl'}
+2025-10-08 11:37:48,384 - INFO - 响应状态码: 200
+2025-10-08 11:37:48,385 - INFO - 192.168.1.7 - - [08/Oct/2025 11:37:48] "GET /Api/PvfUtiltiy/GetFileList?dirName=skill&fileType=.skl HTTP/1.1" 200 -
+2025-10-08 11:38:10,902 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileList
+2025-10-08 11:38:10,902 - INFO - 查询参数: {'dirName': 'skill/swordman', 'fileType': '.skl'}
+2025-10-08 11:38:11,502 - INFO - 响应状态码: 200
+2025-10-08 11:38:11,502 - INFO - 192.168.1.7 - - [08/Oct/2025 11:38:11] "GET /Api/PvfUtiltiy/GetFileList?dirName=skill/swordman&fileType=.skl HTTP/1.1" 200 -
+2025-10-08 11:38:23,230 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileContent
+2025-10-08 11:38:23,231 - INFO - 查询参数: {'filePath': 'skill/swordman/momentaryslash.skl', 'useCompatibleDecompiler': 'false', 'encodingType': 'null'}
+2025-10-08 11:38:23,320 - INFO - 响应状态码: 200
+2025-10-08 11:38:23,321 - INFO - 192.168.1.7 - - [08/Oct/2025 11:38:23] "GET /Api/PvfUtiltiy/GetFileContent?filePath=skill/swordman/momentaryslash.skl&useCompatibleDecompiler=false&encodingType=null HTTP/1.1" 200 -
+2025-10-08 11:38:30,254 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileList
+2025-10-08 11:38:30,254 - INFO - 查询参数: {'dirName': 'sqr', 'fileType': '.nut'}
+2025-10-08 11:38:30,830 - INFO - 响应状态码: 200
+2025-10-08 11:38:30,830 - INFO - 192.168.1.7 - - [08/Oct/2025 11:38:30] "GET /Api/PvfUtiltiy/GetFileList?dirName=sqr&fileType=.nut HTTP/1.1" 200 -
+2025-10-08 11:38:55,219 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileList
+2025-10-08 11:38:55,219 - INFO - 查询参数: {'dirName': 'passiveobject', 'fileType': '.obj'}
+2025-10-08 11:38:55,741 - INFO - 响应状态码: 200
+2025-10-08 11:38:55,741 - INFO - 192.168.1.7 - - [08/Oct/2025 11:38:55] "GET /Api/PvfUtiltiy/GetFileList?dirName=passiveobject&fileType=.obj HTTP/1.1" 200 -
+2025-10-08 11:57:07,753 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.6:8080
+2025-10-08 11:57:07,753 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-08 11:57:22,276 - ERROR - 移动端代理未知错误: name 'TARGET_URL' is not defined
+2025-10-08 11:57:22,277 - INFO - 192.168.1.6 - - [08/Oct/2025 11:57:22] "[35m[1mGET /mobile/Api/PvfUtiltiy/GetFileList?dirName=equipment&page=1&page_size=5 HTTP/1.1[0m" 500 -
+2025-10-08 11:58:27,259 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.6:8080
+2025-10-08 11:58:27,260 - INFO - [33mPress CTRL+C to quit[0m
+2025-10-08 11:58:45,537 - INFO - 数据已缓存: 361a4a59a4c0c218da6c96ad13950108
+2025-10-08 11:58:45,538 - INFO - 移动端请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileList - 状态码: 200 - 分页: 1/5
+2025-10-08 11:58:45,544 - INFO - 192.168.1.6 - - [08/Oct/2025 11:58:45] "GET /mobile/Api/PvfUtiltiy/GetFileList?dirName=equipment&page=1&page_size=5 HTTP/1.1" 200 -
+2025-10-08 11:59:03,303 - INFO - 数据已缓存: 5e9d311238a1e10128137db5f9a99862
+2025-10-08 11:59:03,503 - INFO - 移动端请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileList - 状态码: 200 - 分页: 1/3
+2025-10-08 11:59:03,510 - INFO - 192.168.1.6 - - [08/Oct/2025 11:59:03] "GET /mobile/Api/PvfUtiltiy/GetFileList?dirName=equipment&page=1&page_size=3&search=sword HTTP/1.1" 200 -
+2025-10-08 11:59:17,856 - INFO - 缓存命中: 5e9d311238a1e10128137db5f9a99862
+2025-10-08 11:59:18,038 - INFO - 192.168.1.6 - - [08/Oct/2025 11:59:18] "GET /mobile/Api/PvfUtiltiy/GetFileList?dirName=equipment&page=1&page_size=3&search=sword HTTP/1.1" 200 -
+2025-10-08 11:59:34,572 - INFO - 缓存命中: 361a4a59a4c0c218da6c96ad13950108
+2025-10-08 11:59:34,575 - INFO - 192.168.1.6 - - [08/Oct/2025 11:59:34] "GET /mobile/Api/PvfUtiltiy/GetFileList?dirName=equipment&page=1&page_size=5&compress=true HTTP/1.1" 200 -
+2025-10-08 11:59:50,755 - INFO - 192.168.1.6 - - [08/Oct/2025 11:59:50] "GET /cache/info HTTP/1.1" 200 -
+2025-10-08 12:00:47,321 - INFO - 缓存命中: 361a4a59a4c0c218da6c96ad13950108
+2025-10-08 12:00:47,322 - INFO - 192.168.1.6 - - [08/Oct/2025 12:00:47] "GET /mobile/Api/PvfUtiltiy/GetFileList?dirName=equipment&page=1&page_size=10 HTTP/1.1" 200 -
+2025-10-08 12:00:47,330 - INFO - 缓存命中: 5e9d311238a1e10128137db5f9a99862
+2025-10-08 12:00:47,540 - INFO - 192.168.1.6 - - [08/Oct/2025 12:00:47] "GET /mobile/Api/PvfUtiltiy/GetFileList?dirName=equipment&page=1&page_size=5&search=sword HTTP/1.1" 200 -
+2025-10-08 12:00:47,726 - INFO - 数据已缓存: 304d3d4dd6c25eaa882d6a6b2760aeae
+2025-10-08 12:00:47,726 - INFO - 移动端请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileList - 状态码: 200 - 分页: 1/5
+2025-10-08 12:00:47,727 - INFO - 192.168.1.6 - - [08/Oct/2025 12:00:47] "GET /mobile/Api/PvfUtiltiy/GetFileList?dirName=stackable&page=1&page_size=5 HTTP/1.1" 200 -
+2025-10-08 12:00:47,731 - INFO - 缓存命中: 304d3d4dd6c25eaa882d6a6b2760aeae
+2025-10-08 12:00:47,731 - INFO - 192.168.1.6 - - [08/Oct/2025 12:00:47] "GET /mobile/Api/PvfUtiltiy/GetFileList?dirName=stackable&page=1&page_size=5 HTTP/1.1" 200 -
+2025-10-08 12:00:47,736 - INFO - 缓存命中: 361a4a59a4c0c218da6c96ad13950108
+2025-10-08 12:00:47,737 - INFO - 192.168.1.6 - - [08/Oct/2025 12:00:47] "GET /mobile/Api/PvfUtiltiy/GetFileList?dirName=equipment&page=1&page_size=20&compress=false HTTP/1.1" 200 -
+2025-10-08 12:00:47,741 - INFO - 缓存命中: 361a4a59a4c0c218da6c96ad13950108
+2025-10-08 12:00:47,742 - INFO - 192.168.1.6 - - [08/Oct/2025 12:00:47] "GET /mobile/Api/PvfUtiltiy/GetFileList?dirName=equipment&page=1&page_size=20&compress=true HTTP/1.1" 200 -
+2025-10-08 12:00:47,747 - INFO - 192.168.1.6 - - [08/Oct/2025 12:00:47] "GET /cache/info HTTP/1.1" 200 -
+2025-10-08 12:00:47,751 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/getVersion
+2025-10-08 12:00:47,752 - INFO - 查询参数: {}
+2025-10-08 12:00:47,756 - INFO - 响应状态码: 200
+2025-10-08 12:00:47,757 - INFO - 192.168.1.6 - - [08/Oct/2025 12:00:47] "GET /Api/PvfUtiltiy/getVersion HTTP/1.1" 200 -
+2025-10-08 12:00:47,765 - INFO - 数据已缓存: 3beda7194e52de82fd4153f302c44ff7
+2025-10-08 12:00:47,766 - INFO - 移动端请求: GET http://localhost:27000/Api/PvfUtiltiy/getVersion - 状态码: 200 - 分页: 1/50
+2025-10-08 12:00:47,767 - INFO - 192.168.1.6 - - [08/Oct/2025 12:00:47] "GET /mobile/Api/PvfUtiltiy/getVersion HTTP/1.1" 200 -
+2025-10-08 12:12:22,814 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/getVersion
+2025-10-08 12:12:22,814 - INFO - 查询参数: {}
+2025-10-08 12:12:22,820 - INFO - 响应状态码: 200
+2025-10-08 12:12:22,820 - INFO - 192.168.1.7 - - [08/Oct/2025 12:12:22] "GET /Api/PvfUtiltiy/getVersion HTTP/1.1" 200 -
+2025-10-08 12:12:28,416 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/getPvfRootDirectory
+2025-10-08 12:12:28,416 - INFO - 查询参数: {}
+2025-10-08 12:12:28,427 - INFO - 响应状态码: 200
+2025-10-08 12:12:28,427 - INFO - 192.168.1.7 - - [08/Oct/2025 12:12:28] "GET /Api/PvfUtiltiy/getPvfRootDirectory HTTP/1.1" 200 -
+2025-10-08 12:12:30,806 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileList
+2025-10-08 12:12:30,806 - INFO - 查询参数: {'dirName': 'sqr'}
+2025-10-08 12:12:30,923 - INFO - 响应状态码: 200
+2025-10-08 12:12:30,923 - INFO - 192.168.1.7 - - [08/Oct/2025 12:12:30] "GET /Api/PvfUtiltiy/GetFileList?dirName=sqr HTTP/1.1" 200 -
+2025-10-08 12:12:40,419 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileContent
+2025-10-08 12:12:40,420 - INFO - 查询参数: {'filePath': 'sqr/character/swordman/momentaryslash/momentaryslash.nut'}
+2025-10-08 12:12:40,435 - INFO - 响应状态码: 200
+2025-10-08 12:12:40,435 - INFO - 192.168.1.7 - - [08/Oct/2025 12:12:40] "GET /Api/PvfUtiltiy/GetFileContent?filePath=sqr/character/swordman/momentaryslash/momentaryslash.nut HTTP/1.1" 200 -
+2025-10-08 12:12:44,805 - INFO - 缓存过期: 361a4a59a4c0c218da6c96ad13950108
+2025-10-08 12:12:45,591 - INFO - 数据已缓存: 361a4a59a4c0c218da6c96ad13950108
+2025-10-08 12:12:45,592 - INFO - 移动端请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileList - 状态码: 200 - 分页: 1/10
+2025-10-08 12:12:45,598 - INFO - 192.168.1.7 - - [08/Oct/2025 12:12:45] "GET /mobile/Api/PvfUtiltiy/GetFileList?dirName=equipment&page=1&page_size=10 HTTP/1.1" 200 -
+2025-10-08 12:12:50,259 - INFO - 代理请求: POST http://localhost:27000/Api/PvfUtiltiy/SearchPvf
+2025-10-08 12:12:50,259 - INFO - 查询参数: {}
+2025-10-08 12:12:51,180 - INFO - POST JSON数据: {'Keyword': 'momentaryslash', 'SearchFolder': '', 'Type': 1, 'SourceType': 0, 'NormalUsing': 1, 'IsStartMatch': False, 'ScriptContentSearchMode': 1, 'IsUseLikeSearchPath': False, 'Trait': False, 'UseRegularExpression': False, 'WholeWordMatch': False, 'RemoveOrKeep': 1, 'FileTypesString': None, 'ScriptContent': '', 'ScriptContentStart': '', 'ScriptContentStop': ''}
+2025-10-08 12:12:51,180 - INFO - 响应状态码: 200
+2025-10-08 12:12:51,181 - INFO - 192.168.1.7 - - [08/Oct/2025 12:12:51] "POST /Api/PvfUtiltiy/SearchPvf HTTP/1.1" 200 -
+2025-10-08 12:12:55,122 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetItemInfo
+2025-10-08 12:12:55,123 - INFO - 查询参数: {'filePath': 'equipment/character/swordman/weapon/ssword/n_sswd_eleno.equ'}
+2025-10-08 12:12:55,152 - INFO - 响应状态码: 200
+2025-10-08 12:12:55,152 - INFO - 192.168.1.7 - - [08/Oct/2025 12:12:55] "GET /Api/PvfUtiltiy/GetItemInfo?filePath=equipment/character/swordman/weapon/ssword/n_sswd_eleno.equ HTTP/1.1" 200 -
+2025-10-08 12:34:05,115 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/FileIsExists
+2025-10-08 12:34:05,115 - INFO - 查询参数: {'filePath': 'skill/ghostrelease.skl'}
+2025-10-08 12:34:05,128 - INFO - 响应状态码: 200
+2025-10-08 12:34:05,129 - INFO - 192.168.1.7 - - [08/Oct/2025 12:34:05] "GET /Api/PvfUtiltiy/FileIsExists?filePath=skill/ghostrelease.skl HTTP/1.1" 200 -
+2025-10-08 12:34:27,853 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileList
+2025-10-08 12:34:27,854 - INFO - 查询参数: {'dirName': 'skill', 'fileType': '.skl'}
+2025-10-08 12:34:28,453 - INFO - 响应状态码: 200
+2025-10-08 12:34:28,454 - INFO - 192.168.1.7 - - [08/Oct/2025 12:34:28] "GET /Api/PvfUtiltiy/GetFileList?dirName=skill&fileType=.skl HTTP/1.1" 200 -
+2025-10-08 12:35:03,953 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileList
+2025-10-08 12:35:03,953 - INFO - 查询参数: {'dirName': 'skill/swordman', 'fileType': '.skl'}
+2025-10-08 12:35:04,490 - INFO - 响应状态码: 200
+2025-10-08 12:35:04,491 - INFO - 192.168.1.7 - - [08/Oct/2025 12:35:04] "GET /Api/PvfUtiltiy/GetFileList?dirName=skill/swordman&fileType=.skl HTTP/1.1" 200 -
+2025-10-08 12:35:16,522 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileList
+2025-10-08 12:35:16,522 - INFO - 查询参数: {'dirName': 'skill/swordman/swordmannewskill', 'fileType': '.skl'}
+2025-10-08 12:35:17,046 - INFO - 响应状态码: 200
+2025-10-08 12:35:17,047 - INFO - 192.168.1.7 - - [08/Oct/2025 12:35:17] "GET /Api/PvfUtiltiy/GetFileList?dirName=skill/swordman/swordmannewskill&fileType=.skl HTTP/1.1" 200 -
+2025-10-08 12:35:28,455 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileContent
+2025-10-08 12:35:28,455 - INFO - 查询参数: {'filePath': 'skill/swordman/swordmannewskill/ghostrelease.skl'}
+2025-10-08 12:35:28,468 - INFO - 响应状态码: 200
+2025-10-08 12:35:28,469 - INFO - 192.168.1.7 - - [08/Oct/2025 12:35:28] "GET /Api/PvfUtiltiy/GetFileContent?filePath=skill/swordman/swordmannewskill/ghostrelease.skl HTTP/1.1" 200 -
+2025-10-08 12:35:40,381 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileList
+2025-10-08 12:35:40,381 - INFO - 查询参数: {'dirName': 'sqr/character/swordman', 'fileType': '.nut'}
+2025-10-08 12:35:40,898 - INFO - 响应状态码: 200
+2025-10-08 12:35:40,899 - INFO - 192.168.1.7 - - [08/Oct/2025 12:35:40] "GET /Api/PvfUtiltiy/GetFileList?dirName=sqr/character/swordman&fileType=.nut HTTP/1.1" 200 -
+2025-10-08 12:35:53,218 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileContent
+2025-10-08 12:35:53,218 - INFO - 查询参数: {'filePath': 'sqr/character/swordman/ghostrelease/ap_ghostrelease.nut'}
+2025-10-08 12:35:53,225 - INFO - 响应状态码: 200
+2025-10-08 12:35:53,226 - INFO - 192.168.1.7 - - [08/Oct/2025 12:35:53] "GET /Api/PvfUtiltiy/GetFileContent?filePath=sqr/character/swordman/ghostrelease/ap_ghostrelease.nut HTTP/1.1" 200 -
+2025-10-08 12:36:05,223 - INFO - 代理请求: GET http://localhost:27000/Api/PvfUtiltiy/GetFileContent
+2025-10-08 12:36:05,224 - INFO - 查询参数: {'filePath': 'sqr/character/swordman/swordman_common.nut'}
+2025-10-08 12:36:05,229 - INFO - 响应状态码: 200
+2025-10-08 12:36:05,230 - INFO - 192.168.1.7 - - [08/Oct/2025 12:36:05] "GET /Api/PvfUtiltiy/GetFileContent?filePath=sqr/character/swordman/swordman_common.nut HTTP/1.1" 200 -
+2025-10-08 18:37:34,250 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://192.168.1.6:8080
+2025-10-08 18:37:34,251 - INFO - [33mPress CTRL+C to quit[0m

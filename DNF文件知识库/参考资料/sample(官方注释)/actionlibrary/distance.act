@@ -1,4 +1,4 @@
-// ÀÌ ½ºÅ©¸³Æ®´Â 300ÇÈ¼¿ ¹ÛÀ¸·Î ³ª°¡¸é Ä³¸¯ÅÍÇÑÅ× ¹ÌÆ¼¾î¸¦ ¶³±¸´Â ½ºÅ©¸³Æ®ÀÔ´Ï´Ù.
+// ì´ ìŠ¤í¬ë¦½íŠ¸ëŠ” 300í”½ì…€ ë°–ìœ¼ë¡œ ë‚˜ê°€ë©´ ìºë¦­í„°í•œí…Œ ë¯¸í‹°ì–´ë¥¼ ë–¨êµ¬ëŠ” ìŠ¤í¬ë¦½íŠ¸ìž…ë‹ˆë‹¤.
 [MOTION]
 [BASE ANI] `../Animation_Kinol/Move.ani`
 [SUB ANI]
@@ -16,14 +16,14 @@
 [/TRIGGER]	
 [BEHAVIOR] // 0 
 	[CREATE PASSIVEOBJECT]
-		[INDEX] 40004//ÀÎµ¦½º¹øÈ£
+		[INDEX] 40004//ì¸ë±ìŠ¤ë²ˆí˜¸
 		[PARTICLE FILENAME] `../../../PassiveObject/Common/Particle/ShootingStarPath.ptl`
 		[LEVEL] 40
-		[POS] 0 0 300//x y z //¸ñÇ¥ÁöÁ¡ ³ôÀÌ´Â À§Ä¡·Î °¨.
+		[POS] 0 0 300//x y z //ëª©í‘œì§€ì  ë†’ì´ëŠ” ìœ„ì¹˜ë¡œ ê°.
 		//[USE TARGET TEAM] // 
 		//[USE MY DIRECTION]
 		//[USE MY BASEPOS]
-		[WARNING MARK] 330 0 100 2 // WarningMark º¸Á¤. xÀ§Ä¡ º¸Á¤ y º¸Á¤ À§Ä¡ µô·¹ÀÌ, °æ°í¸¶Å© Á¾·ù.
+		[WARNING MARK] 330 0 100 2 // WarningMark ë³´ì •. xìœ„ì¹˜ ë³´ì • y ë³´ì • ìœ„ì¹˜ ë”œë ˆì´, ê²½ê³ ë§ˆí¬ ì¢…ë¥˜.
 	[/CREATE PASSIVEOBJECT]
 	[TRIGGER] 1 [RESET]
 	[TRIGGER] 1 [ON]

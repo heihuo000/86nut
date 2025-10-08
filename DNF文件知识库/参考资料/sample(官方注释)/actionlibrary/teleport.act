@@ -2,12 +2,12 @@
 [BASE ANI] `../Animation_Kinol/throw.ani`
 [/MOTION]
 [TRIGGER]
-[FRAME] 2 2 // га╥╧юс ╧Ьхё ?~? ╠НаЖ
+[FRAME] 2 2 // М■└К═┬Л·└ К╡┬М≤╦ ?~? Й╧▄Л╖─
 [DO BEHAVIOR] [ME] 0
 [/TRIGGER]
 [BEHAVIOR] // 0 
 	[TELEPORT]
-		[POS] 0 0 100	// юЭ╧Ф 100px╥н юл╣©.
+		[POS] 0 0 100	// Л═└К╟╘ 100pxК║° Л²╢К▐≥.
 		//[USE MY DIRECTION]
 		//[USE MY BASEPOS]
 		//[NOT USE OBJECT DIRECTION]

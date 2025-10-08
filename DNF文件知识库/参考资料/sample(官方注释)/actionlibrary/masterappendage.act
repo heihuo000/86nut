@@ -2,7 +2,7 @@
 [BASE ANI] `../Animation_Kinol/throw.ani`
 [/MOTION]
 [TRIGGER]
-[FRAME] 2 2 // ÇÁ·¹ÀÓ ¹øÈ£ ?~? ±îÁö
+[FRAME] 2 2 // í”„ë ˆìž„ ë²ˆí˜¸ ?~? ê¹Œì§€
 [DO BEHAVIOR] [ME] 0
 [/TRIGGER]
 [BEHAVIOR]

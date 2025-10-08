@@ -1,63 +1,63 @@
-¾Æ¿ì¶ó »ùÇÃ~
+ì•„ìš°ë¼ ìƒ˜í”Œ~
 
-//1// ²À 1°³°¡ ÀÖ¾î¾ß ÇÔ
-//0// ¾ø¾îµµ µÊ
-//*// ¾ø¾îµµ µÇ°í ¿©·¯¹ø °¡´ÉÇÔ
+//1// ê¼­ 1ê°œê°€ ìˆì–´ì•¼ í•¨
+//0// ì—†ì–´ë„ ë¨
+//*// ì—†ì–´ë„ ë˜ê³  ì—¬ëŸ¬ë²ˆ ê°€ëŠ¥í•¨
 
 
 
-ÅÂ±× Á¤¸®
+íƒœê·¸ ì •ë¦¬
 
-[type] `include`					//1// `include`, `exclude`, `alone` Áß ÅÃ1
+[type] `include`					//1// `include`, `exclude`, `alone` ì¤‘ íƒ1
 
-[range]	600							//1// ¿À¶ó ¹üÀ§ (¹İÁö¸§px)
+[range]	600							//1// ì˜¤ë¼ ë²”ìœ„ (ë°˜ì§€ë¦„px)
 
-[duration] 1000						//0// Áö¼Ó ½Ã°£ (ms) 0ÀÌ³ª ¾ÈÀûÀ¸¸é ¹«ÇÑ
+[duration] 1000						//0// ì§€ì† ì‹œê°„ (ms) 0ì´ë‚˜ ì•ˆì ìœ¼ë©´ ë¬´í•œ
 
-[destroy method]					//0// ¿À¶ó¸¦ ¾ø¾Ö´Â Á¶°Ç (delegator °¡ destory µÉ¶§´Â ¹«Á¶°Ç)
-`duration`							//0// Áö¼Ó½Ã°£ ÀÌ ³¡³ª¸é
-`source destory`					//0// ¼Ò½º°¡ »ç¶óÁö¸é
+[destroy method]					//0// ì˜¤ë¼ë¥¼ ì—†ì• ëŠ” ì¡°ê±´ (delegator ê°€ destory ë ë•ŒëŠ” ë¬´ì¡°ê±´)
+`duration`							//0// ì§€ì†ì‹œê°„ ì´ ëë‚˜ë©´
+`source destory`					//0// ì†ŒìŠ¤ê°€ ì‚¬ë¼ì§€ë©´
 [/destroy method]
 
-[event time]						//0// ¿À¶ó ÀÌº¥Æ®°¡ ÀÏ¾î³ª´Â ½Ã°£ (ms) ÀÌ ÅÂ±×°¡ ¾øÀ¸¸é Áï½Ã
-	`first`		500					//0// - waiting time for first (Ã¹ ÀÌº¥Æ®°¡ ÀÏ¾î³ª´Â ½Ã°£)
-	`repeat`	250					//0// - interval time for repeat (0ÀÌ³ª ¾ÈÀûÀ¸¸é ¹«½Ã)
-	`update`	250					//0// - interval time for update (ÀÌ ¿É¼ÇÀº ÇÁ·Î±×·¡¸Ó¿Í »óÀÇ)
+[event time]						//0// ì˜¤ë¼ ì´ë²¤íŠ¸ê°€ ì¼ì–´ë‚˜ëŠ” ì‹œê°„ (ms) ì´ íƒœê·¸ê°€ ì—†ìœ¼ë©´ ì¦‰ì‹œ
+	`first`		500					//0// - waiting time for first (ì²« ì´ë²¤íŠ¸ê°€ ì¼ì–´ë‚˜ëŠ” ì‹œê°„)
+	`repeat`	250					//0// - interval time for repeat (0ì´ë‚˜ ì•ˆì ìœ¼ë©´ ë¬´ì‹œ)
+	`update`	250					//0// - interval time for update (ì´ ì˜µì…˜ì€ í”„ë¡œê·¸ë˜ë¨¸ì™€ ìƒì˜)
 [/event time]
 
-[overlab type] `overlab`			//1// `overlab`, `update`, `skip` //`update` ¹Ì±¸Çö!!
+[overlab type] `overlab`			//1// `overlab`, `update`, `skip` //`update` ë¯¸êµ¬í˜„!!
 
 [target]							//0//
-	[object type] `all`				//*// `all`, `character`, `apc`, `monster`, ¾øÀ¸¸é `all`
-	[ally type] `dont-care`			//0// `dont-care`, `ally`, `enemy`, ¾øÀ¸¸é `dont-care`
-	[max target number]	0			//0// ÃÖ´ë Å¸°Ù ¼ö, 0ÀÌ³ª ¾ÈÀûÀ¸¸é ¹«ÇÑ //¹Ì±¸Çö!!
-	[object index] 0				//*// ¿ÀºêÁ§Æ® ÀÎµ¦½º, 0ÀÌ³ª ¾ÈÀûÀ¸¸é ¹«½Ã.[object type]Á¾¼Ó
+	[object type] `all`				//*// `all`, `character`, `apc`, `monster`, ì—†ìœ¼ë©´ `all`
+	[ally type] `dont-care`			//0// `dont-care`, `ally`, `enemy`, ì—†ìœ¼ë©´ `dont-care`
+	[max target number]	0			//0// ìµœëŒ€ íƒ€ê²Ÿ ìˆ˜, 0ì´ë‚˜ ì•ˆì ìœ¼ë©´ ë¬´í•œ //ë¯¸êµ¬í˜„!!
+	[object index] 0				//*// ì˜¤ë¸Œì íŠ¸ ì¸ë±ìŠ¤, 0ì´ë‚˜ ì•ˆì ìœ¼ë©´ ë¬´ì‹œ.[object type]ì¢…ì†
 [/target]
 
 [event]								//1//
-	`appendage`			2455		//*// ¹ß»ı½ÃÅ³ ÀÌº¥Æ® 1°³ ÀÌ»óÀÌ¸é µÊ
-	`appendage`			2456		//*// Ã¹ ÀÎÀÚ´Â `appendage`, `passive object`, `aura` Áß ÅÃ1
-	`aura`				1000		//*// µÎ ¹øÂ° ÀÎÀÚ´Â ½ºÅ©¸³Æ®È­ µÈ ÀÎµ¦½º ¹øÈ£
-	`passive object		5121		//*// ¿¹¸¦ µé¾î ÀÌ ÁÙÀÇ ³»¿ëÀº 5121ÆĞ½Ãºê ¿ÀºêÁ§Æ®¸¦ »ı¼º
+	`appendage`			2455		//*// ë°œìƒì‹œí‚¬ ì´ë²¤íŠ¸ 1ê°œ ì´ìƒì´ë©´ ë¨
+	`appendage`			2456		//*// ì²« ì¸ìëŠ” `appendage`, `passive object`, `aura` ì¤‘ íƒ1
+	`aura`				1000		//*// ë‘ ë²ˆì§¸ ì¸ìëŠ” ìŠ¤í¬ë¦½íŠ¸í™” ëœ ì¸ë±ìŠ¤ ë²ˆí˜¸
+	`passive object		5121		//*// ì˜ˆë¥¼ ë“¤ì–´ ì´ ì¤„ì˜ ë‚´ìš©ì€ 5121íŒ¨ì‹œë¸Œ ì˜¤ë¸Œì íŠ¸ë¥¼ ìƒì„±
 [/event]
 
-[effect]							//*// ÇØ´ç ÅÂ±×´Â Áßº¹ »ç¿ë °¡´É
+[effect]							//*// í•´ë‹¹ íƒœê·¸ëŠ” ì¤‘ë³µ ì‚¬ìš© ê°€ëŠ¥
 	[attach target]	`delegator`		//1// `delegator`, `target`
 	[type] `animation`				//1// `animation`, `particle`
 	[attach pos] `bottom`			//1// `bottom`, `middle`, `top`
-	[z revision] -10 				//0// z Ãà ÀÌµ¿ °Å¸®(px) ¾øÀ¸¸é ¹«½Ã
-	[index] -1						//1// <animation> ÀÌ ºÙ´Â ·¹ÀÌ¾î À§Ä¡
-	[option]						//0// animation ¿É¼Ç
-		`keep direction`			//0// animation ¿É¼Ç (¹æÇâ °íÁ¤)
-		`floor`						//0// animation ¿É¼Ç (¹Ù´Ú¿¡ ±×¸² : ÀåÆÇ µî)
-		`auto remove`				//0// animation ¿É¼Ç (¾Ö´Ï¸ŞÀÌ¼ÇÀÌ ³¡³ª¸é ÀÚµ¿ Á¦°Å)
-		`apply custom color`		//0// animation ¿É¼Ç (¿ÀºêÁ§Æ® »ö»óÀ» µû¸§ : Ä«¸ğÇÃ¶óÁî µî)
-		`sync speed`				//0// animation ¿É¼Ç (¿ÀºêÁ§Æ® ¾Ö´Ï¸ŞÀÌ¼Ç ¼Óµµ¿¡ µ¿±âÈ­)
-		`copy horizon`				//0// animation ¿É¼Ç (¾Ö´Ï¸ŞÀÌ¼Ç °¡·Îº¹»ç)
-		`copy vertical`				//0// animation ¿É¼Ç (¾Ö´Ï¸ŞÀÌ¼Ç ¼¼·Îº¹»ç)
-		`resize`					//0// animation ¿É¼Ç (¿À¶ó ¹üÀ§¿¡ ¸Â°Ô Å©±âÁ¶Àı) ¹Ì±¸Çö!!!
+	[z revision] -10 				//0// z ì¶• ì´ë™ ê±°ë¦¬(px) ì—†ìœ¼ë©´ ë¬´ì‹œ
+	[index] -1						//1// <animation> ì´ ë¶™ëŠ” ë ˆì´ì–´ ìœ„ì¹˜
+	[option]						//0// animation ì˜µì…˜
+		`keep direction`			//0// animation ì˜µì…˜ (ë°©í–¥ ê³ ì •)
+		`floor`						//0// animation ì˜µì…˜ (ë°”ë‹¥ì— ê·¸ë¦¼ : ì¥íŒ ë“±)
+		`auto remove`				//0// animation ì˜µì…˜ (ì• ë‹ˆë©”ì´ì…˜ì´ ëë‚˜ë©´ ìë™ ì œê±°)
+		`apply custom color`		//0// animation ì˜µì…˜ (ì˜¤ë¸Œì íŠ¸ ìƒ‰ìƒì„ ë”°ë¦„ : ì¹´ëª¨í”Œë¼ì¦ˆ ë“±)
+		`sync speed`				//0// animation ì˜µì…˜ (ì˜¤ë¸Œì íŠ¸ ì• ë‹ˆë©”ì´ì…˜ ì†ë„ì— ë™ê¸°í™”)
+		`copy horizon`				//0// animation ì˜µì…˜ (ì• ë‹ˆë©”ì´ì…˜ ê°€ë¡œë³µì‚¬)
+		`copy vertical`				//0// animation ì˜µì…˜ (ì• ë‹ˆë©”ì´ì…˜ ì„¸ë¡œë³µì‚¬)
+		`resize`					//0// animation ì˜µì…˜ (ì˜¤ë¼ ë²”ìœ„ì— ë§ê²Œ í¬ê¸°ì¡°ì ˆ) ë¯¸êµ¬í˜„!!!
 	[/option]
-	[file name] `effect/animation/aura_range.ani`	//1// ÇØ´ç ÀÌÆåÆ® °æ·Î¿Í ÆÄÀÏ¸í
+	[file name] `effect/animation/aura_range.ani`	//1// í•´ë‹¹ ì´í™íŠ¸ ê²½ë¡œì™€ íŒŒì¼ëª…
 [/effect]
 
 [effect]

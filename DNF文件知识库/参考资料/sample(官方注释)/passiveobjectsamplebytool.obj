@@ -1,23 +1,23 @@
 
 //////////////////////////////////////////////////////////
 //@ mkjung create date 20120523 
-//@ application uses ¼öµ¿ ¿ÀºêÁ§Æ® ½ºÅ©¸³Æ® ÆÄÀÏ ¹®¹ı Ã¼Å©
+//@ application uses ìˆ˜ë™ ì˜¤ë¸Œì íŠ¸ ìŠ¤í¬ë¦½íŠ¸ íŒŒì¼ ë¬¸ë²• ì²´í¬
 //////////////////////////////////////////////////////////
 
-{exp}¿ÀºêÁ§Æ®ÀÇ ÀÌ¸§{/exp}[name]
-	{must1}{exp}½ºÆ®¸µ ÀÎµ¦½º{/exp}{string}
+{exp}ì˜¤ë¸Œì íŠ¸ì˜ ì´ë¦„{/exp}[name]
+	{must1}{exp}ìŠ¤íŠ¸ë§ ì¸ë±ìŠ¤{/exp}{string}
 [!name]
 
-{exp}ºÎÀ¯³ôÀÌ{/exp}[floating height]
-	{must1}{exp}°øÁß¿¡ ºÎÀ¯½ÃÅ³ ³ôÀÌ(ÇÈ¼¿){/exp}{int(:)}	
+{exp}ë¶€ìœ ë†’ì´{/exp}[floating height]
+	{must1}{exp}ê³µì¤‘ì— ë¶€ìœ ì‹œí‚¬ ë†’ì´(í”½ì…€){/exp}{int(:)}	
 [!floating height]
 
-{exp}¸ó½ºÅÍÀÇ Ãæµ¹Ã¼Å© ¹üÀ§{/exp}[width]
+{exp}ëª¬ìŠ¤í„°ì˜ ì¶©ëŒì²´í¬ ë²”ìœ„{/exp}[width]
 	{must1}{int(:)}
 	{must2}{int(:)}
 [!width]
 
-{exp}±×¸®±â ·¹ÀÌ¾î{/exp}[layer]
+{exp}ê·¸ë¦¬ê¸° ë ˆì´ì–´{/exp}[layer]
 	{must1}[normal]
 	{must1}[bottom]
 	{must1}[close]	
@@ -26,8 +26,8 @@
 	{must1}[distantback]
 [!layer]
 
-{exp}·¹ÀÌ¾î ·¹º§{/exp}[layer level]
-	{must1}{exp}¼öÄ¡°¡ ³ôÀ»¼ö·Ï ¾Õ¿¡ À§Ä¡{/exp}{int(:)}
+{exp}ë ˆì´ì–´ ë ˆë²¨{/exp}[layer level]
+	{must1}{exp}ìˆ˜ì¹˜ê°€ ë†’ì„ìˆ˜ë¡ ì•ì— ìœ„ì¹˜{/exp}{int(:)}
 [!layer level]
 
 [pass type]	
@@ -40,29 +40,29 @@
 	{must1}{string}
 [!pass type]
 
-{exp}°ø°İ½ÃÀÇ °üÅë·Â{/exp}[piercing power]
-	{must1}°ø°İ ¼º°ø½Ã È®·ü{int(:)}
+{exp}ê³µê²©ì‹œì˜ ê´€í†µë ¥{/exp}[piercing power]
+	{must1}ê³µê²© ì„±ê³µì‹œ í™•ë¥ {int(:)}
 [!piercing power]
 
 {exp}{/exp}[piercing tolerance]
-	{must1}{exp}°üÅë ³»¼º{/exp}{int(:)}
+	{must1}{exp}ê´€í†µ ë‚´ì„±{/exp}{int(:)}
 [!piercing tolerance]
 
-{exp}HP°ª(HP°ª ¾øÀ¸¸é ¾Æ¿¹ µ¥¹ÌÁö ÀÚÃ¼¸¦ ÀÔÁö ¾ÊÀ½){/exp}[hp max]
+{exp}HPê°’(HPê°’ ì—†ìœ¼ë©´ ì•„ì˜ˆ ë°ë¯¸ì§€ ìì²´ë¥¼ ì…ì§€ ì•ŠìŒ){/exp}[hp max]
 	{must1}{int(:)}
 [!hp max]
 
-{exp}HP ´Ù ¶³¾îÁö¸é ºÎ½¤Áú Áö ¿©ºÎ{/exp}[hp destroy]
-	{must1}{exp}0: ¾ÈºÎ¼­Áü, 1: ºÎ¼­Áü{/exp}{int(0:1)}
+{exp}HP ë‹¤ ë–¨ì–´ì§€ë©´ ë¶€ìˆ´ì§ˆ ì§€ ì—¬ë¶€{/exp}[hp destroy]
+	{must1}{exp}0: ì•ˆë¶€ì„œì§, 1: ë¶€ì„œì§{/exp}{int(0:1)}
 [!hp destroy]
 
 
-{exp}Ãæµ¹½Ã »ç¶óÁö´ÂÁö ¿©ºÎ{/exp}[vanish on move collision]
-	{must1}{exp}0: »ç¶óÁöÁö ¾ÊÀ½, 1: »ç¶óÁü[±âº»{/exp}{int(0:1)}
+{exp}ì¶©ëŒì‹œ ì‚¬ë¼ì§€ëŠ”ì§€ ì—¬ë¶€{/exp}[vanish on move collision]
+	{must1}{exp}0: ì‚¬ë¼ì§€ì§€ ì•ŠìŒ, 1: ì‚¬ë¼ì§[ê¸°ë³¸{/exp}{int(0:1)}
 [!vanish on move collision]
 
 [category]
-{exp}¼Ò¼Ó Ä«Å×°í¸®ÀÇ ¸®½ºÆ®{exp}[category]
+{exp}ì†Œì† ì¹´í…Œê³ ë¦¬ì˜ ë¦¬ìŠ¤íŠ¸{exp}[category]
 	{opt1}{exp}HUMAN{/exp}[human]
 	{opt2}{exp}BEAST{/exp}[beast]
 	{opt3}{exp}PLANT{/exp}[plant]
@@ -106,42 +106,42 @@
 	{opt41}{exp}PASSIVEOBJECT_TYPE_FORT{/exp}[fort]
 [/category]
 
-{exp}±âº» ¸ğ¼Ç{/exp}[basic motion]
-	{must1}{exp}¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§{/exp}{string}
+{exp}ê¸°ë³¸ ëª¨ì…˜{/exp}[basic motion]
+	{must1}{exp}ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„{/exp}{string}
 [!basic motion]
 
-{exp}ÇÏµåÄÚµù¿ë ¸ğ¼Ç{/exp}[etc motion]
-	{exp}¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§ ¸®½ºÆ®{/exp}{string}
+{exp}í•˜ë“œì½”ë”©ìš© ëª¨ì…˜{/exp}[etc motion]
+	{exp}ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„ ë¦¬ìŠ¤íŠ¸{/exp}{string}
 	{!string}
 [/etc motion]
 
-{exp}±âº» ¾×¼Ç{/exp}[basic action]
-	{must1}{exp}ÆÄÀÏ°æ·Î{/exp}{string}
+{exp}ê¸°ë³¸ ì•¡ì…˜{/exp}[basic action]
+	{must1}{exp}íŒŒì¼ê²½ë¡œ{/exp}{string}
 [!basic action]
 
-{exp}ÀÌ ÆĞ½Ãºê¿ÀºêÁ§Æ®¿¡ ¼³Á¤ÇÒ ¾îÅÃÀÎÆ÷{/exp}[attack info]
-	{must1}{exp}¾îÅÃÀÎÆ÷ ÆÄÀÏ°æ·Î{/exp}{string}
+{exp}ì´ íŒ¨ì‹œë¸Œì˜¤ë¸Œì íŠ¸ì— ì„¤ì •í•  ì–´íƒì¸í¬{/exp}[attack info]
+	{must1}{exp}ì–´íƒì¸í¬ íŒŒì¼ê²½ë¡œ{/exp}{string}
 [!attack info]
 
-{exp}¿ÀºêÁ§Æ®´Â ¾îÅÃÀÌ ¾øÀ¸¹Ç·Î [action list] ¾²Áö ¾Ê°í [etc action] ¸¸ ¾´´Ù.{/exp}[etc action]
-	{exp}Ä¿½ºÅÒ ¾×¼Ç ¸®½ÃÆ®{/exp}{string}
+{exp}ì˜¤ë¸Œì íŠ¸ëŠ” ì–´íƒì´ ì—†ìœ¼ë¯€ë¡œ [action list] ì“°ì§€ ì•Šê³  [etc action] ë§Œ ì“´ë‹¤.{/exp}[etc action]
+	{exp}ì»¤ìŠ¤í…€ ì•¡ì…˜ ë¦¬ì‹œíŠ¸{/exp}{string}
 	{!string}
 [/etc action]
 
 [team]
-	{must1}{exp}Ä³¸¯ÅÍ ÆÀ100~ : ¸ó½ºÅÍ ÆÀ200~ : Áß¸³ÆÀ{/exp}{int(0:)}
+	{must1}{exp}ìºë¦­í„° íŒ€100~ : ëª¬ìŠ¤í„° íŒ€200~ : ì¤‘ë¦½íŒ€{/exp}{int(0:)}
 [!team]
 
-{exp}Æ®·¦¿©ºÎ{/exp}[trap]
-	{must1}{exp}1ÀÌ¸é ±ú¾ß¸¸ Å¬¸®¾î.{/exp}{int(:)}
+{exp}íŠ¸ë©ì—¬ë¶€{/exp}[trap]
+	{must1}{exp}1ì´ë©´ ê¹¨ì•¼ë§Œ í´ë¦¬ì–´.{/exp}{int(:)}
 [!trap]
 
-{exp}ÆÄ±«µÇ±âÀü¿¡ ¹İµå½Ã ÇÑ¹ø ½ÇÇàµÉ action{/exp}[last action]
-	{must1}{exp}ÆÄÀÏ°æ·Î{/exp}{string}
+{exp}íŒŒê´´ë˜ê¸°ì „ì— ë°˜ë“œì‹œ í•œë²ˆ ì‹¤í–‰ë  action{/exp}[last action]
+	{must1}{exp}íŒŒì¼ê²½ë¡œ{/exp}{string}
 [!last action]
 
-{exp}ÆÄ±«µÉ ¶§ »ı¼ºÇÒ (1È¸) ÆÄÆ¼Å¬ÀÇ ½ºÅ©¸³Æ®{/exp}[destroy particle]
-	{exp}ÆÄÀÏ°æ·Î{/exp}{string}
+{exp}íŒŒê´´ë  ë•Œ ìƒì„±í•  (1íšŒ) íŒŒí‹°í´ì˜ ìŠ¤í¬ë¦½íŠ¸{/exp}[destroy particle]
+	{exp}íŒŒì¼ê²½ë¡œ{/exp}{string}
 	{!string}
 [/destroy particle]
 
@@ -155,91 +155,91 @@
 		{must1}[ENEMY]
 		{must1}[CHARACTER]
 		{must1}[MONSTER]
-		{prereq}[CHARACTER]{/prereq}{must1}{exp}ÆÄÆ¼ ÀÎµ¦½º{/exp}{int(0:)}
-		{prereq}[MONSTER]{/prereq}{must1}{exp}Æ¯Á¤ ¸ó½ºÅÍ µû¶ó ´Ù´Ï°Ô ÇÏ±â À§ÇÑ ÀÎµ¦½º{/exp}{int(0:)}
+		{prereq}[CHARACTER]{/prereq}{must1}{exp}íŒŒí‹° ì¸ë±ìŠ¤{/exp}{int(0:)}
+		{prereq}[MONSTER]{/prereq}{must1}{exp}íŠ¹ì • ëª¬ìŠ¤í„° ë”°ë¼ ë‹¤ë‹ˆê²Œ í•˜ê¸° ìœ„í•œ ì¸ë±ìŠ¤{/exp}{int(0:)}
 	[!homing follow]
 
  	[homing velocity]
-		{must1}{exp}¼Óµµ{/exp}{int(:)}
-		{must2}{exp}°¡¼Óµµ{/exp}{int(:)}
+		{must1}{exp}ì†ë„{/exp}{int(:)}
+		{must2}{exp}ê°€ì†ë„{/exp}{int(:)}
 	[!homing velocity]
 
-	{exp}ÃßÀûÁßÀÎ Å¸°Ù À§Ä¡ Ã¼Å© ½Ã°£ °£°İ{/exp}[homing check gap]
-		{must1}{exp}(1/1000)ÃÊ{/exp}{int(:)}
+	{exp}ì¶”ì ì¤‘ì¸ íƒ€ê²Ÿ ìœ„ì¹˜ ì²´í¬ ì‹œê°„ ê°„ê²©{/exp}[homing check gap]
+		{must1}{exp}(1/1000)ì´ˆ{/exp}{int(:)}
 	[!homing check gap]
 
-	{exp}¾Ö´Ï¸ŞÀÌ¼ÇÀ» ÀÌµ¿ ¹æÇâ¿¡ µû¶ó Á¤·Ä½ÃÅ³ °ÍÀÎÁö ¿©ºÎ{/exp}[sync animation rotation]
-		{must1}{exp}(±âº»°ª 0){/exp}{int(0:1)}
+	{exp}ì• ë‹ˆë©”ì´ì…˜ì„ ì´ë™ ë°©í–¥ì— ë”°ë¼ ì •ë ¬ì‹œí‚¬ ê²ƒì¸ì§€ ì—¬ë¶€{/exp}[sync animation rotation]
+		{must1}{exp}(ê¸°ë³¸ê°’ 0){/exp}{int(0:1)}
 	[!sync animation rotation]
 
-	{exp}ÃÊ´ç ÃÖ´ë È¸Àü °¡´ÉÇÑ °¢{/exp}[max rotation]
-		{must1}{exp}°¢µµ(0ÀÌ¸é ¹«ÇÑ È¸Àü){/exp}{int(0:)}
+	{exp}ì´ˆë‹¹ ìµœëŒ€ íšŒì „ ê°€ëŠ¥í•œ ê°{/exp}[max rotation]
+		{must1}{exp}ê°ë„(0ì´ë©´ ë¬´í•œ íšŒì „){/exp}{int(0:)}
 	[!max rotation]
 
-	{exp}¿ÀºêÁ§Æ® »ı¼º½Ã È¸Àü°¢{/exp}[init rotation]
-		{must1}{exp}°¢µµ(±âº»°ª 0){/exp}{int(0:)}
+	{exp}ì˜¤ë¸Œì íŠ¸ ìƒì„±ì‹œ íšŒì „ê°{/exp}[init rotation]
+		{must1}{exp}ê°ë„(ê¸°ë³¸ê°’ 0){/exp}{int(0:)}
 	[!init rotation]
 
-	{exp}¸ñÇ¥¸¦ ÀÎÁöÇÒ ¼ö ÀÖ´Â °¢µµ{/exp}[diff rotation]
-		{must1}{exp}°¢µµ(±âº»°ª 180){/exp}{int(0:)}
+	{exp}ëª©í‘œë¥¼ ì¸ì§€í•  ìˆ˜ ìˆëŠ” ê°ë„{/exp}[diff rotation]
+		{must1}{exp}ê°ë„(ê¸°ë³¸ê°’ 180){/exp}{int(0:)}
 	[!diff rotation]
 
-	{exp}À¯µµ±â´ÉÀÌ ÀÛµ¿ÇÏ´Â ½Ã°£{/exp}[homing time]
-		{must1}{exp}½Ã°£(0ÀÌ¸é ¹«ÇÑ´ë, ±âº»°ª 0){/exp}{int(0:)}
+	{exp}ìœ ë„ê¸°ëŠ¥ì´ ì‘ë™í•˜ëŠ” ì‹œê°„{/exp}[homing time]
+		{must1}{exp}ì‹œê°„(0ì´ë©´ ë¬´í•œëŒ€, ê¸°ë³¸ê°’ 0){/exp}{int(0:)}
 	[!homing time]
 
-	{exp}È£¹Ö ±â´É µµÁß Å¸°ÙÀÌ ÀÌµ¿ÇÏ¸é ±× °Å¸®¸¸Å­ ½Ç½Ã°£ ÀÌµ¿{/exp}{etc}[sync target move]
+	{exp}í˜¸ë° ê¸°ëŠ¥ ë„ì¤‘ íƒ€ê²Ÿì´ ì´ë™í•˜ë©´ ê·¸ ê±°ë¦¬ë§Œí¼ ì‹¤ì‹œê°„ ì´ë™{/exp}{etc}[sync target move]
 [/homing]
 
 [sound category]
-	{exp}°´Ã¼ »ı¼ºÈÄ ¹Ù·Î ¼Ò¸®³ª°Ô ÇÒ °æ¿ì{/exp}[after object create]
-		{must1}{exp}»ç¿îµå{/exp}{string}
-		{must2}{exp}¿ÀºêÁ§Æ® ÀÎµ¦½º{/exp}{int(0:)}
+	{exp}ê°ì²´ ìƒì„±í›„ ë°”ë¡œ ì†Œë¦¬ë‚˜ê²Œ í•  ê²½ìš°{/exp}[after object create]
+		{must1}{exp}ì‚¬ìš´ë“œ{/exp}{string}
+		{must2}{exp}ì˜¤ë¸Œì íŠ¸ ì¸ë±ìŠ¤{/exp}{int(0:)}
 	[!after object create]
 	
-	{exp}¿ÀºêÁ§Æ®°¡ ÀÏÁ¤ ÇÁ·¹ÀÓ ÀÌ»ó Áö³µÀ»¶§{/exp}[on frame]
-		{must1}{exp}»ç¿îµå{/exp}{string}
-		{must2}{exp}¿ÀºêÁ§Æ® ÀÎµ¦½º{/exp}{int(0:)}
-		{must3}{exp}ÇÁ·¹ÀÓ ¹øÈ£{/exp}{int(0:)}
+	{exp}ì˜¤ë¸Œì íŠ¸ê°€ ì¼ì • í”„ë ˆì„ ì´ìƒ ì§€ë‚¬ì„ë•Œ{/exp}[on frame]
+		{must1}{exp}ì‚¬ìš´ë“œ{/exp}{string}
+		{must2}{exp}ì˜¤ë¸Œì íŠ¸ ì¸ë±ìŠ¤{/exp}{int(0:)}
+		{must3}{exp}í”„ë ˆì„ ë²ˆí˜¸{/exp}{int(0:)}
 	[!on frame]
 
-	{exp}´Ù¸¥¿ÀºêÁ§Æ®¿Í Ãæµ¹ ÇßÀ» ¶§{/exp}[on attack]
-		{must1}{exp}»ç¿îµå{/exp}{string}
-		{must2}{exp}¿ÀºêÁ§Æ® ÀÎµ¦½º{/exp}{int(0:)}
+	{exp}ë‹¤ë¥¸ì˜¤ë¸Œì íŠ¸ì™€ ì¶©ëŒ í–ˆì„ ë•Œ{/exp}[on attack]
+		{must1}{exp}ì‚¬ìš´ë“œ{/exp}{string}
+		{must2}{exp}ì˜¤ë¸Œì íŠ¸ ì¸ë±ìŠ¤{/exp}{int(0:)}
 	[!on attack]
 
-	{exp}¿ÀºêÁ§Æ®°¡ µ¥¹ÌÁö¸¦ ÀÔ¾úÀ» ¶§{/exp}[on damage]
-		{must1}{exp}»ç¿îµå{/exp}{string}
-		{must2}{exp}¿ÀºêÁ§Æ® ÀÎµ¦½º{/exp}{int(0:)}
+	{exp}ì˜¤ë¸Œì íŠ¸ê°€ ë°ë¯¸ì§€ë¥¼ ì…ì—ˆì„ ë•Œ{/exp}[on damage]
+		{must1}{exp}ì‚¬ìš´ë“œ{/exp}{string}
+		{must2}{exp}ì˜¤ë¸Œì íŠ¸ ì¸ë±ìŠ¤{/exp}{int(0:)}
 	[!on damage]
 
-	{exp}¿ÀºêÁ§Æ®°¡ ÆÄ±« µÇ¾úÀ» ¶§{/exp}[on destroyobject]
-		{must1}{exp}»ç¿îµå(loopÇÏÁö ¸»°Í){/exp}{string}
-		{must2}{exp}¿ÀºêÁ§Æ® ÀÎµ¦½º{/exp}{int(0:)}
+	{exp}ì˜¤ë¸Œì íŠ¸ê°€ íŒŒê´´ ë˜ì—ˆì„ ë•Œ{/exp}[on destroyobject]
+		{must1}{exp}ì‚¬ìš´ë“œ(loopí•˜ì§€ ë§ê²ƒ){/exp}{string}
+		{must2}{exp}ì˜¤ë¸Œì íŠ¸ ì¸ë±ìŠ¤{/exp}{int(0:)}
 	[!on destroyobject]
 [/sound category]
 
 [add object effect]
-	{exp}layer ÆÄÀÏ ÀÌ¸§{/exp}{string}
-		{must1}{exp}ºÙÀÌ´Â ¼ø¼­{/exp}{int(0:)}
+	{exp}layer íŒŒì¼ ì´ë¦„{/exp}{string}
+		{must1}{exp}ë¶™ì´ëŠ” ìˆœì„œ{/exp}{int(0:)}
 	{!string}
 [/add object effect]
 
 [add particles]
 	[particle]
-		{must1}{exp}ÆÄÆ¼Å¬ ½ºÅ©¸³Æ® À§Ä¡{/exp}[file]
+		{must1}{exp}íŒŒí‹°í´ ìŠ¤í¬ë¦½íŠ¸ ìœ„ì¹˜{/exp}[file]
 			{must1}{string}
 		[!file]
 
-		{exp}ÆĞ½Ãºê ¿ÀºêÁ§Æ® »ı¼ºÈÄ ÆÄÆ¼Å¬ ÀÌÆåÆ®°¡ ³ª¿À±â±îÁö µô·¹ÀÌ{/exp}[create delay]
-			{must1}{exp}µô·¹ÀÌ °ª{/exp}{int(0:)}
+		{exp}íŒ¨ì‹œë¸Œ ì˜¤ë¸Œì íŠ¸ ìƒì„±í›„ íŒŒí‹°í´ ì´í™íŠ¸ê°€ ë‚˜ì˜¤ê¸°ê¹Œì§€ ë”œë ˆì´{/exp}[create delay]
+			{must1}{exp}ë”œë ˆì´ ê°’{/exp}{int(0:)}
 		[!create delay]
 
 		[create sound]
-			{must1}{exp}ÆÄÆ¼Å¬ »ı¼º½Ã Ãâ·ÂÇÒ »ç¿îµå(·çÇÁ Áö¿ø ¾ÈÇÔ){/exp}{string}
+			{must1}{exp}íŒŒí‹°í´ ìƒì„±ì‹œ ì¶œë ¥í•  ì‚¬ìš´ë“œ(ë£¨í”„ ì§€ì› ì•ˆí•¨){/exp}{string}
 		[!create sound]
 
-		{exp}ÆÄÆ¼Å¬ÀÇ »ı¼ºÀ§Ä¡¸¦ ÆĞ½Ãºê ¿ÀºêÁ§Æ®¿¡¼­ Æ¯Á¤À§Ä¡ ¸¸Å­ ¶³¾îÁø À§Ä¡·Î º¯°æ{/exp}[follow parent]
+		{exp}íŒŒí‹°í´ì˜ ìƒì„±ìœ„ì¹˜ë¥¼ íŒ¨ì‹œë¸Œ ì˜¤ë¸Œì íŠ¸ì—ì„œ íŠ¹ì •ìœ„ì¹˜ ë§Œí¼ ë–¨ì–´ì§„ ìœ„ì¹˜ë¡œ ë³€ê²½{/exp}[follow parent]
 			{must1}{exp}X{/exp}{int(:)}
 			{must2}{exp}Y{/exp}{int(:)}
 			{must3}{exp}Z{/exp}{int(:)}
@@ -253,126 +253,126 @@
 
 [object destroy condition]
 	[destroy condition]
-		{must1}{exp}¾Ö´Ï¸ŞÀÌ¼Ç Á¾·á ÈÄ ¿ÀºêÁ§Æ® »èÁ¦{/exp}[on end of animation]
-		{must1}{exp}¶¥¿¡ ´ê¾ÒÀ» ¶§ ¿ÀºêÁ§Æ® »èÁ¦{/exp}[z pos equal zero]
-		{must1}{exp}½Ã°£ Áö³­ ÈÄ »èÁ¦{/exp}[time limite]
+		{must1}{exp}ì• ë‹ˆë©”ì´ì…˜ ì¢…ë£Œ í›„ ì˜¤ë¸Œì íŠ¸ ì‚­ì œ{/exp}[on end of animation]
+		{must1}{exp}ë•…ì— ë‹¿ì•˜ì„ ë•Œ ì˜¤ë¸Œì íŠ¸ ì‚­ì œ{/exp}[z pos equal zero]
+		{must1}{exp}ì‹œê°„ ì§€ë‚œ í›„ ì‚­ì œ{/exp}[time limite]
 		{must1}[not destroy and z pos equal zero]
-		{prereq}[time limite]{/prereq}{must2}{exp}½Ã°£{/exp}{int(0:)}
+		{prereq}[time limite]{/prereq}{must2}{exp}ì‹œê°„{/exp}{int(0:)}
 	[!destroy condition]
 
 	[destroy action]
-		{must1}{exp}ÀÚ½Å ÆÄ±«{/exp}[only destroy]
-		{must1}{exp}ÀÚ½Å ÆÄ±« ÈÄ ´Ù¸¥ ¿ÀºêÁ§Æ® »ı¼º{/exp}[object create after destroy]
+		{must1}{exp}ìì‹  íŒŒê´´{/exp}[only destroy]
+		{must1}{exp}ìì‹  íŒŒê´´ í›„ ë‹¤ë¥¸ ì˜¤ë¸Œì íŠ¸ ìƒì„±{/exp}[object create after destroy]
 	[!destroy action]
 
 	[on attack]
-		{must1}{exp}ÀÚ½Å ÆÄ±«{/exp}[only destroy]
-		{must1}{exp}ÀÚ½Å ÆÄ±« ÈÄ ´Ù¸¥ ¿ÀºêÁ§Æ® »ı¼º{/exp}[object create after destroy]
+		{must1}{exp}ìì‹  íŒŒê´´{/exp}[only destroy]
+		{must1}{exp}ìì‹  íŒŒê´´ í›„ ë‹¤ë¥¸ ì˜¤ë¸Œì íŠ¸ ìƒì„±{/exp}[object create after destroy]
 	[!on attack]
 
-	{exp}»õ·Î »ı¼ºÇÒ ¿ÀºêÁ§Æ® ÀÎµ¦½º{/exp}[add object index]
+	{exp}ìƒˆë¡œ ìƒì„±í•  ì˜¤ë¸Œì íŠ¸ ì¸ë±ìŠ¤{/exp}[add object index]
 		{int(:)}
 		{!int(:)}
 	[/add object index]
 
-	{exp}»õ·Î »ı¼ºÇÒ ¿ÀºêÁ§Æ® ÀÎµ¦½º{/exp}[add object index on attack]
+	{exp}ìƒˆë¡œ ìƒì„±í•  ì˜¤ë¸Œì íŠ¸ ì¸ë±ìŠ¤{/exp}[add object index on attack]
 		{int(:)}
 		{!int(:)}
 	[/add object index on attack]	
 [/object destroy condition]
 
-{exp}1·Î ¼³Á¤ÇÏ°í ¹®¾Õ¿¡ ³õÀ¸¸é ¹®ÀÌ ¾È¿­¸².{/exp}[is blocking obj]
+{exp}1ë¡œ ì„¤ì •í•˜ê³  ë¬¸ì•ì— ë†“ìœ¼ë©´ ë¬¸ì´ ì•ˆì—´ë¦¼.{/exp}[is blocking obj]
 	{must1}{int(1:)}
 [!is blocking obj]
 
-{exp}1ÀÌ¸é ³­ÀÌµµ¿¡ µû¶ó hp º¯°æ{/exp}[is hp by difficulty]
+{exp}1ì´ë©´ ë‚œì´ë„ì— ë”°ë¼ hp ë³€ê²½{/exp}[is hp by difficulty]
 	{must1}{int(1:)}
 [!is hp by difficulty]
 
-{exp}1ÀÌ¸é hp°ÔÀÌÁö ±×¸°´Ù.{/exp}[hp gage]
+{exp}1ì´ë©´ hpê²Œì´ì§€ ê·¸ë¦°ë‹¤.{/exp}[hp gage]
 	{must1}{int(1:)}
 [!hp gage]
 
-{exp}È­¼Ó¼º ¹«±â·Î ÇÇ´Ï½Ã¸¦ ´çÇÒ °æ¿ì Ãâ·ÂÇÒ ÀÌÆåÆ® °æ·Î{/exp}[burning death path]
+{exp}í™”ì†ì„± ë¬´ê¸°ë¡œ í”¼ë‹ˆì‹œë¥¼ ë‹¹í•  ê²½ìš° ì¶œë ¥í•  ì´í™íŠ¸ ê²½ë¡œ{/exp}[burning death path]
 	{must1}{string}
 [!burning death path]
 
-{exp}ÇØ´ç ÀÎµ¦½º ¸÷µéÀÌ ¶§¸° °æ¿ì µ¥¹ÌÁö¸¦ ÀÔÀ½{/exp}[can beat index]
+{exp}í•´ë‹¹ ì¸ë±ìŠ¤ ëª¹ë“¤ì´ ë•Œë¦° ê²½ìš° ë°ë¯¸ì§€ë¥¼ ì…ìŒ{/exp}[can beat index]
 	{int(0:)}
 	{!int(0:)}
 [/can beat index]
 
-{exp}µ¿¿ªÇĞ Àû¿ë{/exp}[apply physics]
-	{must1}{exp}°­Ã¼ÀÇ ´ºÅÏ°ª(±âº» 1500N){/exp}{int(0:)}
+{exp}ë™ì—­í•™ ì ìš©{/exp}[apply physics]
+	{must1}{exp}ê°•ì²´ì˜ ë‰´í„´ê°’(ê¸°ë³¸ 1500N){/exp}{int(0:)}
 [!apply physics]
 
 [follow parent]
-	{must1}{exp}µé¾î°¡´Â ¹®¿¡¼­ ·£´ıÇÑ À§Ä¡{/exp}[from parent]
-	{must1}{exp}PARENT¿Í Á¤È®È÷ °ãÄ¡´Â ÀÚ¸®¿¡{/exp}[path gate]
-	{must1}{exp}PARENT¿ÍÀÇ »ó´ëÀû À§Ä¡¸¦ À¯Áö{/exp}[parent]
-	{must1}{exp}ÁÂÇ¥ À¯Áö{/exp}[keep position]
-	{must1}{exp}µû¶ó´Ù´ÏÁö ¾ÊÀ½(µğÆúÆ®){/exp}[none]
+	{must1}{exp}ë“¤ì–´ê°€ëŠ” ë¬¸ì—ì„œ ëœë¤í•œ ìœ„ì¹˜{/exp}[from parent]
+	{must1}{exp}PARENTì™€ ì •í™•íˆ ê²¹ì¹˜ëŠ” ìë¦¬ì—{/exp}[path gate]
+	{must1}{exp}PARENTì™€ì˜ ìƒëŒ€ì  ìœ„ì¹˜ë¥¼ ìœ ì§€{/exp}[parent]
+	{must1}{exp}ì¢Œí‘œ ìœ ì§€{/exp}[keep position]
+	{must1}{exp}ë”°ë¼ë‹¤ë‹ˆì§€ ì•ŠìŒ(ë””í´íŠ¸){/exp}[none]
 [!follow parent]
 
-{exp}¾Ç·ÉÀÇ ±¸¸§¿ë ¼ÓµµÁ¦¾î ÆĞ½Ãºê ¿ÀºêÁ§Æ®{/exp}[speed control passive objects]
+{exp}ì•…ë ¹ì˜ êµ¬ë¦„ìš© ì†ë„ì œì–´ íŒ¨ì‹œë¸Œ ì˜¤ë¸Œì íŠ¸{/exp}[speed control passive objects]
 	[passive object]
 		[index]
-			{must1}{exp}¼Óµµ¸¦ Á¦¾îÇÏ´Â ¿ÀºêÁ§Æ® ÀÎµ¦½º{/exp}{int(0:)}
+			{must1}{exp}ì†ë„ë¥¼ ì œì–´í•˜ëŠ” ì˜¤ë¸Œì íŠ¸ ì¸ë±ìŠ¤{/exp}{int(0:)}
 		[!index]
 
 		[speed]
-			{must1}{exp}¼Óµµ Áõ°¡{/exp}[up]
-			{must1}{exp}¼Óµµ °¨¼Ò{/exp}[down]
+			{must1}{exp}ì†ë„ ì¦ê°€{/exp}[up]
+			{must1}{exp}ì†ë„ ê°ì†Œ{/exp}[down]
 		[!speed]
 	[/passive object]
 [/speed control passive objects]
 
-{exp}ÆĞ½Ãºê ¿ÀºêÁ§Æ® Á¦³×·¹ÀÌÅÍ{/exp}[objects]
-	{exp}»ı¼ºÇÒ ¿ÀºêÁ§Æ® µî·Ï{/exp}[object]
-		{exp}ÆĞÅÏ¿¡ »ç¿ëÇÒ ¾ÆÀÌµğ{/exp}[id]
+{exp}íŒ¨ì‹œë¸Œ ì˜¤ë¸Œì íŠ¸ ì œë„¤ë ˆì´í„°{/exp}[objects]
+	{exp}ìƒì„±í•  ì˜¤ë¸Œì íŠ¸ ë“±ë¡{/exp}[object]
+		{exp}íŒ¨í„´ì— ì‚¬ìš©í•  ì•„ì´ë””{/exp}[id]
 			{must1}{int(0:)}
 		[!id]
 
-		{exp}»ı¼ºÇÒ ¿ÀºêÁ§Æ® ÀÎµ¦½º{/exp}[index]
-			{must1}{exp}ÀÎµ¦½º{/exp}{int(0:)}
+		{exp}ìƒì„±í•  ì˜¤ë¸Œì íŠ¸ ì¸ë±ìŠ¤{/exp}[index]
+			{must1}{exp}ì¸ë±ìŠ¤{/exp}{int(0:)}
 		[!index]
 
-		{exp}¿ÀºêÁ§Æ®°¡ »ı¼ºµÉ È®·ü{/exp}[probability]
-			{must1}{exp}È®·ü{/exp}{float(:)}
+		{exp}ì˜¤ë¸Œì íŠ¸ê°€ ìƒì„±ë  í™•ë¥ {/exp}[probability]
+			{must1}{exp}í™•ë¥ {/exp}{float(:)}
 		[!probability]
 
-		{exp}warning mark Ç¥½Ã ¿©ºÎ{/exp}[warning]
+		{exp}warning mark í‘œì‹œ ì—¬ë¶€{/exp}[warning]
 			{must1}{exp}`true` or 'false'{/exp}{string}
 		[!warning]
 	[/object] 
 [/objects]
 
-{exp}ÆĞÅÏµéÀ» Á¾·ùº°·Î ±â·Ï{/exp}[patterns]
-	{exp}ÆĞÅÏ ÁöÁ¤{/exp}[pattern]
-		{exp}ÆĞÅÏÀÇ °íÀ¯ÇÑ ÀÌ¸§{/exp}[name]
+{exp}íŒ¨í„´ë“¤ì„ ì¢…ë¥˜ë³„ë¡œ ê¸°ë¡{/exp}[patterns]
+	{exp}íŒ¨í„´ ì§€ì •{/exp}[pattern]
+		{exp}íŒ¨í„´ì˜ ê³ ìœ í•œ ì´ë¦„{/exp}[name]
 			{must1}{string}
 		[!name]
 
-		{exp}¿ÀºêÁ§Æ®°¡ »ı¼ºµÇ´Â ½Ã°£ ÁÖ±â{/exp}[interval]
-			{must1}{exp}ms ´ÜÀ§{/exp}{int(0:)}
+		{exp}ì˜¤ë¸Œì íŠ¸ê°€ ìƒì„±ë˜ëŠ” ì‹œê°„ ì£¼ê¸°{/exp}[interval]
+			{must1}{exp}ms ë‹¨ìœ„{/exp}{int(0:)}
 		[!interval]
 
-		{exp}ÇÑ ¹øÀÇ ÁÖ±â¿¡ »ı¼ºµÉ ÆĞÅÏÀÇ ´ÜÀ§ °³¼ö.{/exp}[columns]
-			{must1}{exp}°³¼ö.{/exp}{int(0:)}
+		{exp}í•œ ë²ˆì˜ ì£¼ê¸°ì— ìƒì„±ë  íŒ¨í„´ì˜ ë‹¨ìœ„ ê°œìˆ˜.{/exp}[columns]
+			{must1}{exp}ê°œìˆ˜.{/exp}{int(0:)}
 		[!columns]
-		{exp}ÆĞÅÏ µ¥ÀÌÅÍ¸¦ ÁöÁ¤{/exp}[data]
-			{exp}0Àº ºó °ø°£, 1Àº »ı¼ºÇÒ ÆĞ½Ãºê ¿ÀºêÁ§Æ®{/exp}{int(0:1)}
+		{exp}íŒ¨í„´ ë°ì´í„°ë¥¼ ì§€ì •{/exp}[data]
+			{exp}0ì€ ë¹ˆ ê³µê°„, 1ì€ ìƒì„±í•  íŒ¨ì‹œë¸Œ ì˜¤ë¸Œì íŠ¸{/exp}{int(0:1)}
 				{must1}{variableInt(0:1)}
 			{!int(0:1)}
 		[/data]
 	[/pattern]
 [/patterns]
 
-{exp}ÆĞÅÏµéÀÌ ³ª¿Ã ¼ø¼­¸¦ ÁöÁ¤{/exp}[sequences]
+{exp}íŒ¨í„´ë“¤ì´ ë‚˜ì˜¬ ìˆœì„œë¥¼ ì§€ì •{/exp}[sequences]
 
-	{exp}ÁöÁ¤ÇÑ ÆĞÅÏµéÀ» ¼øÂ÷ÀûÀ¸·Î »Ñ·ÁÁØ´Ù{/exp}[pattern]
-		{must1}{exp}ÆĞÅÏ ÀÌ¸§{/exp}{string}
-		{must2}{exp}ÆĞÅÏÀÌ Áö¼ÓµÉ ½Ã°£(ms ´ÜÀ§){/exp}{int(0:)}
+	{exp}ì§€ì •í•œ íŒ¨í„´ë“¤ì„ ìˆœì°¨ì ìœ¼ë¡œ ë¿Œë ¤ì¤€ë‹¤{/exp}[pattern]
+		{must1}{exp}íŒ¨í„´ ì´ë¦„{/exp}{string}
+		{must2}{exp}íŒ¨í„´ì´ ì§€ì†ë  ì‹œê°„(ms ë‹¨ìœ„){/exp}{int(0:)}
 	[!pattern][/pattern]
 [/sequences]
 
@@ -407,7 +407,7 @@
 
 [SNIPER TYPE]
 	[WAIT TIME],[INVOKE TIME],[INIT VELOCITY],[INVOKE CHECK TIME],[INVOKE DELAY TIME],[SHOT DISTANCE]
-		{must1}{exp}½Ã°£{/exp}{int(0:)}
+		{must1}{exp}ì‹œê°„{/exp}{int(0:)}
 	[!WAIT TIME],[!INVOKE TIME],[!INIT VELOCITY],[!INVOKE CHECK TIME],[!INVOKE DELAY TIME],[!SHOT DISTANCE]
 [/SNIPER TYPE]
 

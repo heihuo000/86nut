@@ -1,9 +1,9 @@
-//[name] `Å×½ºÆ® ¸ó½ºÅÍ Ä«µå`			
+//[name] `í…ŒìŠ¤íŠ¸ ëª¬ìŠ¤í„° ì¹´ë“œ`			
 //[name2] `Sample of monster cards`
 [explain]
-`ºÒÅ¸´Â ±×¶óÄ«¶ô`									// ¸ó½ºÅÍ Ãâ¸ô ´øÀü
+`ë¶ˆíƒ€ëŠ” ê·¸ë¼ì¹´ë½`									// ëª¬ìŠ¤í„° ì¶œëª° ë˜ì „
 [flavor text]
-`¹ö±×´Â ¸¸µéÁö ¾ÊÀ¸·Á Çß´Âµ¥... - ¹Ğ·¹´Ï¾ö ¸ŞÁö¼Ç`
+`ë²„ê·¸ëŠ” ë§Œë“¤ì§€ ì•Šìœ¼ë ¤ í–ˆëŠ”ë°... - ë°€ë ˆë‹ˆì—„ ë©”ì§€ì…˜`
 [grade] 3
 [attach type] `[free]`
 [weight] 10
@@ -15,26 +15,26 @@
 [field image] `Item/FieldImage.img` 23
 
 [stackable type] `[material]` 4
-[sub type] 1										// ¸ó½ºÅÍ Ä«µåÀÓÀ» ³ªÅ¸³¿!!
+[sub type] 1										// ëª¬ìŠ¤í„° ì¹´ë“œì„ì„ ë‚˜íƒ€ëƒ„!!
 [price] 120
 
 [move wav] `BONE_TOUCH`
 
 [string data]
-`Interface/MonsterCard/cut_cardimage.img`	// ¸ó½ºÅÍ Ä«µå ÀÌ¹ÌÁöÆÑ
-`[weapon]`					// ÀÎÃ¾Æ® ´ë»ó (Àåºñ ºÎÀ§)
-`[foil]` 					// Æ÷ÀÏ
-`[unlimited challenge]`				// ÀÌº¥Æ®¸íÄª
+`Interface/MonsterCard/cut_cardimage.img`	// ëª¬ìŠ¤í„° ì¹´ë“œ ì´ë¯¸ì§€íŒ©
+`[weapon]`					// ì¸ì²¸íŠ¸ ëŒ€ìƒ (ì¥ë¹„ ë¶€ìœ„)
+`[foil]` 					// í¬ì¼
+`[unlimited challenge]`				// ì´ë²¤íŠ¸ëª…ì¹­
 [/string data]
 
 [int data]
-1				// ¸ó½ºÅÍ Ä«µå ÀÌ¹ÌÁö ÀÎµ¦½º
-3000			// ¸ó½ºÅÍ ÀÎµ¦½º
+1				// ëª¬ìŠ¤í„° ì¹´ë“œ ì´ë¯¸ì§€ ì¸ë±ìŠ¤
+3000			// ëª¬ìŠ¤í„° ì¸ë±ìŠ¤
 [/int data]
 
 [enchant]
-	// º¯È­ ´É·ÂÄ¡µé. º¯È­·®ÀÌ 0ÀÎ °ÍÀº ÀûÁö ¾Ê¾Æµµ µÈ´Ù. //
-	[HP MAX] +10				// ¾ÕÀÇ + ±âÈ£´Â »ı·«ÇØµµ µÊ
+	// ë³€í™” ëŠ¥ë ¥ì¹˜ë“¤. ë³€í™”ëŸ‰ì´ 0ì¸ ê²ƒì€ ì ì§€ ì•Šì•„ë„ ëœë‹¤. //
+	[HP MAX] +10				// ì•ì˜ + ê¸°í˜¸ëŠ” ìƒëµí•´ë„ ë¨
 	[MP MAX] +27
 	[physical attack] +100
 	[physical defense] +10
@@ -44,12 +44,12 @@
 	[equipment physical defense] 25
 	[equipment magical attack] 100
 	[equipment magical defense] 38
-	[physical absolute damage] 100		// ¹°¸® Àı´ë µ¥¹ÌÁö
-	[physical damage reduce] 100		// ¹°¸® µ¥¹ÌÁö º¸Á¤
-	[physical absolute defense] 20.0	// ¹°¸® Àı´ë ¹æ¾î. %°ª
-	[magical absolute damage] 100		// ¸¶¹ı Àı´ë µ¥¹ÌÁö
-	[magical damage reduce] 100		// ¸¶¹ı µ¥¹ÌÁö º¸Á¤
-	[magical absolute defense] 20.0		// ¸¶¹ı Àı´ë ¹æ¾î. %°ª
+	[physical absolute damage] 100		// ë¬¼ë¦¬ ì ˆëŒ€ ë°ë¯¸ì§€
+	[physical damage reduce] 100		// ë¬¼ë¦¬ ë°ë¯¸ì§€ ë³´ì •
+	[physical absolute defense] 20.0	// ë¬¼ë¦¬ ì ˆëŒ€ ë°©ì–´. %ê°’
+	[magical absolute damage] 100		// ë§ˆë²• ì ˆëŒ€ ë°ë¯¸ì§€
+	[magical damage reduce] 100		// ë§ˆë²• ë°ë¯¸ì§€ ë³´ì •
+	[magical absolute defense] 20.0		// ë§ˆë²• ì ˆëŒ€ ë°©ì–´. %ê°’
 
 	[fire resistance] +17
 	[water resistance] +3
@@ -74,55 +74,55 @@
 	[all activestatus resistance] +2
 
 	[piercing resistance] 12
-	[stuck resistance] 33 // (0.1% ´ÜÀ§)
+	[stuck resistance] 33 // (0.1% ë‹¨ìœ„)
 
 	[inventory limit] +30
 	[HP regen speed] +2
 	[MP regen speed] -2
-	[MP regen speed rate] 0.1	// %Áõ°¡ (ÀÓ½Ã ¿¹¿Ü Ã³¸®)
+	[MP regen speed rate] 0.1	// %ì¦ê°€ (ì„ì‹œ ì˜ˆì™¸ ì²˜ë¦¬)
 	[move speed] +1
 	[attack speed] +2
 	[cast speed] +3
 	[hit recovery] +3
 	[jump power] +10
-	[room list move speed rate] +1.0	// ¸¶À»¿¡¼­ÀÇ ÀÌµ¿¼Óµµ ÁöÁ¤
+	[room list move speed rate] +1.0	// ë§ˆì„ì—ì„œì˜ ì´ë™ì†ë„ ì§€ì •
 
-	// °ø°İ º¸Á¤°ª : ¹«±â¿¡¸¸ È¿°ú°¡ ÀÖÀ½. ¾ø°Å³ª 0ÀÌ¸é ÀûÁö ¾Ê¾Æµµ µÊ //
-	[elemental property] `[dark element]`				// `[no element]` `[fire element]` `[water element]` `[dark element]` `[light element]` Áß ÅÃÀÏ. `[no element]`ÀÌ¸é ¾ÈÀû¾îµµ µÊ
-	[active status] `[curse]` 37.3 100	// Á¦ÀÏ ¾ÕÀº °ø°İ¿¡ ÀÇÇØ °É¸®´Â »óÅÂ ÀÌ»ó Á¾·ù.
+	// ê³µê²© ë³´ì •ê°’ : ë¬´ê¸°ì—ë§Œ íš¨ê³¼ê°€ ìˆìŒ. ì—†ê±°ë‚˜ 0ì´ë©´ ì ì§€ ì•Šì•„ë„ ë¨ //
+	[elemental property] `[dark element]`				// `[no element]` `[fire element]` `[water element]` `[dark element]` `[light element]` ì¤‘ íƒì¼. `[no element]`ì´ë©´ ì•ˆì ì–´ë„ ë¨
+	[active status] `[curse]` 37.3 100	// ì œì¼ ì•ì€ ê³µê²©ì— ì˜í•´ ê±¸ë¦¬ëŠ” ìƒíƒœ ì´ìƒ ì¢…ë¥˜.
 					// `[none]` `[slow]` `[freeze]` `[poison]` `[stun]` `[curse]` `[blind]`
 					// `[lightning]` `[stone]` `[sleep]` `[deelement]` `[deadlystrike]` `[bleeding]`
 					// `[haste]` `[bless]` `[element]`
-					// Áß ÅÃÀÏ (`[none]`ÀÌ¸é ¾ÈÀû¾îµµ µÊ)
-					// µÎ¹øÂ°´Â °É¸± È®·ü (`[none]`À» Àû¾úÀ¸¸é ¾Æ¹« °ªÀÌ³ª ÀûÀ» °Í)
-					// ¼¼¹øÂ°´Â °É¸± °­µµ (`[none]`À» Àû¾úÀ¸¸é ¾Æ¹« °ªÀÌ³ª ÀûÀ» °Í)
+					// ì¤‘ íƒì¼ (`[none]`ì´ë©´ ì•ˆì ì–´ë„ ë¨)
+					// ë‘ë²ˆì§¸ëŠ” ê±¸ë¦´ í™•ë¥  (`[none]`ì„ ì ì—ˆìœ¼ë©´ ì•„ë¬´ ê°’ì´ë‚˜ ì ì„ ê²ƒ)
+					// ì„¸ë²ˆì§¸ëŠ” ê±¸ë¦´ ê°•ë„ (`[none]`ì„ ì ì—ˆìœ¼ë©´ ì•„ë¬´ ê°’ì´ë‚˜ ì ì„ ê²ƒ)
 
 
 
 	[skill data up] `[fighter]` 12 `[static]` 2 1 200
-	// Á÷¾÷
-	// ½ºÅ³ ÀÎµ¦½º, 
-	// º¯°æÇÒ µ¥ÀÌÅÍ Å¸ÀÔ[static data, level info]
-	// µ¥ÀÌÅÍ ÀÎµ¦½º
-	// ¼öÄ¡Àû¿ë(0), ºñÀ²Àû¿ë%(1)
-	// ¼öÄ¡
+	// ì§ì—…
+	// ìŠ¤í‚¬ ì¸ë±ìŠ¤, 
+	// ë³€ê²½í•  ë°ì´í„° íƒ€ì…[static data, level info]
+	// ë°ì´í„° ì¸ë±ìŠ¤
+	// ìˆ˜ì¹˜ì ìš©(0), ë¹„ìœ¨ì ìš©%(1)
+	// ìˆ˜ì¹˜
 
 
 
 	[push aside] +10
 	[lift up] +27
-	[critical hit] +5.0		// Å©¸®Æ¼ÄÃ È÷Æ® È®·ü »ó½ÂÄ¡
-	[stuck] -1.0			// ½ºÅÎ ÇĞ·ü º¯È­Ä¡
+	[critical hit] +5.0		// í¬ë¦¬í‹°ì»¬ íˆíŠ¸ í™•ë¥  ìƒìŠ¹ì¹˜
+	[stuck] -1.0			// ìŠ¤í„± í•™ë¥  ë³€í™”ì¹˜
 	[ignore defense] 1
-	[human damage rate] +2.5	// »ì»ó ºñÀ² º¯È­Ä¡. %°ª
-	[fort damage rate] -31.2	// ÆÄ±« ºñÀ² º¯È­Ä¡. %°ª
-	[monster damage rate] 100.0	// ±«¼ö (¾Æ¸ÓÄ«Å×°í¸®°¡ 0°³ÀÎ ³à¼®µéÀ» À§ÇÑ) °ø°İ ºñÀ². ¼Ò¼öÁ¡ °¡´É, %°ª, 100ÀÌ ±âº»
+	[human damage rate] +2.5	// ì‚´ìƒ ë¹„ìœ¨ ë³€í™”ì¹˜. %ê°’
+	[fort damage rate] -31.2	// íŒŒê´´ ë¹„ìœ¨ ë³€í™”ì¹˜. %ê°’
+	[monster damage rate] 100.0	// ê´´ìˆ˜ (ì•„ë¨¸ì¹´í…Œê³ ë¦¬ê°€ 0ê°œì¸ ë…€ì„ë“¤ì„ ìœ„í•œ) ê³µê²© ë¹„ìœ¨. ì†Œìˆ˜ì  ê°€ëŠ¥, %ê°’, 100ì´ ê¸°ë³¸
 
 	[HP drain] 1
 	[MP drain] 1
 
-	[skill levelup]				// Àåºñ¸¦ ÀåÂøÇÏ¸é ¿Ã¶ó°¡´Â ½ºÅ³°ú ·¹º§ ·¹½ºÆ®.
-	`[swordman]` 10 1				// Á÷¾÷ (`[swordman]` `[fighter]` `[common]`) ½ºÅ³ÀÎµ¦½º ·¹º§
+	[skill levelup]				// ì¥ë¹„ë¥¼ ì¥ì°©í•˜ë©´ ì˜¬ë¼ê°€ëŠ” ìŠ¤í‚¬ê³¼ ë ˆë²¨ ë ˆìŠ¤íŠ¸.
+	`[swordman]` 10 1				// ì§ì—… (`[swordman]` `[fighter]` `[common]`) ìŠ¤í‚¬ì¸ë±ìŠ¤ ë ˆë²¨
 	`[fighter]` 1 33
 	[/skill levelup]
 [/enchant]

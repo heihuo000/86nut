@@ -1,6 +1,6 @@
-[name] `Ã­ÇÁÀÇ ¾Ë`
+[name] `ì± í”„ì˜ ì•Œ`
 [name2] `An Egg of Charp`
-[creature species] 7		// Á¾Á·¸í ÀÎµ¦½º
+[creature species] 7		// ì¢…ì¡±ëª… ì¸ë±ìŠ¤
 [grade] 1
 [attach type] `[free]`
 [creation rate] 0
@@ -14,36 +14,36 @@
 [field image] `Item/FieldImage.img` 6
 
 [equipment type] `[creature]` 10
-[sub type] 1			// 0 : Å©¸®ÃÄ, 1 : ¾Ë, 2 : Ä¸½¶
+[sub type] 1			// 0 : í¬ë¦¬ì³, 1 : ì•Œ, 2 : ìº¡ìŠ
 [price] 100
 [cool time] 10000
 
-[creature minimum level] 10			//»ç¿ëÇÏ±â À§ÇÑ Å©¸®ÃÄ ÃÖ¼Ò ·¹º§
+[creature minimum level] 10			//ì‚¬ìš©í•˜ê¸° ìœ„í•œ í¬ë¦¬ì³ ìµœì†Œ ë ˆë²¨
 
-[creature physical attack] 10			// Å©¸®ÃÄ ¹°¸® °ø°İ·Â
-[creature magical attack] 10			// Å©¸®ÃÄ ¸¶¹ı °ø°İ·Â
-[creature skill consume mp rate] -10.00		// Å©¸®ÃÄ ½ºÅ³ ¼Ò¸ğMP ºñÀ²(%)
-[creature skill charge time rate] -10.00	// Å©¸®ÃÄ Â÷Áö Å¸ÀÓ ºñÀ²(%)
-[creature skill over charge time rate] -10.00	// Å©¸®ÃÄ ¿À¹ö Â÷Áö Å¸ÀÓ ºñÀ²(%)
-[creature experience amount rate] 10.00		// Å©¸®ÃÄ °æÇèÄ¡ È¹µæ·® ºñÀ²(%)
-[creature physical critical hit] 5.0		// Å©¸®ÃÄ ¹°¸® Å©¸®Æ¼ÄÃ È÷Æ®
-[creature magical critical hit] 5.0		// Å©¸®ÃÄ ¸¶¹ı Å©¸®Æ¼ÄÃ È÷Æ®
-[creature stuck] -3.0				// Å©¸®ÃÄ ½ºÅÎ·ü
+[creature physical attack] 10			// í¬ë¦¬ì³ ë¬¼ë¦¬ ê³µê²©ë ¥
+[creature magical attack] 10			// í¬ë¦¬ì³ ë§ˆë²• ê³µê²©ë ¥
+[creature skill consume mp rate] -10.00		// í¬ë¦¬ì³ ìŠ¤í‚¬ ì†Œëª¨MP ë¹„ìœ¨(%)
+[creature skill charge time rate] -10.00	// í¬ë¦¬ì³ ì°¨ì§€ íƒ€ì„ ë¹„ìœ¨(%)
+[creature skill over charge time rate] -10.00	// í¬ë¦¬ì³ ì˜¤ë²„ ì°¨ì§€ íƒ€ì„ ë¹„ìœ¨(%)
+[creature experience amount rate] 10.00		// í¬ë¦¬ì³ ê²½í—˜ì¹˜ íšë“ëŸ‰ ë¹„ìœ¨(%)
+[creature physical critical hit] 5.0		// í¬ë¦¬ì³ ë¬¼ë¦¬ í¬ë¦¬í‹°ì»¬ íˆíŠ¸
+[creature magical critical hit] 5.0		// í¬ë¦¬ì³ ë§ˆë²• í¬ë¦¬í‹°ì»¬ íˆíŠ¸
+[creature stuck] -3.0				// í¬ë¦¬ì³ ìŠ¤í„±ë¥ 
 
-[MP MAX rate] 30.0		// ÀåÂø½Ã MP ÃÖ´ëÄ¡ Áõ°¡ºñÀ²(%)
+[MP MAX rate] 30.0		// ì¥ì°©ì‹œ MP ìµœëŒ€ì¹˜ ì¦ê°€ë¹„ìœ¨(%)
 
 [move wav] `NECKLACE_TOUCH`
 
 [set item master] -1
 
-[hatch item id] 63003		// Å©¸®ÃÄ ¾Ë¿¡¼­ ºÎÈ­½Ã »ı¼ºµÉ Å©¸®ÃÄ ÀÎµ¦½º
+[hatch item id] 63003		// í¬ë¦¬ì³ ì•Œì—ì„œ ë¶€í™”ì‹œ ìƒì„±ë  í¬ë¦¬ì³ ì¸ë±ìŠ¤
 
 [int data]
-63006	1000			// Å©¸®ÃÄ Ä¸½¶¿¡¼­ ³ª¿Ã Å©¸®ÃÄ ¾Ë ÀÎµ¦½º¿Í »ó´ë È®·ü
+63006	1000			// í¬ë¦¬ì³ ìº¡ìŠì—ì„œ ë‚˜ì˜¬ í¬ë¦¬ì³ ì•Œ ì¸ë±ìŠ¤ì™€ ìƒëŒ€ í™•ë¥ 
 63007	1000
 
-300				// ¸¸º¹µµ Ç®ÀÏ¶§ ¹öÇÁÅ¸ÀÓ ½Ã°£ (sec)
--20				// ¹öÇÁ½Ã Å©¸®ÃÄ Â÷Áö Å¸ÀÓ ºñÀ² (%, ¿À¹öÅ¸ÀÓ Æ÷ÇÔ)
-30 				// ¸ÔÀÌ »ç¿ë½Ã ¸¸º¹µµ Áõ°¡·®
+300				// ë§Œë³µë„ í’€ì¼ë•Œ ë²„í”„íƒ€ì„ ì‹œê°„ (sec)
+-20				// ë²„í”„ì‹œ í¬ë¦¬ì³ ì°¨ì§€ íƒ€ì„ ë¹„ìœ¨ (%, ì˜¤ë²„íƒ€ì„ í¬í•¨)
+30 				// ë¨¹ì´ ì‚¬ìš©ì‹œ ë§Œë³µë„ ì¦ê°€ëŸ‰
 [/int data]
 

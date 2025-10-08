@@ -1,10 +1,10 @@
-// Ä³¸¯ÅÍ ½ºÅ©¸³Æ® ÆÄÀÏ »ùÇÃ //
+// ìºë¦­í„° ìŠ¤í¬ë¦½íŠ¸ íŒŒì¼ ìƒ˜í”Œ //
 
-[job] `[swordman]`		// `[swordman]` `[fighter]` Áß ÅÃÀÏ
-[growtype name] `±âº»` `¼ºÀå1°Ë»ç` `¼ºÀå2°Ë»ç` `¼ºÀå3°Ë»ç` // °¢ ¼ºÀåÇüº° ¼ºÀåÇü ÀÌ¸§
-[width] 40 10		// ¼ø¼­´ë·Î XÃà, YÃà Æø (ÇÈ¼¿°ª)
+[job] `[swordman]`		// `[swordman]` `[fighter]` ì¤‘ íƒì¼
+[growtype name] `ê¸°ë³¸` `ì„±ì¥1ê²€ì‚¬` `ì„±ì¥2ê²€ì‚¬` `ì„±ì¥3ê²€ì‚¬` // ê° ì„±ì¥í˜•ë³„ ì„±ì¥í˜• ì´ë¦„
+[width] 40 10		// ìˆœì„œëŒ€ë¡œ Xì¶•, Yì¶• í­ (í”½ì…€ê°’)
 
-[initial value]		// ÀÌ Ç¥½Ã ÀÌÈÄÀÇ °ªµéÀº ÃÊ±â »ı¼º½ÃÀÇ ´É·ÂÄ¡. ¼Ò¼öÁ¡ Ã¹Â° ÀÚ¸®±îÁö ÀÔ·Â °¡´É
+[initial value]		// ì´ í‘œì‹œ ì´í›„ì˜ ê°’ë“¤ì€ ì´ˆê¸° ìƒì„±ì‹œì˜ ëŠ¥ë ¥ì¹˜. ì†Œìˆ˜ì  ì²«ì§¸ ìë¦¬ê¹Œì§€ ì…ë ¥ ê°€ëŠ¥
 [HP MAX] 1000
 [MP MAX] 2000
 [physical attack] 100.5
@@ -12,13 +12,13 @@
 [magical attack] 110
 [magical defense] 130.7
 
-// ¿ø¼Ò ¼Ó¼º. 0ÀÌ¸é ÀûÁö ¾Ê¾Æµµ µÈ´Ù. //
+// ì›ì†Œ ì†ì„±. 0ì´ë©´ ì ì§€ ì•Šì•„ë„ ëœë‹¤. //
 [fire resistance] 99.2
 [water resistance] 30.3
 [dark resistance] -20
 [light resistance] -30
 
-// Æ¯¼ö ¼Ó¼º. 0ÀÌ¸é ÀûÁö ¾Ê¾Æµµ µÈ´Ù. //
+// íŠ¹ìˆ˜ ì†ì„±. 0ì´ë©´ ì ì§€ ì•Šì•„ë„ ëœë‹¤. //
 [slow resistance] 18
 [freeze resistance] 39
 [poison resistance] 11
@@ -32,41 +32,41 @@
 [deadlystrike resistance] 2
 [bleeding resistance] 32.3
 [piercing resistance] 12
-[stuck resistance] 11	// 0.1% ´ÜÀ§
+[stuck resistance] 11	// 0.1% ë‹¨ìœ„
 [confuse resistance] 10
 [hold resistance] 10
 
-[inventory limit] 3000	// (´ÜÀ§ : 10g)
+[inventory limit] 3000	// (ë‹¨ìœ„ : 10g)
 
 [HP regen speed] 0
 [MP regen speed] 1000
 
-[move speed] 1000	// 1000ÀÌ Ç¥ÁØÀÎ °ªµé
+[move speed] 1000	// 1000ì´ í‘œì¤€ì¸ ê°’ë“¤
 [attack speed] 1000
 [cast speed] 1000
 [hit recovery] 0
 [jump power] 1000
-[weight] 6000		// (´ÜÀ§ : 10g)
+[weight] 6000		// (ë‹¨ìœ„ : 10g)
 
-[skill]			// ÃÊ±â ºÎ¿© ½ºÅ³ ¸ñ·Ï
-3 1			// ½ºÅ³ ÀÎµ¦½º, ·¹º§
+[skill]			// ì´ˆê¸° ë¶€ì—¬ ìŠ¤í‚¬ ëª©ë¡
+3 1			// ìŠ¤í‚¬ ì¸ë±ìŠ¤, ë ˆë²¨
 22 1
 27 1
 [/skill]
 
-[category]		// ¼Ò¼Ó Ä«Å×°í¸®ÀÇ ¸®½ºÆ®
+[category]		// ì†Œì† ì¹´í…Œê³ ë¦¬ì˜ ë¦¬ìŠ¤íŠ¸
 `[human]`
 [/category]
-// Ä«Å×°í¸® ¸ñ·Ï
-// Á¾Á· : `[human]``[beast]``[plant]``[insect]``[machine]``[hybrid]``[undead]``[devil]``[spirit]``[dragon]`
+// ì¹´í…Œê³ ë¦¬ ëª©ë¡
+// ì¢…ì¡± : `[human]``[beast]``[plant]``[insect]``[machine]``[hybrid]``[undead]``[devil]``[spirit]``[dragon]`
 // AI : `[melee combat]``[range combat]``[close-passive]``[close-carefully]``[close-tough]``[close-manace]`
-// ¾Æ¸Ó : `[human armor]``[fort armor]``[divine armor]`
-// ±âÅ¸ : `[goblin]``[tau]``[lugaru]`
+// ì•„ë¨¸ : `[human armor]``[fort armor]``[divine armor]`
+// ê¸°íƒ€ : `[goblin]``[tau]``[lugaru]`
 
-[module damage rate] 1.0 1.0 1.0	// PVP, Àï¿ª, Ä«¿À½º¿¡¼­ÀÇ µ¥¹ÌÁö ºñÀ²
-					// ÀüÁ÷ ÈÄ °ª¿¡¼­ ÀüÁ÷ Àü °ªÀ» ±×´ë·Î ¾µ·Á¸é ÅÂ±×¸¦ ¾È¾²°Å³ª 0.0À» ½áÁØ´Ù.
+[module damage rate] 1.0 1.0 1.0	// PVP, ìŸì—­, ì¹´ì˜¤ìŠ¤ì—ì„œì˜ ë°ë¯¸ì§€ ë¹„ìœ¨
+					// ì „ì§ í›„ ê°’ì—ì„œ ì „ì§ ì „ ê°’ì„ ê·¸ëŒ€ë¡œ ì“¸ë ¤ë©´ íƒœê·¸ë¥¼ ì•ˆì“°ê±°ë‚˜ 0.0ì„ ì¨ì¤€ë‹¤.
 
-[growtype 1]		// ÀÌÈÄÀÇ °ªµéÀº ÀüÁ÷ Àü ´É·ÂÄ¡ »ó½ÂÄ¡
+[growtype 1]		// ì´í›„ì˜ ê°’ë“¤ì€ ì „ì§ ì „ ëŠ¥ë ¥ì¹˜ ìƒìŠ¹ì¹˜
 [HP MAX] 10
 [MP MAX] 20
 [physical attack] 1
@@ -74,13 +74,13 @@
 [magical attack] 1
 [magical defense] 10
 
-// ¿ø¼Ò ¼Ó¼º. 0ÀÌ¸é ÀûÁö ¾Ê¾Æµµ µÈ´Ù. //
+// ì›ì†Œ ì†ì„±. 0ì´ë©´ ì ì§€ ì•Šì•„ë„ ëœë‹¤. //
 [fire resistance] 1
 [water resistance] 2
 [dark resistance] 3
 [light resistance] 0
 
-// Æ¯¼ö ¼Ó¼º. 0ÀÌ¸é ÀûÁö ¾Ê¾Æµµ µÈ´Ù. //
+// íŠ¹ìˆ˜ ì†ì„±. 0ì´ë©´ ì ì§€ ì•Šì•„ë„ ëœë‹¤. //
 [slow resistance] 18
 [freeze resistance] 39
 [poison resistance] 11
@@ -97,7 +97,7 @@
 
 [inventory limit] 1
 
-// ºñ°ø°³ Á¤º¸µé. //
+// ë¹„ê³µê°œ ì •ë³´ë“¤. //
 [HP regen speed] 0
 [MP regen speed] 2
 [move speed] 3
@@ -107,7 +107,7 @@
 [jump power] 0
 [weight] 2
 
-[growtype 2]		// ÀÌÈÄÀÇ °ªµéÀº Ã¹ ÀüÁ÷À¸·Î ÀüÁ÷½Ã ÆÄ¶ó¸ŞÅÍ
+[growtype 2]		// ì´í›„ì˜ ê°’ë“¤ì€ ì²« ì „ì§ìœ¼ë¡œ ì „ì§ì‹œ íŒŒë¼ë©”í„°
 [HP MAX] 20
 [MP MAX] 30
 [physical attack] 1
@@ -115,13 +115,13 @@
 [magical attack] 1
 [magical defense] 10
 
-// ¿ø¼Ò ¼Ó¼º. 0ÀÌ¸é ÀûÁö ¾Ê¾Æµµ µÈ´Ù. //
+// ì›ì†Œ ì†ì„±. 0ì´ë©´ ì ì§€ ì•Šì•„ë„ ëœë‹¤. //
 [fire resistance] 1
 [water resistance] 2
 [dark resistance] 3
 [light resistance] 0
 
-// Æ¯¼ö ¼Ó¼º. 0ÀÌ¸é ÀûÁö ¾Ê¾Æµµ µÈ´Ù. //
+// íŠ¹ìˆ˜ ì†ì„±. 0ì´ë©´ ì ì§€ ì•Šì•„ë„ ëœë‹¤. //
 [slow resistance] 18
 [freeze resistance] 39
 [poison resistance] 11
@@ -138,7 +138,7 @@
 
 [inventory limit] 1
 
-// ºñ°ø°³ Á¤º¸µé. //
+// ë¹„ê³µê°œ ì •ë³´ë“¤. //
 [HP regen speed] 0
 [MP regen speed] 2
 [move speed] 3
@@ -148,20 +148,20 @@
 [jump power] 0
 [weight] 2
 
-[skill]			// ÀüÁ÷½Ã ºÎ¿©ÇÒ ½ºÅ³
-34 1			// ½ºÅ³ ÀÎµ¦½º, ·¹º§
+[skill]			// ì „ì§ì‹œ ë¶€ì—¬í•  ìŠ¤í‚¬
+34 1			// ìŠ¤í‚¬ ì¸ë±ìŠ¤, ë ˆë²¨
 123 1
 127 1
 [/skill]
 
-[category]	// ÀüÁ÷½Ã È¹µæÇÒ ¾Æ¸Ó. initial valueÀÇ °Í°ú °ãÄ¡¸é ¾ÈµÈ´Ù.
+[category]	// ì „ì§ì‹œ íšë“í•  ì•„ë¨¸. initial valueì˜ ê²ƒê³¼ ê²¹ì¹˜ë©´ ì•ˆëœë‹¤.
 `[armor]`
 [/category]
-[module damage rate] 1.0 0.3 0.0	// PVP, Àï¿ª, Ä«¿À½º¿¡¼­ÀÇ µ¥¹ÌÁö ºñÀ²
-					// ÀüÁ÷ ÈÄ °ª¿¡¼­ ÀüÁ÷ Àü °ªÀ» ±×´ë·Î ¾µ·Á¸é ÅÂ±×¸¦ ¾È¾²°Å³ª 0.0À» ½áÁØ´Ù.
+[module damage rate] 1.0 0.3 0.0	// PVP, ìŸì—­, ì¹´ì˜¤ìŠ¤ì—ì„œì˜ ë°ë¯¸ì§€ ë¹„ìœ¨
+					// ì „ì§ í›„ ê°’ì—ì„œ ì „ì§ ì „ ê°’ì„ ê·¸ëŒ€ë¡œ ì“¸ë ¤ë©´ íƒœê·¸ë¥¼ ì•ˆì“°ê±°ë‚˜ 0.0ì„ ì¨ì¤€ë‹¤.
 
 
-[growtype 3]		// ÀÌÈÄÀÇ °ªµéÀº µÎ¹øÂ° ÀüÁ÷À¸·Î ÀüÁ÷½Ã ÆÄ¶ó¸ŞÅÍ
+[growtype 3]		// ì´í›„ì˜ ê°’ë“¤ì€ ë‘ë²ˆì§¸ ì „ì§ìœ¼ë¡œ ì „ì§ì‹œ íŒŒë¼ë©”í„°
 [HP MAX] 30
 [MP MAX] 40
 [physical attack] 1
@@ -169,13 +169,13 @@
 [magical attack] 1
 [magical defense] 10
 
-// ¿ø¼Ò ¼Ó¼º. 0ÀÌ¸é ÀûÁö ¾Ê¾Æµµ µÈ´Ù. //
+// ì›ì†Œ ì†ì„±. 0ì´ë©´ ì ì§€ ì•Šì•„ë„ ëœë‹¤. //
 [fire resistance] 1
 [water resistance] 2
 [dark resistance] 3
 [light resistance] 0
 
-// Æ¯¼ö ¼Ó¼º. 0ÀÌ¸é ÀûÁö ¾Ê¾Æµµ µÈ´Ù. //
+// íŠ¹ìˆ˜ ì†ì„±. 0ì´ë©´ ì ì§€ ì•Šì•„ë„ ëœë‹¤. //
 [slow resistance] 18
 [freeze resistance] 39
 [poison resistance] 11
@@ -192,7 +192,7 @@
 
 [inventory limit] 1
 
-// ºñ°ø°³ Á¤º¸µé. //
+// ë¹„ê³µê°œ ì •ë³´ë“¤. //
 [HP regen speed] 0
 [MP regen speed] 2
 [move speed] 3
@@ -203,7 +203,7 @@
 [weight] 2
 
 
-[growtype 4]		// ÀÌÈÄÀÇ °ªµéÀº ¼¼¹øÂ° ÀüÁ÷À¸·Î ÀüÁ÷½Ã ÆÄ¶ó¸ŞÅÍ
+[growtype 4]		// ì´í›„ì˜ ê°’ë“¤ì€ ì„¸ë²ˆì§¸ ì „ì§ìœ¼ë¡œ ì „ì§ì‹œ íŒŒë¼ë©”í„°
 [HP MAX] 40
 [MP MAX] 50
 [physical attack] 1
@@ -211,13 +211,13 @@
 [magical attack] 1
 [magical defense] 10
 
-// ¿ø¼Ò ¼Ó¼º. 0ÀÌ¸é ÀûÁö ¾Ê¾Æµµ µÈ´Ù. //
+// ì›ì†Œ ì†ì„±. 0ì´ë©´ ì ì§€ ì•Šì•„ë„ ëœë‹¤. //
 [fire resistance] 1
 [water resistance] 2
 [dark resistance] 3
 [light resistance] 0
 
-// Æ¯¼ö ¼Ó¼º. 0ÀÌ¸é ÀûÁö ¾Ê¾Æµµ µÈ´Ù. //
+// íŠ¹ìˆ˜ ì†ì„±. 0ì´ë©´ ì ì§€ ì•Šì•„ë„ ëœë‹¤. //
 [slow resistance] 18
 [freeze resistance] 39
 [poison resistance] 11
@@ -234,7 +234,7 @@
 
 [inventory limit] 1
 
-// ºñ°ø°³ Á¤º¸µé. //
+// ë¹„ê³µê°œ ì •ë³´ë“¤. //
 [MP regen speed] 2
 [move speed] 3
 [attack speed] 15
@@ -243,7 +243,7 @@
 [jump power] 0
 [weight] 2
 
-[growtype 5]		// ÀÌÈÄÀÇ °ªµéÀº ³×¹øÂ° ÀüÁ÷À¸·Î ÀüÁ÷½Ã ÆÄ¶ó¸ŞÅÍ
+[growtype 5]		// ì´í›„ì˜ ê°’ë“¤ì€ ë„¤ë²ˆì§¸ ì „ì§ìœ¼ë¡œ ì „ì§ì‹œ íŒŒë¼ë©”í„°
 [HP MAX] 40
 [MP MAX] 50
 [physical attack] 1
@@ -251,13 +251,13 @@
 [magical attack] 1
 [magical defense] 10
 
-// ¿ø¼Ò ¼Ó¼º. 0ÀÌ¸é ÀûÁö ¾Ê¾Æµµ µÈ´Ù. //
+// ì›ì†Œ ì†ì„±. 0ì´ë©´ ì ì§€ ì•Šì•„ë„ ëœë‹¤. //
 [fire resistance] 1
 [water resistance] 2
 [dark resistance] 3
 [light resistance] 0
 
-// Æ¯¼ö ¼Ó¼º. 0ÀÌ¸é ÀûÁö ¾Ê¾Æµµ µÈ´Ù. //
+// íŠ¹ìˆ˜ ì†ì„±. 0ì´ë©´ ì ì§€ ì•Šì•„ë„ ëœë‹¤. //
 [slow resistance] 18
 [freeze resistance] 39
 [poison resistance] 11
@@ -274,7 +274,7 @@
 
 [inventory limit] 1
 
-// ºñ°ø°³ Á¤º¸µé. //
+// ë¹„ê³µê°œ ì •ë³´ë“¤. //
 [MP regen speed] 2
 [move speed] 3
 [attack speed] 15
@@ -284,70 +284,70 @@
 [weight] 2
 
 
-// ¾Ö´Ï¸ŞÀÌ¼Ç ¸®½ºÆ®. ¾ø´Â °ÍÀº ÀûÁö ¾Ê¾Æµµ µÊ. È¤Àº ``·Î ³ÖÀ¸¸é ¾ø´Â °ÍÀ¸·Î Ã³¸® //
-[waiting motion] `BodyStay.ani`		// ´ë±â ¸ğ¼Ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[move motion] `BodyMove.ani`		// ÀÌµ¿ ¸ğ¼Ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[sit motion] `BodySit.ani`		// ¾É±â ¸ğ¼Ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[damage motion 1] `BodyDamage1.ani`	// µ¥¹ÌÁö ¸ğ¼Ç1 ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[damage motion 2] `BodyDamage2.ani`	// µ¥¹ÌÁö ¸ğ¼Ç2 ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[down motion] `BodyDown.ani`		// ´Ù¿î ¸ğ¼Ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[overturn motion] `BodyOverturn.ani`		// µÚÁıÈù ¸ğ¼Ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[jump motion] `BodyJump.ani`		// Á¡ÇÁ ¸ğ¼Ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[jumpattack motion] `BodyJumpAttack.ani`	// Á¡ÇÁ°ø°İ ¸ğ¼Ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[rest motion] `BodyRest.ani`		// ÈŞ½Ä ¸ğ¼Ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[throw motion 1-1] `BodyThrow1.ani`		// ÅõÃ´ ¸ğ¼Ç1 ¸ğÀ¸±â ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[throw motion 1-2] `BodyThrow2.ani`		// ÅõÃ´ ¸ğ¼Ç1 ¹ß»ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[throw motion 2-1] `BodyCast1.ani`		// ÅõÃ´ ¸ğ¼Ç2 ¸ğÀ¸±â ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[throw motion 2-2] `BodyCast2.ani`		// ÅõÃ´ ¸ğ¼Ç2 ¹ß»ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[dash motion] `BodyDash.ani`		// ´ë½Ã ¸ğ¼Ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[dashattack motion] `BodyDashAttack.ani`	// ´ë½Ã°ø°İ ¸ğ¼Ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[getitem motion] `BodyGetItem.ani`	// ¾ÆÀÌÅÛ Áİ±â ¸ğ¼Ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[buff motion] `BodyBuff.ani`		// ¹öÇÁ »ç¿ë ¸ğ¼Ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§
-[attack motion]				// °ø°İ ¸ğ¼Ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§ ¸®½ºÆ®
+// ì• ë‹ˆë©”ì´ì…˜ ë¦¬ìŠ¤íŠ¸. ì—†ëŠ” ê²ƒì€ ì ì§€ ì•Šì•„ë„ ë¨. í˜¹ì€ ``ë¡œ ë„£ìœ¼ë©´ ì—†ëŠ” ê²ƒìœ¼ë¡œ ì²˜ë¦¬ //
+[waiting motion] `BodyStay.ani`		// ëŒ€ê¸° ëª¨ì…˜ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[move motion] `BodyMove.ani`		// ì´ë™ ëª¨ì…˜ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[sit motion] `BodySit.ani`		// ì•‰ê¸° ëª¨ì…˜ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[damage motion 1] `BodyDamage1.ani`	// ë°ë¯¸ì§€ ëª¨ì…˜1 ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[damage motion 2] `BodyDamage2.ani`	// ë°ë¯¸ì§€ ëª¨ì…˜2 ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[down motion] `BodyDown.ani`		// ë‹¤ìš´ ëª¨ì…˜ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[overturn motion] `BodyOverturn.ani`		// ë’¤ì§‘íŒ ëª¨ì…˜ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[jump motion] `BodyJump.ani`		// ì í”„ ëª¨ì…˜ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[jumpattack motion] `BodyJumpAttack.ani`	// ì í”„ê³µê²© ëª¨ì…˜ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[rest motion] `BodyRest.ani`		// íœ´ì‹ ëª¨ì…˜ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[throw motion 1-1] `BodyThrow1.ani`		// íˆ¬ì²™ ëª¨ì…˜1 ëª¨ìœ¼ê¸° ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[throw motion 1-2] `BodyThrow2.ani`		// íˆ¬ì²™ ëª¨ì…˜1 ë°œì‚¬ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[throw motion 2-1] `BodyCast1.ani`		// íˆ¬ì²™ ëª¨ì…˜2 ëª¨ìœ¼ê¸° ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[throw motion 2-2] `BodyCast2.ani`		// íˆ¬ì²™ ëª¨ì…˜2 ë°œì‚¬ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[dash motion] `BodyDash.ani`		// ëŒ€ì‹œ ëª¨ì…˜ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[dashattack motion] `BodyDashAttack.ani`	// ëŒ€ì‹œê³µê²© ëª¨ì…˜ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[getitem motion] `BodyGetItem.ani`	// ì•„ì´í…œ ì¤ê¸° ëª¨ì…˜ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[buff motion] `BodyBuff.ani`		// ë²„í”„ ì‚¬ìš© ëª¨ì…˜ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„
+[attack motion]				// ê³µê²© ëª¨ì…˜ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„ ë¦¬ìŠ¤íŠ¸
 `Attack1.ani`
 `Attack2.ani`
-[/attack motion]				// ¹İµå½Ã ÀÌ°ÍÀ¸·Î ´İ¾ÆÁà¾ß ÇÔ
-[etc motion]				// ÇÏµåÄÚµù¿ë ¸ğ¼Ç ¾Ö´Ï¸ŞÀÌ¼Ç ÆÄÀÏ ÀÌ¸§ ¸®½ºÆ® (¼ø¼­°¡ Áß¿äÇÔ)
+[/attack motion]				// ë°˜ë“œì‹œ ì´ê²ƒìœ¼ë¡œ ë‹«ì•„ì¤˜ì•¼ í•¨
+[etc motion]				// í•˜ë“œì½”ë”©ìš© ëª¨ì…˜ ì• ë‹ˆë©”ì´ì…˜ íŒŒì¼ ì´ë¦„ ë¦¬ìŠ¤íŠ¸ (ìˆœì„œê°€ ì¤‘ìš”í•¨)
 `Magic.ani`
 `PowerUp.ani`
-[/etc motion]				// ¹İµå½Ã ÀÌ°ÍÀ¸·Î ´İ¾ÆÁà¾ß ÇÔ
+[/etc motion]				// ë°˜ë“œì‹œ ì´ê²ƒìœ¼ë¡œ ë‹«ì•„ì¤˜ì•¼ í•¨
 
-// °ø°İ Á¤º¸ ¸®½ºÆ®. ¾ø´Â °ÍÀº ÀûÁö ¾Ê¾Æµµ µÊ. È¤Àº ``·Î ³ÖÀ¸¸é ¾ø´Â °ÍÀ¸·Î Ã³¸® //
-[jumpattack info] `JumpAttack.atk`	// Á¡ÇÁ°ø°İÀÇ °ø°İ Á¤º¸
-[dashattack info] `DashAttack.atk`	// ´ë½Ã°ø°İÀÇ °ø°İ Á¤º¸
-[attack info]				// ±âº»ÀûÀÎ °ø°İ ¸ğ¼ÇÀÇ °ø°İ Á¤º¸
+// ê³µê²© ì •ë³´ ë¦¬ìŠ¤íŠ¸. ì—†ëŠ” ê²ƒì€ ì ì§€ ì•Šì•„ë„ ë¨. í˜¹ì€ ``ë¡œ ë„£ìœ¼ë©´ ì—†ëŠ” ê²ƒìœ¼ë¡œ ì²˜ë¦¬ //
+[jumpattack info] `JumpAttack.atk`	// ì í”„ê³µê²©ì˜ ê³µê²© ì •ë³´
+[dashattack info] `DashAttack.atk`	// ëŒ€ì‹œê³µê²©ì˜ ê³µê²© ì •ë³´
+[attack info]				// ê¸°ë³¸ì ì¸ ê³µê²© ëª¨ì…˜ì˜ ê³µê²© ì •ë³´
 `Attack1.atk`
 `Attack2.atk`
-[/attack info]			// ¹İµå½Ã ÀÌ°ÍÀ¸·Î ´İ¾ÆÁà¾ß ÇÔ
-[etc attack info]				// ±× ¿Ü ÇÏµåÄÚµù¿ë °ø°İ Á¤º¸
+[/attack info]			// ë°˜ë“œì‹œ ì´ê²ƒìœ¼ë¡œ ë‹«ì•„ì¤˜ì•¼ í•¨
+[etc attack info]				// ê·¸ ì™¸ í•˜ë“œì½”ë”©ìš© ê³µê²© ì •ë³´
 `Magic.atk`
-[/etc attack info]			// ¹İµå½Ã ÀÌ°ÍÀ¸·Î ´İ¾ÆÁà¾ß ÇÔ
+[/etc attack info]			// ë°˜ë“œì‹œ ì´ê²ƒìœ¼ë¡œ ë‹«ì•„ì¤˜ì•¼ í•¨
 
-// È¿°úÀ½ ¸®½ºÆ®
-[weapon wav]				// ¹«±â ¼­ºêÅ¸ÀÔ 1ÀÇ Ä¿½ºÅÒ È¿°úÀ½ ¸®½ºÆ®
+// íš¨ê³¼ìŒ ë¦¬ìŠ¤íŠ¸
+[weapon wav]				// ë¬´ê¸° ì„œë¸Œíƒ€ì… 1ì˜ ì»¤ìŠ¤í…€ íš¨ê³¼ìŒ ë¦¬ìŠ¤íŠ¸
 `SHORT_SWORD_WHIP`
 `SHORT_SWORD_HIT`
-[/weapon wav]				// ¹İµå½Ã ÀÌ°ÍÀ¸·Î ´İ¾ÆÁà¾ß ÇÔ
-[weapon wav]				// ¹«±â ¼­ºêÅ¸ÀÔ 2ÀÇ Ä¿½ºÅÒ È¿°úÀ½ ¸®½ºÆ®
+[/weapon wav]				// ë°˜ë“œì‹œ ì´ê²ƒìœ¼ë¡œ ë‹«ì•„ì¤˜ì•¼ í•¨
+[weapon wav]				// ë¬´ê¸° ì„œë¸Œíƒ€ì… 2ì˜ ì»¤ìŠ¤í…€ íš¨ê³¼ìŒ ë¦¬ìŠ¤íŠ¸
 `LONG_SWORD_WHIP`
 `LONG_SWORD_HIT`
-[/weapon wav]				// ¹İµå½Ã ÀÌ°ÍÀ¸·Î ´İ¾ÆÁà¾ß ÇÔ
-[weapon wav]				// ¹«±â ¼­ºêÅ¸ÀÔ 3ÀÇ Ä¿½ºÅÒ È¿°úÀ½ ¸®½ºÆ®
+[/weapon wav]				// ë°˜ë“œì‹œ ì´ê²ƒìœ¼ë¡œ ë‹«ì•„ì¤˜ì•¼ í•¨
+[weapon wav]				// ë¬´ê¸° ì„œë¸Œíƒ€ì… 3ì˜ ì»¤ìŠ¤í…€ íš¨ê³¼ìŒ ë¦¬ìŠ¤íŠ¸
 `BLUNT_SWORD_WHIP`
 `BLUNT_SWORD_HIT`
-[/weapon wav]				// ¹İµå½Ã ÀÌ°ÍÀ¸·Î ´İ¾ÆÁà¾ß ÇÔ
+[/weapon wav]				// ë°˜ë“œì‹œ ì´ê²ƒìœ¼ë¡œ ë‹«ì•„ì¤˜ì•¼ í•¨
 
-[weapon hit info]			// ¹«±âÀÇ Subtype º° Á¤º¸ (ÀÚ¼¼ÇÑ ³»¿ëÀº AttackInfo»ùÇÃ Âü°í)
+[weapon hit info]			// ë¬´ê¸°ì˜ Subtype ë³„ ì •ë³´ (ìì„¸í•œ ë‚´ìš©ì€ AttackInfoìƒ˜í”Œ ì°¸ê³ )
 `[blow]` `[no blood]` 50 1.0
 `[blow]` `[no blood]` 50 1.0
 `[blow]` `[blood]` 10 1.0
 `[blow]` `[no blood]` 50 1.0
 `[blow]` `[no blood]` 100 2.0
 `[cut]` `[no blood]` 100 2.0
-[/weapon hit info]			// ¹İµå½Ã ÀÌ°ÍÀ¸·Î ´İ¾ÆÁà¾ß ÇÔ
+[/weapon hit info]			// ë°˜ë“œì‹œ ì´ê²ƒìœ¼ë¡œ ë‹«ì•„ì¤˜ì•¼ í•¨
 
-[weapon skill info]	// ¹«±âÀÇ Subtypeº° ¹«±â ½ºÅ³ÀÇ MP, ÄğÅ¸ÀÓ Á¤º¸.
-1.0 1.0 1.0 1.0		// ¹°¸® MP, ¹°¸® ÄğÅ¸ÀÓ, ¸¶¹ı MP, ¸¶¹ı ÄğÅ¸ÀÓ ºñÀ²
+[weapon skill info]	// ë¬´ê¸°ì˜ Subtypeë³„ ë¬´ê¸° ìŠ¤í‚¬ì˜ MP, ì¿¨íƒ€ì„ ì •ë³´.
+1.0 1.0 1.0 1.0		// ë¬¼ë¦¬ MP, ë¬¼ë¦¬ ì¿¨íƒ€ì„, ë§ˆë²• MP, ë§ˆë²• ì¿¨íƒ€ì„ ë¹„ìœ¨
 1.0 1.0 1.0 1.0
 1.0 1.0 1.0 1.0
 1.0 1.0 1.0 1.0

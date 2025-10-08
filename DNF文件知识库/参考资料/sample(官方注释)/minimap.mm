@@ -1,16 +1,16 @@
 [world]
-	[index]	1									// ¿ùµå ÀÎµ¦½º
-	[level]	40	50								// ÃßÃµ ÃÖÀú/ÃÖ°í·¾
-	[point]	1	1								// ¹Ì´Ï¸Ê ÁÂÇ¥ Á¡(x,y)
+	[index]	1									// ì›”ë“œ ì¸ë±ìŠ¤
+	[level]	40	50								// ì¶”ì²œ ìµœì €/ìµœê³ ë ™
+	[point]	1	1								// ë¯¸ë‹ˆë§µ ì¢Œí‘œ ì (x,y)
 [/world]
 
 [town]
-	[index] 1									// Å¸¿î ÀÎµ¦½º
+	[index] 1									// íƒ€ìš´ ì¸ë±ìŠ¤
 	[area]
-		[index]	2								// area ÀÎµ¦½º
-		[type]	1								// area type   0 ÀÏ¹İ, 1 °ÔÀÌÆ®, 2 ³¬½ÃÅÍ, 3 ÁÖÁ¡, 4 ´øÀü ÀÔ±¸
-		[real rect]		1	1	100	100			// ½ÇÁ¦ ¿òÁ÷ÀÏ¼ö ÀÖ´Â ¹üÀ§ ½ÃÀÛ/³¡ Á¡(x,y)	
-		[project rect]	1	1	10	10			// ¹Ì´Ï¸Ê ÁÂÇ¥ ½ÃÀÛ/ ³¡Á¡(x,y)
+		[index]	2								// area ì¸ë±ìŠ¤
+		[type]	1								// area type   0 ì¼ë°˜, 1 ê²Œì´íŠ¸, 2 ë‚šì‹œí„°, 3 ì£¼ì , 4 ë˜ì „ ì…êµ¬
+		[real rect]		1	1	100	100			// ì‹¤ì œ ì›€ì§ì¼ìˆ˜ ìˆëŠ” ë²”ìœ„ ì‹œì‘/ë ì (x,y)	
+		[project rect]	1	1	10	10			// ë¯¸ë‹ˆë§µ ì¢Œí‘œ ì‹œì‘/ ëì (x,y)
 		[npc]			10	10	20				// npc index, x, y
 	[/area]
 [/town]
@@ -18,7 +18,7 @@
 
 [npc]
 	[index] 1									// npc index
-	[name]	`Áı»ş`								// npc name
+	[name]	`ì§‘ìƒ¤`								// npc name
 	[role]
 		`[item shop]`
 		`[recover stamina]`
@@ -27,11 +27,11 @@
 		`[upgrade item]`
 		`[disjoint item]`
 		`[product item]`
-		`[mouse register]`		// Áı»ş°¡ Ãß°¡ÇÏ¿´À½
+		`[mouse register]`		// ì§‘ìƒ¤ê°€ ì¶”ê°€í•˜ì˜€ìŒ
 	[/role]
 	[shop] 2									// shop type(0 WEAPON_SHOP, 1 ARMOR_SHOP, 2 ACCESSORY_SHOP, 3 MATERIAL_SHOP, 4 WASTE_SHOP, 5 LOTTERY_SHOP, 6 ARTIFACT_SHOP
 		[level]	30	40							// minimum level, maximum level
-		[job]	0	1	2	[/job]				// 0°Ë»ç, 1°İ°¡, 2°Å³Ê, 3¹ı»ç, 4ÇÁ¸®
+		[job]	0	1	2	[/job]				// 0ê²€ì‚¬, 1ê²©ê°€, 2ê±°ë„ˆ, 3ë²•ì‚¬, 4í”„ë¦¬
 	[/shop]
-	[skill]	5									// 0°Ë»ç, 1°İ°¡, 2°Å³Ê, 3¹ı»ç, 4ÇÁ¸®, 5¿©°Å³Ê, 6°øÅë, 7ÈÉÃÄ, 8±æµå
+	[skill]	5									// 0ê²€ì‚¬, 1ê²©ê°€, 2ê±°ë„ˆ, 3ë²•ì‚¬, 4í”„ë¦¬, 5ì—¬ê±°ë„ˆ, 6ê³µí†µ, 7í›”ì³, 8ê¸¸ë“œ
 [/npc]

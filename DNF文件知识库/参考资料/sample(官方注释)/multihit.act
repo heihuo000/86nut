@@ -4,25 +4,25 @@
 
 
 [TRIGGER]
-[FRAME] 0 0 // ÇÁ·¹ÀÓ ¹øÈ£ ?~? ±îÁö
+[FRAME] 0 0 // í”„ë ˆìž„ ë²ˆí˜¸ ?~? ê¹Œì§€
 [DO BEHAVIOR] [ME] 0
 [/TRIGGER]
 
 
 [TRIGGER]
-[ON END BEHAVIOR]	// behavior°¡ ³¡³ª¸é ¾Æ·¡¸¦ ½ÇÇàÇÔ
+[ON END BEHAVIOR]	// behaviorê°€ ëë‚˜ë©´ ì•„ëž˜ë¥¼ ì‹¤í–‰í•¨
 [DO BEHAVIOR] [ME] 1
 [/TRIGGER]
 
 
 // 0
 [BEHAVIOR] 
-	[WHICH] [ALL ENEMY] // ¿ì¼±¼øÀ§ 1 : Ä«Å×°í¸®    //»óÈ£°ü°è¿¡ ÀÖ´Â Å¸°ÙÀ» ÁöÁ¤ÇÏ±â À§ÇØ behavior¾È¿¡ Å¸°ÙÁöÁ¤ÀÌ °¡´ÉÇÔ
+	[WHICH] [ALL ENEMY] // ìš°ì„ ìˆœìœ„ 1 : ì¹´í…Œê³ ë¦¬    //ìƒí˜¸ê´€ê³„ì— ìžˆëŠ” íƒ€ê²Ÿì„ ì§€ì •í•˜ê¸° ìœ„í•´ behaviorì•ˆì— íƒ€ê²Ÿì§€ì •ì´ ê°€ëŠ¥í•¨
 
 	[CHECKUP]
-		[DISTANCE] [<=] 500 // ¿ì¼±¼øÀ§ 2 : Æ¯Á¤ °Å¸® ³»¿¡ 
+		[DISTANCE] [<=] 500 // ìš°ì„ ìˆœìœ„ 2 : íŠ¹ì • ê±°ë¦¬ ë‚´ì— 
 		[LAST TARGET PRIORITY] [LOW]
-		//[LAST ATTACK PRIORITY] [LOW] // ( [LOW] or [HIGH] or [NEVER] or [ALWAYS] ) ¿ì¼±¼øÀ§ 4 : ¸¶Áö¸· °ø°Ý¿¡ ´ëÇÑ¿ì¼±¼øÀ§
+		//[LAST ATTACK PRIORITY] [LOW] // ( [LOW] or [HIGH] or [NEVER] or [ALWAYS] ) ìš°ì„ ìˆœìœ„ 4 : ë§ˆì§€ë§‰ ê³µê²©ì— ëŒ€í•œìš°ì„ ìˆœìœ„
 	[/CHECKUP]
 
 	[MOVE TO] [TARGET] 500	

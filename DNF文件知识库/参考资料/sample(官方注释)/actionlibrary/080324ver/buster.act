@@ -19,16 +19,16 @@
 [/TRIGGER]
 
 
-[BEHAVIOR] // 0¹ø
-[CASTING] 1500 2 // ½Ã°£, Çàµ¿¹øÈ£.
+[BEHAVIOR] // 0ë²ˆ
+[CASTING] 1500 2 // ì‹œê°„, í–‰ë™ë²ˆí˜¸.
 [/BEHAVIOR]
 
-[BEHAVIOR] // 1¹ø 
-	[CREATE PASSIVEOBJECT]	// ÆÐ½Ãºê ¿ÀºêÁ§Æ® »ý¼ºÇÏ±â.
-		[INDEX] 23013	//ÀÎµ¦½º¹øÈ£
-		[PARTICLE FILENAME] `../Particle/ShootingStarPath.ptl`	// ÆÐ½Ãºê ¿ÀºêÁ§Æ® »ý¼º ÆÄÆ¼Å¬
-		[LEVEL] 32						// ¸¶¹ý·¹º§.
-		[POS] 0 0 300 // ºÎ¸ð ÁÂÇ¥ÀÇ »ó´ë ÁÂÇ¥ x y z
-		[WARNING MARK] 330 0 100 2 // WarningMark º¸Á¤. xÀ§Ä¡ º¸Á¤ y º¸Á¤ À§Ä¡ µô·¹ÀÌ, °æ°í¸¶Å© Á¾·ù.
+[BEHAVIOR] // 1ë²ˆ 
+	[CREATE PASSIVEOBJECT]	// íŒ¨ì‹œë¸Œ ì˜¤ë¸Œì íŠ¸ ìƒì„±í•˜ê¸°.
+		[INDEX] 23013	//ì¸ë±ìŠ¤ë²ˆí˜¸
+		[PARTICLE FILENAME] `../Particle/ShootingStarPath.ptl`	// íŒ¨ì‹œë¸Œ ì˜¤ë¸Œì íŠ¸ ìƒì„± íŒŒí‹°í´
+		[LEVEL] 32						// ë§ˆë²•ë ˆë²¨.
+		[POS] 0 0 300 // ë¶€ëª¨ ì¢Œí‘œì˜ ìƒëŒ€ ì¢Œí‘œ x y z
+		[WARNING MARK] 330 0 100 2 // WarningMark ë³´ì •. xìœ„ì¹˜ ë³´ì • y ë³´ì • ìœ„ì¹˜ ë”œë ˆì´, ê²½ê³ ë§ˆí¬ ì¢…ë¥˜.
 	[/CREATE PASSIVEOBJECT]
 [/BEHAVIOR]

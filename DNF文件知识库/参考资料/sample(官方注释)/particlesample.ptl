@@ -1,62 +1,62 @@
-// ÆÄÆ¼Å¬ ½ºÅ©¸³Æ® »ùÇÃ //
+// íŒŒí‹°í´ ìŠ¤í¬ë¦½íŠ¸ ìƒ˜í”Œ //
 
-[creation pos] 100 127 0		// »ı¼º x, y, z ÁÂÇ¥
+[creation pos] 100 127 0		// ìƒì„± x, y, z ì¢Œí‘œ
 
-[x axis]				// ÀÌµ¿ ÆíÁıÇÒ Ãà. ÀÌ Ç¥½Ã ÀÌÈÄÀÇ °ªÀº xÃà
-[move type] `[sin]`		// move type. `[stop]` `[straight line]` `[sin]` `[cos]` Áß ÅÃÀÏ
-[move variable 1] 100 102		// ÀÌµ¿ º¯¼ö 1. ÃÊ±â°ª°ú ÃÖÁ¾°ª (ÀÌµ¿ ¼Óµµ / Áøµ¿ ÃÖ´ë°ª)
-[move variable 2] 150 152		// ÀÌµ¿ º¯¼ö 2. ÃÊ±â°ª°ú ÃÖÁ¾°ª (»ç¿ë ¾ÈÇÔ / Áøµ¿ ÁÖ±â)
+[x axis]				// ì´ë™ í¸ì§‘í•  ì¶•. ì´ í‘œì‹œ ì´í›„ì˜ ê°’ì€ xì¶•
+[move type] `[sin]`		// move type. `[stop]` `[straight line]` `[sin]` `[cos]` ì¤‘ íƒì¼
+[move variable 1] 100 102		// ì´ë™ ë³€ìˆ˜ 1. ì´ˆê¸°ê°’ê³¼ ìµœì¢…ê°’ (ì´ë™ ì†ë„ / ì§„ë™ ìµœëŒ€ê°’)
+[move variable 2] 150 152		// ì´ë™ ë³€ìˆ˜ 2. ì´ˆê¸°ê°’ê³¼ ìµœì¢…ê°’ (ì‚¬ìš© ì•ˆí•¨ / ì§„ë™ ì£¼ê¸°)
 
-[y axis]				// ÀÌµ¿ ÆíÁıÇÒ Ãà. ÀÌ Ç¥½Ã ÀÌÈÄÀÇ °ªÀº yÃà
-[move type] `[straight line]`		// move type. `[stop]` `[straight line]` `[sin]` `[cos]` Áß ÅÃÀÏ
-[move variable 1] 172 113		// ÀÌµ¿ º¯¼ö 1. ÃÊ±â°ª°ú ÃÖÁ¾°ª
+[y axis]				// ì´ë™ í¸ì§‘í•  ì¶•. ì´ í‘œì‹œ ì´í›„ì˜ ê°’ì€ yì¶•
+[move type] `[straight line]`		// move type. `[stop]` `[straight line]` `[sin]` `[cos]` ì¤‘ íƒì¼
+[move variable 1] 172 113		// ì´ë™ ë³€ìˆ˜ 1. ì´ˆê¸°ê°’ê³¼ ìµœì¢…ê°’
 
-[z axis]				// ÀÌµ¿ ÆíÁıÇÒ Ãà. ÀÌ Ç¥½Ã ÀÌÈÄÀÇ °ªÀº zÃà
-[move type] `[stop]`		// move type. `[stop]` `[straight line]` `[sin]` `[cos]` Áß ÅÃÀÏ
+[z axis]				// ì´ë™ í¸ì§‘í•  ì¶•. ì´ í‘œì‹œ ì´í›„ì˜ ê°’ì€ zì¶•
+[move type] `[stop]`		// move type. `[stop]` `[straight line]` `[sin]` `[cos]` ì¤‘ íƒì¼
 
 
-[changing term] 1000		// ÃÊ±â°ª°ú ÃÖÁ¾°ª »çÀÌÀÇ º¯È­ °£°İ
-[changing type] `[keep changing]`		// ÃÊ±â°ª°ú ÃÖÁ¾°ª »çÀÌÀÇ move type. `[keep changing]` `[keep last value]` `[ping pong]` Áß ÅÃÀÏ
+[changing term] 1000		// ì´ˆê¸°ê°’ê³¼ ìµœì¢…ê°’ ì‚¬ì´ì˜ ë³€í™” ê°„ê²©
+[changing type] `[keep changing]`		// ì´ˆê¸°ê°’ê³¼ ìµœì¢…ê°’ ì‚¬ì´ì˜ move type. `[keep changing]` `[keep last value]` `[ping pong]` ì¤‘ íƒì¼
 
-[gravity] 10			// gravity°ª
+[gravity] 10			// gravityê°’
 
-[rotation angle] 30 10 0		// È¸Àü°¢. ¼öÆò°¢ / ¼öÁ÷°¢ / È¸Àü°¢
+[rotation angle] 30 10 0		// íšŒì „ê°. ìˆ˜í‰ê° / ìˆ˜ì§ê° / íšŒì „ê°
 
-¼öÆò°¢ : »ı¼º °¢µµ°ª - ¼öÆò È¸Àü°ª (zÃà °íÁ¤ x->y ¹æÇâ)
-¼öÁ÷°¢ : »ı¼º °¢µµ°ª - ¼öÁ÷ È¸Àü°ª (yÃà °íÁ¤ x->z ¹æÇâ)
-È¸Àü°¢ : »ı¼º °¢µµ°ª - xÃà È¸Àü°ª  (xÃà °íÁ¤ z->y ¹æÇâ)
+ìˆ˜í‰ê° : ìƒì„± ê°ë„ê°’ - ìˆ˜í‰ íšŒì „ê°’ (zì¶• ê³ ì • x->y ë°©í–¥)
+ìˆ˜ì§ê° : ìƒì„± ê°ë„ê°’ - ìˆ˜ì§ íšŒì „ê°’ (yì¶• ê³ ì • x->z ë°©í–¥)
+íšŒì „ê° : ìƒì„± ê°ë„ê°’ - xì¶• íšŒì „ê°’  (xì¶• ê³ ì • z->y ë°©í–¥)
 
 [life time] 1000			// life time
 
-[landing type] `[vanish]`		// ¶¥¿¡ ´ê¾ÒÀ» ¶§ÀÇ Ã³¸® `[pierce]` `[slide]` `[stop]` `[vanish]` Áß ÅÃÀÏ
+[landing type] `[vanish]`		// ë•…ì— ë‹¿ì•˜ì„ ë•Œì˜ ì²˜ë¦¬ `[pierce]` `[slide]` `[stop]` `[vanish]` ì¤‘ íƒì¼
 
-[transparent value] 100 0			// ½ÃÀÛ / ³¡ Åõ¸íµµ (%°ª). ³¡ÀÇ ±âÁØÀº life timeÀÌ´Ù.
+[transparent value] 100 0			// ì‹œì‘ / ë íˆ¬ëª…ë„ (%ê°’). ëì˜ ê¸°ì¤€ì€ life timeì´ë‹¤.
 
 
-[creation frequency] 0.5			// ÃÊ´ç ÆÄÆ¼Å¬ creation frequency (-1ÀÌ¸é ÃÖ´ë »ı¼º¼ö¸¸Å­ »ı¼º)
-[maximum create number] 100		// ÆÄÆ¼Å¬ ÃÖ´ë »ı¼º¼ö (0ÀÌ¸é ¹«Á¦ÇÑ)
-[maximum create time] 0		// ÆÄÆ¼Å¬ ÃÖ´ë »ı¼º½Ã°£ (0ÀÌ¸é ¹«Á¦ÇÑ)
+[creation frequency] 0.5			// ì´ˆë‹¹ íŒŒí‹°í´ creation frequency (-1ì´ë©´ ìµœëŒ€ ìƒì„±ìˆ˜ë§Œí¼ ìƒì„±)
+[maximum create number] 100		// íŒŒí‹°í´ ìµœëŒ€ ìƒì„±ìˆ˜ (0ì´ë©´ ë¬´ì œí•œ)
+[maximum create time] 0		// íŒŒí‹°í´ ìµœëŒ€ ìƒì„±ì‹œê°„ (0ì´ë©´ ë¬´ì œí•œ)
 
-[create area size] 100 10 0	// »ı¼º °ø°£ Å©±â
-[create area rotation angle] 100 32 0	// »ı¼º °ø°£ È¸Àü°¢
+[create area size] 100 10 0	// ìƒì„± ê³µê°„ í¬ê¸°
+[create area rotation angle] 100 32 0	// ìƒì„± ê³µê°„ íšŒì „ê°
 
-[rotation angle range type] `[rectangle]`	// »ı¼º°¢ÀÇ ¹üÀ§¸¦ ÁöÁ¤ÇÏ´Â ¹æ¹ı. `[rectangle]`°ú `[circle]`Áß ÅÃÀÏ
-[rotation angle variable] 300 10		// »ı¼º°¢ÀÇ º¯¼ö 1, 2 (°¡·Î °¢µµ ¹üÀ§/Áö¸§°¢, ¼¼·Î °¢µµ ¹üÀ§/»ç¿ë ¾ÈÇÔ)
+[rotation angle range type] `[rectangle]`	// ìƒì„±ê°ì˜ ë²”ìœ„ë¥¼ ì§€ì •í•˜ëŠ” ë°©ë²•. `[rectangle]`ê³¼ `[circle]`ì¤‘ íƒì¼
+[rotation angle variable] 300 10		// ìƒì„±ê°ì˜ ë³€ìˆ˜ 1, 2 (ê°€ë¡œ ê°ë„ ë²”ìœ„/ì§€ë¦„ê°, ì„¸ë¡œ ê°ë„ ë²”ìœ„/ì‚¬ìš© ì•ˆí•¨)
 
-[random range] 10			// random range (%°ª)
+[random range] 10			// random range (%ê°’)
 
-[create pos correct] 1		// »ı¼º ÁÂÇ¥ º¸Á¤ ¿©ºÎ
+[create pos correct] 1		// ìƒì„± ì¢Œí‘œ ë³´ì • ì—¬ë¶€
 
-[how to create object] `[randomize]` ¶Ç´Â `[in order]`	// µÑÁß ÇÏ³ª ¼±ÅÃ
+[how to create object] `[randomize]` ë˜ëŠ” `[in order]`	// ë‘˜ì¤‘ í•˜ë‚˜ ì„ íƒ
 
-[object type] `[animation]`	// »ı¼ºÇÒ objectÀÇ Å¸ÀÔ. `[animation]`°ú `[passive object]`Áß ÅÃÀÏ
-[object]			// object ¸®½ºÆ®
-`abcd.img` 3			// »ı¼ºÇÒ objectÀÇ ½ºÆ®¸µ / Á¤¼ö µ¥ÀÌÅÍ¸¦ Àû¾îÁØ´Ù.
-`abc.ani` -1			// animationÀ» ÁöÁ¤ÇÒ ¶§´Â Á¤¼ö °ªÀº -1·Î (animationÀº »ó´ë °æ·Î¿¡¼­ ÀĞ´Â´Ù)
-// `` 3				// ¼öµ¿ °´Ã¼ÀÇ °æ¿ì Á¤¼ö °ª¿¡ °´Ã¼ ÀÎµ¦½º¸¦ ³Ö´Â´Ù.
-[/object]			// ÀÌ°ÍÀ¸·Î ´İ¾ÆÁà¾ß ÇÔ
+[object type] `[animation]`	// ìƒì„±í•  objectì˜ íƒ€ì…. `[animation]`ê³¼ `[passive object]`ì¤‘ íƒì¼
+[object]			// object ë¦¬ìŠ¤íŠ¸
+`abcd.img` 3			// ìƒì„±í•  objectì˜ ìŠ¤íŠ¸ë§ / ì •ìˆ˜ ë°ì´í„°ë¥¼ ì ì–´ì¤€ë‹¤.
+`abc.ani` -1			// animationì„ ì§€ì •í•  ë•ŒëŠ” ì •ìˆ˜ ê°’ì€ -1ë¡œ (animationì€ ìƒëŒ€ ê²½ë¡œì—ì„œ ì½ëŠ”ë‹¤)
+// `` 3				// ìˆ˜ë™ ê°ì²´ì˜ ê²½ìš° ì •ìˆ˜ ê°’ì— ê°ì²´ ì¸ë±ìŠ¤ë¥¼ ë„£ëŠ”ë‹¤.
+[/object]			// ì´ê²ƒìœ¼ë¡œ ë‹«ì•„ì¤˜ì•¼ í•¨
 
-[layer] `[bottom]`			// »ı¼ºÇÑ ÆÄÆ¼Å¬ÀÇ ·¹ÀÌ¾î. »ı¼º object°¡ `[animation]`ÀÏ ¶§¸¸ À¯È¿ÇÏ´Ù.
-				// `[close]` `[normal]` `[bottom]` `[closeback]` `[middleback]` `[distantback]` Áß ÅÃÀÏ
+[layer] `[bottom]`			// ìƒì„±í•œ íŒŒí‹°í´ì˜ ë ˆì´ì–´. ìƒì„± objectê°€ `[animation]`ì¼ ë•Œë§Œ ìœ íš¨í•˜ë‹¤.
+				// `[close]` `[normal]` `[bottom]` `[closeback]` `[middleback]` `[distantback]` ì¤‘ íƒì¼
 
-[display effect rate] 50 75 100		// ÀÌÆåÆ® µî±Ş (ÇÏ-Áß-»ó) ¿¡¼­ »ı¼ºÇÏ´Â ÆÄÆ¼Å¬ ºñÀ². %°ª (±âº»Àº 100 100 100)
+[display effect rate] 50 75 100		// ì´í™íŠ¸ ë“±ê¸‰ (í•˜-ì¤‘-ìƒ) ì—ì„œ ìƒì„±í•˜ëŠ” íŒŒí‹°í´ ë¹„ìœ¨. %ê°’ (ê¸°ë³¸ì€ 100 100 100)

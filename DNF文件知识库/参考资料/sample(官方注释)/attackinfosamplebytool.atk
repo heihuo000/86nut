@@ -1,48 +1,48 @@
 //////////////////////////////////////////////////////////
 //@ mkjung create date 20120523 
-//@ application uses °ø°Ý Á¤º¸ ÁöÁ¤ ½ºÅ©¸³Æ® ¹®¹ý Ã¼Å©
+//@ application uses ê³µê²© ì •ë³´ ì§€ì • ìŠ¤í¬ë¦½íŠ¸ ë¬¸ë²• ì²´í¬
 //////////////////////////////////////////////////////////
 
-{exp}±âº» µ¥¹ÌÁö{/exp}[damage]
-	{must1}{exp}µ¥¹ÌÁö ¼öÄ¡{/exp}{int(:)}
+{exp}ê¸°ë³¸ ë°ë¯¸ì§€{/exp}[damage]
+	{must1}{exp}ë°ë¯¸ì§€ ìˆ˜ì¹˜{/exp}{int(:)}
 [!damage]
 
-{exp}¹æ¾î·ÂÀ» ¹«½ÃÇÏ´Â Àý´ë µ¥¹ÌÁö{/exp}[absolute damage]
-	{must1}{exp}µ¥¹ÌÁö ¼öÄ¡{/exp}{int(:)}
+{exp}ë°©ì–´ë ¥ì„ ë¬´ì‹œí•˜ëŠ” ì ˆëŒ€ ë°ë¯¸ì§€{/exp}[absolute damage]
+	{must1}{exp}ë°ë¯¸ì§€ ìˆ˜ì¹˜{/exp}{int(:)}
 [!absolute damage]
 
-{exp}±âÀçÇÑ %¸¸Å­ ´õ µ¥¹ÌÁö¸¦ ÁØ´Ù(20 ÀÔ·Â½Ã Çö µ¥¹ÌÁöº¸´Ù 20% ´õ µ¥¹ÌÁö¸¦ ÁÜ){/exp}[damage bonus]
+{exp}ê¸°ìž¬í•œ %ë§Œí¼ ë” ë°ë¯¸ì§€ë¥¼ ì¤€ë‹¤(20 ìž…ë ¥ì‹œ í˜„ ë°ë¯¸ì§€ë³´ë‹¤ 20% ë” ë°ë¯¸ì§€ë¥¼ ì¤Œ){/exp}[damage bonus]
 	//mkjung 120601 int-->float modi
-	{must1}{exp}¸î %ÀÇ µ¥¹ÌÁö¸¦ ´õ ÁÖ°Ú´Â°¡?{/exp}{float(:)}
+	{must1}{exp}ëª‡ %ì˜ ë°ë¯¸ì§€ë¥¼ ë” ì£¼ê² ëŠ”ê°€?{/exp}{float(:)}
 [!damage bonus]
 
-{exp}°ø°ÝÀÇ Å¸ÀÔ{/exp}[attack type]
-	{must1}{exp}¹°¸®°ø°Ý{/exp}[physic]
-	{must1}{exp}¸¶¹ý°ø°Ý{/exp}[magic]
-	{must1}{exp}¹æ¾î¹«½Ã°ø°Ý{/exp}[ignore defense]
+{exp}ê³µê²©ì˜ íƒ€ìž…{/exp}[attack type]
+	{must1}{exp}ë¬¼ë¦¬ê³µê²©{/exp}[physic]
+	{must1}{exp}ë§ˆë²•ê³µê²©{/exp}[magic]
+	{must1}{exp}ë°©ì–´ë¬´ì‹œê³µê²©{/exp}[ignore defense]
 	//mkjung 120531 add
 	{must1}[weapon]
 
 [!attack type]
 
-{exp}¹«±â µ¥¹ÌÁö¸¦ Àû¿ëÇÒÁö ¿©ºÎ{/exp}[weapon damage apply]
-	{must1}{exp}±âº»°ª 0 [ignore defense]¸é ¹°¸® µ¥¹ÌÁö°¡ Àû¿ë{/exp}{int(:)}
+{exp}ë¬´ê¸° ë°ë¯¸ì§€ë¥¼ ì ìš©í• ì§€ ì—¬ë¶€{/exp}[weapon damage apply]
+	{must1}{exp}ê¸°ë³¸ê°’ 0 [ignore defense]ë©´ ë¬¼ë¦¬ ë°ë¯¸ì§€ê°€ ì ìš©{/exp}{int(:)}
 [!weapon damage apply]
 
-// °ø°Ý ´ë»óº° °ø°Ý ¿©ºÎ. ±âº»°ªÀÌ¸é ÀûÁö ¾Ê¾Æµµ µÊ //
-{exp}ÀÚ½ÅÀ» °ø°ÝÇÒÁö ¿©ºÎ{/exp}[attack myself]
-	{must1}{exp}±âº»°ª 0{/exp}{int(:)}
+// ê³µê²© ëŒ€ìƒë³„ ê³µê²© ì—¬ë¶€. ê¸°ë³¸ê°’ì´ë©´ ì ì§€ ì•Šì•„ë„ ë¨ //
+{exp}ìžì‹ ì„ ê³µê²©í• ì§€ ì—¬ë¶€{/exp}[attack myself]
+	{must1}{exp}ê¸°ë³¸ê°’ 0{/exp}{int(:)}
 [!attack myself]
 
-{exp}¾Æ±ºÀ» °ø°ÝÇÒÁö ¿©ºÎ{/exp}[attack friend]
-	{must1}{exp}±âº»°ª 0{/exp}{int(:)}
+{exp}ì•„êµ°ì„ ê³µê²©í• ì§€ ì—¬ë¶€{/exp}[attack friend]
+	{must1}{exp}ê¸°ë³¸ê°’ 0{/exp}{int(:)}
 [!attack friend]
 
-{exp}Àû(ÀÚ½Å°ú ¾Æ±ºÀ» Á¦¿ÜÇÑ ¸ðµÎ)À» °ø°ÝÇÒÁö ¿©ºÎ{/exp}[attack enemy]
-	{must1}{exp}±âº»°ª 1{/exp}{int(:)}
+{exp}ì (ìžì‹ ê³¼ ì•„êµ°ì„ ì œì™¸í•œ ëª¨ë‘)ì„ ê³µê²©í• ì§€ ì—¬ë¶€{/exp}[attack enemy]
+	{must1}{exp}ê¸°ë³¸ê°’ 1{/exp}{int(:)}
 [!attack enemy]
 
-{exp}°ø°ÝÀÇ ¿ø¼Ò¼Ó¼º(¾È¾²¸é ±âº»°ª [no element]){/exp}[elemental property]
+{exp}ê³µê²©ì˜ ì›ì†Œì†ì„±(ì•ˆì“°ë©´ ê¸°ë³¸ê°’ [no element]){/exp}[elemental property]
 	{opt1}[no element]
 	{opt1}[fire element]
 	{opt1}[water element]
@@ -52,77 +52,77 @@
 	{opt1}[no elemental]
 [!elemental property]
 
-{exp}°ø°Ý¿¡ ¸Â¾ÒÀ» ¶§ÀÇ ¹ÝÀÀ{/exp}[damage reaction]
-	{must1}{exp}¾Æ¹« ¹ÝÀÀ¾øÀ½{/exp}[none]
-	{must1}{exp}µ¥¹ÌÁö ¸ð¼ÇÀ¸·Î ¼³Á¤{/exp}[damage]
-	{must1}{exp}´Ù¿î½ÃÅ´{/exp}[down]	
-	{must1}{exp}ÀÎ°£Çü Å¸ÀÔÀ» Á¦¿ÜÇÏ°í´Â µ¥¹ÌÁö ¸ð¼ÇÀ¸·Î ¼³Á¤{/exp}[damage except human]
+{exp}ê³µê²©ì— ë§žì•˜ì„ ë•Œì˜ ë°˜ì‘{/exp}[damage reaction]
+	{must1}{exp}ì•„ë¬´ ë°˜ì‘ì—†ìŒ{/exp}[none]
+	{must1}{exp}ë°ë¯¸ì§€ ëª¨ì…˜ìœ¼ë¡œ ì„¤ì •{/exp}[damage]
+	{must1}{exp}ë‹¤ìš´ì‹œí‚´{/exp}[down]	
+	{must1}{exp}ì¸ê°„í˜• íƒ€ìž…ì„ ì œì™¸í•˜ê³ ëŠ” ë°ë¯¸ì§€ ëª¨ì…˜ìœ¼ë¡œ ì„¤ì •{/exp}[damage except human]
 [!damage reaction]
 
-{exp}µÚ·Î ³¯¸®´Â Èû(´Ù¿î½ÃÄ×À»¶§¸¸ ÀÌ ÈûÀÌ Àû¿ëµÊ){/exp}[push aside]
+{exp}ë’¤ë¡œ ë‚ ë¦¬ëŠ” íž˜(ë‹¤ìš´ì‹œì¼°ì„ë•Œë§Œ ì´ íž˜ì´ ì ìš©ë¨){/exp}[push aside]
 	{must1}{int(:)}
 [!push aside]
 
-{exp}À§·Î ¶ç¿ì´Â Èû{/exp}[lift up]
+{exp}ìœ„ë¡œ ë„ìš°ëŠ” íž˜{/exp}[lift up]
 	{must1}{int(:)}
 [!lift up]
 
-{exp}³Ë¹é Å¸ÀÔ{/exp}[knuck back]
-	{must1}{exp}0:ÀÏ¹Ý 1:¸¹ÀÌ ¹Ð¸² -1:¾È¹Ð¸²{/exp}{int(-1:0)}
+{exp}ë„‰ë°± íƒ€ìž…{/exp}[knuck back]
+	{must1}{exp}0:ì¼ë°˜ 1:ë§Žì´ ë°€ë¦¼ -1:ì•ˆë°€ë¦¼{/exp}{int(-1:0)}
 [!knuck back]
 
-// ÀÌÇÏÀÇ °ªÀº 1 or 0
-{exp}XÀÇ È®·ü·Î hp %°ªÀÇ µ¥¹ÌÁö¸¦ ÀÔÈû{/exp}[weakness]
-	{must1}{exp}È®·ü{/exp}{float(:)}
+// ì´í•˜ì˜ ê°’ì€ 1 or 0
+{exp}Xì˜ í™•ë¥ ë¡œ hp %ê°’ì˜ ë°ë¯¸ì§€ë¥¼ ìž…íž˜{/exp}[weakness]
+	{must1}{exp}í™•ë¥ {/exp}{float(:)}
 	//mkjung 120531 modi must1--> must2
-	{must2}{exp}hp %°ª{/exp}{float(:)}
+	{must2}{exp}hp %ê°’{/exp}{float(:)}
 [!weakness]
 
-{exp}¹Ù¿î½º ¿©ºÎ{/exp}[bounce]
-	{must1}{exp}1·Î ÇÏ¸é [lift up]ÀÇ ÈûÀÌ ¹Ù¿î½º¶§ Àû¿ë{/exp}{int(0:1)}
+{exp}ë°”ìš´ìŠ¤ ì—¬ë¶€{/exp}[bounce]
+	{must1}{exp}1ë¡œ í•˜ë©´ [lift up]ì˜ íž˜ì´ ë°”ìš´ìŠ¤ë•Œ ì ìš©{/exp}{int(0:1)}
 [!bounce]
 
-{exp}ÇÇ°ÝÀÚÀÇ HP¸¦ Èí¼öÇÏ´Â °ø°ÝÀ¸·Î ¼³Á¤{/exp}[HP drain]
-	{must1}{exp}µ¥¹ÌÁöÀÇ ¸î %¸¦ HP·Î Èí¼öÇÏ°Ú´Â°¡?{/exp}{float(0:1)}
+{exp}í”¼ê²©ìžì˜ HPë¥¼ í¡ìˆ˜í•˜ëŠ” ê³µê²©ìœ¼ë¡œ ì„¤ì •{/exp}[HP drain]
+	{must1}{exp}ë°ë¯¸ì§€ì˜ ëª‡ %ë¥¼ HPë¡œ í¡ìˆ˜í•˜ê² ëŠ”ê°€?{/exp}{float(0:1)}
 [!HP drain]
 
-{exp}ÇÇ°ÝÀÚÀÇ MP¸¦ Èí¼öÇÏ´Â °ø°ÝÀ¸·Î ¼³Á¤{/exp}[MP drain]
-	{must1}{exp}µ¥¹ÌÁöÀÇ ¸î %¸¦ MP·Î Èí¼öÇÏ°Ú´Â°¡?{/exp}{float(0:1)}
+{exp}í”¼ê²©ìžì˜ MPë¥¼ í¡ìˆ˜í•˜ëŠ” ê³µê²©ìœ¼ë¡œ ì„¤ì •{/exp}[MP drain]
+	{must1}{exp}ë°ë¯¸ì§€ì˜ ëª‡ %ë¥¼ MPë¡œ í¡ìˆ˜í•˜ê² ëŠ”ê°€?{/exp}{float(0:1)}
 [!MP drain]
 
 {exp}{/exp}[ignore defense]
 	{must1}{int(0:1)}
 [!ignore defense]
 
-{exp}»ì»ó (´ë ÈÞ¸Õ) °ø°Ý ºñÀ²{/exp}[human damage rate]
-	{must1}{exp}¼Ò¼öÁ¡ °¡´É, %°ª, 100ÀÌ ±âº»{/exp}{float(:)}
+{exp}ì‚´ìƒ (ëŒ€ íœ´ë¨¼) ê³µê²© ë¹„ìœ¨{/exp}[human damage rate]
+	{must1}{exp}ì†Œìˆ˜ì  ê°€ëŠ¥, %ê°’, 100ì´ ê¸°ë³¸{/exp}{float(:)}
 [!human damage rate]
 
-{exp}ÆÄ±« (´ë °Ç¹°) °ø°Ý ºñÀ²{/exp}[fort damage rate]
-	{must1}{exp}¼Ò¼öÁ¡ °¡´É, %°ª, 100ÀÌ ±âº»{/exp}{float(:)}
+{exp}íŒŒê´´ (ëŒ€ ê±´ë¬¼) ê³µê²© ë¹„ìœ¨{/exp}[fort damage rate]
+	{must1}{exp}ì†Œìˆ˜ì  ê°€ëŠ¥, %ê°’, 100ì´ ê¸°ë³¸{/exp}{float(:)}
 [!fort damage rate]
 
-{exp}±«¼ö (¾Æ¸ÓÄ«Å×°í¸®°¡ 0°³ÀÎ ³à¼®µéÀ» À§ÇÑ) °ø°Ý ºñÀ²{/exp}[monster damage rate]
-	{must1}{exp}¼Ò¼öÁ¡ °¡´É, %°ª, 100ÀÌ ±âº»{/exp}{float(:)}
+{exp}ê´´ìˆ˜ (ì•„ë¨¸ì¹´í…Œê³ ë¦¬ê°€ 0ê°œì¸ ë…€ì„ë“¤ì„ ìœ„í•œ) ê³µê²© ë¹„ìœ¨{/exp}[monster damage rate]
+	{must1}{exp}ì†Œìˆ˜ì  ê°€ëŠ¥, %ê°’, 100ì´ ê¸°ë³¸{/exp}{float(:)}
 [!monster damage rate]
 
-{exp}Å©¸®Æ¼ÄÃ È÷Æ® È®·ü º¯È­Ä¡{/exp}[critical hit]
-	{must1}{exp}º¯È­Ä¡{/exp}{float(:)}
+{exp}í¬ë¦¬í‹°ì»¬ ížˆíŠ¸ í™•ë¥  ë³€í™”ì¹˜{/exp}[critical hit]
+	{must1}{exp}ë³€í™”ì¹˜{/exp}{float(:)}
 [!critical hit]
 
-{exp}½ºÅÎ È®·ü º¯È­Ä¡{/exp}[stuck]
-	{must1}{exp}º¯È­Ä¡{/exp}{float(:)}
+{exp}ìŠ¤í„± í™•ë¥  ë³€í™”ì¹˜{/exp}[stuck]
+	{must1}{exp}ë³€í™”ì¹˜{/exp}{float(:)}
 [!stuck]
 
-{exp}°ø°Ý È÷Æ®½Ã¸¶´Ù ½ºÅÎ È®·üÀÌ Áõ°¡ÇÏ´ÂÁö ¿©ºÎ{/exp}[stuck prob increase]
-	{must1}{exp}±âº»°ª 0{/exp}{int(0:1)}
+{exp}ê³µê²© ížˆíŠ¸ì‹œë§ˆë‹¤ ìŠ¤í„± í™•ë¥ ì´ ì¦ê°€í•˜ëŠ”ì§€ ì—¬ë¶€{/exp}[stuck prob increase]
+	{must1}{exp}ê¸°ë³¸ê°’ 0{/exp}{int(0:1)}
 [!stuck prob increase]
 
-{exp}Å¸°Ý½Ã Ãâ·ÂÇÒ È¿°úÀ½ÀÇ ÅÂ±×{/exp}[hit wav]
+{exp}íƒ€ê²©ì‹œ ì¶œë ¥í•  íš¨ê³¼ìŒì˜ íƒœê·¸{/exp}[hit wav]
 	{must1}{string}
 [!hit wav]
 
-{exp}°ø°Ý ¹æÇâ{/exp}[attack direction]
+{exp}ê³µê²© ë°©í–¥{/exp}[attack direction]
 	{must1}[hit lift up]
 	{must1}[hit horizon]
 	{must1}[hit down]
@@ -132,27 +132,27 @@
 	{must1}[damage]
 [!attack direction]
 
-{exp}Ã¹¹øÂ° °ÍÀº Å¸°Ý Á¾·ù{/exp}[hit info]
-	{must1}{exp}Å¸°Ý Á¾·ù{/exp}[cut]
-	{must1}{exp}Å¸°Ý Á¾·ù{/exp}[blow]
-	{must1}{exp}Å¸°Ý Á¾·ù{/exp}[burn]
-	{must1}{exp}Å¸°Ý Á¾·ù{/exp}[etc]
-	{must1}{exp}Å¸°Ý Á¾·ù(hp°¡ ÁÙÁö ¾Ê°í mp°¡ ¼Ò¸ð){/exp}[mana burn]
-	{must1}{exp}¹«±â ¼­ºêÅ¸ÀÔ µû¶ó°¥·Á¸é``{/exp}{string}
+{exp}ì²«ë²ˆì§¸ ê²ƒì€ íƒ€ê²© ì¢…ë¥˜{/exp}[hit info]
+	{must1}{exp}íƒ€ê²© ì¢…ë¥˜{/exp}[cut]
+	{must1}{exp}íƒ€ê²© ì¢…ë¥˜{/exp}[blow]
+	{must1}{exp}íƒ€ê²© ì¢…ë¥˜{/exp}[burn]
+	{must1}{exp}íƒ€ê²© ì¢…ë¥˜{/exp}[etc]
+	{must1}{exp}íƒ€ê²© ì¢…ë¥˜(hpê°€ ì¤„ì§€ ì•Šê³  mpê°€ ì†Œëª¨){/exp}[mana burn]
+	{must1}{exp}ë¬´ê¸° ì„œë¸Œíƒ€ìž… ë”°ë¼ê°ˆë ¤ë©´``{/exp}{string}
 
 	//mkjung 120531 add
 	{must1}{exp}{/exp}[slash]
 	{must1}{exp}{/exp}[knock]
 
-	{must2}{exp}ÇÇ Æ¢±â´Â ¿©ºÎ(ÇÇÈê¸²){/exp}[blood]
-	{must2}{exp}ÇÇ Æ¢±â´Â ¿©ºÎ(ÇÇ¾ÈÈê¸²){/exp}[no blood]
+	{must2}{exp}í”¼ íŠ€ê¸°ëŠ” ì—¬ë¶€(í”¼í˜ë¦¼){/exp}[blood]
+	{must2}{exp}í”¼ íŠ€ê¸°ëŠ” ì—¬ë¶€(í”¼ì•ˆí˜ë¦¼){/exp}[no blood]
 	//mkjung 120601
 	{must2}{exp}{/exp}{string}
 
 	//mkjung 120531 int-->float modi
 	//mkjung 120531 must-->opt modi
-	{opt1}{exp}Å¸°Ý½Ã ÀÏ½Ã Á¤Áö ½Ã°£(¹«±â ¼­ºêÅ¸ÀÔ µû¶ó°¥·Á¸é -1){/exp}{float(:)}
-	{opt2}{exp}Èý µô·¹ÀÌ Å¸ÀÓ ¹è¼ö(¹«±â ¼­ºêÅ¸ÀÔ µû¶ó°¥·Á¸é -1){/exp}{float(:)}
+	{opt1}{exp}íƒ€ê²©ì‹œ ì¼ì‹œ ì •ì§€ ì‹œê°„(ë¬´ê¸° ì„œë¸Œíƒ€ìž… ë”°ë¼ê°ˆë ¤ë©´ -1){/exp}{float(:)}
+	{opt2}{exp}íž› ë”œë ˆì´ íƒ€ìž„ ë°°ìˆ˜(ë¬´ê¸° ì„œë¸Œíƒ€ìž… ë”°ë¼ê°ˆë ¤ë©´ -1){/exp}{float(:)}
 	//mkjung 120601
 	{opt3}{float(:)}
 	{opt4}{float(:)}
@@ -182,8 +182,8 @@
 	//mkjung 120601 add
 	{must1}{exp}{/exp}{string}
 
-	{opt1}{exp}È®·ü(noneÀ» Àû¾úÀ¸¸é ¾Æ¹« °ªÀÌ³ª ÀûÀ» °Í){/exp}{int(0:)}
-	{opt2}{exp}·¹º§(noneÀ» Àû¾úÀ¸¸é ¾Æ¹« °ªÀÌ³ª ÀûÀ» °Í){int(0:)}
+	{opt1}{exp}í™•ë¥ (noneì„ ì ì—ˆìœ¼ë©´ ì•„ë¬´ ê°’ì´ë‚˜ ì ì„ ê²ƒ){/exp}{int(0:)}
+	{opt2}{exp}ë ˆë²¨(noneì„ ì ì—ˆìœ¼ë©´ ì•„ë¬´ ê°’ì´ë‚˜ ì ì„ ê²ƒ){int(0:)}
 	{opt3}{int(0:)}
 	{opt4}{int(0:)}
 	{opt5}{int(0:)}
@@ -192,54 +192,54 @@
 [!active status]
 
 
-///°áÅõÀå »óÅÂº¸Á¤À» À§ÇØ Ãß°¡ÇÏ´Â °Í.
-{exp}ÈÞ¸Õ ¾Æ¸Ó¿¡°Ô X%ÀÇ ¾àÇÑ »óÅÂº¯È­ È¿°ú¸¦ ÁÜ(¼öÄ¡ÀÇ 1/10){/exp}[human active status rate]
-	{must2}{exp}È®·ü{/exp}{float(:)}
+///ê²°íˆ¬ìž¥ ìƒíƒœë³´ì •ì„ ìœ„í•´ ì¶”ê°€í•˜ëŠ” ê²ƒ.
+{exp}íœ´ë¨¼ ì•„ë¨¸ì—ê²Œ X%ì˜ ì•½í•œ ìƒíƒœë³€í™” íš¨ê³¼ë¥¼ ì¤Œ(ìˆ˜ì¹˜ì˜ 1/10){/exp}[human active status rate]
+	{must2}{exp}í™•ë¥ {/exp}{float(:)}
 [!human active status rate]
 
-{exp}ÇÇ°ÝÀÌ ¿Ã¶ó°¡´ÂÁö ¿©ºÎ{/exp}[is hit number increasing]
-	{must1}{exp}1:ÇÇ°ÝÀÌ ¿Ã¶ó°¨, 0:¿Ã¶ó °¡Áö ¾ÊÀ½{/exp}{int(0:1)}
+{exp}í”¼ê²©ì´ ì˜¬ë¼ê°€ëŠ”ì§€ ì—¬ë¶€{/exp}[is hit number increasing]
+	{must1}{exp}1:í”¼ê²©ì´ ì˜¬ë¼ê°, 0:ì˜¬ë¼ ê°€ì§€ ì•ŠìŒ{/exp}{int(0:1)}
 [!is hit number increasing]
 
-{exp}ºÒ»ç ÆÐ½Ãºê¸¦ ¹«½ÃÇÒÁö ¿©ºÎ{/exp}[ignore diehard]
-	{must1}{exp}¹«½ÃÇÒÁö ¿©ºÎ(1: ¿¹, 0:¾Æ´Ï¿À){/exp}{int(0:1)}
+{exp}ë¶ˆì‚¬ íŒ¨ì‹œë¸Œë¥¼ ë¬´ì‹œí• ì§€ ì—¬ë¶€{/exp}[ignore diehard]
+	{must1}{exp}ë¬´ì‹œí• ì§€ ì—¬ë¶€(1: ì˜ˆ, 0:ì•„ë‹ˆì˜¤){/exp}{int(0:1)}
 [!ignore diehard]
 
-{exp}»ó´ëÀÇ ½´ÆÛ¾Æ¸Ó¸¦ ±ú´Â °ø°ÝÀ¸·Î ¼³Á¤{/exp}[ignore super armor]
-	{must1}{exp}½´ÆÛ¾Æ¸Ó ±ú´Â °ø°ÝÀÎÁö ¿©ºÎ(1: ¿¹, 0:¾Æ´Ï¿À){/exp}{int(0:1)}
+{exp}ìƒëŒ€ì˜ ìŠˆí¼ì•„ë¨¸ë¥¼ ê¹¨ëŠ” ê³µê²©ìœ¼ë¡œ ì„¤ì •{/exp}[ignore super armor]
+	{must1}{exp}ìŠˆí¼ì•„ë¨¸ ê¹¨ëŠ” ê³µê²©ì¸ì§€ ì—¬ë¶€(1: ì˜ˆ, 0:ì•„ë‹ˆì˜¤){/exp}{int(0:1)}
 [!ignore super armor]
 
-{exp}»ó´ëÀÇ ¹«°Ô¸¦ ¹«½ÃÇÏ´Â °ø°ÝÀ¸·Î ¼³Á¤{/exp}[ignore weight]
-	{must1}{exp}¹«½ÃÇÒÁö ¿©ºÎ(1: ¿¹, 0:¾Æ´Ï¿À){/exp}{int(0:)}
+{exp}ìƒëŒ€ì˜ ë¬´ê²Œë¥¼ ë¬´ì‹œí•˜ëŠ” ê³µê²©ìœ¼ë¡œ ì„¤ì •{/exp}[ignore weight]
+	{must1}{exp}ë¬´ì‹œí• ì§€ ì—¬ë¶€(1: ì˜ˆ, 0:ì•„ë‹ˆì˜¤){/exp}{int(0:)}
 [!ignore weight]
 
-{exp}pvp°ü·Ã ¼³Á¤{/exp}[pvp]
-	{exp}±â¼ú °íÀ¯ÀÇ °ø°Ý·Â{/exp}[damage bonus]
-		//mkjung 120601 int-->float·Î º¯°æ
+{exp}pvpê´€ë ¨ ì„¤ì •{/exp}[pvp]
+	{exp}ê¸°ìˆ  ê³ ìœ ì˜ ê³µê²©ë ¥{/exp}[damage bonus]
+		//mkjung 120601 int-->floatë¡œ ë³€ê²½
 		{must1}{exp}{/exp}{float(:)}
 	[!damage bonus]
 
 	//mkjung 120601 add
-	{exp}°ø°Ý Á¤º¸{/exp}[hit info]		
-		{must1}{exp}Å¸°Ý ÀÌÆåÆ® Ãâ·Â{/exp}[blow]
-		{must1}{exp}º£±â ÀÌÆåÆ® Ãâ·Â{/exp}[cut]
-		{must1}{exp}ºÒÅÂ¿ò ÀÌÆåÆ® Ãâ·Â{/exp}[burn]
-		{must1}{exp}Å¸°Ý Á¾·ù(hp°¡ ÁÙÁö ¾Ê°í mp°¡ ¼Ò¸ð){/exp}[mana burn]
-		{must1}{exp}Ä¿½ºÅÒ ÀÌÆåÆ®»ç¿ë(ÁÖ·Î ÄÚµå¿¡¼­ Á¤ÀÇµÊ){/exp}[etc]				
+	{exp}ê³µê²© ì •ë³´{/exp}[hit info]		
+		{must1}{exp}íƒ€ê²© ì´íŽ™íŠ¸ ì¶œë ¥{/exp}[blow]
+		{must1}{exp}ë² ê¸° ì´íŽ™íŠ¸ ì¶œë ¥{/exp}[cut]
+		{must1}{exp}ë¶ˆíƒœì›€ ì´íŽ™íŠ¸ ì¶œë ¥{/exp}[burn]
+		{must1}{exp}íƒ€ê²© ì¢…ë¥˜(hpê°€ ì¤„ì§€ ì•Šê³  mpê°€ ì†Œëª¨){/exp}[mana burn]
+		{must1}{exp}ì»¤ìŠ¤í…€ ì´íŽ™íŠ¸ì‚¬ìš©(ì£¼ë¡œ ì½”ë“œì—ì„œ ì •ì˜ë¨){/exp}[etc]				
 
-		{must2}{exp}ÇÇ Æ¢±â´Â ¿©ºÎ(ÇÇÈê¸²){/exp}[blood]
-		{must2}{exp}ÇÇ Æ¢±â´Â ¿©ºÎ(ÇÇ¾ÈÈê¸²){/exp}[no blood]
+		{must2}{exp}í”¼ íŠ€ê¸°ëŠ” ì—¬ë¶€(í”¼í˜ë¦¼){/exp}[blood]
+		{must2}{exp}í”¼ íŠ€ê¸°ëŠ” ì—¬ë¶€(í”¼ì•ˆí˜ë¦¼){/exp}[no blood]
 
-		{opt1}{exp}Å¸°Ý½Ã ÀÏ½Ã Á¤Áö ½Ã°£(¹«±â ¼­ºêÅ¸ÀÔ µû¶ó°¥·Á¸é -1){/exp}{float(:)}
-		{opt2}{exp}Èý µô·¹ÀÌ Å¸ÀÓ ¹è¼ö(¹«±â ¼­ºêÅ¸ÀÔ µû¶ó°¥·Á¸é -1){/exp}{float(:)}
+		{opt1}{exp}íƒ€ê²©ì‹œ ì¼ì‹œ ì •ì§€ ì‹œê°„(ë¬´ê¸° ì„œë¸Œíƒ€ìž… ë”°ë¼ê°ˆë ¤ë©´ -1){/exp}{float(:)}
+		{opt2}{exp}íž› ë”œë ˆì´ íƒ€ìž„ ë°°ìˆ˜(ë¬´ê¸° ì„œë¸Œíƒ€ìž… ë”°ë¼ê°ˆë ¤ë©´ -1){/exp}{float(:)}
 	[!hit info]
 [/pvp]
 								
 
-{exp}ÀÌ °ø°ÝÀÇ °ø°Ý¹æÇâÀ» ¼³Á¤{/exp}[hit direction] 
-	{must1}{exp}ÇÇ°ÝÀÚ¿ÍÀÇ ¹æÇâÀ» ÅëÇØ ÀÚµ¿À¸·Î ¾Ë¾Æ³¿{/exp}[auto]
-	{must1}{exp}¾ÕÀ¸·Î °ø°ÝÇÑ °ÍÀ¸·Î ¼³Á¤{/exp}[front]
-	{must1}{exp}µÚ·Î °ø°ÝÇÑ °ÍÀ¸·Î ¼³Á¤{/exp}[back]
-	{must1}{exp}¹Ù±ùÂÊÀ¸·Î °ø°ÝÇÑ °ÍÀ¸·Î ¼³Á¤{/exp}[outer]
-	{must1}{exp}¾ÈÂÊÀ¸·Î °ø°ÝÇÑ °ÍÀ¸·Î ¼³Á¤{/exp}[inner]
+{exp}ì´ ê³µê²©ì˜ ê³µê²©ë°©í–¥ì„ ì„¤ì •{/exp}[hit direction] 
+	{must1}{exp}í”¼ê²©ìžì™€ì˜ ë°©í–¥ì„ í†µí•´ ìžë™ìœ¼ë¡œ ì•Œì•„ëƒ„{/exp}[auto]
+	{must1}{exp}ì•žìœ¼ë¡œ ê³µê²©í•œ ê²ƒìœ¼ë¡œ ì„¤ì •{/exp}[front]
+	{must1}{exp}ë’¤ë¡œ ê³µê²©í•œ ê²ƒìœ¼ë¡œ ì„¤ì •{/exp}[back]
+	{must1}{exp}ë°”ê¹¥ìª½ìœ¼ë¡œ ê³µê²©í•œ ê²ƒìœ¼ë¡œ ì„¤ì •{/exp}[outer]
+	{must1}{exp}ì•ˆìª½ìœ¼ë¡œ ê³µê²©í•œ ê²ƒìœ¼ë¡œ ì„¤ì •{/exp}[inner]
 [!hit direction] 

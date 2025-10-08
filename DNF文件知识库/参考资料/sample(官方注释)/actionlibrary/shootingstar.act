@@ -8,17 +8,17 @@
 //[DEFAULT ATTACKINFO]	`../AttackInfo/Attack2.atk`
 
 [TRIGGER]
-[FRAME] 2 2 // 2¹ø ÇÁ·¹ÀÓ¿¡¼­
-[CHECKUP] [CHARACTER] //Ä³¸¯ÅÍµé¸¸ Ã¼Å©
+[FRAME] 2 2 // 2ë²ˆ í”„ë ˆìž„ì—ì„œ
+[CHECKUP] [CHARACTER] //ìºë¦­í„°ë“¤ë§Œ ì²´í¬
 [/CHECKUP]
-[DO BEHAVIOR] [CHECKED OBJECT] 0 // Ã¼Å©µÈ Ä³¸¯ÅÍ¿¡°Ô ³¯¸²
+[DO BEHAVIOR] [CHECKED OBJECT] 0 // ì²´í¬ëœ ìºë¦­í„°ì—ê²Œ ë‚ ë¦¼
 [/TRIGGER]	
 [BEHAVIOR] // 0 
 	[CREATE PASSIVEOBJECT]
-		[INDEX] 40004//ÀÎµ¦½º¹øÈ£ 40004 ¹ø ½´ÆÃ½ºÅ¸.
-		[PARTICLE FILENAME] `../../Common/Particle/ShootingStarPath.ptl` ½´ÆÃ½ºÅ¸ÀÇ ÆÄÆ¼Å¬ °æ·Î
-		[LEVEL] 40	// ½´ÆÃ½ºÅ¸ÀÇ ¸¶¹ý·¹º§
-		[POS] 0 0 300 // »ó´ëÁÂÇ¥. ¸ñÇ¥ÁöÁ¡ ³ôÀÌ´Â À§Ä¡·Î °¨. 
-		[WARNING MARK] 330 0 100 2 // WarningMark º¸Á¤. xÀ§Ä¡ º¸Á¤ y º¸Á¤ À§Ä¡ µô·¹ÀÌ, °æ°í¸¶Å© Á¾·ù. ¸¶¹ýÁøÀº À§ÀÇ POS¿¡ ÁöÁ¤µÈ ÀÚÇ¥¿¡¼­ »ý¼º
+		[INDEX] 40004//ì¸ë±ìŠ¤ë²ˆí˜¸ 40004 ë²ˆ ìŠˆíŒ…ìŠ¤íƒ€.
+		[PARTICLE FILENAME] `../../Common/Particle/ShootingStarPath.ptl` ìŠˆíŒ…ìŠ¤íƒ€ì˜ íŒŒí‹°í´ ê²½ë¡œ
+		[LEVEL] 40	// ìŠˆíŒ…ìŠ¤íƒ€ì˜ ë§ˆë²•ë ˆë²¨
+		[POS] 0 0 300 // ìƒëŒ€ì¢Œí‘œ. ëª©í‘œì§€ì  ë†’ì´ëŠ” ìœ„ì¹˜ë¡œ ê°. 
+		[WARNING MARK] 330 0 100 2 // WarningMark ë³´ì •. xìœ„ì¹˜ ë³´ì • y ë³´ì • ìœ„ì¹˜ ë”œë ˆì´, ê²½ê³ ë§ˆí¬ ì¢…ë¥˜. ë§ˆë²•ì§„ì€ ìœ„ì˜ POSì— ì§€ì •ëœ ìží‘œì—ì„œ ìƒì„±
 	[/CREATE PASSIVEOBJECT]
 [/BEHAVIOR]

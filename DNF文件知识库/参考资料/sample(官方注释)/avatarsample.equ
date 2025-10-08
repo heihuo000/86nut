@@ -1,50 +1,50 @@
-// ¾Æ¹ÙÅ¸ ½ºÅ©¸³Æ® »ùÇÃ ÆÄÀÏ
-// ¾Æ¹ÙÅ¸ ½ºÅ©¸³Æ® »ùÇÃ ÆÄÀÏ
+// ì•„ë°”íƒ€ ìŠ¤í¬ë¦½íŠ¸ ìƒ˜í”Œ íŒŒì¼
+// ì•„ë°”íƒ€ ìŠ¤í¬ë¦½íŠ¸ ìƒ˜í”Œ íŒŒì¼
 
 
-[name] <3::name_44801>			// ¾Æ¹ÙÅ¸ ÇÑ±Û ÀÌ¸§ ÀÎµ¦½º
-[name2] <3::name2_44801>		// ¾Æ¹ÙÅ¸ ¿µ¹® ÀÌ¸§ ÀÎµ¦½º
-[explain] <3::basic_explain_44801>	// ¾Æ¹ÙÅ¸ ¼³¸í ÀÎµ¦½º
-[grade] 2				// ¾Æ¹ÙÅ¸ µî±Ş // 1 ÀÏ¹İ, 2 »ó±Ş, 3 ·¹¾î
-[attach type] `[free]`			// ±³È¯ ¿©ºÎ // free ±³È¯°¡´É, trade ±³È¯ºÒ°¡
+[name] <3::name_44801>			// ì•„ë°”íƒ€ í•œê¸€ ì´ë¦„ ì¸ë±ìŠ¤
+[name2] <3::name2_44801>		// ì•„ë°”íƒ€ ì˜ë¬¸ ì´ë¦„ ì¸ë±ìŠ¤
+[explain] <3::basic_explain_44801>	// ì•„ë°”íƒ€ ì„¤ëª… ì¸ë±ìŠ¤
+[grade] 2				// ì•„ë°”íƒ€ ë“±ê¸‰ // 1 ì¼ë°˜, 2 ìƒê¸‰, 3 ë ˆì–´
+[attach type] `[free]`			// êµí™˜ ì—¬ë¶€ // free êµí™˜ê°€ëŠ¥, trade êµí™˜ë¶ˆê°€
 [rarity] 2
-[usable job]				// Âø¿ë °¡´É Á÷¾÷
+[usable job]				// ì°©ìš© ê°€ëŠ¥ ì§ì—…
 `[fighter]`
 [/usable job]
-[minimum level] 1			// Âø¿ë °¡´É ÃÖÀú ·¹º§
-[usable period] 15			// ±â°£Á¦
+[minimum level] 1			// ì°©ìš© ê°€ëŠ¥ ìµœì € ë ˆë²¨
+[usable period] 15			// ê¸°ê°„ì œ
 
-[icon] `item/avatar/fighter/ft_acoat.img` 171	// ¾ÆÀÌÄÜ ÀÌ¹ÌÁö °æ·Î
+[icon] `item/avatar/fighter/ft_acoat.img` 171	// ì•„ì´ì½˜ ì´ë¯¸ì§€ ê²½ë¡œ
 
-[equipment type] `[coat avatar]` 0	// Âø¿ë À§Ä¡ 
+[equipment type] `[coat avatar]` 0	// ì°©ìš© ìœ„ì¹˜ 
 
 
-[avatar func filter] 0			// ¾Æ¹ÙÅ¸ ±â´É // 0 ¸ğµÎ ºÒ°¡, 1 ÇÕ¼º °¡´É, 2 ÇØÃ¼ °¡´É, 3ÇÕ¼º, ÇØÃ¼ °¡´É
+[avatar func filter] 0			// ì•„ë°”íƒ€ ê¸°ëŠ¥ // 0 ëª¨ë‘ ë¶ˆê°€, 1 í•©ì„± ê°€ëŠ¥, 2 í•´ì²´ ê°€ëŠ¥, 3í•©ì„±, í•´ì²´ ê°€ëŠ¥
 
-[avatar type select]			// ±¸ÀÔ½Ã Å¸ÀÔ ¼±ÅÃ
-7 0 0 1700 0				// ±â°£=°ñµå=½ÂÁ¡=¼¼¶ó=¼ÒÄÏ°³¼ö=¼ÒÄÏÁ¤º¸
+[avatar type select]			// êµ¬ì…ì‹œ íƒ€ì… ì„ íƒ
+7 0 0 1700 0				// ê¸°ê°„=ê³¨ë“œ=ìŠ¹ì =ì„¸ë¼=ì†Œì¼“ê°œìˆ˜=ì†Œì¼“ì •ë³´
 30 0 0 3400 0
 0 0 0 6800 0
 0 0 0 7480 2 `[C socket]` `[C socket]`
 [/avatar type select]
 
 
-[variation] 54 0				// Âø¿ë ÀÌ¹ÌÁö ·¹ÀÌ¾î ¹øÈ£
+[variation] 54 0				// ì°©ìš© ì´ë¯¸ì§€ ë ˆì´ì–´ ë²ˆí˜¸
 [layer variation] 1800 `coat_a`
-////¾²Áö¸»°Í ¾Æ·¡ÅÂ±×·Î º¯°æµÊ /////<include> `equipment/character/fighter.lay`
+////ì“°ì§€ë§ê²ƒ ì•„ë˜íƒœê·¸ë¡œ ë³€ê²½ë¨ /////<include> `equipment/character/fighter.lay`
 [equipment ani script] `equipment/character/fighter.lay`
 [layer variation] 500 `coat_d`
-////¾²Áö¸»°Í ¾Æ·¡ÅÂ±×·Î º¯°æµÊ /////<include> `equipment/character/fighter.lay`
+////ì“°ì§€ë§ê²ƒ ì•„ë˜íƒœê·¸ë¡œ ë³€ê²½ë¨ /////<include> `equipment/character/fighter.lay`
 [equipment ani script] `equipment/character/fighter.lay`
 
 [move wav] `CLOTH_TOUCH`
 
 
-[part set index] 2				// ÀÏ¹İ ¼¼Æ® ¹øÈ£ // 2 »ó±Ş ¼¼Æ®, 3 ·¹¾î ¼¼Æ®
+[part set index] 2				// ì¼ë°˜ ì„¸íŠ¸ ë²ˆí˜¸ // 2 ìƒê¸‰ ì„¸íŠ¸, 3 ë ˆì–´ ì„¸íŠ¸
 
 
-[set name] <3::set_name_44801>			// ¼¼Æ®¸í (ÁöÁ¤µÈ ¼¼Æ®°¡ ÀÖÀ» °æ¿ì)
-[set item]					// ¼¼Æ® È¿°ú¸¦ ÀÌ·ç´Â ´Ù¸¥ ÆÄÃ÷ ÀÎµ¦½º (ÁöÁ¤µÈ ¼¼Æ®°¡ ÀÖÀ» °æ¿ì)
+[set name] <3::set_name_44801>			// ì„¸íŠ¸ëª… (ì§€ì •ëœ ì„¸íŠ¸ê°€ ìˆì„ ê²½ìš°)
+[set item]					// ì„¸íŠ¸ íš¨ê³¼ë¥¼ ì´ë£¨ëŠ” ë‹¤ë¥¸ íŒŒì¸  ì¸ë±ìŠ¤ (ì§€ì •ëœ ì„¸íŠ¸ê°€ ìˆì„ ê²½ìš°)
 43138
 43575
 43909
@@ -58,7 +58,7 @@
 
 
 
-[set ability]					// ¼¼Æ® ¾Æ¹ÙÅ¸ È¿°ú (ÁöÁ¤µÈ ¼¼Æ®°¡ ÀÖÀ» °æ¿ì)
+[set ability]					// ì„¸íŠ¸ ì•„ë°”íƒ€ íš¨ê³¼ (ì§€ì •ëœ ì„¸íŠ¸ê°€ ìˆì„ ê²½ìš°)
 [HP MAX] 150
 [MP MAX] 150
 [physical attack] +15
@@ -76,7 +76,7 @@
 [/skill levelup] 
 [/set ability]
 
-[avatar select ability]				// ¾Æ¹ÙÅ¸ ¼±ÅÃ ´É·ÂÄ¡
+[avatar select ability]				// ì•„ë°”íƒ€ ì„ íƒ ëŠ¥ë ¥ì¹˜
 `[SKILL_LEVEL]` `[fighter]` 30 1
 `[SKILL_LEVEL]` `[fighter]` 20 1
 `[SKILL_LEVEL]` `[fighter]` 1 1
@@ -127,9 +127,9 @@
 [/avatar select ability]
 
 
-// ¿À¶ó¾Æ¹ÙÅ¸ ºÎ°¡ ±â´É
-// `[none]` //¾Æ¹«·± ±â´É¾ø´Â ¿À¶ó¾Æ¹ÙÅ¸
-// `[party teleport]` index  //ÆÄÆ¼ ¼ø°£ ÀÌµ¿ (ÆÄÆ¼ÀÌµ¿ ÄğÅ¸ÀÓ)
+// ì˜¤ë¼ì•„ë°”íƒ€ ë¶€ê°€ ê¸°ëŠ¥
+// `[none]` //ì•„ë¬´ëŸ° ê¸°ëŠ¥ì—†ëŠ” ì˜¤ë¼ì•„ë°”íƒ€
+// `[party teleport]` index  //íŒŒí‹° ìˆœê°„ ì´ë™ (íŒŒí‹°ì´ë™ ì¿¨íƒ€ì„)
 [aura ability]
 `[party teleport]` 600 
 [/aura ability]
