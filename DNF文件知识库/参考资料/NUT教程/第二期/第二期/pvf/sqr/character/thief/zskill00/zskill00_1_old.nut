@@ -1,63 +1,63 @@
-function checkExecutableSkill_Zskill00(obj)//ÀË¬d§Ş¯à¥i°õ¦æ©Ê
+function checkExecutableSkill_Zskill00(obj)//æª¢æŸ¥æŠ€èƒ½å¯åŸ·è¡Œæ€§
 {
 	if (!obj) return false;
-	local isUse = obj.sq_IsUseSkill(SKILL_ZSKILL00);//ÀË¬d§Ş¯àªº¬O§_¥i¨Ï¥Î
-	
-	if (isUse) //²Å¦X±ø¥ó
+	local isUse = obj.sq_IsUseSkill(SKILL_ZSKILL00);//æª¢æŸ¥æŠ€èƒ½çš„æ˜¯å¦å¯ä½¿ç”¨
+
+	if (isUse) //ç¬¦åˆæ¢ä»¶
 	{
-		obj.sq_AddSetStatePacket(STATE_ZSKILL00 , STATE_PRIORITY_USER, false);//²Å¦X¥i¨Ï¥Î®É¡Aµo°e¡§STATE_ZSKILL00¡¨ª¬ºA
+		obj.sq_AddSetStatePacket(STATE_ZSKILL00 , STATE_PRIORITY_USER, false);//ç¬¦åˆå¯ä½¿ç”¨æ™‚ï¼Œç™¼é€â€œSTATE_ZSKILL00â€ç‹€æ…‹
 		return true;
 	}
-	
+
 	return false;
 }
 
-function checkCommandEnable_Zskill00(obj)//ÀË¬d«öÁä¶}Ãö
+function checkCommandEnable_Zskill00(obj)//æª¢æŸ¥æŒ‰éµé–‹é—œ
 {
 	if (!obj) return false;
-	local state = obj.sq_GetState();//Àò¨ú·í«e¨¤¦âªºª¬ºA
-	
-	if (state == STATE_STAND)//Àò¨ú¨¤¦âªºª¬ºA µ¥¤_¡§¯¸¥ß¡¨®É
-	
-		return true;//ªğ¦^ [¯u],¤]´N¬O»¡¥i¥H¨Ï¥Î§Ş¯à ­Y¬° [°²]®É¡A±N·|¤£¯à¨Ï¥Î¡F
-	
+	local state = obj.sq_GetState();//ç²å–ç•¶å‰è§’è‰²çš„ç‹€æ…‹
+
+	if (state == STATE_STAND)//ç²å–è§’è‰²çš„ç‹€æ…‹ ç­‰äºâ€œç«™ç«‹â€æ™‚
+
+		return true;//è¿”å› [çœŸ],ä¹Ÿå°±æ˜¯èªªå¯ä»¥ä½¿ç”¨æŠ€èƒ½ è‹¥ç‚º [å‡]æ™‚ï¼Œå°‡æœƒä¸èƒ½ä½¿ç”¨ï¼›
+
 	return true;
 }
 
-function onSetState_Zskill00(obj, state, datas, isResetTimer)//±µ¨ü¨ì µo°e¡§STATE_ZSKILL00¡¨ª¬ºA ®É¡AÄ²µo¤º®e¡F
-{	
+function onSetState_Zskill00(obj, state, datas, isResetTimer)//æ¥å—åˆ° ç™¼é€â€œSTATE_ZSKILL00â€ç‹€æ…‹ æ™‚ï¼Œè§¸ç™¼å…§å®¹ï¼›
+{
 	if(!obj) return;
-	
-	obj.sq_StopMove();//°±¤î¨¤¦âªº²¾°Ê
-	obj.sq_SetCurrentAnimation(CUSTOM_ANI_01);//³]¸m¨¤¦â¨Ï¥Î(CUSTOM_ANI_01)«ü¦VªºANI°Ê§@
+
+	obj.sq_StopMove();//åœæ­¢è§’è‰²çš„ç§»å‹•
+	obj.sq_SetCurrentAnimation(CUSTOM_ANI_01);//è¨­ç½®è§’è‰²ä½¿ç”¨(CUSTOM_ANI_01)æŒ‡å‘çš„ANIå‹•ä½œ
 
 	obj.sq_SetStaticSpeedInfo(SPEED_TYPE_ATTACK_SPEED, SPEED_TYPE_ATTACK_SPEED,SPEED_VALUE_DEFAULT,
-	 SPEED_VALUE_DEFAULT, 1.0, 1.0);//¨Ï¨¤¦âºt¥X³t«×¨ü§ğÀ»³t«×¼vÅT
-	obj.sq_SetCurrentAttackInfo(CUSTOM_ATK_01);//³]¸m¨¤¦â½Õ¥Î(CUSTOM_ATK_01)«ü¦VªºAtK¼Æ¾Ú
-	local damage = obj.sq_GetBonusRateWithPassive(SKILL_ZSKILL00 , STATE_ZSKILL00, 0, 1.0);//©w¸q¶Ë®`¦Ê¤À¤ñ¡]§Ş¯à½s¸¹¡A§Ş¯àª¬ºA¡A¹ïÀ³°ÊºA¼Æ¾Ú¸¹¦ì¡A§Ş¯à¶Ë®`­¿²v¡^
-	obj.sq_SetCurrentAttackBonusRate(damage);//³]¸m¶Ë®`¦Ê¤À¤ñ
+	 SPEED_VALUE_DEFAULT, 1.0, 1.0);//ä½¿è§’è‰²æ¼”å‡ºé€Ÿåº¦å—æ”»æ“Šé€Ÿåº¦å½±éŸ¿
+	obj.sq_SetCurrentAttackInfo(CUSTOM_ATK_01);//è¨­ç½®è§’è‰²èª¿ç”¨(CUSTOM_ATK_01)æŒ‡å‘çš„AtKæ•¸æ“š
+	local damage = obj.sq_GetBonusRateWithPassive(SKILL_ZSKILL00 , STATE_ZSKILL00, 0, 1.0);//å®šç¾©å‚·å®³ç™¾åˆ†æ¯”ï¼ˆæŠ€èƒ½ç·¨è™Ÿï¼ŒæŠ€èƒ½ç‹€æ…‹ï¼Œå°æ‡‰å‹•æ…‹æ•¸æ“šè™Ÿä½ï¼ŒæŠ€èƒ½å‚·å®³å€ç‡ï¼‰
+	obj.sq_SetCurrentAttackBonusRate(damage);//è¨­ç½®å‚·å®³ç™¾åˆ†æ¯”
 
-//---------ªá¨½­J­ï-------
+//---------èŠ±é‡Œèƒ¡å“¨-------
 obj.sq_setCustomHitEffectFileName
-("Character/Mage/Effect/Animation/ATIceSword/05_2_smoke_dodge .ani");//¹ï§ğÀ»¨ìªº³æ¦ìªş¥[¤@­Ó°Êµe®ÄªG
-obj.sq_SetShake(obj,2,150);//¾_°Ê
-sq_flashScreen(obj, 30, 30, 30, 200, sq_RGB(0,0,0), GRAPHICEFFECT_NONE, ENUM_DRAWLAYER_BOTTOM);//°{«Ì
+("Character/Mage/Effect/Animation/ATIceSword/05_2_smoke_dodge .ani");//å°æ”»æ“Šåˆ°çš„å–®ä½é™„åŠ ä¸€å€‹å‹•ç•«æ•ˆæœ
+obj.sq_SetShake(obj,2,150);//éœ‡å‹•
+sq_flashScreen(obj, 30, 30, 30, 200, sq_RGB(0,0,0), GRAPHICEFFECT_NONE, ENUM_DRAWLAYER_BOTTOM);//é–ƒå±
 }
 
-function onAttack_Zskill00(obj, damager, boundingBox, isStuck)//¹ï§ğÀ»©R¤¤ªº¹ï¶H
+function onAttack_Zskill00(obj, damager, boundingBox, isStuck)//å°æ”»æ“Šå‘½ä¸­çš„å°è±¡
 {
 	if (!obj || !damager) return;
-	
-	sq_EffectLayerAppendage(damager,sq_RGB(46, 204, 113),150,0,0,240);	//¹ï§ğÀ»©R¤¤ªº¹ï¶HÅ|¥[¤@¼hÃC¦â¥úÃĞ
+
+	sq_EffectLayerAppendage(damager,sq_RGB(46, 204, 113),150,0,0,240);	//å°æ”»æ“Šå‘½ä¸­çš„å°è±¡ç–ŠåŠ ä¸€å±¤é¡è‰²å…‰è­œ
 }
 
 
 
-function onEndCurrentAni_Zskill00(obj)//ANIºt¥Xµ²§ô
+function onEndCurrentAni_Zskill00(obj)//ANIæ¼”å‡ºçµæŸ
 {
-	//·í¨¤¦â¨Ï¥Î(CUSTOM_ANI_01)ªºANI°Ê§@ºt¥Xµ²§ô¦Z¡Aµo°e¡§STATE_STAND¡¨ª¬ºA¡A¤]´N¬O»¡(CUSTOM_ANI_01¡^°Ê§@°õ¦æ§¹´N«ì´_¯¸¥ßªºª¬ºA¡F
+	//ç•¶è§’è‰²ä½¿ç”¨(CUSTOM_ANI_01)çš„ANIå‹•ä½œæ¼”å‡ºçµæŸåï¼Œç™¼é€â€œSTATE_STANDâ€ç‹€æ…‹ï¼Œä¹Ÿå°±æ˜¯èªª(CUSTOM_ANI_01ï¼‰å‹•ä½œåŸ·è¡Œå®Œå°±æ¢å¾©ç«™ç«‹çš„ç‹€æ…‹ï¼›
 obj.sq_setCustomHitEffectFileName
-("Character/Mage/Effect/Animation/ATIceSword/x.ani");//¦bºt¥X°Êµeµ²§ô®É±N¨üÀ»°Êµe«ü¦V¨ìªÅªº¤å¥ó
+("Character/Mage/Effect/Animation/ATIceSword/x.ani");//åœ¨æ¼”å‡ºå‹•ç•«çµæŸæ™‚å°‡å—æ“Šå‹•ç•«æŒ‡å‘åˆ°ç©ºçš„æ–‡ä»¶
 	obj.sq_AddSetStatePacket(STATE_STAND, STATE_PRIORITY_USER, false);
 }
 

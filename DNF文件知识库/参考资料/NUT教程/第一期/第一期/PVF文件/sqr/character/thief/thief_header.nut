@@ -1,20 +1,20 @@
 
 
-//Stateª¬ºA½s¸¹
-STATE_ZSKILL00				<- 95//¤@¯ë¨Ó»¡¤j¤_¥D°Ê§Þ¯àªº¼Æ¶q¡A¼Æ­È90¥H¤W¤@¯ë¤£·|»P¬J¦³§Þ¯àª¬ºA¨R¬ð
+//Stateç‹€æ…‹ç·¨è™Ÿ
+STATE_ZSKILL00				<- 95//ä¸€èˆ¬ä¾†èªªå¤§äºŽä¸»å‹•æŠ€èƒ½çš„æ•¸é‡ï¼Œæ•¸å€¼90ä»¥ä¸Šä¸€èˆ¬ä¸æœƒèˆ‡æ—¢æœ‰æŠ€èƒ½ç‹€æ…‹æ²–çª
 
-//Skill§Þ¯à½s¸¹
-SKILL_ZSKILL00				<- 220//¹ïÀ³§Þ¯àªíªº§Þ¯à½s¸¹
+//SkillæŠ€èƒ½ç·¨è™Ÿ
+SKILL_ZSKILL00				<- 220//å°æ‡‰æŠ€èƒ½è¡¨çš„æŠ€èƒ½ç·¨è™Ÿ
 
-//ANI¤å¥ó
-CUSTOM_ANI_01	<- 0//«e¬q¤j¼g©R¦W«ö³ßÅwªº½s¼g¡A¦Z¬q «ü¦V¼Æ­È ¹ïÀ³¡§character/thief/thief.chr¡¨¤¤ªº[etc motion]
+//ANIæ–‡ä»¶
+CUSTOM_ANI_01	<- 0//å‰æ®µå¤§å¯«å‘½åæŒ‰å–œæ­¡çš„ç·¨å¯«ï¼ŒåŽæ®µ æŒ‡å‘æ•¸å€¼ å°æ‡‰â€œcharacter/thief/thief.chrâ€ä¸­çš„[etc motion]
 
-//ATK¤å¥ó
-CUSTOM_ATK_01	<- 0//«e¬q¤j¼g©R¦W«ö³ßÅwªº½s¼g¡A¦Z¬q «ü¦V¼Æ­È ¹ïÀ³¡§character/thief/thief.chr¡¨¤¤ªº[etc attack info]
+//ATKæ–‡ä»¶
+CUSTOM_ATK_01	<- 0//å‰æ®µå¤§å¯«å‘½åæŒ‰å–œæ­¡çš„ç·¨å¯«ï¼ŒåŽæ®µ æŒ‡å‘æ•¸å€¼ å°æ‡‰â€œcharacter/thief/thief.chrâ€ä¸­çš„[etc attack info]
 
 
 
-//----Àq»{¼Æ­È«ü¦V---
+//----é»˜èªæ•¸å€¼æŒ‡å‘---
 VECTOR_FLAG_0	<- 0
 VECTOR_FLAG_1	<- 1
 VECTOR_FLAG_2	<- 2
@@ -40,8 +40,8 @@ SKL_LVL_COLUMN_IDX_4	<- 4
 SKL_LVL_COLUMN_IDX_5	<- 5
 SKL_LVL_COLUMN_IDX_6	<- 6
 
-SKL_LV_0 <- 0 
-SKL_LV_1 <- 1 
-SKL_LV_2 <- 2 
-SKL_LV_3 <- 3 
-SKL_LV_4 <- 4 
+SKL_LV_0 <- 0
+SKL_LV_1 <- 1
+SKL_LV_2 <- 2
+SKL_LV_3 <- 3
+SKL_LV_4 <- 4

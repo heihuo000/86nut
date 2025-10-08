@@ -1,40 +1,40 @@
-function checkExecutableSkill_Zskill00(obj)//ÀË¬d§Ş¯à¥i°õ¦æ©Ê
+function checkExecutableSkill_Zskill00(obj)//æª¢æŸ¥æŠ€èƒ½å¯åŸ·è¡Œæ€§
 {
 	if (!obj) return false;
-	local isUse = obj.sq_IsUseSkill(SKILL_ZSKILL00);//ÀË¬d§Ş¯àªº¬O§_¥i¨Ï¥Î
-	
-	if (isUse) //²Å¦X±ø¥ó
+	local isUse = obj.sq_IsUseSkill(SKILL_ZSKILL00);//æª¢æŸ¥æŠ€èƒ½çš„æ˜¯å¦å¯ä½¿ç”¨
+
+	if (isUse) //ç¬¦åˆæ¢ä»¶
 	{
-		obj.sq_AddSetStatePacket(STATE_ZSKILL00 , STATE_PRIORITY_USER, false);//²Å¦X¥i¨Ï¥Î®É¡Aµo°e¡§STATE_ZSKILL00¡¨ª¬ºA
+		obj.sq_AddSetStatePacket(STATE_ZSKILL00 , STATE_PRIORITY_USER, false);//ç¬¦åˆå¯ä½¿ç”¨æ™‚ï¼Œç™¼é€â€œSTATE_ZSKILL00â€ç‹€æ…‹
 		return true;
 	}
-	
+
 	return false;
 }
 
-function checkCommandEnable_Zskill00(obj)//ÀË¬d«öÁä¶}Ãö
+function checkCommandEnable_Zskill00(obj)//æª¢æŸ¥æŒ‰éµé–‹é—œ
 {
 	if (!obj) return false;
-	local state = obj.sq_GetState();//Àò¨ú·í«e¨¤¦âªºª¬ºA
-	
-	if (state == STATE_STAND)//Àò¨ú¨¤¦âªºª¬ºA µ¥¤_¡§¯¸¥ß¡¨®É
-	
-		return true;//ªğ¦^ [¯u],¤]´N¬O»¡¥i¥H¨Ï¥Î§Ş¯à ­Y¬° [°²]®É¡A±N·|¤£¯à¨Ï¥Î¡F
-	
+	local state = obj.sq_GetState();//ç²å–ç•¶å‰è§’è‰²çš„ç‹€æ…‹
+
+	if (state == STATE_STAND)//ç²å–è§’è‰²çš„ç‹€æ…‹ ç­‰äºâ€œç«™ç«‹â€æ™‚
+
+		return true;//è¿”å› [çœŸ],ä¹Ÿå°±æ˜¯èªªå¯ä»¥ä½¿ç”¨æŠ€èƒ½ è‹¥ç‚º [å‡]æ™‚ï¼Œå°‡æœƒä¸èƒ½ä½¿ç”¨ï¼›
+
 	return true;
 }
 
-function onSetState_Zskill00(obj, state, datas, isResetTimer)//±µ¨ü¨ì µo°e¡§STATE_ZSKILL00¡¨ª¬ºA ®É¡AÄ²µo¤º®e¡F
-{	
+function onSetState_Zskill00(obj, state, datas, isResetTimer)//æ¥å—åˆ° ç™¼é€â€œSTATE_ZSKILL00â€ç‹€æ…‹ æ™‚ï¼Œè§¸ç™¼å…§å®¹ï¼›
+{
 	if(!obj) return;
-	
-	obj.sq_StopMove();//°±¤î¨¤¦âªº²¾°Ê
-	obj.sq_SetCurrentAnimation(CUSTOM_ANI_01);//³]¸m¨¤¦â¨Ï¥Î(CUSTOM_ANI_01)«ü¦VªºANI°Ê§@
+
+	obj.sq_StopMove();//åœæ­¢è§’è‰²çš„ç§»å‹•
+	obj.sq_SetCurrentAnimation(CUSTOM_ANI_01);//è¨­ç½®è§’è‰²ä½¿ç”¨(CUSTOM_ANI_01)æŒ‡å‘çš„ANIå‹•ä½œ
 }
 
-function onEndCurrentAni_Zskill00(obj)//ANIºt¥Xµ²§ô
+function onEndCurrentAni_Zskill00(obj)//ANIæ¼”å‡ºçµæŸ
 {
-	//·í¨¤¦â¨Ï¥Î(CUSTOM_ANI_01)ªºANI°Ê§@ºt¥Xµ²§ô¦Z¡Aµo°e¡§STATE_STAND¡¨ª¬ºA¡A¤]´N¬O»¡(CUSTOM_ANI_01¡^°Ê§@°õ¦æ§¹´N«ì´_¯¸¥ßªºª¬ºA¡F
+	//ç•¶è§’è‰²ä½¿ç”¨(CUSTOM_ANI_01)çš„ANIå‹•ä½œæ¼”å‡ºçµæŸåï¼Œç™¼é€â€œSTATE_STANDâ€ç‹€æ…‹ï¼Œä¹Ÿå°±æ˜¯èªª(CUSTOM_ANI_01ï¼‰å‹•ä½œåŸ·è¡Œå®Œå°±æ¢å¾©ç«™ç«‹çš„ç‹€æ…‹ï¼›
 	obj.sq_AddSetStatePacket(STATE_STAND, STATE_PRIORITY_USER, false);
 }
 
