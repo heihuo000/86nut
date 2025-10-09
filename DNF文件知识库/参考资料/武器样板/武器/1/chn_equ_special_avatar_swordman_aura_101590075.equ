@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+`金辉璀璨左轮`
+
+[flavor text]
+`<2018劳动节礼包>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+27	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+180	
+[physical attack]
+25	
+[physical defense]
+25	
+[magical attack]
+25	
+[magical defense]
+25	
+[all elemental attack]
+5	
+[physical critical hit]
+2.0	
+[magical critical hit]
+2.0	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[aurora graphic effects]
+7	0	`Character/Common/Animation/Aura/chn_2018_laborday_aura/chn_2018_laborday_gold_07_back_dust_normal.ani`
+0	`Character/Common/Animation/Aura/chn_2018_laborday_aura/chn_2018_laborday_gold_06_back_cylinder_normal.ani`
+0	`Character/Common/Animation/Aura/chn_2018_laborday_aura/chn_2018_laborday_gold_05_back_cylinder_dodge.ani`
+0	`Character/Common/Animation/Aura/chn_2018_laborday_aura/chn_2018_laborday_gold_04_back_bullet_dodge.ani`
+1	`Character/Common/Animation/Aura/chn_2018_laborday_aura/chn_2018_laborday_gold_03_front_dust_normal.ani`
+1	`Character/Common/Animation/Aura/chn_2018_laborday_aura/chn_2018_laborday_gold_02_front_fire_normal.ani`
+1	`Character/Common/Animation/Aura/chn_2018_laborday_aura/chn_2018_laborday_gold_01_front_fire_dodge.ani`
+
+[/aurora graphic effects]
+
+

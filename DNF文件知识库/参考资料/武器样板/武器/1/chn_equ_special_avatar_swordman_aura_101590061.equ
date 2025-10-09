@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+`时间支配者 - 思考`
+
+[flavor text]
+`<2017劳动节礼包>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+18	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+164	
+[physical attack]
+25	
+[physical defense]
+25	
+[magical attack]
+25	
+[magical defense]
+25	
+[all elemental attack]
+5	
+[physical critical hit]
+2.0	
+[magical critical hit]
+2.0	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[aurora graphic effects]
+6	0	`Character/Common/Animation/Aura/chn_2017_laborday_aura/chn_2017_laborday_back_clock_nomal_purple.ani`
+0	`Character/Common/Animation/Aura/chn_2017_laborday_aura/chn_2017_laborday_back_clock_dodge_01_purple.ani`
+0	`Character/Common/Animation/Aura/chn_2017_laborday_aura/chn_2017_laborday_back_clock_dodge_02_purple.ani`
+0	`Character/Common/Animation/Aura/chn_2017_laborday_aura/chn_2017_laborday_back_clockwork_nomal_purple.ani`
+0	`Character/Common/Animation/Aura/chn_2017_laborday_aura/chn_2017_laborday_back_clockwork_dodge_purple.ani`
+1	`Character/Common/Animation/Aura/chn_2017_laborday_aura/chn_2017_laborday_front_clockwork_dodge_purple.ani`
+
+[/aurora graphic effects]
+
+

@@ -1,0 +1,128 @@
+#PVF_File
+
+[name]
+`寂魂祈日长袍`
+
+[name2]
+`Silent Freyja Robe`
+
+[grade]
+54	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+50	
+[magical attack]
+26	
+[magical defense]
+26	
+[price]
+37800	
+[repair price]
+33339	
+[value]
+30240	
+[equipment physical defense]
+684	660	
+[skill levelup]
+`[fighter]`
+30	1	`[at fighter]`
+112	1	
+[/skill levelup]
+
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+74	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`寂魂祈日战袍  套装`
+
+[set item]
+10098	12096	14094	18081	16080	
+[/set item]
+
+[set ability]
+
+[magical attack]
+30	
+[magical defense]
+15	
+[cast speed]
+50	
+[if]
+
+[cooltime]
+1000	
+[hit]
+1	
+[/if]
+
+[then]
+
+[target]
+`enemy`
+-1	
+[duration]
+15000	
+[probability]
+2	
+[reduce probability to human armor at pvp module]
+70	
+[active status]
+`lightning`
+50	210	
+[/then]
+
+[skill levelup]
+`[fighter]`
+90	1	`[fighter]`
+16	1	`[at fighter]`
+90	1	`[at fighter]`
+16	1	
+[/skill levelup]
+
+[fullset basic explain]
+`被攻击时， 有2%%的几率使敌人进入感电状态。`
+
+[fullset detail explain]
+`    被攻击时， 有2%%的几率使敌人进入感电状态15秒； 若攻击感电状态下的敌人， 则每次攻击都会附加210点伤害。 (若敌人高于Lv50， 则减少进入异常状态的几率； 反之， 则增加几率)`
+
+[/set ability]
+
+[possible kiri protect]
+
+

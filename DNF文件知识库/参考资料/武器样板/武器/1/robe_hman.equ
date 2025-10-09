@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+`荣誉者长袍`
+
+[name2]
+`Robe of Honor Man`
+
+[grade]
+20	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+18	
+[magical attack]
+11	
+[magical defense]
+11	
+[MP MAX]
+40	
+[MP regen speed]
+5	
+[price]
+14000	
+[repair price]
+11200	
+[value]
+11200	
+[equipment physical defense]
+276	252	
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+11	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[possible kiri protect]
+
+

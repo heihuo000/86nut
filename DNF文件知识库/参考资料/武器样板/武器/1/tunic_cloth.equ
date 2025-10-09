@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+`亚麻上衣`
+
+[name2]
+`Cloth Tunic`
+
+[grade]
+11	
+[rarity]
+1	
+[icon mark]
+`item/iconmark.img`
+63	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[free]`
+
+[minimum level]
+11	
+[magical attack]
+5	
+[magical defense]
+5	
+[price]
+6600	
+[repair price]
+5280	
+[value]
+4752	
+[equipment physical defense]
+132	132	
+[icon]
+`Item/IconArmor.img`
+16	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+16	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[creation rate]
+250	
+

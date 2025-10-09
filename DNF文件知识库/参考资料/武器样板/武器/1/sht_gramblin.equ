@@ -1,0 +1,90 @@
+#PVF_File
+
+[name]
+`格朗布林的蚕丝夹克`
+
+[name2]
+`Gramblin's Worn Jacket`
+
+[grade]
+12	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+10	
+[magical attack]
+7	
+[magical defense]
+7	
+[HP MAX]
+60	
+[price]
+8400	
+[repair price]
+6720	
+[value]
+6720	
+[equipment physical defense]
+180	156	
+[fire resistance]
+5	
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+11	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`格朗布林的蚕丝战袍  套装`
+
+[set item]
+10052	12051	18044	
+[/set item]
+
+[set ability]
+
+[HP MAX]
+60	
+[equipment physical defense]
+30	30	
+[fire resistance]
+8	
+[water resistance]
+8	
+[/set ability]
+
+[possible kiri protect]
+
+

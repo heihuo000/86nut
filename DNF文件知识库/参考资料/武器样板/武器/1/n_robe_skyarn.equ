@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+`薄纱长袍`
+
+[name2]
+`Silky Yarn Robe`
+
+[grade]
+52	
+[rarity]
+1	
+[icon mark]
+`item/iconmark.img`
+63	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[free]`
+
+[minimum level]
+50	
+[magical attack]
+24	
+[magical defense]
+24	
+[price]
+31200	
+[repair price]
+27518	
+[value]
+19640	
+[creation rate]
+500	
+[equipment physical defense]
+624	624	
+[icon]
+`Item/IconArmor.img`
+102	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+16	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+

@@ -1,0 +1,98 @@
+#PVF_File
+
+[name]
+`引魔长袍`
+
+[name2]
+`Upper Wizardry Coat`
+
+[grade]
+32	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+30	
+[magical attack]
+16	
+[magical defense]
+16	
+[price]
+22400	
+[repair price]
+17920	
+[value]
+17920	
+[equipment physical defense]
+420	396	
+[skill levelup]
+`[mage]`
+15	1	`[at mage]`
+26	1	
+[/skill levelup]
+
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+57	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`引魔战袍  套装`
+
+[set item]
+10091	12089	14087	18074	16073	
+[/set item]
+
+[set ability]
+
+[HP MAX]
+100	
+[MP MAX]
+100	
+[cast speed]
+60	
+[skill levelup]
+`[mage]`
+37	1	`[mage]`
+29	1	`[at mage]`
+19	1	`[at mage]`
+17	1	
+[/skill levelup]
+
+[/set ability]
+
+[possible kiri protect]
+
+

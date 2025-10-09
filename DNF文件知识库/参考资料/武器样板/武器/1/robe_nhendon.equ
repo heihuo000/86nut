@@ -1,0 +1,84 @@
+#PVF_File
+
+[name]
+`(古老) 赫顿玛尔贵族长袍`
+
+[name2]
+`Noble Robe of Hendon Myre`
+
+[grade]
+29	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+27	
+[magical attack]
+15	
+[magical defense]
+15	
+[cast speed]
+50	
+[price]
+20300	
+[repair price]
+16240	
+[value]
+16240	
+[equipment physical defense]
+384	360	
+[icon]
+`Item/common/coat.img`
+8	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`赫顿玛尔贵族袍  套装`
+
+[set item]
+10029	12029	14027	16024	18024	
+[/set item]
+
+[set ability]
+
+[HP MAX]
+150	
+[equipment physical defense]
+60	60	
+[all elemental resistance]
+8	
+[piercing resistance]
+20	
+[/set ability]
+
+[possible kiri protect]
+
+

@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+`粗布衬衫`
+
+[name2]
+`Ragged Cloth Shirt`
+
+[grade]
+1	
+[rarity]
+0	
+[icon mark]
+`item/iconmark.img`
+62	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[free]`
+
+[minimum level]
+1	
+[price]
+400	
+[repair price]
+320	
+[value]
+288	
+[equipment physical defense]
+11	11	
+[icon]
+`Item/IconArmor.img`
+16	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+14	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[creation rate]
+312	
+

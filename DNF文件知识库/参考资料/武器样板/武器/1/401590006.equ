@@ -1,0 +1,54 @@
+#PVF_File
+
+[name]
+`荧紫之星河`
+
+[flavor text]
+`<2019夏日礼包>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/swordman/sm_aura.img`
+50	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+93	
+[physical attack]
+30	
+[physical defense]
+30	
+[magical attack]
+30	
+[magical defense]
+30	
+[room list move speed rate]
+0.1	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[aurora graphic effects]
+3	0	`Character/Common/Animation/Aura/Aura_2015deback_purple_back_dodge.ani`
+0	`Character/Common/Animation/Aura/Aura_2015deback_purple_nomal.ani`
+1	`Character/Common/Animation/Aura/Aura_2015deback_purple_front_dodge.ani`
+
+[/aurora graphic effects]
+
+

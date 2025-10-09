@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+`冷峻的海军指挥`
+
+[flavor text]
+`<2017金秋礼包>`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[sub type]
+0	
+[icon]
+`item/avatar/common/aura_cn.img`
+22	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+178	
+[physical attack]
+20	
+[physical defense]
+20	
+[magical attack]
+20	
+[magical defense]
+20	
+[equipment physical attack]
+20	20	
+[equipment magical attack]
+20	20	
+[separate attack]
+30	30	
+[all elemental attack]
+5	
+[physical critical hit]
+2.0	
+[magical critical hit]
+2.0	
+[aurora graphic effects]
+4	0	`Character/Common/Animation/Aura/2017_national_day_back_nomal_blue.ani`
+0	`Character/Common/Animation/Aura/2017_national_day_back_dodge_blue.ani`
+1	`Character/Common/Animation/Aura/2017_national_day_front_nomal_blue.ani`
+1	`Character/Common/Animation/Aura/2017_national_day_front_dodge_blue.ani`
+
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+

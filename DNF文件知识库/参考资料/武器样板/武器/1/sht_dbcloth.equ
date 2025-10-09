@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+`蚕丝衬衫`
+
+[name2]
+`Double Cloth Shirts`
+
+[grade]
+10	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+8	
+[magical attack]
+6	
+[magical defense]
+6	
+[HP MAX]
+40	
+[MP MAX]
+20	
+[price]
+7000	
+[repair price]
+5600	
+[value]
+5600	
+[equipment physical defense]
+156	132	
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+11	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[possible kiri protect]
+
+

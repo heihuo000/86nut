@@ -1,0 +1,109 @@
+#PVF_File
+
+[name]
+`普雷·伊希斯的绝望光环`
+
+[basic explain]
+`所有职业Lv1 ~ 70 技能 Lv +1 （特性技能除外）`
+
+[flavor text]
+`<强者之路 : 抉择>`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`Interface2/GContents/200521_RoadOfDomination/icon.img`
+0	
+[sub type]
+0	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+139	
+[physical attack]
+100	
+[physical defense]
+100	
+[magical attack]
+100	
+[magical defense]
+100	
+[equipment physical attack]
+65	65	
+[equipment magical attack]
+65	65	
+[separate attack]
+80	80	
+[all elemental attack]
+35	
+[physical critical hit]
+12.0	
+[magical critical hit]
+12.0	
+[move speed]
+70	
+[attack speed]
+70	
+[cast speed]
+70	
+[room list move speed rate]
+0.2	
+[all skill item]
+
+[item growtype]
+`[all]`
+0	
+[skill apply condition]
+
+[skill group]
+`[all]`
+
+[lower bound level]
+1	
+[upper bound level]
+70	
+[value]
+1	
+[extra condition]
+`[except for ex skill]`
+
+[/extra condition]
+
+[/skill apply condition]
+
+[skill phase]
+`[all]`
+
+[/all skill item]
+
+[emblem socket default]
+`[M socket]`
+`[M socket]`
+
+[/emblem socket default]
+
+[effect part set index]
+50055	
+[aurora graphic effects]
+1	0	`Character/Common/Animation/Aura/20_devil_task/prey_2/Base2.ani`
+
+

@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+`梦魇缚灵长袍`
+
+[name2]
+`Felon Incubi Coat`
+
+[grade]
+47	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+45	
+[magical attack]
+23	
+[magical defense]
+23	
+[MP MAX]
+100	
+[price]
+32900	
+[repair price]
+29017	
+[value]
+26320	
+[equipment physical defense]
+600	576	
+[skill levelup]
+`[swordman]`
+41	1	
+[/skill levelup]
+
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+71	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`梦魇缚灵战袍  套装`
+
+[set item]
+10093	12091	14089	18076	16075	
+[/set item]
+
+[set ability]
+
+[magical attack]
+15	
+[magical defense]
+15	
+[dark resistance]
+20	
+[skill levelup]
+`[swordman]`
+36	2	`[swordman]`
+44	1	
+[/skill levelup]
+
+[/set ability]
+
+[possible kiri protect]
+
+

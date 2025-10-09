@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+`冒险者上衣`
+
+[name2]
+`Garb for Adventure`
+
+[grade]
+4	
+[rarity]
+0	
+[icon mark]
+`item/iconmark.img`
+62	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+4	
+[HP MAX]
+25	
+[price]
+2400	
+[repair price]
+1920	
+[value]
+1728	
+[equipment physical defense]
+36	36	
+[icon]
+`Item/IconSet.img`
+10	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+16	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1200	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+

@@ -1,0 +1,138 @@
+#PVF_File
+
+[name]
+`神龙光环`
+
+[basic explain]
+`最终伤害 +12%%
+技能攻击力 +10%%`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/stackable/cash_cn.img`
+1491	
+[avatar func filter]
+2	
+[sub type]
+0	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+63	
+[move wav]
+`BONE_TOUCH`
+
+[emblem socket default]
+`[M socket]`
+`[M socket]`
+
+[/emblem socket default]
+
+[physical attack]
+150	
+[physical defense]
+150	
+[magical attack]
+150	
+[magical defense]
+150	
+[equipment physical attack]
+90	90	
+[equipment magical attack]
+90	90	
+[separate attack]
+90	90	
+[all elemental attack]
+40	
+[physical critical hit]
+12.0	
+[magical critical hit]
+12.0	
+[move speed]
+50	
+[attack speed]
+50	
+[cast speed]
+50	
+[room list move speed rate]
+0.3	
+[skill data up]
+`[swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+160	`[fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+160	`[gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+160	`[mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+160	`[priest]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+160	`[at gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+160	`[thief]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+160	`[at fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+160	`[at mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+160	`[demonic swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+160	`[creator mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+160	
+[/skill data up]
+
+[aurora graphic effects]
+12	0	`Character/Common/Animation/Aura/sm/start.ani`
+0	`Character/Common/Animation/Aura/sm/start01.ani`
+0	`Character/Common/Animation/Aura/sm/start02.ani`
+0	`Character/Common/Animation/Aura/sm/start03.ani`
+0	`Character/Common/Animation/Aura/sm/start04.ani`
+0	`Character/Common/Animation/Aura/sm/start05.ani`
+0	`Character/Common/Animation/Aura/sm/start06.ani`
+0	`Character/Common/Animation/Aura/sm/startbottom.ani`
+0	`Character/Common/Animation/Aura/sm/sinsu_swordman_1st_stay_glow.ani`
+0	`Character/Common/Animation/Aura/sm/movefrontcloud.ani`
+0	`Character/Common/Animation/Aura/sm/staybackcloud.ani`
+0	`Character/Common/Animation/Aura/sm/stayfront01.ani`
+
+

@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+`丝绸背心`
+
+[name2]
+`Wool Tunic`
+
+[grade]
+25	
+[rarity]
+1	
+[icon mark]
+`item/iconmark.img`
+63	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[free]`
+
+[minimum level]
+25	
+[magical attack]
+12	
+[magical defense]
+12	
+[price]
+15000	
+[repair price]
+12000	
+[value]
+10800	
+[equipment physical defense]
+300	300	
+[icon]
+`Item/IconArmor.img`
+40	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+16	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[creation rate]
+250	
+

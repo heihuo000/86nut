@@ -1,0 +1,72 @@
+#PVF_File
+
+[name]
+`(古老) 悲鸣草背心`
+
+[name2]
+`Vest of Scream Grass`
+
+[basic explain]
+`被攻击时， 有10%%的几率在被攻击的地方种下悲鸣草。`
+
+[grade]
+26	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+24	
+[magical attack]
+13	
+[magical defense]
+13	
+[stuck resistance]
+30	
+[HP MAX]
+120	
+[price]
+18200	
+[repair price]
+14560	
+[value]
+14560	
+[equipment physical defense]
+348	324	
+[fire resistance]
+-10	
+[icon]
+`Item/common/coat.img`
+9	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[possible kiri protect]
+
+

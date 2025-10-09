@@ -1,0 +1,88 @@
+#PVF_File
+
+[name]
+`炎麻长袍`
+
+[name2]
+`Robe of Carbon Fiber`
+
+[grade]
+22	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+20	
+[magical attack]
+12	
+[magical defense]
+12	
+[hit recovery]
+20	
+[price]
+15400	
+[repair price]
+12320	
+[value]
+12320	
+[equipment physical defense]
+300	276	
+[fire resistance]
+5	
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+10	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+34	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`炎麻战袍  套装`
+
+[set item]
+10060	12059	14055	18049	16048	
+[/set item]
+
+[set ability]
+
+[equipment physical defense]
+150	150	
+[fire resistance]
+10	
+[MP regen speed]
+10	
+[/set ability]
+
+[possible kiri protect]
+
+

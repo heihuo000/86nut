@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+`(古老) 牛头怪鬃毛背心`
+
+[name2]
+`Vest of Tau's Mane`
+
+[basic explain]
+`被攻击时， 有5%%的几率召唤出1只牛头护卫。`
+
+[detail explain]
+`    被攻击时， 有5%%的几率召唤出1只Lv15的牛头护卫协助召唤者攻击敌人， 牛头护卫存在60秒。 (召唤的怪物只能同时存在1只， 若召唤的怪物受到较大伤害， 则召唤时间结束前就会消失)`
+
+[grade]
+35	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+33	
+[magical attack]
+17	
+[magical defense]
+17	
+[stuck resistance]
+20	
+[price]
+24500	
+[repair price]
+19600	
+[value]
+19600	
+[equipment physical defense]
+456	432	
+[icon]
+`Item/common/coat.img`
+6	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[if]
+
+[cooltime]
+60000	
+[hit]
+1	
+[/if]
+
+[then]
+
+[target]
+`myself`
+-1	
+[duration]
+60000	
+[reduce duration at pvp module]
+75	
+[probability]
+5	
+[summon monster]
+14	15	1	
+[/then]
+
+[possible kiri protect]
+
+

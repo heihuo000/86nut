@@ -1,0 +1,119 @@
+#PVF_File
+
+[name]
+`暗之恶魔 : 艾森光环属性待定`
+
+[basic explain]
+`最终伤害 +5%%`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+47	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[aura hud icon]
+14	
+[physical attack]
+80	
+[physical defense]
+80	
+[magical attack]
+80	
+[magical defense]
+80	
+[equipment physical attack]
+60	60	
+[equipment magical attack]
+60	60	
+[separate attack]
+60	60	
+[all elemental attack]
+25	
+[physical critical hit]
+10.0	
+[magical critical hit]
+10.0	
+[move speed]
+50	
+[attack speed]
+50	
+[cast speed]
+50	
+[room list move speed rate]
+0.2	
+[skill data up]
+`[swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[priest]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[at gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[thief]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[at fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[at mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[demonic swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[creator mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	
+[/skill data up]
+
+[effect part set index]
+50064	
+[aurora graphic effects]
+2	0	`Character/Common/Animation/Aura/19_hikari/Wait_Back_Effect.ani`
+1	`Character/Common/Animation/Aura/19_hikari/Wait_Front_Effect.ani`
+
+

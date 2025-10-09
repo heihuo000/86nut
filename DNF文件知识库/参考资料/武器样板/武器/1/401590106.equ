@@ -1,0 +1,75 @@
+#PVF_File
+
+[name]
+`怨恨的记忆`
+
+[flavor text]
+`被咒术之力禁锢的怨恨的记忆摇曳着……`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/swordman/sm_aura.img`
+233	
+[sub type]
+0	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+313	
+[physical attack]
+50	
+[physical defense]
+50	
+[magical attack]
+50	
+[magical defense]
+50	
+[equipment magical attack]
+40	40	
+[equipment physical attack]
+40	40	
+[separate attack]
+40	40	
+[physical critical hit]
+3.0	
+[magical critical hit]
+3.0	
+[all elemental attack]
+15	
+[room list move speed rate]
+0.1	
+[attack speed]
+30	
+[cast speed]
+30	
+[move speed]
+30	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[aurora graphic effects]
+4	0	`Character/Common/Animation/Aura/Tower_Of_Grave/Grave_Aura_Back_Noraml.ani`
+0	`Character/Common/Animation/Aura/Tower_Of_Grave/Grave_Aura_Back_Dodge.ani`
+1	`Character/Common/Animation/Aura/Tower_Of_Grave/Grave_Aura_Front_Normal.ani`
+1	`Character/Common/Animation/Aura/Tower_Of_Grave/Grave_Aura_Front_Dodge.ani`
+
+[/aurora graphic effects]
+
+

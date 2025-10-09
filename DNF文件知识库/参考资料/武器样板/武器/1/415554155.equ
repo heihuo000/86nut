@@ -1,0 +1,125 @@
+#PVF_File
+
+[name]
+`大魔法师的星象仪`
+
+[explain]
+`最终伤害 +7%%
+    所有职业Lv1 ~ 70 全部 技能 Lv +2 (特性技能除外)  
+ 
+    攻击时， 附加10%%的伤害。`
+
+[flavor text]
+`<2023金秋至尊装扮>`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/szknew2023autumn/common/aura_cn.img`
+172	
+[sub type]
+0	
+[equipment physical attack]
+50	50	
+[equipment magical attack]
+50	50	
+[separate attack]
+50	50	
+[physical attack]
+150	
+[magical attack]
+150	
+[physical defense]
+150	
+[magical defense]
+150	
+[physical critical hit]
+12.0	
+[magical critical hit]
+12.0	
+[all elemental attack]
+60	
+[move speed]
+50	
+[attack speed]
+50	
+[cast speed]
+50	
+[room list move speed rate]
+0.3	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[aura hud icon]
+447	
+[aurora graphic effects]
+8	0	`Character/Common/Animation/Aura/chn_2023_nationalday/bottom_loop.ani`
+1	`Character/Common/Animation/Aura/chn_2023_nationalday/wave_loop.ani`
+1	`Character/Common/Animation/Aura/chn_2023_nationalday/constellaword_loop.ani`
+1	`Character/Common/Animation/Aura/chn_2023_nationalday/particle_loop.ani`
+0	`Character/Common/Animation/Aura/chn_2023_nationalday/symbol_d.ani`
+0	`Character/Common/Animation/Aura/chn_2023_nationalday/symbol_n.ani`
+0	`Character/Common/Animation/Aura/chn_2023_nationalday/symbol_portal_chn.ani`
+0	`Character/Common/Animation/Aura/chn_2023_nationalday/symbol_portal.ani`
+
+[/aurora graphic effects]
+
+[skill data up]
+`[all]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[all]`
+169	`[dungeon type]`
+`[static]`
+3	`+`
+10	
+[/skill data up]
+
+[all skill item]
+
+[item growtype]
+`[all]`
+0	
+[skill apply condition]
+
+[skill group]
+`[all]`
+
+[lower bound level]
+1	
+[upper bound level]
+70	
+[value]
+2	
+[extra condition]
+`[except for ex skill]`
+
+[/extra condition]
+
+[/skill apply condition]
+
+[skill phase]
+`[all]`
+
+[/all skill item]
+
+

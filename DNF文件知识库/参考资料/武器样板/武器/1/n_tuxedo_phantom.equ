@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+`幻影落凰长袍`
+
+[name2]
+`Tuxedo of Phantom`
+
+[basic explain]
+`被攻击时， 有10%%的几率使敌人进入混乱状态。`
+
+[detail explain]
+`    被攻击时， 有10%%的几率使敌人进入混乱状态5秒。 (若敌人高于Lv40， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)`
+
+[grade]
+44	
+[rarity]
+3	
+[icon mark]
+`item/iconmark.img`
+66	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[need material]
+19100131	1	
+[attach type]
+`[sealing]`
+
+[minimum level]
+40	
+[magical attack]
+23	
+[magical defense]
+23	
+[HP MAX]
+170	
+[price]
+39600	
+[repair price]
+31680	
+[value]
+31680	
+[creation rate]
+500	
+[equipment physical defense]
+612	552	
+[skill levelup]
+`[fighter]`
+8	2	`[at fighter]`
+8	2	`[common]`
+186	1	
+[/skill levelup]
+
+[confuse resistance]
+-10	
+[icon]
+`Item/common/coat.img`
+1	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+19	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[if]
+
+[cooltime]
+1000	
+[hit]
+1	
+[/if]
+
+[then]
+
+[target]
+`enemy`
+-1	
+[duration]
+5000	
+[reduce duration to human armor at pvp module]
+50	
+[probability]
+10	
+[reduce probability at pvp module]
+100	
+[active status]
+`confuse`
+40	1	
+[/then]
+
+[possible kiri protect]
+
+

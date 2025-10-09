@@ -1,0 +1,123 @@
+#PVF_File
+
+[name]
+`无我之轮回光环`
+
+[explain]
+`最终伤害 +12%%`
+
+[flavor text]
+`<阿拉德探险记 第4季>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+78	
+[sub type]
+0	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+265	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[physical attack]
+130	
+[physical defense]
+130	
+[magical attack]
+130	
+[magical defense]
+130	
+[equipment physical attack]
+85	85	
+[equipment magical attack]
+85	85	
+[separate attack]
+85	85	
+[all elemental attack]
+30	
+[physical critical hit]
+10.0	
+[magical critical hit]
+10.0	
+[move speed]
+50	
+[attack speed]
+50	
+[cast speed]
+50	
+[room list move speed rate]
+0.3	
+[skill data up]
+`[swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+120	`[fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+120	`[gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+120	`[mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+120	`[priest]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+120	`[at gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+120	`[thief]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+120	`[at fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+120	`[at mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+120	`[demonic swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+120	`[creator mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+120	
+[/skill data up]
+
+[aurora graphic effects]
+1	1	`Character/Common/Animation/Aura/chn_seasonpass_sirocco/season4_aura_Ring02.ani`
+
+[/aurora graphic effects]
+
+

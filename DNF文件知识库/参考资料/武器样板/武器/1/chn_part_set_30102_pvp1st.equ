@@ -1,0 +1,32 @@
+#PVF_File
+
+[set name]
+`燃武之心特等套装`
+
+[piece set ability]
+5	
+[HP MAX]
+400	
+[MP MAX]
+200	
+[physical defense]
+30	
+[magical defense]
+30	
+[attack speed]
+30	
+[move speed]
+30	
+[cast speed]
+30	
+[stuck]
+-2.0	
+[stuck resistance]
+20	
+[all elemental resistance]
+10	
+[hit recovery]
+250	
+[/piece set ability]
+
+

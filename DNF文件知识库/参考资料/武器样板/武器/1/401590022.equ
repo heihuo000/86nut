@@ -1,0 +1,126 @@
+#PVF_File
+
+[name]
+`独自甜蜜光环`
+
+[basic explain]
+`最终伤害 +3%%`
+
+[flavor text]
+`<阿拉德发糖啦！>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+52	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+238	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[physical attack]
+60	
+[physical defense]
+60	
+[magical attack]
+60	
+[magical defense]
+60	
+[equipment physical attack]
+50	50	
+[equipment magical attack]
+50	50	
+[separate attack]
+50	50	
+[all elemental attack]
+18	
+[physical critical hit]
+7.0	
+[magical critical hit]
+7.0	
+[move speed]
+30	
+[attack speed]
+30	
+[cast speed]
+30	
+[room list move speed rate]
+0.1	
+[skill data up]
+`[swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[priest]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[at gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[thief]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[at fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[at mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[demonic swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[creator mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	
+[/skill data up]
+
+[aurora graphic effects]
+6	1	`Character/Common/Animation/Aura/chn_2019_sweet_candy_aura/CandyAura_Sparkle.ani`
+1	`Character/Common/Animation/Aura/chn_2019_sweet_candy_aura/CandyAura_Clouds.ani`
+1	`Character/Common/Animation/Aura/chn_2019_sweet_candy_aura/CandyAura_Glow_Front.ani`
+1	`Character/Common/Animation/Aura/chn_2019_sweet_candy_aura/CandyAura_Front.ani`
+0	`Character/Common/Animation/Aura/chn_2019_sweet_candy_aura/CandyAura_Glow_Back.ani`
+0	`Character/Common/Animation/Aura/chn_2019_sweet_candy_aura/CandyAura_Back.ani`
+
+[/aurora graphic effects]
+
+

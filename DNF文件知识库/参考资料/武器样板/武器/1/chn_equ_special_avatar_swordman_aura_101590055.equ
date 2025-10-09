@@ -1,0 +1,64 @@
+#PVF_File
+
+[name]
+`普罗迦的亵渎之翼`
+
+[flavor text]
+`<2017春节礼包>`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+15	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+158	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[emblem socket default]
+`[M socket]`
+`[M socket]`
+
+[/emblem socket default]
+
+[physical attack]
+25	
+[physical defense]
+25	
+[magical attack]
+25	
+[magical defense]
+25	
+[all elemental attack]
+5	
+[physical critical hit]
+2.0	
+[magical critical hit]
+2.0	
+[aurora graphic effects]
+5	1	`Character/Common/Animation/Aura/chn_2017_newyear_aura/chn_2017_newyear_gold_front_dodge.ani`
+0	`Character/Common/Animation/Aura/chn_2017_newyear_aura/chn_2017_newyear_gold_back_normal.ani`
+0	`Character/Common/Animation/Aura/chn_2017_newyear_aura/chn_2017_newyear_gold_normal_fly.ani`
+0	`Character/Common/Animation/Aura/chn_2017_newyear_aura/chn_2017_newyear_gold_back_dodge.ani`
+0	`Character/Common/Animation/Aura/chn_2017_newyear_aura/chn_2017_newyear_gold_dodge_fly.ani`
+
+

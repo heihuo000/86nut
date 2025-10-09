@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+`(古老) 厚绒羊毛背心`
+
+[name2]
+`Thick Wool Vest`
+
+[grade]
+22	
+[rarity]
+1	
+[icon mark]
+`item/iconmark.img`
+63	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[free]`
+
+[minimum level]
+22	
+[magical attack]
+10	
+[magical defense]
+10	
+[price]
+13200	
+[repair price]
+10560	
+[value]
+9504	
+[equipment physical defense]
+264	264	
+[icon]
+`Item/IconArmor.img`
+21	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+16	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+

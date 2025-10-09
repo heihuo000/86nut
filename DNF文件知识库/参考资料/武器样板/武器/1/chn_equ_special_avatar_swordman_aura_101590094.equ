@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+`死神之威赫`
+
+[flavor text]
+`<2018金秋礼包>`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[sub type]
+0	
+[icon]
+`item/avatar/common/aura_cn.img`
+32	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+207	
+[physical attack]
+25	
+[physical defense]
+25	
+[magical attack]
+25	
+[magical defense]
+25	
+[all elemental attack]
+5	
+[physical critical hit]
+2.0	
+[magical critical hit]
+2.0	
+[aurora graphic effects]
+4	0	`Character/Common/Animation/Aura/chn_2018_nationalday_aura/violet_03_back_normal2.ani`
+0	`Character/Common/Animation/Aura/chn_2018_nationalday_aura/violet_02_back_normal1.ani`
+0	`Character/Common/Animation/Aura/chn_2018_nationalday_aura/violet_01_back_dodge.ani`
+1	`Character/Common/Animation/Aura/chn_2018_nationalday_aura/violet_00_front_dodge.ani`
+
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+

@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+`次元幻迹`
+
+[grade]
+2	
+[physical attack]
+15	
+[physical defense]
+15	
+[magical attack]
+15	
+[magical defense]
+15	
+[attack speed]
+30	
+[cast speed]
+30	
+[move speed]
+30	
+[equipment physical attack]
+10	10	
+[equipment magical attack]
+10	10	
+[separate attack]
+10	10	
+[all elemental attack]
+5	
+[physical critical hit]
+3	
+[magical critical hit]
+3	
+[room list move speed rate]
+0.1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`Item/avatar/common/aura_cn.img`
+136	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[flavor text]
+`<史诗之路 : 次元入侵>`
+
+[aurora graphic effects]
+2	0	`Character/Common/Animation/Aura/chn_2022_EpikRoad/2022EpicRoad_B_00.ani`
+1	`Character/Common/Animation/Aura/chn_2022_EpikRoad/2022EpicRoad_F_00.ani`
+
+[/aurora graphic effects]
+
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[aura hud icon]
+411	
+

@@ -1,0 +1,84 @@
+#PVF_File
+
+[name]
+`使徒之命运`
+
+[flavor text]
+`<2020新春礼包>`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+62	
+[sub type]
+0	
+[emblem socket default]
+`[M socket]`
+`[M socket]`
+
+[/emblem socket default]
+
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+258	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[physical attack]
+40	
+[physical defense]
+40	
+[magical attack]
+40	
+[magical defense]
+40	
+[equipment magical attack]
+40	40	
+[equipment physical attack]
+40	40	
+[separate attack]
+40	40	
+[physical critical hit]
+5.0	
+[magical critical hit]
+5.0	
+[all elemental attack]
+12	
+[room list move speed rate]
+0.1	
+[attack speed]
+20	
+[cast speed]
+20	
+[move speed]
+20	
+[aurora graphic effects]
+9	0	`Character/Common/Animation/Aura/chn_2020_newyear_aura/chn_2020_newyear_BlueAura_Back_00.ani`
+0	`Character/Common/Animation/Aura/chn_2020_newyear_aura/chn_2020_newyear_BlueAura_Back_01.ani`
+0	`Character/Common/Animation/Aura/chn_2020_newyear_aura/chn_2020_newyear_BlueAura_Back_02.ani`
+0	`Character/Common/Animation/Aura/chn_2020_newyear_aura/chn_2020_newyear_BlueAura_Back_03.ani`
+0	`Character/Common/Animation/Aura/chn_2020_newyear_aura/chn_2020_newyear_BlueAura_Back_04.ani`
+0	`Character/Common/Animation/Aura/chn_2020_newyear_aura/chn_2020_newyear_BlueAura_Back_05.ani`
+1	`Character/Common/Animation/Aura/chn_2020_newyear_aura/chn_2020_newyear_BlueAura_Front_00.ani`
+1	`Character/Common/Animation/Aura/chn_2020_newyear_aura/chn_2020_newyear_BlueAura_Front_01.ani`
+1	`Character/Common/Animation/Aura/chn_2020_newyear_aura/chn_2020_newyear_BlueAura_Front_02.ani`
+
+

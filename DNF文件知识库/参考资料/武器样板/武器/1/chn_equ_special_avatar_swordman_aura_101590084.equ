@@ -1,0 +1,47 @@
+#PVF_File
+
+[name]
+`高级炉岩碳之赐`
+
+[explain]
+`装备后， 增加3%%的强化增幅成功率。`
+
+[flavor text]
+`    这……这就是使强化成功的力量吗？！`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[sub type]
+0	
+[icon]
+`item/avatar/common/aura_cn.img`
+26	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+187	
+[aurora graphic effects]
+3	0	`Character/Common/Animation/Aura/chn_2018_kiri_derivatives_aura/2018_Kiri_Derivatives_02_normal.ani`
+0	`Character/Common/Animation/Aura/chn_2018_kiri_derivatives_aura/2018_Kiri_Derivatives_01_back_dodge.ani`
+1	`Character/Common/Animation/Aura/chn_2018_kiri_derivatives_aura/2018_Kiri_Derivatives_00_front_dodge.ani`
+
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+

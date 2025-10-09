@@ -1,0 +1,12 @@
+{
+  "dnf_rag": {
+    "command": "python",
+    "args": ["mcp_server.py"],
+    "cwd": "c:\\Users\\sen\\Desktop\\nut脚本\\86nut\\dnf_rag",
+    "env": {
+      "PYTHONPATH": "c:\\Users\\sen\\Desktop\\nut脚本\\86nut\\dnf_rag",
+      "PYTHONIOENCODING": "utf-8",
+      "MODELSCOPE_API_KEY": "ms-05c30243-7eaa-4696-b013-96486f9b483f"
+    }
+  }
+}

@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+`精炼的光迹气息`
+
+[flavor text]
+`<光迹之约>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[aurora graphic effects]
+2	1	`character/common/animation/aura/chn_2023_saga/aura_f.ani`
+0	`character/common/animation/aura/chn_2023_saga/aura_b.ani`
+
+[/aurora graphic effects]
+
+[attack speed]
+30	
+[cast speed]
+30	
+[move speed]
+30	
+[equipment physical attack]
+25	25	
+[equipment magical attack]
+25	25	
+[separate attack]
+25	25	
+[all elemental attack]
+5	
+[physical critical hit]
+2	
+[magical critical hit]
+2	
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+151	
+[equipment type]
+`[aurora avatar]`
+0	
+[avatar type select]
+7	0	0	300	0	15	0	0	660	0	30	0	0	980	0	0	0	0	4500	2	`[M socket]`
+`[M socket]`
+
+[/avatar type select]
+
+[aura hud icon]
+426	
+[room list move speed rate]
+0.1	
+

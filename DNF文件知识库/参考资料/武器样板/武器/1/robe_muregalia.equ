@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+`瞑想者长袍`
+
+[name2]
+`Musing Regalia Robe`
+
+[grade]
+47	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+45	
+[magical attack]
+23	
+[magical defense]
+23	
+[price]
+32900	
+[repair price]
+29017	
+[value]
+26320	
+[equipment physical defense]
+600	576	
+[skill levelup]
+`[fighter]`
+40	1	`[at fighter]`
+40	1	
+[/skill levelup]
+
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+73	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`瞑想者战袍  套装`
+
+[set item]
+10094	12092	14090	18077	16076	
+[/set item]
+
+[set ability]
+
+[MP regen speed]
+12	
+[physical critical hit]
+3	
+[skill levelup]
+`[fighter]`
+15	1	`[fighter]`
+79	1	`[at fighter]`
+15	1	`[at fighter]`
+79	1	
+[/skill levelup]
+
+[fullset basic explain]
+`物理攻击时， 有1%%的几率对自身施放Lv5的[光之兵刃]。 (队员无效)`
+
+[/set ability]
+
+[possible kiri protect]
+
+

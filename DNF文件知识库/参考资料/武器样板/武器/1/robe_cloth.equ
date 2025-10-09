@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+`棉布长袍`
+
+[name2]
+`Cloth Robe`
+
+[grade]
+14	
+[rarity]
+1	
+[icon mark]
+`item/iconmark.img`
+63	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[free]`
+
+[minimum level]
+14	
+[magical attack]
+7	
+[magical defense]
+7	
+[price]
+8400	
+[repair price]
+6720	
+[value]
+6048	
+[equipment physical defense]
+168	168	
+[icon]
+`Item/IconArmor.img`
+16	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+16	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[creation rate]
+250	
+

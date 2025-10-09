@@ -1,0 +1,33 @@
+{
+  "embedding_model": "all-MiniLM-L6-v2",
+  "backup_embedding_model": "sentence-transformers/all-MiniLM-L6-v2",
+  "knowledge_base_paths": [
+    "../DNF文件知识库",
+    "../DAF学院内容整合"
+  ],
+  "index_path": "data/faiss_index",
+  "chunk_size": 1000,
+  "chunk_overlap": 200,
+  "retrieval_k": 5,
+  "max_tokens": 2000,
+  "temperature": 0.1,
+  "server": {
+    "host": "localhost",
+    "port": 8000
+  },
+  "file_patterns": [
+    "**/*.md",
+    "**/*.txt"
+  ],
+  "exclude_patterns": [
+    "**/.*",
+    "**/__pycache__/**",
+    "**/node_modules/**"
+  ],
+  "modelscope": {
+    "base_url": "https://api-inference.modelscope.cn/v1",
+    "model": "Qwen/Qwen3-Coder-480B-A35B-Instruct",
+    "max_tokens": 2000,
+    "temperature": 0.1
+  }
+}

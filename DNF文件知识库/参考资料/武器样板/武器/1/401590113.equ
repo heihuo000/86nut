@@ -1,0 +1,104 @@
+#PVF_File
+
+[name]
+`呼啸的暴风光环`
+
+[flavor text]
+`<大飞空时代>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+93	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+320	
+[physical attack]
+50	
+[physical defense]
+50	
+[magical attack]
+50	
+[magical defense]
+50	
+[equipment physical attack]
+15	15	
+[equipment magical attack]
+15	15	
+[separate attack]
+15	15	
+[room list move speed rate]
+0.1	
+[all skill item]
+
+[item growtype]
+`[all]`
+0	
+[skill apply condition]
+
+[skill group]
+`[all]`
+
+[lower bound level]
+1	
+[upper bound level]
+50	
+[value]
+1	
+[extra condition]
+`[except for ex skill]`
+
+[/extra condition]
+
+[/skill apply condition]
+
+[skill phase]
+`[all]`
+
+[/all skill item]
+
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[aurora graphic effects]
+14	0	`Character/Common/Animation/Aura/chn_2021_FlyingShipStory/Storm_Circle_1_back_D.ani`
+0	`Character/Common/Animation/Aura/chn_2021_FlyingShipStory/Storm_Circle_2_back_N.ani`
+0	`Character/Common/Animation/Aura/chn_2021_FlyingShipStory/Storm_Circle_3_back_N.ani`
+0	`Character/Common/Animation/Aura/chn_2021_FlyingShipStory/Storm_Circle_4_back_D.ani`
+0	`Character/Common/Animation/Aura/chn_2021_FlyingShipStory/Storm_Flow_back_N.ani`
+0	`Character/Common/Animation/Aura/chn_2021_FlyingShipStory/Storm_Flow_back_D.ani`
+0	`Character/Common/Animation/Aura/chn_2021_FlyingShipStory/Storm_Lightning_1_back_D.ani`
+1	`Character/Common/Animation/Aura/chn_2021_FlyingShipStory/Storm_Lightning_2_front_D.ani`
+1	`Character/Common/Animation/Aura/chn_2021_FlyingShipStory/Storm_Lightning_3_front_D.ani`
+1	`Character/Common/Animation/Aura/chn_2021_FlyingShipStory/Storm_Wave_front_D.ani`
+1	`Character/Common/Animation/Aura/chn_2021_FlyingShipStory/Storm_Wind_1_front_N.ani`
+1	`Character/Common/Animation/Aura/chn_2021_FlyingShipStory/Storm_Wind_1_front_D.ani`
+1	`Character/Common/Animation/Aura/chn_2021_FlyingShipStory/Storm_Wind_2_front_N.ani`
+1	`Character/Common/Animation/Aura/chn_2021_FlyingShipStory/Storm_Wind_2_front_D.ani`
+
+[/aurora graphic effects]
+
+[aura ability]
+`[upgrade solo teleport]`
+600	
+[/aura ability]
+
+

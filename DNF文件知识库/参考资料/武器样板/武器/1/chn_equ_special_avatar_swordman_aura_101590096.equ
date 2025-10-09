@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+`舞厅镜面球光环装扮`
+
+[flavor text]
+`<Jolin热舞趴>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/swordman/sm_aura.img`
+156	
+[sub type]
+0	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[physical attack]
+25	
+[physical defense]
+25	
+[magical attack]
+25	
+[magical defense]
+25	
+[all elemental attack]
+5	
+[physical critical hit]
+2.0	
+[magical critical hit]
+2.0	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+200	
+[aurora graphic effects]
+2	0	`Character/Common/Animation/Aura/13th_mirror/13AuraBall_00.ani`
+1	`Character/Common/Animation/Aura/13th_mirror/13AuraFloor.ani`
+
+[/aurora graphic effects]
+
+

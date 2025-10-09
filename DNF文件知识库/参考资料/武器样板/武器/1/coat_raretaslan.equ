@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+`青龙渡海上衣`
+
+[name2]
+`Rare Taslan Coat`
+
+[grade]
+42	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+40	
+[magical attack]
+21	
+[magical defense]
+21	
+[price]
+29400	
+[repair price]
+23520	
+[value]
+23520	
+[equipment physical defense]
+540	516	
+[skill levelup]
+`[gunner]`
+28	1	`[at gunner]`
+28	1	
+[/skill levelup]
+
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+33	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`青龙渡海战袍  套装`
+
+[set item]
+10086	12085	14083	18071	16070	
+[/set item]
+
+[set ability]
+
+[skill levelup]
+`[gunner]`
+46	1	`[gunner]`
+29	1	`[at gunner]`
+46	1	`[at gunner]`
+29	1	
+[/skill levelup]
+
+[fullset basic explain]
+`对远程攻击的物理防御力 +300`
+
+[/set ability]
+
+[possible kiri protect]
+
+

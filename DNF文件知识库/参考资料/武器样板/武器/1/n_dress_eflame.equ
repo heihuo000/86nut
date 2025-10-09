@@ -1,0 +1,78 @@
+#PVF_File
+
+[name]
+`紫炎隐月长袍`
+
+[name2]
+`Dress of Eternal Flame`
+
+[basic explain]
+`被攻击时， 有10%%的几率附加50点火属性伤害。`
+
+[grade]
+34	
+[rarity]
+3	
+[icon mark]
+`item/iconmark.img`
+66	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[need material]
+19100131	1	
+[attach type]
+`[sealing]`
+
+[minimum level]
+30	
+[magical attack]
+19	
+[magical defense]
+19	
+[stuck resistance]
+30	
+[MP MAX]
+120	
+[price]
+30600	
+[repair price]
+24480	
+[value]
+24480	
+[creation rate]
+500	
+[equipment physical defense]
+492	432	
+[fire resistance]
+20	
+[water resistance]
+-5	
+[icon]
+`Item/common/coat.img`
+2	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+19	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[possible kiri protect]
+
+

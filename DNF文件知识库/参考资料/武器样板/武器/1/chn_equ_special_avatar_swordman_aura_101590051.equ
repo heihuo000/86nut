@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+`骑士精神之英勇`
+
+[flavor text]
+`<2016国庆节礼包>`
+
+[grade]
+1	
+[sub type]
+0	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+13	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+153	
+[physical attack]
+25	
+[physical defense]
+25	
+[magical attack]
+25	
+[magical defense]
+25	
+[all elemental attack]
+5	
+[physical critical hit]
+2.0	
+[magical critical hit]
+2.0	
+[aurora graphic effects]
+4	0	`Character/Common/Animation/Aura/2016nationalday_red_back_normal.ani`
+0	`Character/Common/Animation/Aura/2016nationalday_red_back1_dodge.ani`
+0	`Character/Common/Animation/Aura/2016nationalday_red_back2_dodge.ani`
+1	`Character/Common/Animation/Aura/2016nationalday_red_front_dodge.ani`
+
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+

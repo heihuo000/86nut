@@ -1,0 +1,81 @@
+#PVF_File
+
+[name]
+`雕翎长袍`
+
+[name2]
+`Graphite Robe`
+
+[grade]
+24	
+[rarity]
+3	
+[icon mark]
+`item/iconmark.img`
+66	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[need material]
+19100131	1	
+[attach type]
+`[sealing]`
+
+[minimum level]
+20	
+[magical attack]
+14	
+[magical defense]
+14	
+[stuck resistance]
+40	
+[HP MAX]
+135	
+[price]
+21600	
+[repair price]
+17280	
+[value]
+17280	
+[creation rate]
+500	
+[equipment physical defense]
+372	312	
+[skill levelup]
+`[fighter]`
+12	1	`[at fighter]`
+12	1	
+[/skill levelup]
+
+[fire resistance]
+15	
+[water resistance]
+-5	
+[icon]
+`Item/common/coat.img`
+3	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+19	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[possible kiri protect]
+
+

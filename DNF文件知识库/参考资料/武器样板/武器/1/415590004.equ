@@ -1,0 +1,149 @@
+#PVF_File
+
+[name]
+`逆转之轮 · 米莉娅限定光环`
+
+[basic explain]
+`最终伤害 +12%%
+技能攻击力 +10%%
+ 
+    穿戴后， 若要穿戴其他光环， 脱掉后需要小退一下才可以正常显示其他光环外观。`
+
+[flavor text]
+`<GSC炎狱裁决者 · 米莉娅限定奖励>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+57	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+246	
+[physical attack]
+150	
+[physical defense]
+150	
+[magical attack]
+150	
+[magical defense]
+150	
+[equipment physical attack]
+90	90	
+[equipment magical attack]
+90	90	
+[separate attack]
+90	90	
+[all elemental attack]
+40	
+[physical critical hit]
+12.0	
+[magical critical hit]
+12.0	
+[move speed]
+50	
+[attack speed]
+50	
+[cast speed]
+50	
+[room list move speed rate]
+0.3	
+[skill data up]
+`[swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[priest]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[at gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[thief]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[at fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[at mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[demonic swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[creator mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	
+[/skill data up]
+
+[effect]
+
+[type]
+`animation`
+
+[attach pos]
+`bottom`
+
+[index]
+-1	
+[file name]
+`Character/Common/Animation/Aura/chn_Inferno_Figure/InfernoAuraRestBack_00.ani`
+
+[/effect]
+
+[effect]
+
+[type]
+`animation`
+
+[attach pos]
+`bottom`
+
+[index]
+-1	
+[file name]
+`Character/Common/Animation/Aura/chn_Inferno_Figure/InfernoAuraRestFront_00.ani`
+
+[/effect]
+
+

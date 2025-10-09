@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+`梵风衣`
+
+[name2]
+`Windy Overcoat`
+
+[grade]
+17	
+[rarity]
+3	
+[icon mark]
+`item/iconmark.img`
+66	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[need material]
+19100131	1	
+[attach type]
+`[sealing]`
+
+[minimum level]
+15	
+[magical attack]
+11	
+[magical defense]
+11	
+[attack speed]
+30	
+[move speed]
+30	
+[price]
+15300	
+[repair price]
+12240	
+[value]
+12240	
+[equipment physical defense]
+288	228	
+[icon]
+`Item/common/coat.img`
+11	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+19	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[jump power]
+20	
+[possible kiri protect]
+
+

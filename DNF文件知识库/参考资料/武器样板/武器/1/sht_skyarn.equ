@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+`(古老) 绢丝衬衫`
+
+[name2]
+`Silky Yarn Shirt`
+
+[grade]
+29	
+[rarity]
+1	
+[icon mark]
+`item/iconmark.img`
+63	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[free]`
+
+[minimum level]
+29	
+[magical attack]
+13	
+[magical defense]
+13	
+[price]
+17400	
+[repair price]
+13920	
+[value]
+12528	
+[equipment physical defense]
+348	348	
+[icon]
+`Item/IconArmor.img`
+102	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+16	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+

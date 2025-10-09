@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+`(古老) 丝绒背心`
+
+[name2]
+`Silky Yarn Vest`
+
+[grade]
+32	
+[rarity]
+1	
+[icon mark]
+`item/iconmark.img`
+63	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[free]`
+
+[minimum level]
+32	
+[magical attack]
+15	
+[magical defense]
+15	
+[price]
+19200	
+[repair price]
+15184	
+[value]
+13666	
+[equipment physical defense]
+384	384	
+[icon]
+`Item/IconArmor.img`
+107	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+16	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+

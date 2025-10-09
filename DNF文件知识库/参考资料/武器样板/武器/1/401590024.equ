@@ -1,0 +1,121 @@
+#PVF_File
+
+[name]
+`光之恶魔 : 欧格里光环属性待定`
+
+[basic explain]
+`最终伤害 +5%%`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+55	
+[sub type]
+0	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+176	
+[physical attack]
+80	
+[physical defense]
+80	
+[magical attack]
+80	
+[magical defense]
+80	
+[equipment physical attack]
+60	60	
+[equipment magical attack]
+60	60	
+[separate attack]
+60	60	
+[all elemental attack]
+25	
+[physical critical hit]
+10.0	
+[magical critical hit]
+10.0	
+[move speed]
+50	
+[attack speed]
+50	
+[cast speed]
+50	
+[room list move speed rate]
+0.2	
+[skill data up]
+`[swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[priest]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[at gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[thief]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[at fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[at mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[demonic swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	`[creator mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+50	
+[/skill data up]
+
+[move wav]
+`BONE_TOUCH`
+
+[aurora graphic effects]
+4	0	`Character/Common/Animation/Aura/chn_2019_Strong_Way2/BackGroundEffect01_eff_d_f_BackGroundEffect.ani`
+0	`Character/Common/Animation/Aura/chn_2019_Strong_Way2/BackGroundEffect02_eff_d_f_BackGroundEffect.ani`
+0	`Character/Common/Animation/Aura/chn_2019_Strong_Way2/ComeIn_ComeIn_01_eff_d_f_LightLine.ani`
+0	`Character/Common/Animation/Aura/chn_2019_Strong_Way2/PlateSkillCircle_Loop_PlateSkillCircle_00_eff_d_b_2Loop.ani`
+
+

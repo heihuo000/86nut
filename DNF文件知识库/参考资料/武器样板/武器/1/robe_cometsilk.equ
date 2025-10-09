@@ -1,0 +1,98 @@
+#PVF_File
+
+[name]
+`七星长袍`
+
+[name2]
+`Comet Silk Robe`
+
+[grade]
+42	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+40	
+[magical attack]
+21	
+[magical defense]
+21	
+[price]
+29400	
+[repair price]
+23520	
+[value]
+23520	
+[equipment physical defense]
+540	516	
+[skill levelup]
+`[fighter]`
+78	1	`[at fighter]`
+78	1	
+[/skill levelup]
+
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+31	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`七星战袍  套装`
+
+[set item]
+10085	12084	14082	18070	16069	
+[/set item]
+
+[set ability]
+
+[magical attack]
+30	
+[magical defense]
+30	
+[cast speed]
+50	
+[skill levelup]
+`[fighter]`
+40	1	`[fighter]`
+15	1	`[at fighter]`
+40	1	`[at fighter]`
+15	1	
+[/skill levelup]
+
+[/set ability]
+
+[possible kiri protect]
+
+

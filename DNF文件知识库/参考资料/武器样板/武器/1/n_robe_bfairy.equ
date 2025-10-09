@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+`精灵祝福长袍`
+
+[name2]
+`Blessing Robe of Fairy`
+
+[grade]
+37	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+35	
+[magical attack]
+18	
+[magical defense]
+18	
+[MP MAX]
+80	
+[MP regen speed]
+8	
+[price]
+25900	
+[repair price]
+20720	
+[value]
+20720	
+[equipment physical defense]
+480	456	
+[light resistance]
+5	
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+5	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`精灵祝福战袍  套装`
+
+[set item]
+10073	12072	14067	18059	16058	
+[/set item]
+
+[set ability]
+
+[magical attack]
+30	
+[inventory limit]
+5000	
+[if]
+
+[cooltime]
+32000	
+[attack success]
+1	
+[/if]
+
+[then]
+
+[target]
+`myself`
+-1	
+[duration]
+20000	
+[probability]
+2	
+[active status]
+`bless`
+35	33	33	33	33	
+[/then]
+
+[fullset basic explain]
+`攻击时， 有2%%的几率使自身进入祝福状态。`
+
+[fullset detail explain]
+`    攻击时， 有2%%的几率使自身进入祝福状态20秒； 祝福状态下， 增加33点力量、 体力、 智力和精神。`
+
+[/set ability]
+
+[possible kiri protect]
+
+

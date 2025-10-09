@@ -1,0 +1,117 @@
+#PVF_File
+
+[name]
+`神官吉格的祭祀上衣`
+
+[name2]
+`Zieg Garb Coat`
+
+[grade]
+54	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+50	
+[magical attack]
+26	
+[magical defense]
+26	
+[price]
+37800	
+[repair price]
+33339	
+[value]
+30240	
+[equipment physical defense]
+684	660	
+[skill levelup]
+`[swordman]`
+44	1	
+[/skill levelup]
+
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+72	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`神官吉格的祭祀袍  套装`
+
+[set item]
+10097	12095	14093	18080	16079	
+[/set item]
+
+[set ability]
+
+[fullset basic explain]
+`    物理攻击时， 有1%%的几率施放Lv2的[鬼影步]。 `
+
+[if]
+
+[cooltime]
+30000	
+[attack type]
+`physical`
+
+[attack success]
+1	
+[/if]
+
+[then]
+
+[target]
+`myself`
+-1	
+[probability]
+1	
+[perform skill]
+`swordman`
+18	2	0	
+[/then]
+
+[HP MAX]
+150	
+[MP MAX]
+150	
+[skill levelup]
+`[swordman]`
+60	1	`[swordman]`
+82	1	
+[/set ability]
+
+[possible kiri protect]
+
+

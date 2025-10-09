@@ -1,0 +1,100 @@
+#PVF_File
+
+[name]
+`星纹长袍`
+
+[name2]
+`Star Platina Robe`
+
+[grade]
+47	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+45	
+[magical attack]
+23	
+[magical defense]
+23	
+[price]
+32900	
+[repair price]
+29017	
+[value]
+26320	
+[equipment physical defense]
+600	576	
+[skill levelup]
+`[mage]`
+29	1	`[at mage]`
+19	1	
+[/skill levelup]
+
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+77	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`星纹战袍  套装`
+
+[set item]
+10096	12094	14092	18079	16078	
+[/set item]
+
+[set ability]
+
+[MP MAX]
+150	
+[all elemental resistance]
+8	
+[all activestatus resistance]
+12	
+[skill levelup]
+`[mage]`
+57	1	`[mage]`
+31	1	`[mage]`
+56	1	`[mage]`
+26	1	`[at mage]`
+18	2	`[at mage]`
+19	2	
+[/skill levelup]
+
+[/set ability]
+
+[possible kiri protect]
+
+

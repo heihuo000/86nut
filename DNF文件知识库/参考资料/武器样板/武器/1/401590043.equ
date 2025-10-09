@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+`北国之雪暴`
+
+[flavor text]
+`<2020年耕耘礼包>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+67	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+263	
+[physical attack]
+40	
+[physical defense]
+40	
+[magical attack]
+40	
+[magical defense]
+40	
+[equipment magical attack]
+40	40	
+[equipment physical attack]
+40	40	
+[separate attack]
+40	40	
+[physical critical hit]
+5.0	
+[magical critical hit]
+5.0	
+[all elemental attack]
+12	
+[room list move speed rate]
+0.1	
+[attack speed]
+20	
+[cast speed]
+20	
+[move speed]
+20	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[aurora graphic effects]
+2	0	`Character/Common/Animation/Aura/chn_2020_laborday_aura/Valhalla_Aura2_B_00.ani`
+1	`Character/Common/Animation/Aura/chn_2020_laborday_aura/Valhalla_Aura2_F_08.ani`
+
+[/aurora graphic effects]
+
+

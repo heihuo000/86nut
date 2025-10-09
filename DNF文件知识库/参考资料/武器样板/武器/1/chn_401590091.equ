@@ -1,0 +1,108 @@
+#PVF_File
+
+[name]
+`凯德拉赫的视线 (暴伤)`
+
+[explain]
+`暴击时， 额外增加3%%的伤害增加量。`
+
+[flavor text]
+`<2021新春礼包>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+86	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+300	
+[all skill item]
+
+[item growtype]
+`[all]`
+0	
+[skill apply condition]
+
+[skill group]
+`[all]`
+
+[lower bound level]
+1	
+[upper bound level]
+35	
+[value]
+1	
+[extra condition]
+`[except for ex skill]`
+
+[/extra condition]
+
+[/skill apply condition]
+
+[skill phase]
+`[all]`
+
+[/all skill item]
+
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[aurora graphic effects]
+36	0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_029.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_028.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_027.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_026.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_025.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_024.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_023.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_022.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_021.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_020.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_019.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_018.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_017.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_016.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_015.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_014.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_013.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_012.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_011.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_010.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_009.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_008.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_007.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_006.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_005.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_004.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_003.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_002.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_001.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Back_000.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Front_005.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Front_004.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Front_003.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Front_002.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Front_001.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Normal_Front_000.ani`
+
+[/aurora graphic effects]
+
+

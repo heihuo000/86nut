@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+`破旧的羊毛衬衫`
+
+[name2]
+`Shabby Wool Shirt`
+
+[grade]
+17	
+[rarity]
+0	
+[icon mark]
+`item/iconmark.img`
+62	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[free]`
+
+[minimum level]
+17	
+[price]
+6800	
+[repair price]
+5440	
+[value]
+4896	
+[equipment physical defense]
+192	192	
+[icon]
+`Item/IconArmor.img`
+16	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+14	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[creation rate]
+312	
+

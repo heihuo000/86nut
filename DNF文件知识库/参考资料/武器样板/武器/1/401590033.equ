@@ -1,0 +1,50 @@
+#PVF_File
+
+[name]
+`晴蓝雪花`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+59	
+[sub type]
+0	
+[physical attack]
+20	
+[physical defense]
+20	
+[magical attack]
+20	
+[magical defense]
+20	
+[all elemental attack]
+5	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[aura hud icon]
+250	
+[aurora graphic effects]
+2	1	`Character/Common/Animation/Aura/chn_2019_snowman/Snowman_Color2_00.ani`
+0	`Character/Common/Animation/Aura/chn_2019_snowman/Snowman_Color2_Bottom_00.ani`
+
+

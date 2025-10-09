@@ -1,0 +1,120 @@
+#PVF_File
+
+[name]
+`次元隔离之形`
+
+[basic explain]
+`最终伤害 +7%%`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+54	
+[sub type]
+0	
+[physical attack]
+100	
+[physical defense]
+100	
+[magical attack]
+100	
+[magical defense]
+100	
+[equipment physical attack]
+70	70	
+[equipment magical attack]
+70	70	
+[separate attack]
+70	70	
+[all elemental attack]
+25	
+[physical critical hit]
+10.0	
+[magical critical hit]
+10.0	
+[move speed]
+50	
+[attack speed]
+50	
+[cast speed]
+50	
+[room list move speed rate]
+0.2	
+[skill data up]
+`[swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[priest]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[at gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[thief]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[at fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[at mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[demonic swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[creator mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	
+[/skill data up]
+
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+243	
+[aurora graphic effects]
+3	1	`Character/Common/Animation/Aura/chn_2019_Guide_Raid_Package/Unbreakable/Front_01.ani`
+0	`Character/Common/Animation/Aura/chn_2019_Guide_Raid_Package/Unbreakable/Bottom_03.ani`
+0	`Character/Common/Animation/Aura/chn_2019_Guide_Raid_Package/Unbreakable/Back_07.ani`
+
+

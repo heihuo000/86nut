@@ -1,0 +1,76 @@
+#PVF_File
+
+[name]
+`无敌之境`
+
+[flavor text]
+`<2019金秋礼包>`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[sub type]
+0	
+[icon]
+`item/avatar/common/aura_cn.img`
+50	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+236	
+[physical attack]
+40	
+[physical defense]
+40	
+[magical attack]
+40	
+[magical defense]
+40	
+[equipment magical attack]
+40	40	
+[equipment physical attack]
+40	40	
+[separate attack]
+40	40	
+[physical critical hit]
+5.0	
+[magical critical hit]
+5.0	
+[all elemental attack]
+12	
+[room list move speed rate]
+0.1	
+[attack speed]
+20	
+[cast speed]
+20	
+[move speed]
+20	
+[aurora graphic effects]
+7	0	`Character/Common/Animation/Aura/chn_2019_nationalday_aura/YellowAuraBack_00.ani`
+0	`Character/Common/Animation/Aura/chn_2019_nationalday_aura/YellowAuraBack_01.ani`
+0	`Character/Common/Animation/Aura/chn_2019_nationalday_aura/YellowAuraBack_02.ani`
+0	`Character/Common/Animation/Aura/chn_2019_nationalday_aura/YellowAuraBack_03.ani`
+0	`Character/Common/Animation/Aura/chn_2019_nationalday_aura/YellowAuraBack_04.ani`
+1	`Character/Common/Animation/Aura/chn_2019_nationalday_aura/YellowAuraFront_05.ani`
+1	`Character/Common/Animation/Aura/chn_2019_nationalday_aura/YellowAuraFront_06.ani`
+
+

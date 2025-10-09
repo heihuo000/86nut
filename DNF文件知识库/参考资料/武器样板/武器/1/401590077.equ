@@ -1,0 +1,98 @@
+#PVF_File
+
+[name]
+`使徒的祝福[希洛克]`
+
+[explain]
+`Lv30的Buff技能 力量、 智力增加量 +3%%`
+
+[flavor text]
+`<2020金秋礼包>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+83	
+[icon mark]
+`Item/IconMark_cn.img`
+222	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+297	
+[room list move speed rate]
+0.2	
+[all skill item]
+
+[item growtype]
+`[all]`
+0	
+[skill apply condition]
+
+[skill group]
+`[all]`
+
+[lower bound level]
+1	
+[upper bound level]
+70	
+[value]
+1	
+[extra condition]
+`[except for ex skill]`
+
+[/extra condition]
+
+[/skill apply condition]
+
+[skill phase]
+`[all]`
+
+[/all skill item]
+
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[aurora graphic effects]
+21	0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_magic_small01.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_magic_small02.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_magic_small00.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_3_Ray_normal.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_3_Ray.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_glow_n.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_dodge_b3.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_magic_n_01.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_magic_n_00.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_pillar_n_01_01.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_pillar_n_02.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_pillar_n_03.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_pillar_n.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_dodge_b2.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_3_floor_shockwave_normal.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_dodge_b1.ani`
+1	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_pillar_n_01_02.ani`
+1	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_pillar_n_01_03.ani`
+1	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_pillar_n_01_04.ani`
+1	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_pillar_n_01.ani`
+1	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/2020NationalDayhidden_dodge_f.ani`
+
+[/aurora graphic effects]
+
+

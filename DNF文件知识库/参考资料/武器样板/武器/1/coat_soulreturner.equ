@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+`紫羽定魂长袍`
+
+[name2]
+`Soul Returner Coat`
+
+[grade]
+42	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+40	
+[magical attack]
+21	
+[magical defense]
+21	
+[price]
+29400	
+[repair price]
+23520	
+[value]
+23520	
+[equipment physical defense]
+540	516	
+[skill levelup]
+`[swordman]`
+41	1	
+[/skill levelup]
+
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+32	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`紫羽定魂战袍  套装`
+
+[set item]
+10087	12086	14084	18072	16071	
+[/set item]
+
+[set ability]
+
+[skill levelup]
+`[swordman]`
+36	1	`[swordman]`
+44	1	
+[/skill levelup]
+
+[fullset basic explain]
+`被攻击时， 有5%%的几率施放Lv6的[刀魂之卡赞]。`
+
+[/set ability]
+
+[possible kiri protect]
+
+

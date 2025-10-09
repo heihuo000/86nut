@@ -1,0 +1,70 @@
+#PVF_File
+
+[name]
+`防弹背心`
+
+[name2]
+`Bulletproof Vest`
+
+[basic explain]
+`对远程攻击的物理防御力 +30`
+
+[grade]
+16	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+14	
+[magical attack]
+9	
+[magical defense]
+9	
+[price]
+11200	
+[repair price]
+8960	
+[value]
+8960	
+[equipment physical defense]
+228	204	
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+11	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[possible kiri protect]
+
+

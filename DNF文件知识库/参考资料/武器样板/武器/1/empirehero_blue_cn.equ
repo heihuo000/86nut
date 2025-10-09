@@ -1,0 +1,315 @@
+#PVF_File
+
+[name]
+`魔力精灵的意志`
+
+[explain]
+`    穿戴后， 每隔60秒会发动‘精灵之祝福’的Buff， 该Buff可以使自身增加30点的智力和精神， 效果持续30秒。
+    攻击时， 有2%%的几率使自身增加3%%的攻击速度， 效果持续30秒(在决斗场中， 只增加1.5%%)。
+    施放技能时， 有2%%的几率使自身增加20点智力和3%%的施放速度， 效果持续30秒(在决斗场中， 只增加1.5%%)。 
+    前冲时， 有2%%的几率使自身增加3%%的移动速度， 效果持续30秒(在决斗场中， 只增加1.5%%)。
+    被攻击时， 并且有2%%的几率增加3%%的MP (在决斗场被攻击时无法产生该效果)。`
+
+[flavor text]
+`<2011劳动节礼包>`
+
+[need material]
+279	20	
+[grade]
+1	
+[rarity]
+2	
+[icon mark]
+`Item/IconMark.img`
+64	
+[no random]
+
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+1	
+[icon]
+`Item/Title/title_cn.img`
+99	
+[equipment type]
+`[title name]`
+1	
+[move wav]
+`NAME_TOUCH`
+
+[weight]
+1	
+[custom animation]
+`TitleAnimation/empire_blue.ani`
+
+[/custom animation]
+
+[equipment type]
+`[title name]`
+1	
+[MP MAX]
+150	
+[magical attack]
+27	
+[magical defense]
+18	
+[move speed]
+15	
+[attack speed]
+15	
+[cast speed]
+15	
+[magical critical hit]
+2	
+[stuck]
+-1	
+[if]
+
+[time]
+60000	1	60000	
+[/if]
+
+[then]
+
+[target]
+`myself`
+-1	
+[duration]
+30000	
+[stat]
+`magical attack`
+`+`
+30	
+[stat]
+`magical defense`
+`+`
+30	
+[/then]
+
+[if]
+
+[cooltime]
+60000	
+[module]
+`[dead tower]`
+`[dungeon]`
+`[war room]`
+`[blood system]`
+
+[/module]
+
+[attack success]
+1	
+[/if]
+
+[then]
+
+[target]
+`myself`
+-1	
+[duration]
+30000	
+[probability]
+2	
+[stat]
+`attack speed`
+`+`
+30	
+[/then]
+
+[if]
+
+[cooltime]
+60000	
+[module]
+`[pvp]`
+
+[/module]
+
+[attack success]
+1	
+[/if]
+
+[then]
+
+[target]
+`myself`
+-1	
+[duration]
+30000	
+[probability]
+2	
+[stat]
+`attack speed`
+`+`
+15	
+[/then]
+
+[if]
+
+[cooltime]
+60000	
+[module]
+`[dead tower]`
+`[dungeon]`
+`[war room]`
+`[blood system]`
+
+[/module]
+
+[casting]
+1	
+[/if]
+
+[then]
+
+[target]
+`myself`
+-1	
+[duration]
+30000	
+[probability]
+2	
+[stat]
+`magical attack`
+`+`
+20	
+[stat]
+`cast speed`
+`+`
+30	
+[/then]
+
+[if]
+
+[cooltime]
+60000	
+[module]
+`[pvp]`
+
+[/module]
+
+[casting]
+1	
+[/if]
+
+[then]
+
+[target]
+`myself`
+-1	
+[duration]
+30000	
+[probability]
+2	
+[stat]
+`magical attack`
+`+`
+20	
+[stat]
+`cast speed`
+`+`
+15	
+[/then]
+
+[if]
+
+[cooltime]
+60000	
+[module]
+`[dead tower]`
+`[dungeon]`
+`[war room]`
+`[blood system]`
+
+[/module]
+
+[set my state]
+1	
+[my state]
+`dash`
+
+[/if]
+
+[then]
+
+[target]
+`myself`
+-1	
+[duration]
+30000	
+[probability]
+2	
+[stat]
+`move speed`
+`+`
+30	
+[/then]
+
+[if]
+
+[cooltime]
+60000	
+[module]
+`[pvp]`
+
+[/module]
+
+[set my state]
+1	
+[my state]
+`dash`
+
+[/if]
+
+[then]
+
+[target]
+`myself`
+-1	
+[duration]
+30000	
+[probability]
+2	
+[stat]
+`move speed`
+`+`
+15	
+[/then]
+
+[if]
+
+[cooltime]
+60000	
+[module]
+`[dead tower]`
+`[dungeon]`
+`[war room]`
+`[blood system]`
+
+[/module]
+
+[hit]
+1	
+[/if]
+
+[then]
+
+[target]
+`myself`
+-1	
+[probability]
+2	
+[restore]
+`mp`
+`%`
+3	2000	
+[/then]
+
+

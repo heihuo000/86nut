@@ -1,0 +1,75 @@
+#PVF_File
+
+[name]
+`光之仙灵祝福`
+
+[flavor text]
+`<2019春节礼包>`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[sub type]
+0	
+[icon]
+`item/avatar/common/aura_cn.img`
+34	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+214	
+[physical attack]
+40	
+[physical defense]
+40	
+[magical attack]
+40	
+[magical defense]
+40	
+[equipment magical attack]
+40	40	
+[equipment physical attack]
+40	40	
+[separate attack]
+40	40	
+[physical critical hit]
+5.0	
+[magical critical hit]
+5.0	
+[all elemental attack]
+12	
+[room list move speed rate]
+0.1	
+[attack speed]
+20	
+[cast speed]
+20	
+[move speed]
+20	
+[aurora graphic effects]
+6	0	`Character/Common/Animation/Aura/chn_2019_newyear_aura/chn_2019_newyear_light_06_back_normal2.ani`
+0	`Character/Common/Animation/Aura/chn_2019_newyear_aura/chn_2019_newyear_light_05_back_dodge.ani`
+0	`Character/Common/Animation/Aura/chn_2019_newyear_aura/chn_2019_newyear_light_04_back_normal1.ani`
+1	`Character/Common/Animation/Aura/chn_2019_newyear_aura/chn_2019_newyear_light_03_front_normal.ani`
+1	`Character/Common/Animation/Aura/chn_2019_newyear_aura/chn_2019_newyear_light_02_front_dodge2.ani`
+1	`Character/Common/Animation/Aura/chn_2019_newyear_aura/chn_2019_newyear_light_01_front_dodge1.ani`
+
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+

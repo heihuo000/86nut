@@ -1,0 +1,76 @@
+#PVF_File
+
+[name]
+`天蝉护魂长袍`
+
+[name2]
+`Raincoat of Heavens`
+
+[grade]
+56	
+[rarity]
+3	
+[icon mark]
+`item/iconmark.img`
+66	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[need material]
+19100131	1	
+[attach type]
+`[sealing]`
+
+[minimum level]
+50	
+[magical attack]
+29	
+[magical defense]
+29	
+[HP MAX]
+240	
+[MP MAX]
+100	
+[price]
+50400	
+[repair price]
+44452	
+[value]
+40320	
+[creation rate]
+500	
+[equipment physical defense]
+756	696	
+[skill levelup]
+`[common]`
+176	2	
+[/skill levelup]
+
+[icon]
+`Item/common/coat.img`
+0	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+19	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[possible kiri protect]
+
+

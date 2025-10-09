@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+`古韵油纸伞`
+
+[grade]
+2	
+[physical attack]
+15	
+[physical defense]
+15	
+[magical attack]
+15	
+[magical defense]
+15	
+[attack speed]
+30	
+[cast speed]
+30	
+[move speed]
+30	
+[equipment physical attack]
+10	10	
+[equipment magical attack]
+10	10	
+[separate attack]
+10	10	
+[all elemental attack]
+5	
+[physical critical hit]
+3	
+[magical critical hit]
+3	
+[room list move speed rate]
+0.1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+135	
+[sub type]
+0	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[flavor text]
+`<旗袍赛丽亚手办赠礼>`
+
+[aura hud icon]
+406	
+[effect]
+
+[type]
+`animation`
+
+[attach pos]
+`top`
+
+[index]
+1	
+[file name]
+`Character/Common/Animation/Aura/chn_2022_Seria_Figure/22SeriaFigureBack_00.ani`
+
+[/effect]
+
+[effect]
+
+[type]
+`animation`
+
+[attach pos]
+`top`
+
+[index]
+2	
+[file name]
+`Character/Common/Animation/Aura/chn_2022_Seria_Figure/22SeriaFigureFront_00.ani`
+
+[/effect]
+
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+

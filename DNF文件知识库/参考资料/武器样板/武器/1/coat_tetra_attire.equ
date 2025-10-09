@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+`锦鳞上衣`
+
+[name2]
+`Tetra Attire Coat`
+
+[grade]
+47	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+45	
+[magical attack]
+23	
+[magical defense]
+23	
+[price]
+32900	
+[repair price]
+29017	
+[value]
+26320	
+[equipment physical defense]
+600	576	
+[skill levelup]
+`[gunner]`
+50	1	`[at gunner]`
+50	1	
+[/skill levelup]
+
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+75	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`锦鳞战袍  套装`
+
+[set item]
+10095	12093	14091	18078	16077	
+[/set item]
+
+[set ability]
+
+[equipment physical defense]
+400	400	
+[fire resistance]
+20	
+[MP regen speed]
+6	
+[skill levelup]
+`[gunner]`
+29	2	`[at gunner]`
+29	2	
+[/skill levelup]
+
+[fullset basic explain]
+`[RX-78追击者]移动速度 +15%%`
+
+[/set ability]
+
+[possible kiri protect]
+
+

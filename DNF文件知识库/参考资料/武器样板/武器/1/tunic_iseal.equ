@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+`(古老) 冰凌长袍`
+
+[name2]
+`Tunic of Ice Seal`
+
+[basic explain]
+`被攻击时， 有5%%的几率使敌人进入冰冻状态。`
+
+[detail explain]
+`    被攻击时， 有5%%的几率使敌人进入冰冻状态5秒。 (若敌人高于Lv30， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)`
+
+[grade]
+32	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+30	
+[magical attack]
+16	
+[magical defense]
+16	
+[price]
+22400	
+[repair price]
+17920	
+[value]
+17920	
+[equipment physical defense]
+420	396	
+[fire resistance]
+-5	
+[water resistance]
+15	
+[freeze resistance]
+20	
+[icon]
+`Item/common/coat.img`
+7	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[if]
+
+[cooltime]
+1000	
+[hit]
+1	
+[/if]
+
+[then]
+
+[target]
+`enemy`
+-1	
+[duration]
+5000	
+[probability]
+5	
+[reduce probability at pvp module]
+100	
+[active status]
+`freeze`
+30	
+[/then]
+
+[possible kiri protect]
+
+

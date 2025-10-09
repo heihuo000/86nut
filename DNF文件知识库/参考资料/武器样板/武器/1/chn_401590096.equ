@@ -1,0 +1,112 @@
+#PVF_File
+
+[name]
+`艾尼克斯的转生 (攻击)`
+
+[explain]
+`物理、 魔法、 独立攻击力 +3%%`
+
+[flavor text]
+`<2021新春礼包>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+87	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+301	
+[all skill item]
+
+[item growtype]
+`[all]`
+0	
+[skill apply condition]
+
+[skill group]
+`[all]`
+
+[lower bound level]
+1	
+[upper bound level]
+35	
+[value]
+1	
+[extra condition]
+`[except for ex skill]`
+
+[/extra condition]
+
+[/skill apply condition]
+
+[skill phase]
+`[all]`
+
+[/all skill item]
+
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[aurora graphic effects]
+40	0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_025.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_024.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_023.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_022.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_021.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_020.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_019.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_018.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_017.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_016.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_015.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_014.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_013.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_012.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_011.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_010.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_009.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_008.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_007.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_006.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_005.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_004.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_003.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_002.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_001.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_000_00.ani`
+0	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Back_000.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Front_012.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Front_011.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Front_010.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Front_009.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Front_008.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Front_007.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Front_006.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Front_005.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Front_004.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Front_003.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Front_002.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Front_001.ani`
+1	`Character/Common/Animation/Aura/chn_2021_newyear_aura/ORA21_Hidden_Front_000.ani`
+
+[/aurora graphic effects]
+
+

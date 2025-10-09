@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+`初级魔法师长袍`
+
+[name2]
+`Robe of Beginning Mage`
+
+[grade]
+12	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+10	
+[magical attack]
+7	
+[magical defense]
+7	
+[price]
+8400	
+[repair price]
+6720	
+[value]
+6720	
+[equipment physical defense]
+180	156	
+[skill levelup]
+`[mage]`
+11	1	`[at mage]`
+25	1	
+[/skill levelup]
+
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+55	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`初级魔法师战袍  套装`
+
+[set item]
+10089	12087	14085	
+[/set item]
+
+[set ability]
+
+[all elemental resistance]
+5	
+[skill levelup]
+`[mage]`
+16	1	`[mage]`
+15	1	`[at mage]`
+9	1	`[at mage]`
+26	1	
+[/skill levelup]
+
+[/set ability]
+
+[possible kiri protect]
+
+

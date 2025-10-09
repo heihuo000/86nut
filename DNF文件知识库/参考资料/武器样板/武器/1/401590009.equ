@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+`星恋双鱼 (心悦 3)`
+
+[basic explain]
+`最终伤害 +7%%`
+
+[flavor text]
+`<心悦俱乐部专属光环装扮>`
+
+[grade]
+1	
+[sub type]
+0	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+45	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+232	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[physical attack]
+100	
+[physical defense]
+100	
+[magical attack]
+100	
+[magical defense]
+100	
+[equipment physical attack]
+70	70	
+[equipment magical attack]
+70	70	
+[separate attack]
+70	70	
+[all elemental attack]
+25	
+[physical critical hit]
+10.0	
+[magical critical hit]
+10.0	
+[move speed]
+50	
+[attack speed]
+50	
+[cast speed]
+50	
+[room list move speed rate]
+0.2	
+[skill data up]
+`[swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[priest]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[at gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[thief]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[at fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[at mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[demonic swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[creator mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	
+[/skill data up]
+
+[aurora graphic effects]
+10	0	`Character/Common/Animation/Aura/20190704_chn_joyclub\vip3/VIP3Back_00.ani`
+0	`Character/Common/Animation/Aura/20190704_chn_joyclub\vip3/VIP3Back_01.ani`
+0	`Character/Common/Animation/Aura/20190704_chn_joyclub\vip3/VIP3Back_02.ani`
+0	`Character/Common/Animation/Aura/20190704_chn_joyclub\vip3/VIP3Back_03.ani`
+0	`Character/Common/Animation/Aura/20190704_chn_joyclub\vip3/VIP3Back_04.ani`
+0	`Character/Common/Animation/Aura/20190704_chn_joyclub\vip3/VIP3Back_05.ani`
+0	`Character/Common/Animation/Aura/20190704_chn_joyclub\vip3/VIP3Back_06.ani`
+0	`Character/Common/Animation/Aura/20190704_chn_joyclub\vip3/VIP3Back_07.ani`
+0	`Character/Common/Animation/Aura/20190704_chn_joyclub\vip3/VIP3Back_08.ani`
+1	`Character/Common/Animation/Aura/20190704_chn_joyclub\vip3/VIP3Front_10.ani`
+
+

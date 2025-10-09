@@ -1,0 +1,79 @@
+#PVF_File
+
+[name]
+`卢克的祈盼`
+
+[flavor text]
+`<2020金秋礼包>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+80	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+294	
+[physical attack]
+40	
+[physical defense]
+40	
+[magical attack]
+40	
+[magical defense]
+40	
+[equipment magical attack]
+40	40	
+[equipment physical attack]
+40	40	
+[separate attack]
+40	40	
+[physical critical hit]
+5.0	
+[magical critical hit]
+5.0	
+[all elemental attack]
+12	
+[room list move speed rate]
+0.1	
+[attack speed]
+20	
+[cast speed]
+20	
+[move speed]
+20	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[aurora graphic effects]
+10	0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/luke_b_Circle_02.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/luke_b_normal_b_02.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/luke_b_magic_02.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/luke_b_magic_d_02.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/luke_b_dodge_b2_02.ani`
+0	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/luke_b_dodge_b_02.ani`
+1	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/luke_f_up_01.ani`
+1	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/luke_f_particle_01.ani`
+1	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/luke_f_dodge_f_01.ani`
+1	`Character/Common/Animation/Aura/chn_2020_nationalday_aura/luke_f_dodge_f2_01.ani`
+
+[/aurora graphic effects]
+
+

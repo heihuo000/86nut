@@ -1,0 +1,57 @@
+#PVF_File
+
+[name]
+`(古老) 旧式丝绸背心`
+
+[name2]
+`Outdated Wool Tunic`
+
+[grade]
+23	
+[rarity]
+0	
+[icon mark]
+`item/iconmark.img`
+62	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[free]`
+
+[minimum level]
+23	
+[price]
+9200	
+[repair price]
+7360	
+[value]
+6624	
+[equipment physical defense]
+264	264	
+[icon]
+`Item/IconArmor.img`
+16	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+14	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+

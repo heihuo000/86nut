@@ -1,0 +1,155 @@
+#PVF_File
+
+[name]
+`勇气圣歌`
+
+[basic explain]
+`最终伤害 +12%%
+技能攻击力 +10%%`
+
+[flavor text]
+`<炽天使粘土人奖励>`
+
+[grade]
+4	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/swordman/sm_aura.img`
+131	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+192	
+[physical attack]
+150	
+[physical defense]
+150	
+[magical attack]
+150	
+[magical defense]
+150	
+[equipment physical attack]
+90	90	
+[equipment magical attack]
+90	90	
+[separate attack]
+90	90	
+[all elemental attack]
+40	
+[physical critical hit]
+12.0	
+[magical critical hit]
+12.0	
+[move speed]
+50	
+[attack speed]
+50	
+[cast speed]
+50	
+[room list move speed rate]
+0.3	
+[skill data up]
+`[swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[priest]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[at gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[thief]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[at fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[at mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[demonic swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	`[creator mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+220	
+[/skill data up]
+
+[aurora graphic effects]
+34	0	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimBack_10.ani`
+0	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimBack_09.ani`
+0	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimBack_08.ani`
+0	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimBack_07.ani`
+0	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimBack_06.ani`
+0	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimBack_05.ani`
+0	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimBack_04.ani`
+0	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimBack_03.ani`
+0	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimBack_02.ani`
+0	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimBack_01.ani`
+0	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimBack_00.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_22.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_21.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_20.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_19.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_18.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_17.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_16.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_15.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_14.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_13.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_12.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_11.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_10.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_09.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_08.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_07.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_06.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_05.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_04.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_03.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_02.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_01.ani`
+1	`Character\Common\Animation\Aura\chn_2018_seraphim_nendoroid\AuraSDSeraphimFront_00.ani`
+
+[/aurora graphic effects]
+
+

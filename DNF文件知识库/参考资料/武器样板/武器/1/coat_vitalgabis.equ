@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+`伽毕斯的皓月上衣`
+
+[name2]
+`Coat of Vital Gabis`
+
+[grade]
+22	
+[rarity]
+2	
+[icon mark]
+`item/iconmark.img`
+64	
+[creation rate]
+250	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+20	
+[magical attack]
+12	
+[magical defense]
+12	
+[price]
+15400	
+[repair price]
+12320	
+[value]
+12320	
+[equipment physical defense]
+300	276	
+[skill levelup]
+`[mage]`
+31	1	`[at mage]`
+18	1	
+[/skill levelup]
+
+[Force Result Item Rule]
+0	500	
+[icon]
+`Item/common/coat.img`
+56	
+[field image]
+`Item/field_equip.img`
+0	
+[equipment type]
+`[coat]`
+17	
+[sub type]
+0	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+28	
+[weight]
+1400	
+[item group name]
+`cl coat`
+
+[cool time]
+10000	
+[set name]
+`伽毕斯的皓月战袍  套装`
+
+[set item]
+10090	12088	14086	18073	16072	
+[/set item]
+
+[set ability]
+
+[MP regen speed]
+10	
+[skill levelup]
+`[mage]`
+29	1	`[mage]`
+37	1	`[at mage]`
+27	1	`[at mage]`
+17	1	
+[/skill levelup]
+
+[/set ability]
+
+[possible kiri protect]
+
+

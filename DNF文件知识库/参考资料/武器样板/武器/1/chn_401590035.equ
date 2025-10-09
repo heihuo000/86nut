@@ -1,0 +1,167 @@
+#PVF_File
+
+[name]
+`魔界大战终结者`
+
+[basic explain]
+`最终伤害 +3%% (在魔界大战副本中， 额外增加3%%最终伤害)`
+
+[flavor text]
+`<魔界大战>`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[icon]
+`item/avatar/common/aura_cn.img`
+61	
+[physical attack]
+60	
+[physical defense]
+60	
+[magical attack]
+60	
+[magical defense]
+60	
+[equipment physical attack]
+50	50	
+[equipment magical attack]
+50	50	
+[separate attack]
+50	50	
+[all elemental attack]
+18	
+[physical critical hit]
+7.0	
+[magical critical hit]
+7.0	
+[move speed]
+30	
+[attack speed]
+30	
+[cast speed]
+30	
+[room list move speed rate]
+0.1	
+[skill data up]
+`[swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[priest]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[at gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[thief]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[at fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[at mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[demonic swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	`[creator mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+30	
+[/skill data up]
+
+[if]
+
+[dungeon check]
+5422	5423	5424	5425	5426	
+[/dungeon check]
+
+[change status]
+`hp`
+`>=`
+`%`
+0	`end`
+
+[cooltime]
+5000	
+[/if]
+
+[then]
+
+[target]
+`myself`
+-1	
+[equipment duration]
+5000	
+[appendage]
+3211	
+[/then]
+
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+176	
+[aurora graphic effects]
+22	1	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraFront_00.ani`
+1	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraFront_01.ani`
+1	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraFront_02.ani`
+1	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraFront_03.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBottom_00.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBottom_01.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBottom_02.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBottom_03.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBottom_04.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBottom_05.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBottom_06.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBottom_07.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBottom_08.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBack_00.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBack_01.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBack_02.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBack_03.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBack_04.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBack_05.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBack_06.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBack_07.ani`
+0	`Character/Common/Animation/Aura/chn_2020_Evildomwar_Challenge/SarpozaAuraBack_08.ani`
+
+

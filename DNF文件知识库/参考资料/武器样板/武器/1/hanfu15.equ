@@ -1,0 +1,131 @@
+#PVF_File
+
+[name]
+`韩服15周年光环 (限定)`
+
+[flavor text]
+`Lv1就已精通的技能无法提升
+ 
+温馨提示：光环等级加成不稳定 `
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`character/common/aura/21_artbook/back.img`
+199	
+[icon mark]
+`Item/IconMark.img`
+68	
+[avatar func filter]
+2	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+308	
+[emblem socket default]
+`[M socket]`
+`[M socket]`
+
+[/emblem socket default]
+
+[explain]
+`最终伤害 +12%%
+所有职业Lv1 ~ 60 全部 技能 Lv +3 (特性技能除外)  `
+
+[equipment physical attack]
+50	50	
+[equipment magical attack]
+50	50	
+[separate attack]
+50	50	
+[physical attack]
+50	
+[magical attack]
+50	
+[physical defense]
+50	
+[magical defense]
+50	
+[physical critical hit]
+10.0	
+[magical critical hit]
+10.0	
+[all elemental attack]
+35	
+[attack speed]
+200	
+[cast speed]
+200	
+[move speed]
+200	
+[aura ability]
+`[solo teleport]`
+60	
+[/aura ability]
+
+[room list move speed rate]
+0.3	
+[skill data up]
+`[all]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+120	
+[/skill data up]
+
+[all skill item]
+
+[item growtype]
+`[all]`
+0	
+[skill apply condition]
+
+[skill group]
+`[all]`
+
+[lower bound level]
+1	
+[upper bound level]
+60	
+[value]
+3	
+[extra condition]
+`[except for ex skill]`
+
+[/extra condition]
+
+[/skill apply condition]
+
+[skill phase]
+`[all]`
+
+[/all skill item]
+
+[aurora graphic effects]
+9	0	`Character\Common\Animation\Aura\hanfu15\hanfu15_1.ani`
+0	`Character\Common\Animation\Aura\hanfu15\hanfu15_2.ani`
+0	`Character\Common\Animation\Aura\hanfu15\hanfu15_3.ani`
+0	`Character\Common\Animation\Aura\hanfu15\hanfu15_4.ani`
+0	`Character\Common\Animation\Aura\hanfu15\hanfu15_8.ani`
+0	`Character\Common\Animation\Aura\hanfu15\hanfu15_9.ani`
+0	`Character\Common\Animation\Aura\hanfu15\hanfu15_5.ani`
+1	`Character\Common\Animation\Aura\hanfu15\hanfu15_6.ani`
+1	`Character\Common\Animation\Aura\hanfu15\hanfu15_7.ani`
+1	
+[/aurora graphic effects]
+
+

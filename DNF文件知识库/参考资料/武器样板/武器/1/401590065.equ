@@ -1,0 +1,159 @@
+#PVF_File
+
+[name]
+`星愿天蝎 (心悦 3)`
+
+[basic explain]
+`最终伤害 +7%%`
+
+[flavor text]
+`<心悦俱乐部专属光环装扮>`
+
+[grade]
+1	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/common/aura_cn.img`
+75	
+[move wav]
+`BONE_TOUCH`
+
+[aura ability]
+`[solo teleport]`
+10	
+[/aura ability]
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+286	
+[physical attack]
+100	
+[physical defense]
+100	
+[magical attack]
+100	
+[magical defense]
+100	
+[equipment physical attack]
+70	70	
+[equipment magical attack]
+70	70	
+[separate attack]
+70	70	
+[all elemental attack]
+25	
+[physical critical hit]
+10.0	
+[magical critical hit]
+10.0	
+[move speed]
+50	
+[attack speed]
+50	
+[cast speed]
+50	
+[room list move speed rate]
+0.2	
+[skill data up]
+`[swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[priest]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[at gunner]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[thief]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[at fighter]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[at mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[demonic swordman]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	`[creator mage]`
+169	`[dungeon type]`
+`[level]`
+0	`+`
+70	
+[/skill data up]
+
+[aurora graphic effects]
+41	-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_00.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_01.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_02.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_03.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_04.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_05.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_06.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_07.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_08.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_09.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_10.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_11.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_12.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_13.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_14.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_15.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_16.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_17.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_18.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_19.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_20.ani`
+-1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Back_21.ani`
+0	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Bottom_00.ani`
+0	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Bottom_01.ani`
+0	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Bottom_02.ani`
+0	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Bottom_03.ani`
+0	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Bottom_04.ani`
+0	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Bottom_05.ani`
+0	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Bottom_06.ani`
+0	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Bottom_07.ani`
+0	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Bottom_08.ani`
+1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Front_00.ani`
+1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Front_01.ani`
+1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Front_02.ani`
+1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Front_03.ani`
+1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Front_04.ani`
+1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Front_05.ani`
+1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Front_06.ani`
+1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Front_07.ani`
+1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Front_08.ani`
+1	`Character/Common/Animation/Aura/20200618_chn_joyclub/VIP3/ScorpioOra_VIP3_Front_09.ani`
+
+
