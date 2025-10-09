@@ -492,6 +492,188 @@ for error in errors:
 	print(error)
 ```
 
+## 🏷️ 标签数据类型详细说明
+
+### 基础数据类型规则
+
+根据对真实PVF文件和标准样板的分析，PVF文件中的标签参数主要分为以下几种数据类型：
+
+#### 1. 字符串类型 (String) - 使用反引号 `` ` ``
+所有文本内容、路径、标识符等都属于字符串类型，必须使用反引号包围。
+
+**装备基础信息类：**
+- `[name]` - 装备名称：`` `装备名称` ``
+- `[name2]` - 英文名称：`` `English Name` ``
+- `[explain]` - 简要说明：`` `装备描述` ``
+- `[basic explain]` - 基础说明：`` `基础功能描述` ``
+- `[detail explain]` - 详细说明：`` `详细功能描述` ``
+- `[flavor text]` - 风味文本：`` `背景故事文本` ``
+
+**职业和类型类：**
+- `[usable job]` - 可用职业：`` `[swordman]` ``、`` `[all]` ``
+- `[attach type]` - 附加类型：`` `[trade]` ``、`` `[sealing]` ``
+- `[equipment type]` - 装备类型：`` `[weapon]` ``、`` `[aurora avatar]` ``
+- `[weapon type]` - 武器类型：`` `[ssword]` ``、`` `[sword]` ``
+- `[sub type]` - 子类型：`` `[ssword]` ``
+
+**资源路径类：**
+- `[icon]` - 图标路径：`` `item/weapon/thief/ssword/ssword_2choro1.img` ``
+- `[field image]` - 场景图像：`` `item/fieldimage/weapon/ssword.img` ``
+- `[move wav]` - 移动音效：`` `SWORD_TOUCH` ``
+
+**条件判断类：**
+- `[if]` - 条件判断：`` `[all]` ``、`` `[weapon]` ``
+- `[target]` - 目标选择：`` `[target]` ``
+
+#### 2. 数值类型 (Number) - 直接写数字
+所有数值参数都直接写数字，不使用任何引号。
+
+**等级和稀有度类：**
+- `[rarity]` - 稀有度：`3`（整数）
+- `[minimum level]` - 最低等级：`90`（整数）
+- `[grade]` - 等级：`73`（整数）
+
+**物理属性类：**
+- `[durability]` - 耐久度：`55`（整数）
+- `[weight]` - 重量：`2.8`（浮点数）
+- `[price]` - 价格：`2800000`（整数）
+- `[repair price]` - 修理费用：`112000`（整数）
+- `[value]` - 价值：`1400000`（整数）
+
+**战斗属性类：**
+- `[physical attack]` - 物理攻击：`685`（整数）
+- `[magical attack]` - 魔法攻击：`685`（整数）
+- `[independent attack]` - 独立攻击：`420`（整数）
+- `[attack speed]` - 攻击速度：`120`（整数）
+- `[cast speed]` - 施放速度：`15`（整数）
+- `[move speed]` - 移动速度：`15`（整数）
+- `[physical critical hit]` - 物理暴击：`8`（整数）
+- `[magical critical hit]` - 魔法暴击：`8`（整数）
+
+**生命值和魔法值类：**
+- `[HP MAX]` - 最大HP：`180`（整数）
+- `[MP MAX]` - 最大MP：`180`（整数）
+- `[hit recovery]` - 硬直恢复：`120`（整数）
+
+**其他数值类：**
+- `[creation rate]` - 制作成功率：`0`（整数）
+- `[random option]` - 随机选项：`1`（整数）
+- `[usable period]` - 使用期限：`300`（整数）
+- `[stuck]` - 卡住状态：`0`（整数）
+- `[attack success]` - 攻击成功率：`15`（整数）
+
+#### 3. 范围数值类型 (Range) - 两个数字用Tab分隔
+某些属性使用范围值，表示最小值和最大值。
+
+**装备攻击范围：**
+- `[equipment physical attack]` - 装备物理攻击：`685	735`
+- `[equipment magical attack]` - 装备魔法攻击：`685	735`
+- `[separate attack]` - 独立攻击范围：`420	450`
+
+#### 4. 复合类型 (Complex) - 多个参数组合
+某些标签包含多个不同类型的参数，按顺序用Tab分隔。
+
+**图标标记类：**
+- `[icon mark]` - 图标标记：`` `Item/IconMark.img` ``	`0`（字符串+数字）
+- `[icon]` - 图标：`` `item/weapon/thief/ssword/ssword_2choro1.img` ``（仅字符串）
+
+**技能数据类：**
+- `[skill data up]` - 技能数据提升：`` `[thief]` ``	`99`	`` `[all]` ``	`` `[level]` ``	`` `+2` ``
+- `[all skill data up]` - 全技能数据提升：`` `[thief]` ``	`99`	`` `[all]` ``	`` `[level]` ``	`` `+1` ``
+
+**强制结果类：**
+- `[Force Result]` - 强制结果：`1`	`` `[equipment physical attack]` ``
+
+**状态效果类：**
+- `[active status]` - 激活状态：`` `shadow_damage` ``	`99`	`3000`	`1000`	`1`	`` `%` ``	`` `[hp]` ``	`` `-8` ``
+
+#### 5. 数据段类型 (Data Section)
+文件末尾的数据段包含不同类型的数据。
+
+**整数数据段：**
+```
+[int data]
+	`装备等级`	90
+	`武器系列`	2001
+	`暗影伤害倍率`	150
+	`生命吸取率`	5
+```
+
+**字符串数据段：**
+```
+[string data]
+	`制作者`	`暗影工匠·瓦伦`
+	`武器来源`	`暗影教团秘宝`
+	`特殊效果`	`暗影爆发`
+```
+
+**浮点数据段：**
+```
+[float data]
+	`暴击伤害加成`	1.25
+	`暗影爆发概率`	0.15
+	`生命吸取系数`	0.05
+```
+
+### 特殊标签说明
+
+#### 1. 嵌套结构标签
+某些标签包含嵌套结构，需要使用开始和结束标签：
+
+```
+[appendage]
+	`[shadow burst]`
+	[name]
+		`暗影爆发`
+	[explain]
+		`释放暗影力量，对敌人造成魔法伤害并吸取生命力`
+	[icon]
+		`item/stackable/consumption.img`	58
+[/appendage]
+```
+
+#### 2. 条件判断标签
+```
+[if]
+	`[weapon]`
+[attack success]
+	15
+[then]
+	`[target]`
+		`[appendage]`
+			`[shadow burst]`
+		`[/appendage]`
+	`[/target]`
+[/if]
+```
+
+#### 3. 套装信息标签
+```
+[set item master]
+	`暗影套装`
+
+[set item]
+	2	`暗影之力：攻击速度 +10%，移动速度 +10%`
+	3	`噬魂之刃：攻击时有15%概率触发暗影爆发`
+	5	`暗影主宰：所有技能等级 +2，暗属性强化 +30`
+```
+
+#### 4. 材料需求标签
+```
+[need material]
+	`暗影精华`	120
+	`噬魂水晶`	50
+	`传说武器强化石`	10
+```
+
+### 数据类型验证规则
+
+1. **字符串验证**：必须使用反引号 `` ` `` 包围，不能使用双引号或单引号
+2. **数值验证**：直接写数字，不能使用任何引号
+3. **范围验证**：两个数值之间用Tab分隔
+4. **复合验证**：多个参数按类型要求，用Tab分隔
+5. **嵌套验证**：正确使用开始和结束标签，保持缩进一致
+
 ## 📋 常见格式错误
 
 ### 错误1: 使用空格代替TAB
