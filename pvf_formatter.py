@@ -281,7 +281,7 @@ class PVFFormatter:
             else:
                 i += 1
         
-        # 重构内容，按类别排列
+        # 重构内容，按类别排列，但不加注释，保持原格式
         result_lines = []
         
         # 按预定义顺序添加类别
@@ -292,36 +292,16 @@ class PVFFormatter:
         
         for cat in categories:
             if categorized[cat]:
-                # 为每个类别添加注释以表明分类
-                if cat == 'basic_info':
-                    result_lines.append('# --- 基本信息 ---')
-                elif cat == 'equipment_limit':
-                    result_lines.append('# --- 装备限制 ---')
-                elif cat == 'equipment_attr':
-                    result_lines.append('# --- 装备属性 ---')
-                elif cat == 'special':
-                    result_lines.append('# --- 特殊效果 ---')
-                elif cat == 'economy':
-                    result_lines.append('# --- 经济系统 ---')
-                elif cat == 'mechanism':
-                    result_lines.append('# --- 游戏机制 ---')
-                elif cat == 'display':
-                    result_lines.append('# --- 显示相关 ---')
-                elif cat == 'environment':
-                    result_lines.append('# --- 环境属性 ---')
-                elif cat == 'other':
-                    result_lines.append('# --- 其他 ---')
-                
                 for tag_data in categorized[cat]:
                     result_lines.append(tag_data['tag'])
                     for val in tag_data['values']:
-                        if val.strip():  # 只添加非空行
-                            result_lines.append(val.rstrip())
+                        result_lines.append(val.rstrip())  # 保留原格式
                     if tag_data['end_tag']:
                         result_lines.append(tag_data['end_tag'])
                 
                 # 类别间添加空行
-                result_lines.append('')
+                if cat != categories[-1]:  # 不在最后一组后加空行
+                    result_lines.append('')
         
         # 组合头部和格式化后的内容
         if header and header[-1] != '':
