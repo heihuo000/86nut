@@ -17,7 +17,8 @@
   },
   "file_patterns": [
     "**/*.md",
-    "**/*.txt"
+    "**/*.txt",
+    "**/*.equ"
   ],
   "exclude_patterns": [
     "**/.*",

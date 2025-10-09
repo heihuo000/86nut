@@ -1,0 +1,31 @@
+# DNF RAG系统依赖包
+
+# 核心依赖
+sentence-transformers>=2.2.2
+faiss-cpu>=1.7.4
+numpy>=1.21.0
+scikit-learn>=1.0.0
+
+# 文本处理
+jieba>=0.42.1
+chardet>=5.0.0
+
+# API调用
+requests>=2.28.0
+dashscope>=1.14.0
+
+# 配置和工具
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+
+# 日志和调试
+loguru>=0.7.0
+
+# 可选依赖 (GPU支持)
+# torch>=2.0.0
+# faiss-gpu>=1.7.4
+
+# 开发依赖 (可选)
+# pytest>=7.0.0
+# black>=22.0.0
+# flake8>=5.0.0

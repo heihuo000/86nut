@@ -1,0 +1,120 @@
+# DNF RAG系统 .gitignore
+
+# 环境变量文件 (包含API密钥)
+.env
+.env.local
+.env.production
+.env.staging
+
+# Python 相关
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# 虚拟环境
+.venv/
+venv/
+ENV/
+env/
+.env/
+
+# IDE 相关
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 日志文件
+*.log
+logs/
+报错/
+
+# 数据文件 (大文件，用户需要自己构建)
+data/simple_index.pkl
+data/faiss_index/
+data/chunks_info.json
+
+# 模型缓存 (太大，用户需要自己下载)
+models/
+.cache/
+huggingface_cache/
+
+# 临时文件
+temp/
+tmp/
+*.tmp
+*.temp
+
+# 测试文件
+test_*.py
+*_test.py
+dev_*.py
+demo_*.py
+quick_test.py
+final_*.py
+verify_*.py
+
+# 配置文件备份
+*.bak
+*.backup
+config/*.bak
+
+# 压缩文件
+*.zip
+*.tar.gz
+*.rar
+
+# 文档生成
+docs/_build/
+site/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# uv
+uv.lock
+
+# 其他
+.coverage
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json

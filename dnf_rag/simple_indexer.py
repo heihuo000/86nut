@@ -93,7 +93,8 @@ class SimpleDNFIndexBuilder:
             "**/*.mob",  # 怪物文件
             "**/*.sho",  # SHO文件
             "**/*.stk",  # STK文件
-            "**/*.chr"   # 角色文件
+            "**/*.chr",  # 角色文件
+            "**/*.equ"   # 装备文件
         ]
         for pattern in extra_patterns:
             try:
