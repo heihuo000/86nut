@@ -71,9 +71,12 @@ PVF（Player Versus Fighter）文件是DNF游戏中用于定义装备、道具�
 
 ✅ 正确格式：
 ```
-[name]	`精 · 加持的禁锢之限手镯 : [湮灭黑洞]`
-[description]	`这是装备描述`
-[type]	`[normal]`
+[name]
+	`精 · 加持的禁锢之限手镯 : [湮灭黑洞]`
+[description]	
+`这是装备描述`
+[type]	
+`[normal]`
 ```
 
 ❌ 错误格式：
@@ -87,10 +90,14 @@ PVF（Player Versus Fighter）文件是DNF游戏中用于定义装备、道具�
 
 ✅ 正确格式：
 ```
-[level]	50
-[price]	1000
-[weight]	1.5
-[offset x]	-10
+[level]
+	50
+[price]
+	1000
+[weight]
+	1.5
+[offset x]
+	-10
 ```
 
 ❌ 错误格式：
@@ -104,10 +111,14 @@ PVF（Player Versus Fighter）文件是DNF游戏中用于定义装备、道具�
 
 ✅ 正确格式：
 ```
-[player number]	2	8
-[pvp start area]	650	230	474	213
-[icon mark]	`item/equipment.img`	14
-[equipment type]	`[weapon]`	21
+[player number]
+	2	8
+[pvp start area]
+	650	230	474	213
+[icon mark]
+	`item/equipment.img`	14
+[equipment type]
+	`[weapon]`	21
 ```
 
 ❌ 错误格式：
@@ -165,26 +176,40 @@ PVF（Player Versus Fighter）文件是DNF游戏中用于定义装备、道具�
 ```
 #PVF_File
 
-[name]	`精 · 加持的禁锢之限手镯 : [湮灭黑洞]`
-[grade]	2
-[rarity]	5
-[icon mark]	`item/new_equipment/05_acc/bracelet/br_a_2choro994.img`	0
-[field image]	`item/new_equipment/05_acc/bracelet/br_a_2choro994.img`	1
-[equipment type]	`[bracelet]`	23
-[move wav]	`BONE_TOUCH`
-[durability]	45
-[weight]	250
-[price]	632000
+[name]
+	`精 · 加持的禁锢之限手镯 : [湮灭黑洞]`
+[grade]
+	2
+[rarity]
+	5
+[icon mark]
+	`item/new_equipment/05_acc/bracelet/br_a_2choro994.img`	0
+[field image]	
+`item/new_equipment/05_acc/bracelet/br_a_2choro994.img`	1
+[equipment type]
+	`[bracelet]`	23
+[move wav]
+	`BONE_TOUCH`
+[durability]
+	45
+[weight]
+	250
+[price]
+	632000
 ```
 
 ### 地图文件示例（hendon_auction.map）
 ```
 #PVF_File
 
-[background pos]	80
-[player number]	2	8
-[pvp start area]	650	230	474	213
-[type]	`[normal]`
+[background pos]
+	80
+[player number]
+	2	8
+[pvp start area]
+	650	230	474	213
+[type]	
+`[normal]`
 [tile]
 	`Tile/hm01.til`
 	`Tile/hm01.til`
