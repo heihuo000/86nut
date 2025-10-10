@@ -1,0 +1,38 @@
+#PVF_File
+
+[name]
+	`渴望之魔石`
+
+[name2]
+	`Desire Magic Stone`
+
+[explain]
+	`制作装备时使用的珍贵材料。 蕴含着强大的魔法力量。`
+
+[grade]
+	65
+
+[rarity]
+	3
+
+[icon]
+	`Item/stackable/material.img`	91
+
+[weight]
+	1
+
+[usable job]
+	`[all]`
+
+[minimum level]
+	1
+
+[type]
+	`[material]`
+
+[Force Result Item Rule]
+	0	500	`[stackable/material/material_3291.stk]`
+[/Force Result Item Rule]
+
+[move wav]
+	`BONE_TOUCH`

@@ -1,0 +1,129 @@
+#PVF_File
+
+[name]
+	`雷霆之拳`
+
+[name2]
+	`Thunder Fist`
+
+[explain]
+	`攻击时，有3%%的几率使敌人进入眩晕状态，持续2秒。`
+
+[basic explain]
+	`攻击时，有3%%的几率使敌人进入眩晕状态，持续2秒。`
+
+[grade]
+	35
+
+[rarity]
+	2
+
+[usable job]
+	`[fighter]`
+	`[female fighter]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	30
+
+[physical attack]
+	58
+
+[magical attack]
+	52
+
+[attack speed]
+	10
+
+[cast speed]
+	0
+
+[repair price]
+	38400
+
+[value]
+	35000
+
+[equipment physical attack]
+	420	450
+
+[equipment magical attack]
+	380	410
+
+[separate attack]
+	280	310
+
+[magical critical hit]
+	3
+
+[skill levelup]
+	`[fighter]`	99	1
+	`[female fighter]`	99	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	350	`[equipment/weapon/fighter/gauntlet_thunder.equ]`
+[/Force Result Item Rule]
+
+[icon]
+	`Item/weapon/fighter/gauntlet.img`	5
+
+[field image]
+	`Item/FieldImage.img`	5
+
+[equipment type]
+	`[weapon]`	25
+
+[animation job]
+	`[fighter]`
+	`[female fighter]`
+
+[variation]
+	10	0
+
+[layer variation]
+	2700	0
+
+[equipment ani script]
+	`equipment/character/fighter.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	1800
+
+[item group name]
+	`gauntlet`
+
+[cool time]
+	8000
+
+[elemental property]
+	`[lightning]`
+
+[if]
+	[cooltime]
+		8000
+	[hit]
+		[stun]
+			30	3	2000
+[/if]
+
+[possible kiri protect]
+
+[price]
+	350000
+
+[set item]
+	`[thunder_set_001]`
+[/set item]

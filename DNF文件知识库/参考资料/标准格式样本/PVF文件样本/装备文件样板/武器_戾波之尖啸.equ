@@ -1,0 +1,130 @@
+#PVF_File
+
+[name]
+	`戾波之尖啸`
+
+[name2]
+	`Shockwave`
+
+[explain]
+	`攻击时， 有2%%的几率使敌人进入感电状态。`
+
+[basic explain]
+	`攻击时， 有2%%的几率使敌人进入感电状态。`
+
+[grade]
+	27
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	25
+
+[physical attack]
+	43
+
+[magical attack]
+	43
+
+[attack speed]
+	-50
+
+[cast speed]
+	20
+
+[repair price]
+	28800
+
+[value]
+	25000
+
+[equipment physical attack]
+	306	330
+
+[equipment magical attack]
+	306	330
+
+[separate attack]
+	204	220
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	99	1
+	`[demonic swordman]`	99	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	250	`[equipment/weapon/sword/sswd_shockwave.equ]`
+[/Force Result Item Rule]
+
+[icon]
+	`Item/weapon/swordman/ssword.img`	10
+
+[field image]
+	`Item/FieldImage.img`	10
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+	`[demonic swordman]`
+
+[variation]
+	10	0
+
+[layer variation]
+	2700	0
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650	0
+
+[equipment ani script]
+	`equipment/character/demonicswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2200
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[elemental property]
+
+[if]
+	[cooltime]
+		10000
+	[hit]
+		[lightning]
+			20	2	2000
+[/if]
+
+[possible kiri protect]
+
+[price]
+	250000

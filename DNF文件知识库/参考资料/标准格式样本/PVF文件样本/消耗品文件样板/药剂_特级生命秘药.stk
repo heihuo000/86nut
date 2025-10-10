@@ -1,0 +1,55 @@
+#PVF_File
+
+[name]
+	`特级生命秘药`
+
+[name2]
+	`Superior Life Elixir`
+
+[explain]
+	`恢复3000点HP， 效果持续30秒。 (在地下城中， 每30秒只能使用一次)`
+
+[grade]
+	52
+
+[rarity]
+	2
+
+[icon]
+	`Item/stackable/potion.img`	1
+
+[weight]
+	10
+
+[usable job]
+	`[all]`
+
+[minimum level]
+	50
+
+[stack limit]
+	1000
+
+[type]
+	`[potion]`
+
+[expert type]
+	`[professional]`
+
+[attach group]
+	0
+
+[item group name]
+	`potion`
+
+[cool time]
+	30000
+
+[move wav]
+	`POTION_TOUCH`
+
+[effect duration]
+	30000
+
+[status change duration]
+	30000

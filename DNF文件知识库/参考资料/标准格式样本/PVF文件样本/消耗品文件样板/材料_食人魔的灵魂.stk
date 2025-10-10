@@ -1,0 +1,31 @@
+#PVF_File
+
+[name]
+	`食人魔的灵魂`
+
+[name2]
+	`Ogre Soul`
+
+[grade]
+	27
+
+[rarity]
+	2
+
+[icon]
+	`Item/stackable/material.img`	7
+
+[usable job]
+	`[all]`
+
+[minimum level]
+	1
+
+[type]
+	`[material]`
+
+[move wav]
+	`BONE_TOUCH`
+
+[tradable]
+	1

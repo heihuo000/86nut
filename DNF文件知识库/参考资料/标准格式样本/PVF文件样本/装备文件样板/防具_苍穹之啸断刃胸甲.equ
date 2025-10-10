@@ -1,0 +1,116 @@
+#PVF_File
+
+[name]
+	`加持的苍穹之啸断刃胸甲 : [崩山击]`
+
+[name2]
+	`Blessed Shockwave Broken Blade Breastplate : [Collapsing Earth]`
+
+[explain]
+	`崩山击Lv+1
+崩山击攻击力 +10%%`
+
+[flavor text]
+	`<苍穹之啸断刃胸甲>
+	
+	传说中的苍穹之啸断刃胸甲， 是由天界的工匠们用最珍贵的材料制作而成的。 这件胸甲不仅能够提供强大的防护， 还能够增强穿戴者的战斗技能。`
+
+[grade]
+	72
+
+[rarity]
+	4
+
+[icon]
+	`Item/common/jacket.img`	34
+
+[usable job]
+	`[swordman]`
+	`[demonic swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[physical attack]
+	25
+
+[magical attack]
+	25
+
+[physical defense]
+	2387
+
+[attack speed]
+	20
+
+[HP MAX]
+	250
+
+[MP MAX]
+	250
+
+[MP regen speed]
+	5
+
+[hit recovery]
+	160
+
+[anti evil]
+	16
+
+[repair price]
+	41472
+
+[value]
+	36000
+
+[equipment physical defense]
+	2387	2387
+
+[physical critical hit]
+	3
+
+[icon]
+	`Item/common/jacket.img`	34
+
+[equipment type]
+	`[jacket]`	0
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[durability]
+	70
+
+[weight]
+	1800
+
+[item group name]
+	`ha jacket`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	1	`[all]`	`[level]`	1	`[master]`
+	`[swordman]`	1	`[all]`	`[dungeon]`
+		`[level]`	0	`[up]`
+			`[attack]`	`%`	10
+		[/level]
+	[/dungeon]
+	`[demonic swordman]`	1	`[all]`	`[level]`	1	`[master]`
+	`[demonic swordman]`	1	`[all]`	`[dungeon]`
+		`[level]`	0	`[up]`
+			`[attack]`	`%`	10
+		[/level]
+	[/dungeon]
+[/skill data up]
+
+[unsealing info]
+	10	20	15	1	1
+
+[possible kiri protect]
