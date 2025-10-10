@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+	`DPL特等武器装扮 - 女鬼剑`
+
+[flavor text]
+	`<全国格斗大赛奖励>`
+
+[grade]
+	1
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/katana/katana.img`	165
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		62	0
+	[layer variation]
+		2150
+		`at_katanaa`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		650
+		`at_katanab`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		1350
+		`at_katanax`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[sub type]
+		1
+	[expand path]
+		`equipment/character/swordman/weapon/katana/`
+[/expand ani]
+
+[avatar func filter]
+	0
+
+[avatar type select]
+	7	0	0	1500	0
+	30	0	0	3000	0
+	0	0	0	6000	0
+	0	0	0	6500	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[equipment type]
+	`[waist avatar]`	0
+
+[part set index]
+	3
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[move wav]
+	`KATANA_TOUCH`
+
+[room list move speed rate]
+	0.3
+
+[physical attack]
+	5
+
+[physical defense]
+	5
+
+[magical attack]
+	5
+
+[magical defense]
+	5
+
+[attack speed]
+	1
+
+[move speed]
+	1
+
+[cast speed]
+	3

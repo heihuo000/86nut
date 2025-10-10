@@ -1,0 +1,180 @@
+#PVF_File
+
+[name]
+	`古老的十字斩刀 - 闪`
+
+[name2]
+	`One-Sword Way SanSan`
+
+[basic explain]
+	`[噬灵鬼斩]蓄气时间 -20%%`
+
+[flavor text]
+	`    真正的剑士， 用一把剑就可以斩断所有阻碍！  ——短剑达人巴恩领悟了剑之奥义后说`
+
+[grade]
+	57
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	39
+
+[magical attack]
+	59
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[price]
+	91200
+
+[repair price]
+	72960
+
+[value]
+	72960
+
+[equipment physical attack]
+	505	460
+
+[equipment magical attack]
+	559	508
+
+[separate attack]
+	328	220
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	5	2
+	`[swordman]`	6	2
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/katana.img`	33
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2790
+	`lkatanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lkatanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2790
+	`lkatanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lkatanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	6	`[all]`	`[static]`	1	`+`	-140
+[/skill data up]
+
+[routing priority]
+[/routing priority]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2150
+	`at_lkatanaa`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_lkatanab`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lkatanax`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[creation rate]
+	200

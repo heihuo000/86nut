@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`紫色鬼剑士之衣`
+
+[grade]
+	1
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_acoat.img`	11
+
+[equipment type]
+	`[coat avatar]`	0
+
+[avatar type select]
+	7	0	0	170	0
+	30	0	0	340	0
+	0	0	0	1	0
+	0	0	0	748	2
+	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[SKILL_LEVEL]`	`[swordman]`	5	1
+	`[SKILL_LEVEL]`	`[swordman]`	46	1
+	`[SKILL_LEVEL]`	`[swordman]`	20	1
+	`[SKILL_LEVEL]`	`[swordman]`	11	1
+	`[SKILL_LEVEL]`	`[swordman]`	16	1
+	`[SKILL_LEVEL]`	`[common]`	177	1
+	`[SKILL_LEVEL]`	`[swordman]`	1	1
+	`[SKILL_LEVEL]`	`[swordman]`	8	1
+	`[SKILL_LEVEL]`	`[swordman]`	25	1
+	`[SKILL_LEVEL]`	`[common]`	175	1
+	`[SKILL_LEVEL]`	`[swordman]`	12	1
+	`[SKILL_LEVEL]`	`[swordman]`	13	1
+	`[SKILL_LEVEL]`	`[swordman]`	14	1
+	`[SKILL_LEVEL]`	`[swordman]`	15	1
+	`[SKILL_LEVEL]`	`[common]`	176	1
+	`[SKILL_LEVEL]`	`[common]`	180	1
+	`[SKILL_LEVEL]`	`[swordman]`	64	1
+	`[SKILL_LEVEL]`	`[swordman]`	58	1
+	`[SKILL_LEVEL]`	`[swordman]`	77	1
+	`[SKILL_LEVEL]`	`[swordman]`	65	1
+	`[SKILL_LEVEL]`	`[swordman]`	17	1
+	`[SKILL_LEVEL]`	`[common]`	190	1
+[/avatar select ability]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	2
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	2
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[price]
+	360000

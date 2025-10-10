@@ -1,0 +1,129 @@
+#PVF_File
+
+[name]
+	`普通短剑`
+
+[name2]
+	`Default Short Sword`
+
+[basic explain]
+	`    攻击时， 附加30%%的伤害。 (在决斗场中无效)`
+
+[flavor text]
+	`    阻挡它的瞬间就已经受到伤害， 真正的杀人于无形......`
+
+[grade]
+	60
+
+[attach type]
+	`[trade]`
+
+[creation rate]
+	500
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[weight]
+	3100
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	40
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	0
+
+[durability]
+	35
+
+[price]
+	96000
+
+[value]
+	76800
+
+[cool time]
+	10000
+
+[magical attack]
+	17
+
+[equipment physical attack]
+	521	460
+
+[equipment magical attack]
+	630	557
+
+[cast speed]
+	20
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	30
+[/then]
+
+[pvp]
+	[if]
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	15
+	[/then]
+[/pvp]
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[variation]
+	3	0
+
+[layer variation]
+	2600
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[possible kiri protect]

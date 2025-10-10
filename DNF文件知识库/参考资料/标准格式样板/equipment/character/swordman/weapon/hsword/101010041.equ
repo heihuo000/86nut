@@ -1,0 +1,396 @@
+#PVF_File
+
+[name]
+	`无尽之逐神巨剑`
+
+[basic explain]
+	`攻击时敌人 4%% 附加伤害
+成长的活动给予无限制武器（根据角色的等级最多可成长至67等级）
+不可交换， 不可合成， 不可解体`
+
+[grade]
+	67
+
+[rarity]
+	3
+
+[icon mark]
+	`item/iconmark.img`	66
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	1
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[price]
+	124200
+
+[repair price]
+	100
+
+[value]
+	100
+
+[creation rate]
+	0
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	102
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[level linear ability]
+	1	67	
+	[grade]
+		5	71
+	[repair price]
+		6700	100000
+	[equipment physical attack]
+		103	65	809	749
+	[equipment magical attack]
+		97	61	607	562
+	[separate attack]
+		56	32	401	272
+	[physical attack]
+		8	47
+	[magical attack]
+		0	0
+[/level linear ability]
+
+[level section ani]
+	0
+	`[swordman]`	
+	[variation]
+		23	2
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+[/level section ani]
+
+[level section ani]
+	15
+	`[swordman]`	
+	[variation]
+		23	3
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+[/level section ani]
+
+[level section ani]
+	30
+	`[swordman]`	
+	[variation]
+		23	4
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+[/level section ani]
+
+[level section ani]
+	40
+	`[swordman]`	
+	[variation]
+		23	5
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+[/level section ani]
+
+[level section ani]
+	50
+	`[swordman]`	
+	[variation]
+		23	6
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+[/level section ani]
+
+[level section ani]
+	60
+	`[swordman]`	
+	[variation]
+		23	7
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+[/level section ani]
+
+[level section ani]
+	0
+	`[demonic swordman]`	
+	[variation]
+		23	2
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+[/level section ani]
+
+[level section ani]
+	15
+	`[demonic swordman]`	
+	[variation]
+		23	3
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+[/level section ani]
+
+[level section ani]
+	30
+	`[demonic swordman]`	
+	[variation]
+		23	4
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+[/level section ani]
+
+[level section ani]
+	40
+	`[demonic swordman]`	
+	[variation]
+		23	5
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+[/level section ani]
+
+[level section ani]
+	50
+	`[demonic swordman]`	
+	[variation]
+		23	6
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+[/level section ani]
+
+[level section ani]
+	60
+	`[demonic swordman]`	
+	[variation]
+		23	7
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+[/level section ani]
+
+[level section ability]
+	0	
+	[HP MAX]
+		50
+	[MP MAX]
+		50
+[/level section ability]
+
+[level section ability]
+	15	
+	[HP MAX]
+		70
+	[MP MAX]
+		70
+[/level section ability]
+
+[level section ability]
+	30	
+	[HP MAX]
+		70
+	[MP MAX]
+		70
+	[physical critical hit]
+		1
+	[magical critical hit]
+		1
+[/level section ability]
+
+[level section ability]
+	40	
+	[HP MAX]
+		100
+	[MP MAX]
+		100
+	[physical critical hit]
+		1
+	[magical critical hit]
+		1
+	[stuck]
+		-1
+[/level section ability]
+
+[level section ability]
+	50	
+	[HP MAX]
+		100
+	[MP MAX]
+		100
+	[physical critical hit]
+		1
+	[magical critical hit]
+		1
+	[stuck]
+		-1
+	[stuck resistance]
+		10
+[/level section ability]
+
+[level section ability]
+	60	
+	[HP MAX]
+		200
+	[MP MAX]
+		200
+	[physical critical hit]
+		1
+	[magical critical hit]
+		1
+	[stuck]
+		-1
+	[stuck resistance]
+		10
+[/level section ability]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	4
+[/then]
+
+[limit upgradable level]
+	`normal upgrade`	50	-1
+	`amplify upgrade`	55	-1
+	`separate upgrade`	70	-1
+[/limit upgradable level]
+
+[impossible contents]
+	`disjoint`
+	`gift`
+[/impossible contents]
+
+[possible kiri protect]

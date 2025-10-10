@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`宇宙幻梦之星云剑 (男鬼剑士)`
+
+[flavor text]
+	`<2022春节礼包>`
+
+[grade]
+	3
+
+[rarity]
+	3
+
+[part set index]
+	6
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[move speed]
+	40
+
+[HP MAX]
+	200
+
+[physical attack]
+	20
+
+[magical attack]
+	20
+
+[physical defense]
+	20
+
+[magical defense]
+	20
+
+[minimum level]
+	1
+
+[avatar select ability]
+	`[ATTACK_SPEED]`	`+`	70
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	1140
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	42
+	`[HIT_RECOVERY]`	`+`	240
+[/avatar select ability]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	179
+
+[expand ani]
+	10	2	0	1	
+	[variation]
+		98	1
+	[layer variation]
+		2791
+		`beamswdc1`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		2792
+		`beamswdc2`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		651
+		`beamswdb1`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		652
+		`beamswdb2`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		0
+	[expand path]
+		`equipment/character/swordman/weapon/beamsword/`
+[/expand ani]
+
+[move wav]
+	`TOOLSET_TOUCH`
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1	0
+	0	0	0	4500	2
+	`[B socket]`	`[B socket]`
+[/avatar type select]
+
+[equipment type]
+	`[face avatar]`	0
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[icon mark]
+	`Item/IconMark.img`	66

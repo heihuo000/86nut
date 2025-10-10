@@ -1,0 +1,112 @@
+#PVF_File
+
+[name]
+	`精 · 加持的残忍之弑巨剑 : [破军升龙击]`
+
+[name2]
+	`Fixed Great Sword of Powerful Fierce Attack : Charge Crash`
+
+[basic explain]
+	`[破军升龙击]冷却时间 -18%%
+[破军升龙击]MP消耗量 -18%%
+攻击速度 +2%%`
+
+[grade]
+	72
+
+[rarity]
+	5
+
+[icon mark]
+	`item/iconmark.img`	65
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	70
+
+[physical attack]
+	61
+
+[attack speed]
+	-70
+
+[cast speed]
+	-20
+
+[anti evil]
+	16
+
+[repair price]
+	93542
+
+[value]
+	9280
+
+[equipment physical attack]
+	797	761
+
+[equipment magical attack]
+	598	571
+
+[separate attack]
+	362	245
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	70
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	8	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	68	`[dungeon type]`	`[cooltime]`	0	`%`	-18
+	`[swordman]`	68	`[dungeon type]`	`[mp]`	0	`%`	-18
+[/skill data up]
+
+[possible kiri protect]

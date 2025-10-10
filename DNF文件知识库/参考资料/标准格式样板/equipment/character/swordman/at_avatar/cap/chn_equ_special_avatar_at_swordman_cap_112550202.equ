@@ -1,0 +1,83 @@
+#PVF_File
+
+[name]
+	`万圣节捣蛋大王头套 (女鬼剑士)`
+
+[flavor text]
+	`<万圣节捣蛋大王礼包>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[enable dye]
+	1	0
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_acap.img`	233
+
+[equipment type]
+	`[hat avatar]`	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1980	0
+	0	0	0	4500	2
+	`[A socket]`	`[A socket]`
+[/avatar type select]
+
+[part set index]
+	2
+
+[MP MAX]
+	200
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	90	0
+
+[layer variation]
+	700
+	`cap_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	2500
+	`cap_c`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`	`+`	45
+	`[MAGICAL_DEFENSE]`	`+`	45
+	`[HP_REGENRATE]`	`+`	60
+	`[MP_REGENRATE]`	`+`	12
+	`[CAST_SPEED]`	`+`	120
+[/avatar select ability]
+
+[hide equipment]
+	`[hair avatar]`
+	`[face avatar]`
+[/hide equipment]
+
+[hide layer]
+	2000	800	2400	400	2820	20	2700	260	1925	2830	2750	270
+[/hide layer]

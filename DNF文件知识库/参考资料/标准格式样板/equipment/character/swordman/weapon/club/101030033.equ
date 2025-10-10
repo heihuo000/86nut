@@ -1,0 +1,221 @@
+#PVF_File
+
+[name]
+	`御兽之王巨槌`
+
+[basic explain]
+	`[波动之钝器精通]技能Lv +2
+ 
+[钝器精通]中， [幻影剑舞]冲击波攻击力 +25%%
+[钝器精通]中， [破军升龙击]冲击波攻击力 +25%%
+[波动之钝器精通]中， [幻剑术]冲击波攻击力 +25%%
+[波动之钝器精通]中， [雷鸣千军破]冲击波攻击力 +25%%
+[跃空斩]冲击波攻击力 +25%%
+    攻击时， 有3%%的几率使敌人进入眩晕状态。
+`
+
+[detail explain]
+	`[波动之钝器精通]技能Lv +2
+ 
+[钝器精通]中， [幻影剑舞]冲击波攻击力 +25%%
+[钝器精通]中， [破军升龙击]冲击波攻击力 +25%%
+[波动之钝器精通]中， [幻剑术]冲击波攻击力 +25%%
+[波动之钝器精通]中， [雷鸣千军破]冲击波攻击力 +25%%
+[跃空斩]冲击波攻击力 +25%%
+    攻击时， 有3%%的几率使敌人进入眩晕状态， 效果持续2秒； 但在决斗场中， 只能持续1秒。 (若敌人高于Lv74， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)
+`
+
+[grade]
+	74
+
+[rarity]
+	3
+
+[icon mark]
+	`item/iconmark.img`	66
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	70
+
+[physical attack]
+	74
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[need material]
+	3338	180
+
+[repair price]
+	99456
+
+[value]
+	94720
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	774	719
+
+[equipment magical attack]
+	669	621
+
+[separate attack]
+	420	284
+
+[skill levelup]
+	`[swordman]`	15	2
+	`[creator mage]`	13	2
+	`[swordman]`	68	1
+	`[swordman]`	73	1
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/club/club.img`	87
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	25	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	25	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[routing priority]
+	`swordman`	1
+	`swordman`	3
+	`demonic swordman`	0
+[/routing priority]
+
+[skill data up]
+	`[swordman]`	15	`[dungeon type]`	`[level]`	4	`%`	25
+	`[swordman]`	15	`[dungeon type]`	`[level]`	10	`%`	25
+	`[swordman]`	15	`[dungeon type]`	`[level]`	11	`%`	25
+	`[creator mage]`	87	`[dungeon type]`	`[level]`	1	`%`	25
+	`[creator mage]`	87	`[dungeon type]`	`[level]`	1	`%`	25
+	`[creator mage]`	13	`[dungeon type]`	`[level]`	5	`+`	25
+	`[creator mage]`	13	`[dungeon type]`	`[level]`	6	`+`	25
+[/skill data up]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	74
+[/then]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	25	0
+
+[layer variation]
+	2150
+	`at_cluba`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_clubb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_clubx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

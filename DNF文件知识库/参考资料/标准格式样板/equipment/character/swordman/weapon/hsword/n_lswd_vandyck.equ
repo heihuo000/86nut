@@ -1,0 +1,176 @@
+#PVF_File
+
+[name]
+	`残影剑`
+
+[basic explain]
+	`[毁灭之巨剑精通]技能Lv +2
+[十字剑]技能Lv +2`
+
+[name2]
+	`Van Dyck`
+
+[flavor text]
+	`    获得天下第一铁匠大会‘最佳武器’大奖的巨剑。`
+
+[grade]
+	24
+
+[rarity]
+	3
+
+[icon mark]
+	`item/iconmark.img`	66
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[need material]
+	19100131	1
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	20
+
+[physical attack]
+	19
+
+[attack speed]
+	-70
+
+[cast speed]
+	-20
+
+[HP MAX]
+	60
+
+[price]
+	43200
+
+[repair price]
+	34560
+
+[value]
+	34560
+
+[creation rate]
+	500
+
+[equipment physical attack]
+	312	264
+
+[equipment magical attack]
+	234	198
+
+[separate attack]
+	148	96
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	14	2
+	`[creator mage]`	12	2
+	`[swordman]`	64	2
+	`[creator mage]`	94	2
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	13
+
+[field image]
+	`Item/FieldImage.img`	12
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	1	2
+
+[layer variation]
+	2790
+	`mswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`mswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	1	2
+
+[layer variation]
+	2790
+	`mswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`mswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	50
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	1	2
+
+[layer variation]
+	2150
+	`at_mswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_mswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_mswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

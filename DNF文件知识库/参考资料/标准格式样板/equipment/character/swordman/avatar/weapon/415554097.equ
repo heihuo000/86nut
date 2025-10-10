@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`魔幻星座武器装扮[鬼剑士]`
+
+[flavor text]
+	`<2023金秋礼包>`
+
+[grade]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[part set index]
+	2
+
+[icon]
+	`item/szknew2023autumn/swordman/lswd/lswd.img`	275
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar type select]
+	7	0	0	1500	0
+	30	0	0	3000	0
+	0	0	0	6000	0
+	0	0	0	6500	2
+	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	18
+	`[ATTACK_SPEED]`	`+`	60
+	`[HIT_RECOVERY]`	`+`	200
+[/avatar select ability]
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		94	0
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		2791
+		`lswdc1`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		651
+		`lswdb1`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		3
+	[expand path]
+		`equipment/character/swordman/weapon/hsword/`
+[/expand ani]
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[HP MAX]
+	200
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[move speed]
+	40

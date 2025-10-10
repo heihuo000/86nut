@@ -1,0 +1,265 @@
+#PVF_File
+
+[name]
+	`灼魂之剑`
+
+[basic explain]
+	`    装备后， 力量增加100点， 智力减少80点。
+    ↑↓+[宠物技能指令] : 可以使自身进入灼伤状态， 并对周围敌人造成伤害， 效果持续10秒。
+`
+
+[detail explain]
+	`    装备后， 力量增加100点， 智力减少80点。
+    ↑↓+[宠物技能指令] : 可以使自身进入灼伤状态， 且每0.5秒会受到50点伤害； 但同时每2秒可以对周围的敌人造成3000点伤害。 (在决斗场、 竞技大赛中无效； 若角色的Lv和灼伤抗性高于Lv84， 则不会产生灼伤效果)
+`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[icon mark]
+	`item/iconmark.img`	66
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	55
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[need material]
+	3339	200
+
+[repair price]
+	127008
+
+[value]
+	120960
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	733	686
+
+[equipment magical attack]
+	724	679
+
+[separate attack]
+	481	327
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	85
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	26	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	26	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[item category]
+	`boss drop`
+[/item category]
+
+[routing priority]
+	`swordman`	1
+	`demonic swordman`	0
+[/routing priority]
+
+[required skill]
+	33
+
+[elemental property]
+	`[fire element]`
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+		`[tournament dungeon]`
+	[/module]
+	[use command]
+		1
+	[cooltime]
+		15000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		15000
+	[active status]
+		`burn`	84	700	3000	1	2000
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	100
+	[stat by condition]
+		`magical attack`
+		`+`	-80
+[/then]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	26	0
+
+[layer variation]
+	2151
+	`at_beamswda1`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	2152
+	`at_beamswda2`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	651
+	`at_beamswdb1`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	652
+	`at_beamswdb2`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_beamswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

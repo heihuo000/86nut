@@ -1,0 +1,196 @@
+#PVF_File
+
+[name]
+	`圣物 : 玄月精灵之宽刃剑`
+
+[grade]
+	54
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	50
+
+[magical attack]
+	37
+
+[cast speed]
+	20
+
+[price]
+	86400
+
+[repair price]
+	69120
+
+[value]
+	69120
+
+[creation rate]
+	250
+
+[equipment physical attack]
+	475	437
+
+[equipment magical attack]
+	575	529
+
+[separate attack]
+	298	199
+
+[magical critical hit]
+	2.0
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	28
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[icon mark]
+	`Item/IconMark.img`	5
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2790
+	`bswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`bswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2790
+	`bswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`bswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[spectrum]
+	255	0	255	300	500
+
+[elemental property]
+	`[light element]`
+
+[all skill item]
+	[item growtype]
+		`[swordman]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			50
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[all skill item]
+	[item growtype]
+		`[creator mage]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			50
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	2
+
+[layer variation]
+	2150
+	`at_bswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_bswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_bswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

@@ -1,0 +1,94 @@
+#PVF_File
+
+[name]
+	`暗灰色鬼剑御龙长发`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_ahair.img`	77
+
+[equipment type]
+	`[hair avatar]`	0
+
+[avatar type select]
+	7	0	0	1400	0
+	30	0	0	2800	0
+	0	0	0	5600	0
+	0	0	0	6200	2
+	`[A socket]`	`[A socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[CAST_SPEED]`	`+`	140
+	`[MAGICAL_ATTACK]`	`+`	55
+	`[MAGICAL_DEFENSE]`	`+`	55
+	`[HP_REGENRATE]`	`+`	75
+	`[MP_REGENRATE]`	`+`	15
+[/avatar select ability]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	21	1
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	400
+	`hair_d`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	21	1
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	400
+	`hair_d`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`

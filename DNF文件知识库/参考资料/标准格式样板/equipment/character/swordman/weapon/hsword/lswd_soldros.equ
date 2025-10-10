@@ -1,0 +1,104 @@
+#PVF_File
+
+[name]
+	`鲜血之痕巨剑`
+
+[name2]
+	`Bloodstain Greatsword of Gladiator`
+
+[basic explain]
+	`物品快捷栏内每存在一种武器， 都可以增加角色10%%的攻击力
+[疾影手]冷却时间 -50%%`
+
+[flavor text]
+	`    它很适合你！  ——索德罗斯`
+
+[grade]
+	60
+
+[attach type]
+	`[trade]`
+
+[creation rate]
+	500
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[weight]
+	4000
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	42
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[price]
+	108000
+
+[value]
+	86400
+
+[cool time]
+	10000
+
+[physical attack]
+	17
+
+[equipment physical attack]
+	658	581
+
+[equipment magical attack]
+	493	436
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[skill data up]
+	`[swordman]`	37	`[all]`	`[level]`	0	`%`	50
+[/skill data up]
+
+[variation]
+	1	2
+
+[layer variation]
+	2600
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[possible kiri protect]

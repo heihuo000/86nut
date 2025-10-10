@@ -1,0 +1,171 @@
+#PVF_File
+
+[name]
+	`镇魂之封灵巨剑`
+
+[basic explain]
+	`攻击速度 +1.5%%
+ 
+    攻击时， 附加16%%的伤害。`
+
+[grade]
+	89
+
+[rarity]
+	4
+
+[maximum level]
+	998
+
+[icon mark]
+	`item/iconmark.img`	67
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	101
+
+[attack speed]
+	-75
+
+[cast speed]
+	-5
+
+[move speed]
+	10
+
+[need material]
+	10000204	10
+
+[repair price]
+	134568
+
+[value]
+	128160
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	1093	977
+
+[equipment magical attack]
+	819	733
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	4
+
+[magical critical hit]
+	4
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	106
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	27	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	27	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[all]`	169	`[dungeon type]`	`[static]`	5	`+`	16
+[/skill data up]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	27	0
+
+[layer variation]
+	2150
+	`at_lswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_lswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

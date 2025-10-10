@@ -1,0 +1,203 @@
+#PVF_File
+
+[name]
+	`正气之剑`
+
+[basic explain]
+	`[暴走]冷却时间 -5秒
+[嗜血]冷却时间 -5秒
+施放[嗜血]时， 可以使所有敌人进入出血状态。
+攻击速度 +4%%`
+
+[detail explain]
+	`[暴走]冷却时间 -5秒
+[嗜血]冷却时间 -5秒
+    施放[嗜血]时， 可以使所有敌人进入出血状态8秒， 出血状态下的敌人， 每0.5秒受到80点伤害。 (若敌人高于Lv60， 则减少进入异常状态的几率； 反之， 则增加几率)
+攻击速度 +4%%`
+
+[grade]
+	62
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[need material]
+	2749095	15
+
+[creation rate]
+	125
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[physical attack]
+	42
+
+[attack speed]
+	-50
+
+[cast speed]
+	-20
+
+[repair price]
+	93744
+
+[value]
+	89280
+
+[equipment physical attack]
+	686	629
+
+[equipment magical attack]
+	515	472
+
+[separate attack]
+	440	291
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	87
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	23	`[all]`	`[cooltime]`	0	`+`	-5000
+	`[swordman]`	40	`[all]`	`[cooltime]`	0	`+`	-5000
+[/skill data up]
+
+[if]
+	[use skill]
+		`swordman`	23
+	[/use skill]
+[/if]
+
+[then]
+	[target]
+		`all enemy`	-1
+	[duration]
+		8000
+	[active status]
+		`bleeding`	60	1280
+[/then]
+
+[pvp]
+	[if]
+		[use skill]
+			`swordman`	23
+		[/use skill]
+	[/if]
+	[then]
+		[target]
+			`all enemy`	-1
+		[duration]
+			8000
+		[active status]
+			`bleeding`	60	1300
+	[/then]
+[/pvp]
+
+[routing priority]
+	`swordman`	3
+	`demonic swordman`	0
+[/routing priority]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	3	0
+
+[layer variation]
+	2150
+	`at_lswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_lswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

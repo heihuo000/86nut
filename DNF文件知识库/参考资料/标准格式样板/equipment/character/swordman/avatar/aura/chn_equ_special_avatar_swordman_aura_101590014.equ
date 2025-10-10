@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`龙族的威严 (男鬼剑士4)`
+
+[explain]
+	`    穿戴光环装扮时， 游戏画面左侧会产生相应的光环图标。 单击图标， 可以移动到目标NPC或玩家面前。`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aura_cn.img`	5
+
+[aura hud icon]
+	45
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[sub type]
+	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[physical attack]
+	15
+
+[magical attack]
+	15
+
+[avatar select ability]
+	`[SKILL_LEVEL]`	`[swordman]`	73	1
+	`[SKILL_LEVEL]`	`[swordman]`	82	1
+	`[SKILL_LEVEL]`	`[swordman]`	81	1
+	`[SKILL_LEVEL]`	`[swordman]`	74	1
+[/avatar select ability]
+
+[aura ability]
+	`[solo teleport]`	420
+[/aura ability]
+
+[aurora graphic effects]
+	4
+	1	`Character/Common/Animation/Aura/chn_2013_blue_front_dodge.ani`
+	0	`Character/Common/Animation/Aura/chn_2013_blue_back_dodge.ani`
+	0	`Character/Common/Animation/Aura/chn_2013_blue_back_normal.ani`
+	0	`Character/Common/Animation/Aura/chn_2013_blue_front_normal.ani`

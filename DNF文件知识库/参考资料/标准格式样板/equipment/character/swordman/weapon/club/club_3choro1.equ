@@ -1,0 +1,137 @@
+#PVF_File
+
+[name]
+	`裂魂之异次元巨锤 - 剑魂`
+
+[basic explain]
+	`攻击时， 有2%%的几率使敌人进入眩晕状态。`
+
+[detail explain]
+	`    攻击时， 有2%%的几率使敌人进入眩晕状态2秒； 但在决斗场中， 只能持续1秒。 (若敌人高于Lv72， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)`
+
+[flavor text]
+	`    可赋予异次元气息的装备。 只有角色对应的职业和装备对应的职业一致时， 才可以进行赋予。 每个装备最多可赋予2次， 失败时装备会损坏； 同一个技能对同一种属性不可重复赋予。`
+
+[grade]
+	72
+
+[rarity]
+	5
+
+[icon mark]
+	`item/iconmark.img`	65
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	70
+
+[physical attack]
+	88
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[anti evil]
+	16
+
+[need material]
+	3311	169
+
+[repair price]
+	83408
+
+[value]
+	8341
+
+[equipment physical attack]
+	730	697
+
+[equipment magical attack]
+	631	602
+
+[separate attack]
+	362	245
+
+[icon]
+	`Item/weapon/swordman/club.img`	65
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	14	0
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[character item check]
+	0	1	`weapon`
+[/character item check]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	72
+[/then]
+
+[possible kiri protect]

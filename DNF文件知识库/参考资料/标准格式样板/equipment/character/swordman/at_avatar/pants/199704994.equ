@@ -1,0 +1,66 @@
+#PVF_File
+
+[name]
+	`巧克力下装(c)女鬼剑`
+
+[grade]
+	2
+
+[part set index]
+	2
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_apants.img`	375
+
+[equipment type]
+	`[pants avatar]`	0
+
+[avatar type select]
+	7	0	0	1500	0
+	30	0	0	3000	0
+	0	0	0	6000	0
+	0	0	0	6500	3
+	`[S socket]`	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[HP MAX]`	`+`	400
+	`[MP MAX]`	`+`	400
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`	`+`	900
+[/avatar select ability]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	49	2
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1150
+	`pants_d`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`

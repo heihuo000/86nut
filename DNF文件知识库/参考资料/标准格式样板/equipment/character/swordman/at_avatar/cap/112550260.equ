@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`木罐的头盔 (女鬼剑)`
+
+[grade]
+	1
+
+[part set index]
+	2
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_acap.img`	2
+
+[avatar type select]
+	7	0	0	1500	0
+	30	0	0	3000	0
+	0	0	0	6000	0
+	0	0	0	6500	2
+	`[A socket]`	`[A socket]`
+[/avatar type select]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	2	0
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[hide equipment]
+	`[hair avatar]`
+[/hide equipment]
+
+[hide layer]
+	2820	2400	2000	800	400
+[/hide layer]
+
+[sub type]
+	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[hat avatar]`	0

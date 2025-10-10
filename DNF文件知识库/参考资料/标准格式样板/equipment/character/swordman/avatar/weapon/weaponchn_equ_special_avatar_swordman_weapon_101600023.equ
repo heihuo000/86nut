@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`白剑 · 逐暗者`
+
+[grade]
+	2
+
+[part set index]
+	4
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/katana/katana.img`	141
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1980	0
+	0	0	0	4500	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[sub type]
+	0
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		53	0
+	[layer variation]
+		2600
+		`katanac`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`katanab`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		1
+	[expand path]
+		`equipment/character/swordman/weapon/katana/`
+[/expand ani]
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[string data]
+	``
+[/string data]
+
+[avatar select ability]
+	`[ATTACK_SPEED]`	`+`	60
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	36
+	`[HIT_RECOVERY]`	`+`	200
+[/avatar select ability]
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[move speed]
+	40
+
+[HP MAX]
+	200
+
+[physical attack]
+	20
+
+[magical attack]
+	20
+
+[physical defense]
+	20
+
+[magical defense]
+	20

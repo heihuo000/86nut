@@ -1,0 +1,90 @@
+#PVF_File
+
+[name]
+	`紫色灵梦剑影上衣`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[enable dye]
+	1	0
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_acoat.img`	107
+
+[equipment type]
+	`[coat avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	450	0
+	30	0	0	990	0
+	0	0	0	2970	0
+	0	0	0	6500	2
+	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	35	3
+
+[layer variation]
+	2300
+	`coat_c`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	900
+	`coat_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	500
+	`coat_d`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[physical attack]
+	5
+
+[magical attack]
+	5
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	300
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	10
+	`[ATTACK_SPEED]`	`+`	40
+	`[HIT_RECOVERY]`	`+`	100
+[/avatar select ability]

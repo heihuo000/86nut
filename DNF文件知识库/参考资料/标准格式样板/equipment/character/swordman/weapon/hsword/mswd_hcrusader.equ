@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`(古老) 钢铁骑士长剑`
+
+[name2]
+	`Hard Crusader`
+
+[flavor text]
+	`    这把剑很沉， 而且还是精铁所铸， 一击即可致命！  ——巴坦`
+
+[grade]
+	35
+
+[rarity]
+	1
+
+[icon mark]
+	`item/iconmark.img`	63
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	35
+
+[physical attack]
+	21
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[stuck]
+	1
+
+[price]
+	42000
+
+[repair price]
+	32640
+
+[value]
+	29376
+
+[equipment physical attack]
+	350	350
+
+[equipment magical attack]
+	263	263
+
+[separate attack]
+	149	98
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	23
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	21
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2150
+	`at_lswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_lswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

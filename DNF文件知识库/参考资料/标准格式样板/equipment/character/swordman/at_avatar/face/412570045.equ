@@ -1,0 +1,66 @@
+#PVF_File
+
+[name]
+	`剑皇虞美人耳环[B款]`
+
+[flavor text]
+	`<2019金秋礼包>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_aface.img`	282
+
+[equipment type]
+	`[face avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1980	0
+	0	0	0	4500	2
+	`[B socket]`	`[B socket]`
+[/avatar type select]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	81	1
+
+[layer variation]
+	260
+	`face_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	30
+	`[ATTACK_SPEED]`	`+`	55
+	`[HIT_RECOVERY]`	`+`	160
+[/avatar select ability]
+
+[enable dye]
+	1	0

@@ -1,0 +1,324 @@
+#PVF_File
+
+[name]
+	`戾冰鸣泉棒`
+
+[name2]
+	`Frost Shaft`
+
+[basic explain]
+	`[魔剑奥义]技能Lv +2
+ 
+攻击时， 有10%%的几率使敌人进入冰冻状态。
+攻击时， 对500px内敌人触发冰针效果。
+ 
+    移动时， 脚下生成冰柱。
+    受到冰属性攻击时， 使自身缓慢恢复20%%HP与MP值， 并使敌人进入冰冻状态。
+    穿戴时， 使自身提升200点冰属性抗性， 并使300px范围内的敌人受到冰冻光环的影响。 `
+
+[detail explain]
+	`[魔剑奥义]技能Lv +2
+ 
+攻击时， 有10%%的几率使敌人进入冰冻状态6秒。  (若敌人高于Lv65， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)
+攻击时， 对500px内敌人触发冰针效果。
+ 
+    移动时， 脚下生成冰柱。 (对目标造成600点伤害)
+    受到冰属性攻击时， 使自身10秒内恢复20%%HP与MP值， 并使敌人进入冰冻状态5秒。  (若敌人高于Lv65， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)
+    穿戴时， 使自身提升200点冰属性抗性， 并使300px范围内的敌人受到冰冻光环的影响。  
+    冰冻光环持续10秒的时间内， 附加30000点冰属性伤害， 并有25%%的几率使敌人进入冰冻状态3秒。 (若敌人高于Lv65， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)`
+
+[flavor text]
+	`    我要用极寒之气把你的血冻结。`
+
+[grade]
+	65
+
+[rarity]
+	4
+
+[icon mark]
+	`Item/IconMark.img`	68
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	60
+
+[physical attack]
+	43
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[price]
+	64000
+
+[repair price]
+	51200
+
+[value]
+	51200
+
+[equipment physical attack]
+	727	683
+
+[equipment magical attack]
+	669	631
+
+[separate attack]
+	256	180
+
+[skill levelup]
+	`[swordman]`	21	2
+	`[creator mage]`	14	2
+[/skill levelup]
+
+[freeze resistance]
+	-20
+
+[icon]
+	`Item/weapon/swordman/club.img`	22
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	2	7
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	2	7
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	100
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[water element]`
+
+[if]
+	[attack success]
+		1
+	[cooltime]
+		15000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[probability]
+		100
+	[passive object]
+		30084	0	0	0	99	0	``
+	[/passive object]
+[/then]
+
+[if]
+	[event use skill]
+		`swordman`	96
+	[/event use skill]
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[speech on]
+		0	2000
+		`欢迎来到极寒领域！！！`
+	[/speech on]
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`fire element`
+		`+`	200
+	[stat by condition]
+		`water element`
+		`+`	200
+	[stat by condition]
+		`freeze resistance`
+		`+`	200
+	[stat by condition]
+		`burn resistance`
+		`+`	200
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		1000
+	[stat by condition]
+		`water element`
+		`+`	-20
+[/then]
+
+[if]
+	[element]
+		`water`
+	[hit]
+		1
+	[cooltime]
+		10000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[restore]
+		`hp`
+		`%`	20	10000
+[/then]
+
+[if]
+	[element]
+		`water`
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		5000
+	[active status]
+		`freeze`	65
+[/then]
+
+[if]
+	[cooltime]
+		9000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[probability]
+		10
+	[active status]
+		`freeze`	65
+[/then]
+
+[if]
+	[my state]
+		`dash`
+	[time]
+		120	1	500
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		100
+	[passive object]
+		30552	0	0	0	5	0	``
+	[/passive object]
+[/then]
+
+[if]
+	[set my state]
+		1
+	[my state]
+		`final attack`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[passive object]
+		20007	0	0	0	1	0	``
+	[/passive object]
+[/then]
+
+[ice appendage]
+	30000	300	10000
+
+[spectrum]
+	18	72	247	200	500
+
+[possible kiri protect]

@@ -1,0 +1,244 @@
+#PVF_File
+
+[name]
+	`[巨龙]纳特拉的怨恨长剑`
+
+[basic explain]
+	`    在[月轮山]地区和真 · 远古地下城中可以发动特殊效果。
+    攻击时， 有5%%的几率向敌人发动闪电攻击。
+    被闪电命中的敌人会进入感电状态。
+    攻击感电状态的敌人时， 附加10%%的伤害。`
+
+[detail explain]
+	`    在[月轮山]地区和真 · 远古地下城中可以发动特殊效果。
+    攻击时， 有5%%的几率向敌人发动闪电攻击。 (冷却时间15秒)
+    被闪电命中的敌人会进入感电状态5秒； 若攻击感电状态的敌人， 则每次攻击都会附加900点伤害。 (若敌人高于Lv75， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)
+    攻击感电状态的敌人时， 附加10%%的伤害。`
+
+[flavor text]
+	`    巨龙的怨恨所铸， 千万不要靠近……`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[icon mark]
+	`item/iconmark.img`	66
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[physical attack]
+	55
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[need material]
+	10002515	40
+
+[price]
+	151200
+
+[repair price]
+	127008
+
+[value]
+	5
+
+[equipment physical attack]
+	965	905
+
+[equipment magical attack]
+	724	679
+
+[separate attack]
+	481	327
+
+[physical critical hit]
+	7
+
+[fire attack]
+	10
+
+[water attack]
+	10
+
+[light attack]
+	10
+
+[dark attack]
+	10
+
+[icon]
+	`Item/common/chn_Dragon_Weapon.img`	3
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	3	4
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	3	4
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[dungeon check]
+		200	201	202	203	204	205	206	3536	3537	3538	3539	3540
+	[/dungeon check]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	50
+	[stat by condition]
+		`magical attack`
+		`+`	50
+	[stat by condition]
+		`physical defense`
+		`+`	25
+	[stat by condition]
+		`magical defense`
+		`+`	25
+[/then]
+
+[if]
+	[dungeon check]
+		200	201	202	203	204	205	206	3536	3537	3538	3539	3540
+	[/dungeon check]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack`
+		`+`	50
+	[stat by condition]
+		`magical attack`
+		`+`	50
+	[stat by condition]
+		`physical defense`
+		`+`	25
+	[stat by condition]
+		`magical defense`
+		`+`	25
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[passive object]
+		48677	0	0	0	0	0	``
+	[/passive object]
+[/then]
+
+[if]
+	[target active status]
+		`lightning`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[spectrum]
+	250	130	0	200	500
+
+[possible kiri protect]

@@ -1,0 +1,68 @@
+#PVF_File
+
+[name]
+	`白色灵梦剑影头饰`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[enable dye]
+	1	0
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_acap.img`	113
+
+[equipment type]
+	`[hat avatar]`	0
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1980	0
+	0	0	0	4500	2
+	`[A socket]`	`[A socket]`
+[/avatar type select]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	43	2
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	700
+	`cap_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`	`+`	45
+	`[MAGICAL_DEFENSE]`	`+`	45
+	`[HP_REGENRATE]`	`+`	60
+	`[MP_REGENRATE]`	`+`	12
+	`[CAST_SPEED]`	`+`	130
+[/avatar select ability]

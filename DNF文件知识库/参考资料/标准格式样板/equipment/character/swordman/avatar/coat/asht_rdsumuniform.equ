@@ -1,0 +1,135 @@
+#PVF_File
+
+[name]
+	`红色鬼剑校服衬衫`
+
+[grade]
+	2
+
+[part set index]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_acoat.img`	139
+
+[equipment type]
+	`[coat avatar]`	0
+
+[avatar type select]
+	7	0	0	170	0
+	30	0	0	340	0
+	0	0	0	1	0
+	0	0	0	748	2
+	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[SKILL_LEVEL]`	`[swordman]`	39	1
+	`[SKILL_LEVEL]`	`[swordman]`	41	1
+	`[SKILL_LEVEL]`	`[swordman]`	34	1
+	`[SKILL_LEVEL]`	`[swordman]`	19	1
+	`[SKILL_LEVEL]`	`[swordman]`	31	1
+	`[SKILL_LEVEL]`	`[swordman]`	21	1
+	`[SKILL_LEVEL]`	`[swordman]`	47	1
+	`[SKILL_LEVEL]`	`[swordman]`	53	1
+	`[SKILL_LEVEL]`	`[swordman]`	67	1
+	`[SKILL_LEVEL]`	`[swordman]`	2	1
+	`[SKILL_LEVEL]`	`[swordman]`	38	1
+	`[SKILL_LEVEL]`	`[swordman]`	6	1
+	`[SKILL_LEVEL]`	`[swordman]`	32	1
+	`[SKILL_LEVEL]`	`[swordman]`	30	1
+	`[SKILL_LEVEL]`	`[swordman]`	4	1
+	`[SKILL_LEVEL]`	`[swordman]`	7	1
+	`[SKILL_LEVEL]`	`[swordman]`	40	1
+	`[SKILL_LEVEL]`	`[swordman]`	50	1
+	`[SKILL_LEVEL]`	`[swordman]`	3	1
+	`[SKILL_LEVEL]`	`[swordman]`	36	1
+	`[SKILL_LEVEL]`	`[swordman]`	52	1
+	`[SKILL_LEVEL]`	`[swordman]`	9	1
+	`[SKILL_LEVEL]`	`[swordman]`	18	1
+	`[SKILL_LEVEL]`	`[swordman]`	24	1
+	`[SKILL_LEVEL]`	`[swordman]`	22	1
+	`[SKILL_LEVEL]`	`[swordman]`	51	1
+	`[SKILL_LEVEL]`	`[swordman]`	44	1
+	`[SKILL_LEVEL]`	`[swordman]`	75	1
+	`[SKILL_LEVEL]`	`[swordman]`	68	1
+	`[SKILL_LEVEL]`	`[swordman]`	76	1
+	`[SKILL_LEVEL]`	`[swordman]`	62	1
+	`[SKILL_LEVEL]`	`[swordman]`	60	1
+	`[SKILL_LEVEL]`	`[swordman]`	72	1
+	`[SKILL_LEVEL]`	`[swordman]`	79	1
+	`[SKILL_LEVEL]`	`[swordman]`	57	1
+	`[SKILL_LEVEL]`	`[swordman]`	82	1
+	`[SKILL_LEVEL]`	`[swordman]`	73	1
+	`[SKILL_LEVEL]`	`[swordman]`	81	1
+	`[SKILL_LEVEL]`	`[swordman]`	74	1
+	`[SKILL_LEVEL]`	`[swordman]`	84	1
+	`[SKILL_LEVEL]`	`[swordman]`	103	1
+	`[SKILL_LEVEL]`	`[swordman]`	107	1
+	`[SKILL_LEVEL]`	`[swordman]`	108	1
+	`[SKILL_LEVEL]`	`[swordman]`	109	1
+	`[SKILL_LEVEL]`	`[swordman]`	110	1
+	`[SKILL_LEVEL]`	`[swordman]`	23	1
+	`[SKILL_LEVEL]`	`[swordman]`	111	1
+	`[SKILL_LEVEL]`	`[swordman]`	112	1
+	`[SKILL_LEVEL]`	`[swordman]`	27	1
+[/avatar select ability]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	41	2
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	900
+	`coat_b`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	41	2
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	900
+	`coat_b`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`

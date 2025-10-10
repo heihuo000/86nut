@@ -1,0 +1,76 @@
+#PVF_File
+
+[name]
+	`火焰吞噬者·安徒恩光剑`
+
+[grade]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	140
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		46	0
+	[layer variation]
+		2791
+		`beamswdc1`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		2792
+		`beamswdc2`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		651
+		`beamswdb1`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		652
+		`beamswdb2`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		5
+	[expand path]
+		`equipment/character/swordman/weapon/beamsword/`
+[/expand ani]
+
+[equipment type]
+	`[skin avatar]`	0
+
+[string data]
+	`Common/Particle/anton2017.ptl`
+[/string data]
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	110	30	70	3	120	30	70	3	130	30	70
+[/int data]
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[move speed]
+	30
+
+[HP MAX]
+	150

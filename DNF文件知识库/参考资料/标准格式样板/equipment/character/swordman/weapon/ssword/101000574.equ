@@ -1,0 +1,259 @@
+#PVF_File
+
+[name]
+	`紫雾团团员的血舞剑`
+
+[basic explain]
+	`    攻击时， 有5%%的几率对500px范围内的随机3个敌人召唤哈迪的血雾风暴。
+ 
+    对出血状态下敌人的暴击伤害 +20%%`
+
+[detail explain]
+	`    攻击时， 有5%%的几率对500px范围内的随机3个敌人召唤哈迪的血雾风暴。
+    哈迪的血雾风暴命中时， 有3%%的几率使敌人进入出血状态5秒； 出血状态下的敌人， 每0.5秒受到1500点伤害。
+ 
+    对出血状态下敌人的暴击伤害 +20%% (暴击伤害加成效果取最高值， 且无法叠加)`
+
+[flavor text]
+	`    千万小心啊！ 如果被那些家伙发现你偷了他们的东西， 就别想睡安稳觉了。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[maximum level]
+	998
+
+[icon mark]
+	`item/iconmark.img`	67
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[need material]
+	19100131	1
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	62
+
+[cast speed]
+	20
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	865	773
+
+[equipment magical attack]
+	1047	936
+
+[separate attack]
+	552	363
+
+[magical critical hit]
+	2
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/sswd/sswd.img`	110
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	33	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	33	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[if]
+	[target active status]
+		`bleeding`
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	20
+[/then]
+
+[active status control info]
+	`bleeding`	0	0	0	10
+[/active status control info]
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[duration]
+		500
+	[appendage]
+		659
+	[appendage]
+		660
+	[appendage]
+		661
+[/then]
+
+[if]
+	[time]
+		500	1	500
+	[my appendage]
+		659
+[/if]
+
+[then]
+	[target]
+		`random enemy`	500
+	[passive object]
+		140098	0	0	0	2	0	``
+	[/passive object]
+	[appendage]
+		659
+[/then]
+
+[if]
+	[time]
+		500	1	500
+	[my appendage]
+		660
+[/if]
+
+[then]
+	[target]
+		`random enemy`	500
+	[passive object]
+		140098	0	0	0	2	0	``
+	[/passive object]
+	[appendage]
+		660
+[/then]
+
+[if]
+	[time]
+		500	1	500
+	[my appendage]
+		661
+[/if]
+
+[then]
+	[target]
+		`random enemy`	500
+	[passive object]
+		140098	0	0	0	2	0	``
+	[/passive object]
+	[appendage]
+		661
+[/then]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	31	0
+
+[layer variation]
+	2150
+	`at_sswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_sswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_sswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

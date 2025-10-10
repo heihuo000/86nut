@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`勇者龙剑`
+
+[grade]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	112
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[equipment type]
+	`[face avatar]`	0
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		32	0
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		3
+	[expand path]
+		`equipment/character/swordman/weapon/hsword/`
+[/expand ani]
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[move speed]
+	20

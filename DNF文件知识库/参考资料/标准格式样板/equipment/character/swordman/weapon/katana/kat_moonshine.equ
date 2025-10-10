@@ -1,0 +1,197 @@
+#PVF_File
+
+[name]
+	`月之光芒`
+
+[name2]
+	`Moonshine`
+
+[basic explain]
+	`[疾影斩]技能Lv +5
+[双重斩]技能Lv +5
+ 
+[月光斩]、 [暗月斩]、 [鬼连斩]、 [双重斩]冷却时间 -1秒
+[疾影斩]冷却时间 -1.5秒
+ 
+攻击速度 +1%%`
+
+[flavor text]
+	`    月光色， 女子香
+    泪断剑， 情多长
+    望明月， 心悲凉
+    千古恨， 轮回尝`
+
+[grade]
+	57
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	39
+
+[magical attack]
+	59
+
+[attack speed]
+	90
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[need material]
+	3260	900
+
+[repair price]
+	73920
+
+[value]
+	70400
+
+[creation rate]
+	500
+
+[equipment physical attack]
+	505	460
+
+[equipment magical attack]
+	559	508
+
+[separate attack]
+	328	220
+
+[physical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	77	5
+	`[swordman]`	127	5
+	`[creator mage]`	145	5
+	`[creator mage]`	236	5
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/katana.img`	45
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	3
+
+[layer variation]
+	2790
+	`lkatanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lkatanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	3
+
+[layer variation]
+	2790
+	`lkatanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lkatanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	77	`[all]`	`[cooltime]`	0	`+`	-1000
+	`[demonic swordman]`	77	`[all]`	`[cooltime]`	0	`+`	-1000
+	`[swordman]`	127	`[all]`	`[cooltime]`	0	`+`	-1000
+	`[creator mage]`	145	`[all]`	`[cooltime]`	0	`+`	-1500
+	`[creator mage]`	236	`[all]`	`[cooltime]`	0	`+`	-1000
+[/skill data up]
+
+[routing priority]
+	`swordman`	2
+	`demonic swordman`	0
+[/routing priority]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	3
+
+[layer variation]
+	2150
+	`at_lkatanaa`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_lkatanab`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lkatanax`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

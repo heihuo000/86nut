@@ -1,0 +1,210 @@
+#PVF_File
+
+[name]
+	`杰诺的灵魂之剑`
+
+[basic explain]
+	`[魔性之短剑精通]技能Lv +2
+[汲魂之力]技能Lv +3
+[释魂飞弹]技能Lv +3
+ 
+[波动爆发]冷却时间 -1秒
+ 
+    攻击时， 有50%%的几率附加20%%的冰属性伤害。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[maximum level]
+	998
+
+[icon mark]
+	`item/iconmark.img`	67
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[need material]
+	19100131	1
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[magical attack]
+	62
+
+[cast speed]
+	40
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	865	773
+
+[equipment magical attack]
+	1047	936
+
+[separate attack]
+	552	363
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	12	2
+	`[swordman]`	5	2
+	`[swordman]`	44	2
+	`[swordman]`	25	2
+	`[swordman]`	36	2
+	`[swordman]`	82	2
+	`[swordman]`	21	3
+	`[creator mage]`	4	2
+	`[creator mage]`	75	3
+	`[creator mage]`	65	3
+[/skill levelup]
+
+[water attack]
+	18
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/sswd/sswd.img`	97
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	20	8
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	20	8
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[if]
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		50
+	[add absolute damage]
+		`water`
+		`%`	20
+[/then]
+
+[elemental property]
+	`[water element]`
+
+[skill data up]
+	`[swordman]`	32	`[all]`	`[cooltime]`	0	`+`	-1000
+[/skill data up]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	20	8
+
+[layer variation]
+	2150
+	`at_sswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_sswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_sswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

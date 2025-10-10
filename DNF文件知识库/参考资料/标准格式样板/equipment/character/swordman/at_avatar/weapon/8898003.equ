@@ -1,0 +1,122 @@
+#PVF_File
+
+[name]
+	`时空幻梦之星云剑 (女鬼剑士)`
+
+[flavor text]
+	`<2022春节礼包>`
+
+[grade]
+	3
+
+[rarity]
+	3
+
+[part set index]
+	6
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[move speed]
+	40
+
+[HP MAX]
+	200
+
+[physical attack]
+	20
+
+[magical attack]
+	20
+
+[physical defense]
+	20
+
+[magical defense]
+	20
+
+[minimum level]
+	1
+
+[avatar select ability]
+	`[ATTACK_SPEED]`	`+`	70
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	1140
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	42
+	`[HIT_RECOVERY]`	`+`	240
+[/avatar select ability]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	179
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		60	0
+	[layer variation]
+		2150
+		`at_beamswda`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		2151
+		`at_beamswda1`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		650
+		`at_beamswdb`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		651
+		`at_beamswdb1`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		1350
+		`at_beamswdx`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		1351
+		`at_beamswdx1`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[expand path]
+		`equipment/character/swordman/weapon/beamsword/`
+[/expand ani]
+
+[move wav]
+	`TOOLSET_TOUCH`
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1	0
+	0	0	0	4500	2
+	`[B socket]`	`[B socket]`
+[/avatar type select]
+
+[equipment type]
+	`[face avatar]`	0
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[icon mark]
+	`Item/IconMark.img`	66

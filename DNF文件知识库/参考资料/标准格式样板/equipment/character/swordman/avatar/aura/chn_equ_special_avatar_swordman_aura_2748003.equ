@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	`皇室荣誉之光 4 (鬼剑士)`
+
+[name2]
+	`Honor of Imperial Palace Guard Company(Swordman4)`
+
+[explain]
+	`皇家护卫队  套装 4 (鬼剑士)`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aura_cn.img`	3
+
+[aura hud icon]
+	18
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[avatar select ability]
+	`[SKILL_LEVEL]`	`[swordman]`	73	1
+	`[SKILL_LEVEL]`	`[swordman]`	82	1
+	`[SKILL_LEVEL]`	`[swordman]`	81	1
+	`[SKILL_LEVEL]`	`[swordman]`	74	1
+[/avatar select ability]
+
+[sub type]
+	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[aura ability]
+	`[party teleport]`	10
+[/aura ability]
+
+[aurora graphic effects]
+	4
+	1	`Character/Common/Animation/Aura/chn_2012_front_white.ani`
+	1	`Character/Common/Animation/Aura/chn_2012_front_dodge_white.ani`
+	0	`Character/Common/Animation/Aura/chn_2012_back_normal_white.ani`
+	0	`Character/Common/Animation/Aura/chn_2012_back_normal_dodge_white.ani`

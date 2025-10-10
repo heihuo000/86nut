@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`稀有克隆装扮帽子 (鬼剑士)`
+
+[name2]
+	`Rare Cap Clone Avatar`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_acap.img`	316
+
+[equipment type]
+	`[hat avatar]`	0
+
+[avatar type select]
+	7	0	0	1100	0
+	30	0	0	2200	0
+	0	0	0	4400	0
+	0	0	0	4840	2
+	`[A socket]`	`[A socket]`
+[/avatar type select]
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	40923
+
+[avatar select ability]
+	`[CAST_SPEED]`	`+`	120
+	`[MAGICAL_ATTACK]`	`+`	45
+	`[MAGICAL_DEFENSE]`	`+`	45
+	`[HP_REGENRATE]`	`+`	60
+	`[MP_REGENRATE]`	`+`	12
+[/avatar select ability]

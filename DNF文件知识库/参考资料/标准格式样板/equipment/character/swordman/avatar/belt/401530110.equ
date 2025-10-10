@@ -1,0 +1,66 @@
+#PVF_File
+
+[name]
+	`神器克隆装扮腰部 (鬼剑士)`
+
+[explain]
+	`直接穿戴不显示外观； 可以复制穿戴中的同部位装扮款式， 但属性值保留克隆装扮原属性。 如被复制的装扮消失， 则重新登录后外观恢复透明， 反之则维持复制款式。 (拖动或右键点击穿戴装扮图标， 可以解除克隆)`
+
+[rarity]
+	3
+
+[grade]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/IconClone.img`	23
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar type select]
+	7	0	0	1500	0
+	30	0	0	3000	0
+	0	0	0	6000	0
+	0	0	0	6500	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	6
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`	`+`	45
+	`[ELEMENT_TOLERANCE_WATER]`	`+`	45
+	`[ELEMENT_TOLERANCE_DARK]`	`+`	45
+	`[ELEMENT_TOLERANCE_LIGHT]`	`+`	45
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`	`+`	70
+	`[INVENTORY_MAX_WEIGHT]`	`+`	19000
+	`[PHYSICAL_ATTACK]`	`+`	65
+	`[PHYSICAL_DEFENSE]`	`+`	65
+[/avatar select ability]
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	4
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	1
+
+[clear avatar]
+	1
+
+[icon mark]
+	`Item/IconMark.img`	192

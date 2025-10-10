@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`妖精的加护 [彩虹剑]`
+
+[flavor text]
+	`<Re：从零开始的异世界生活>`
+
+[grade]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/aura_cn.img`	40
+
+[move wav]
+	`BONE_TOUCH`
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	222
+
+[aura ability]
+	`[solo teleport]`	10
+[/aura ability]
+
+[physical attack]
+	40
+
+[physical defense]
+	40
+
+[magical attack]
+	40
+
+[magical defense]
+	40
+
+[equipment magical attack]
+	40	40
+
+[equipment physical attack]
+	40	40
+
+[separate attack]
+	40	40
+
+[physical critical hit]
+	5.0
+
+[magical critical hit]
+	5.0
+
+[all elemental attack]
+	12
+
+[room list move speed rate]
+	0.1
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[move speed]
+	20
+
+[aurora graphic effects]
+	25
+	0	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowBack_10.ani`
+	0	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowBack_09.ani`
+	0	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowBack_08.ani`
+	0	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowBack_07.ani`
+	0	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowBack_06.ani`
+	0	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowBack_05.ani`
+	0	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowBack_04.ani`
+	0	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowBack_03.ani`
+	0	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowBack_02.ani`
+	0	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowBack_01.ani`
+	0	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowBack_00.ani`
+	1	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowFront_13.ani`
+	1	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowFront_12.ani`
+	1	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowFront_11.ani`
+	1	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowFront_10.ani`
+	1	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowFront_09.ani`
+	1	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowFront_08.ani`
+	1	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowFront_07.ani`
+	1	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowFront_06.ani`
+	1	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowFront_05.ani`
+	1	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowFront_04.ani`
+	1	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowFront_03.ani`
+	1	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowFront_02.ani`
+	1	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowFront_01.ani`
+	1	`Character/Common/Animation/Aura/chn_2019_laborday_aura/RainbowFront_00.ani`
+[/aurora graphic effects]

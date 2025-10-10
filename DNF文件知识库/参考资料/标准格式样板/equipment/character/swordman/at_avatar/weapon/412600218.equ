@@ -1,0 +1,106 @@
+#PVF_File
+
+[name]
+	`昔日时光光束剑`
+
+[flavor text]
+	`<昔日时光武器装扮>`
+
+[grade]
+	1
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[avatar type select]
+	7	0	0	1100	0
+	30	0	0	2200	0
+	0	0	0	4400	0
+	0	0	0	4840	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`	`+`	25
+	`[ELEMENT_TOLERANCE_WATER]`	`+`	25
+	`[ELEMENT_TOLERANCE_DARK]`	`+`	25
+	`[ELEMENT_TOLERANCE_LIGHT]`	`+`	25
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`	`+`	40
+	`[INVENTORY_MAX_WEIGHT]`	`+`	9000
+[/avatar select ability]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	206
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		72	0
+	[layer variation]
+		2050
+		`at_lswda`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		650
+		`at_lswdb`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		1350
+		`at_lswdx`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/swordman/weapon/hsword/`
+[/expand ani]
+
+[avatar func filter]
+	0
+
+[equipment type]
+	`[waist avatar]`	0
+
+[part set index]
+	3
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	110	30	70	3	120	30	70	3	130	30	70
+[/int data]
+
+[move wav]
+	`8BIT_WP_TOUCH`
+
+[string data]
+	`Common/Particle/chn_2020_Newtro/newtro_all.ptl`
+[/string data]
+
+[physical attack]
+	5
+
+[physical defense]
+	5
+
+[magical attack]
+	5
+
+[magical defense]
+	5
+
+[attack speed]
+	1
+
+[move speed]
+	1
+
+[cast speed]
+	3

@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`剑皇虞美人上衣[A款]`
+
+[flavor text]
+	`<2019金秋礼包>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_acoat.img`	347
+
+[equipment type]
+	`[coat avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	450	0
+	30	0	0	990	0
+	0	0	0	2970	0
+	0	0	0	6500	2
+	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	103	0
+
+[layer variation]
+	2300
+	`coat_c`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1960
+	`coat_x`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	900
+	`coat_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	500
+	`coat_d`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[all elemental attack]
+	6
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	300
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	10
+	`[ATTACK_SPEED]`	`+`	40
+	`[HIT_RECOVERY]`	`+`	100
+[/avatar select ability]
+
+[enable dye]
+	1	0

@@ -1,0 +1,81 @@
+#PVF_File
+
+[name]
+	`DPL高等武器装扮 - 鬼剑士`
+
+[flavor text]
+	`<全国格斗大赛奖励>`
+
+[grade]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/katana/katana.img`	165
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		63	0
+	[layer variation]
+		2790
+		`katanac`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`katanab`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		1
+	[expand path]
+		`equipment/character/swordman/weapon/katana/`
+[/expand ani]
+
+[equipment type]
+	`[skin avatar]`	0
+
+[string data]
+	``
+[/string data]
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	110	30	70	3	120	30	70	3	130	30	70
+[/int data]
+
+[move wav]
+	`KATANA_TOUCH`
+
+[room list move speed rate]
+	0.2
+
+[physical attack]
+	10
+
+[physical defense]
+	10
+
+[magical attack]
+	10
+
+[magical defense]
+	10
+
+[attack speed]
+	30
+
+[move speed]
+	30
+
+[cast speed]
+	30

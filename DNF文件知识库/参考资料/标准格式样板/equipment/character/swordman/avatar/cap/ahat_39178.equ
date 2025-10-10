@@ -1,0 +1,81 @@
+#PVF_File
+
+[name]
+	`黄金罐子帽子-男鬼剑士`
+
+[grade]
+	1
+
+[part set index]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_acap.img`	159
+
+[equipment type]
+	`[hat avatar]`	0
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	51	0
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	51	0
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[hide equipment]
+	`[hair avatar]`
+[/hide equipment]
+
+[hide layer]
+	2820	2400	2000	800	400
+[/hide layer]
+
+[move wav]
+	`BONE_TOUCH`
+
+[usable period]
+	15
+
+[HP regen speed]
+	20
+
+[MP regen speed]
+	5
+
+[attack speed]
+	10
+
+[cast speed]
+	10

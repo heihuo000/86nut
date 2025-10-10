@@ -1,0 +1,79 @@
+#PVF_File
+
+[name]
+	`黑色熊耳发卡 (鬼剑)`
+
+[name2]
+	`Black Bear ear Hairband`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_acap.img`	173
+
+[equipment type]
+	`[hat avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	300	0
+	660	0	0	1250	0
+	0	0	0	288	0
+[/avatar type select]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	56	3
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	56	3
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`	`+`	20
+	`[MAGICAL_DEFENSE]`	`+`	20
+	`[HP_REGENRATE]`	`+`	30
+	`[MP_REGENRATE]`	`+`	8
+	`[CAST_SPEED]`	`+`	100
+[/avatar select ability]
+
+[image packs]
+	`Character/Swordman/Equipment/Avatar/cap/sm_cap0201c.img`
+[/image packs]

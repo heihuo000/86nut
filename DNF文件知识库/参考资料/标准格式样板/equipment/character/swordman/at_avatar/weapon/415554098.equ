@@ -1,0 +1,104 @@
+#PVF_File
+
+[name]
+	`魔幻星座武器装扮[女鬼剑士]`
+
+[flavor text]
+	`<2023金秋礼包>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[part set index]
+	2
+
+[icon]
+	`item/szknew2023autumn/swordman/katana/katana.img`	249
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar type select]
+	7	0	0	1100	0
+	30	0	0	2200	0
+	0	0	0	4400	0
+	0	0	0	4840	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	18
+	`[ATTACK_SPEED]`	`+`	60
+	`[HIT_RECOVERY]`	`+`	200
+[/avatar select ability]
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		91	0
+	[layer variation]
+		2150
+		`at_katanaa`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		2151
+		`at_katanaa1`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		650
+		`at_katanab`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		651
+		`at_katanab1`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		1350
+		`at_katanax`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		1351
+		`at_katanax1`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[expand path]
+		`equipment/character/swordman/weapon/katana/`
+[/expand ani]
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[minimum level]
+	1
+
+[part set index]
+	2
+
+[HP MAX]
+	200
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[move speed]
+	40

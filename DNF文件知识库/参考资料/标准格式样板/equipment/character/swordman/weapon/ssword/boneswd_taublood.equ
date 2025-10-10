@@ -1,0 +1,189 @@
+#PVF_File
+
+[name]
+	`牛头怪的血剑`
+
+[name2]
+	`Tau Blood`
+
+[basic explain]
+	`攻击时， 有1%%的几率使敌人进入眩晕状态。`
+
+[detail explain]
+	`    攻击时， 有1%%的几率使敌人进入眩晕状态3秒。 (若敌人高于Lv15， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)`
+
+[flavor text]
+	`    用牛头怪的血和特殊的钢铁铸成的短剑。`
+
+[grade]
+	17
+
+[rarity]
+	2
+
+[icon mark]
+	`item/iconmark.img`	64
+
+[creation rate]
+	250
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	15
+
+[magical attack]
+	12
+
+[cast speed]
+	20
+
+[HP MAX]
+	60
+
+[price]
+	23800
+
+[repair price]
+	19040
+
+[value]
+	19040
+
+[equipment physical attack]
+	163	148
+
+[equipment magical attack]
+	198	179
+
+[separate attack]
+	89	56
+
+[magical critical hit]
+	2
+
+[stun resistance]
+	10
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	8
+
+[field image]
+	`Item/FieldImage.img`	10
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	5
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	5
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		6000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[probability]
+		1
+	[active status]
+		`stun`	15
+[/then]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	5
+
+[layer variation]
+	2150
+	`at_sswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_sswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_sswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

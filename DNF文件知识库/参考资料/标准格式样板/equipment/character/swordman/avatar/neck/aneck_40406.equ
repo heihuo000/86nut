@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`绿色幽灵猎人骷髅长剑`
+
+[explain]
+	`2010年中秋节活动角色`
+
+[grade]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aneck.img`	243
+
+[equipment type]
+	`[breast avatar]`	0
+
+[avatar type select]
+	7	0	0	1100	0
+	30	0	0	2200	0
+	0	0	0	4400	0
+	0	0	0	4840	2
+	`[B socket]`	`[B socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[ATTACK_SPEED]`	`+`	50
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	15
+	`[HIT_RECOVERY]`	`+`	160
+[/avatar select ability]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	77	3
+
+[layer variation]
+	2200
+	`neck_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1975
+	`neck_x`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	600
+	`neck_d`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	77	3
+
+[layer variation]
+	2200
+	`neck_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1975
+	`neck_x`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	600
+	`neck_d`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	40885

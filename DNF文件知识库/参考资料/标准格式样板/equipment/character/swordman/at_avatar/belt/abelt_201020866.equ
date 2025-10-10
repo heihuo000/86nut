@@ -1,0 +1,72 @@
+#PVF_File
+
+[name]
+	`混沌剑舞天鸣腰饰`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_abelt.img`	315
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+	0	0	0	4500	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`	`+`	35
+	`[ELEMENT_TOLERANCE_WATER]`	`+`	35
+	`[ELEMENT_TOLERANCE_DARK]`	`+`	35
+	`[ELEMENT_TOLERANCE_LIGHT]`	`+`	35
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`	`+`	55
+	`[INVENTORY_MAX_WEIGHT]`	`+`	14000
+[/avatar select ability]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	95	0
+
+[layer variation]
+	1950
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	850
+	`belt_d`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[icon mark]
+	`Item/IconMark.img`	64

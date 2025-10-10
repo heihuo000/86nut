@@ -1,0 +1,98 @@
+#PVF_File
+
+[name]
+	`万圣节捣蛋大王头套 (男鬼剑士)`
+
+[grade]
+	2
+
+[part set index]
+	4
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[physical attack]
+	15
+
+[magical attack]
+	15
+
+[physical defense]
+	15
+
+[magical defense]
+	15
+
+[icon]
+	`item/avatar/swordman/sm_acap.img`	565
+
+[equipment type]
+	`[hat avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+	0	0	0	4500	2
+	`[A socket]`	`[A socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[CAST_SPEED]`	`+`	140
+	`[MAGICAL_ATTACK]`	`+`	55
+	`[MAGICAL_DEFENSE]`	`+`	55
+	`[HP_REGENRATE]`	`+`	75
+	`[MP_REGENRATE]`	`+`	15
+[/avatar select ability]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	191	0
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	191	0
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[hide equipment]
+	`[hair avatar]`
+	`[face avatar]`
+[/hide equipment]
+
+[hide layer]
+	2000	800	2400	400	2820	20	2700	260	1925	2830	2750	270
+[/hide layer]

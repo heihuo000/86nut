@@ -1,0 +1,119 @@
+#PVF_File
+
+[name]
+	`神之豁免光剑`
+
+[name2]
+	`Beamsword of Different Immunity`
+
+[grade]
+	72
+
+[rarity]
+	5
+
+[icon mark]
+	`item/iconmark.img`	65
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[physical attack]
+	53
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[anti evil]
+	13
+
+[price]
+	107200
+
+[repair price]
+	90048
+
+[value]
+	85760
+
+[equipment physical attack]
+	603	575
+
+[equipment magical attack]
+	598	571
+
+[separate attack]
+	362	245
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	60
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	8	2
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[possible kiri protect]

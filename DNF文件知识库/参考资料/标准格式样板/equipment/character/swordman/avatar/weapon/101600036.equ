@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+	`爱心玫瑰之剑`
+
+[grade]
+	2
+
+[price]
+	500000
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+	0	0	0	4500	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/lswd/lswd.img`	158
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		51	0
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/swordman/weapon/hsword/`
+[/expand ani]
+
+[equipment type]
+	`[face avatar]`	0
+
+[string data]
+	`Common/Particle/rose.ptl`
+[/string data]
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	110	30	70	3	120	30	70	3	130	30	70
+[/int data]
+
+[move wav]
+	`SQUARESWD_TOUCH`

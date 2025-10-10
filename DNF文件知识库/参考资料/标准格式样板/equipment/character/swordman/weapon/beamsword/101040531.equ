@@ -1,0 +1,243 @@
+#PVF_File
+
+[name]
+	`誓约之缚光剑`
+
+[basic explain]
+	`攻击时， 附加24%%的伤害。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[maximum level]
+	998
+
+[icon mark]
+	`item/iconmark.img`	67
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	95
+
+[physical attack]
+	68
+
+[attack speed]
+	100
+
+[anti evil]
+	300
+
+[need material]
+	10305787	400
+[/need material]
+
+[price]
+	180000
+
+[repair price]
+	144000
+
+[value]
+	144000
+
+[creation rate]
+	0
+
+[stuck]
+	1
+
+[equipment physical attack]
+	943	850
+
+[equipment magical attack]
+	912	823
+
+[separate attack]
+	617	407
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	10
+
+[all elemental attack]
+	17
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	149
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	50	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	50	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	49	0
+
+[layer variation]
+	2151
+	`at_beamswda1`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	2152
+	`at_beamswda2`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	651
+	`at_beamswdb1`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	652
+	`at_beamswdb2`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_beamswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[all skill item container]
+	[all skill item]
+		[item growtype]
+			`[all]`	0
+		[skill apply condition]
+			[skill group]
+				`[all]`
+			[lower bound level]
+				1
+			[upper bound level]
+				70
+			[value]
+				1
+			[extra condition]
+				`[except for ex skill]`
+			[/extra condition]
+		[/skill apply condition]
+		[skill phase]
+			`[all]`
+	[/all skill item]
+[/all skill item container]
+
+[skill data up]
+	`[all]`	169	`[dungeon type]`	`[static]`	5	`+`	24
+[/skill data up]
+
+[possible kiri protect]

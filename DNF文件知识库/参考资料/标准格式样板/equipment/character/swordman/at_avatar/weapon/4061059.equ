@@ -1,0 +1,104 @@
+#PVF_File
+
+[name]
+	`太初昆仑武器[女鬼剑士]`
+
+[flavor text]
+	`<太初昆仑>`
+
+[grade]
+	2
+
+[part set index]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon mark]
+	`Item/IconMark.img`	235
+
+[icon]
+	`item/szknyjj/nywuqiaa.img`	0
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar type select]
+	7	0	0	1100	0
+	30	0	0	2200	0
+	0	0	0	4400	0
+	0	0	0	4840	2
+	`[B socket]`	`[B socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	15
+	`[ATTACK_SPEED]`	`+`	50
+	`[HIT_RECOVERY]`	`+`	160
+[/avatar select ability]
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		1	80
+	[layer variation]
+		2150
+		`at_katanaa`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[move wav]
+		`SCRAP_TOUCH`
+	[sub type]
+		1
+	[expand path]
+		`equipment/character/swordman/weapon/katana/`
+[/expand ani]
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[move speed]
+	30
+
+[physical attack]
+	88
+
+[magical attack]
+	88
+
+[physical defense]
+	88
+
+[magical defense]
+	88
+
+[all elemental attack]
+	33
+
+[spectrum avatar]
+	128	0	224	200	0
+
+[equipment physical attack]
+	30	30
+
+[equipment magical attack]
+	30	30
+
+[separate attack]
+	30	30

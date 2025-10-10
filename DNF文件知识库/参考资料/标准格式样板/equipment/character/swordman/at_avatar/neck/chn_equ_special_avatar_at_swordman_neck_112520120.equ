@@ -1,0 +1,84 @@
+#PVF_File
+
+[name]
+	`蓝色灵梦剑影双剑`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[enable dye]
+	1	0
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_aneck.img`	100
+
+[equipment type]
+	`[breast avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1980	0
+	0	0	0	4500	2
+	`[B socket]`	`[B socket]`
+[/avatar type select]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	33	2
+
+[layer variation]
+	2350
+	`neck_e`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	2200
+	`neck_c`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1000
+	`neck_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	600
+	`neck_d`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	30
+	`[ATTACK_SPEED]`	`+`	55
+	`[HIT_RECOVERY]`	`+`	160
+[/avatar select ability]

@@ -1,0 +1,170 @@
+#PVF_File
+
+[name]
+	`密制裁决巨剑`
+
+[basic explain]
+	`[唤魔 : 塔莫斯之袭]技能Lv +2
+[血饮狂舞]技能Lv +2
+[恶即斩]技能Lv +2
+[瞬影三绝斩]技能Lv +2`
+
+[grade]
+	87
+
+[rarity]
+	2
+
+[icon mark]
+	`Item/IconMark.img`	64
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	54
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[price]
+	139200
+
+[repair price]
+	111360
+
+[value]
+	111360
+
+[creation rate]
+	187
+
+[equipment physical attack]
+	953	929
+
+[equipment magical attack]
+	715	697
+
+[separate attack]
+	387	263
+
+[skill levelup]
+	`[swordman]`	73	2
+	`[swordman]`	9	2
+	`[swordman]`	81	2
+	`[swordman]`	79	2
+	`[creator mage]`	136	2
+	`[creator mage]`	134	2
+	`[creator mage]`	158	2
+	`[creator mage]`	155	2
+[/skill levelup]
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	142
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	24	7
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	24	7
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	24	7
+
+[layer variation]
+	2150
+	`at_lswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_lswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

@@ -1,0 +1,151 @@
+#PVF_File
+
+[name]
+	`生锈的青铜剑`
+
+[name2]
+	`Fade Bronze Sword`
+
+[flavor text]
+	`    我的人生就像这生锈的青铜剑......  ——林纳斯`
+
+[grade]
+	25
+
+[rarity]
+	0
+
+[icon mark]
+	`item/iconmark.img`	62
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	25
+
+[cast speed]
+	20
+
+[price]
+	17500
+
+[repair price]
+	14000
+
+[value]
+	12600
+
+[equipment physical attack]
+	194	194
+
+[equipment magical attack]
+	235	235
+
+[separate attack]
+	85	55
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	12
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	17
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	3
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	3
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	3
+
+[layer variation]
+	2150
+	`at_sswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_sswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_sswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[creation rate]
+	312

@@ -1,0 +1,137 @@
+#PVF_File
+
+[name]
+	`精 · 加持的残忍之弑铁棒 : [幻影剑舞]`
+
+[name2]
+	`Fixed Crasher of Powerful Fierce Attack : Illusion Sword Dance`
+
+[basic explain]
+	`    攻击时， 有2%%的几率使敌人进入眩晕状态。
+[幻影剑舞]冷却时间 -18%%
+[幻影剑舞]MP消耗量 -18%%
+攻击速度 +2%%`
+
+[detail explain]
+	`    攻击时， 有2%%的几率使敌人进入眩晕状态2秒。 (若敌人高于Lv72， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)
+[幻影剑舞]冷却时间 -18%%
+[幻影剑舞]MP消耗量 -18%%
+攻击速度 +2%%`
+
+[grade]
+	72
+
+[rarity]
+	5
+
+[icon mark]
+	`item/iconmark.img`	65
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	70
+
+[physical attack]
+	83
+
+[attack speed]
+	-10
+
+[stuck]
+	-1
+
+[anti evil]
+	16
+
+[repair price]
+	81849
+
+[value]
+	8120
+
+[equipment physical attack]
+	730	697
+
+[equipment magical attack]
+	631	602
+
+[separate attack]
+	362	245
+
+[icon]
+	`Item/weapon/swordman/club.img`	59
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	9	1
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		2000
+	[probability]
+		2
+	[active status]
+		`stun`	72
+[/then]
+
+[skill data up]
+	`[swordman]`	73	`[dungeon type]`	`[cooltime]`	0	`%`	-18
+	`[swordman]`	73	`[dungeon type]`	`[mp]`	0	`%`	-18
+[/skill data up]
+
+[possible kiri protect]

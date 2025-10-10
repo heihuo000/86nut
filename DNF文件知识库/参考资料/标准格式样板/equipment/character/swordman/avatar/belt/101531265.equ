@@ -1,0 +1,110 @@
+#PVF_File
+
+[name]
+	`坐骑 - 鬼剑士B`
+
+[explain]
+	``
+
+[grade]
+	2
+
+[part set index]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_abelt.img`	488
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`	`+`	25
+	`[ELEMENT_TOLERANCE_WATER]`	`+`	25
+	`[ELEMENT_TOLERANCE_DARK]`	`+`	25
+	`[ELEMENT_TOLERANCE_LIGHT]`	`+`	25
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`	`+`	40
+	`[INVENTORY_MAX_WEIGHT]`	`+`	9000
+[/avatar select ability]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	145	1
+
+[layer variation]
+	2804
+	`belt_e`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1953
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	852
+	`belt_d`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	145	1
+
+[layer variation]
+	2804
+	`belt_e`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1953
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	852
+	`belt_d`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[hide equipment]
+	`[shoes avatar]`
+	`[pants avatar]`
+[/hide equipment]
+
+[hide layer]
+	1601	1600	1400	1450	1200	825	1650	1651	1501	1500	1300	1150	1151
+[/hide layer]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[equipment type]
+	`[waist avatar]`	0
+
+[room list move speed rate]
+	0.4

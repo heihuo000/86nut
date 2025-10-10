@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`极诣·驭剑士剑思裤子[款式4]`
+
+[flavor text]
+	`<2023春节礼包>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_apants.img`	434
+
+[equipment type]
+	`[pants avatar]`	0
+
+[sub type]
+	0
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	129	3
+
+[layer variation]
+	1150
+	`pants_d`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	202388
+
+[avatar select ability]
+	`[HP MAX]`	`+`	280
+	`[MP MAX]`	`+`	280
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`	`+`	660
+	`[PHYSICAL_ATTACK]`	`+`	20
+	`[PHYSICAL_DEFENSE]`	`+`	20
+	`[MAGICAL_ATTACK]`	`+`	20
+	`[MAGICAL_DEFENSE]`	`+`	20
+[/avatar select ability]
+
+[enable dye]
+	1	0

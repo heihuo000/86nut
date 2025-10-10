@@ -1,0 +1,69 @@
+#PVF_File
+
+[name]
+	`混沌剑舞天鸣裙子`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_apants.img`	357
+
+[equipment type]
+	`[pants avatar]`	0
+
+[avatar type select]
+	7	0	0	1500	0
+	30	0	0	3000	0
+	0	0	0	6000	0
+	0	0	0	6500	3
+	`[S socket]`	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[HP MAX]`	`+`	280
+	`[MP MAX]`	`+`	280
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`	`+`	660
+[/avatar select ability]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	103	0
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1150
+	`pants_d`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[icon mark]
+	`Item/IconMark.img`	64

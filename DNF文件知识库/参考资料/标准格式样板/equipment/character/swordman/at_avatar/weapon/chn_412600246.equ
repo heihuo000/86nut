@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`露西尔的讯问之剑`
+
+[grade]
+	2
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	234
+
+[avatar type select]
+	7	0	0	700	0
+	30	0	0	1300	0
+	0	0	0	2700	0
+	0	0	0	2700	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		80	0
+	[layer variation]
+		2050
+		`at_lswda`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		2051
+		`at_lswda1`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		650
+		`at_lswdb`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		651
+		`at_lswdb1`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		1350
+		`at_lswdx`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		1351
+		`at_lswdx1`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/swordman/weapon/hsword/`
+[/expand ani]
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[equipment type]
+	`[face avatar]`	0
+
+[flavor text]
+	`<2021金秋礼包>`
+
+[string data]
+	``
+[/string data]
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	110	30	70	3	120	30	70	3	130	30	70
+[/int data]
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[move speed]
+	40
+
+[HP MAX]
+	200
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	30
+	`[ATTACK_SPEED]`	`+`	55
+	`[HIT_RECOVERY]`	`+`	160
+[/avatar select ability]

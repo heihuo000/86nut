@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`倾城曼舞太刀 (女鬼剑士)`
+
+[flavor text]
+	`<舞蝶之舞>`
+
+[grade]
+	2
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[expand ani]
+	10	2	0	1	
+	[variation]
+		86	0
+	[layer variation]
+		2150
+		`at_katanaa`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		650
+		`at_katanab`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		1350
+		`at_katanax`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/swordman/weapon/katana/`
+[/expand ani]
+
+[avatar func filter]
+	0
+
+[equipment type]
+	`[skin avatar]`	0
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	110	30	70	3	120	30	70	3	130	30	70
+[/int data]
+
+[icon]
+	`item/qq318892473/butterflydance/1.img`	7
+
+[attack speed]
+	30
+
+[cast speed]
+	30
+
+[move speed]
+	30
+
+[HP MAX]
+	200
+
+[physical attack]
+	30
+
+[magical attack]
+	30
+
+[physical defense]
+	30
+
+[magical defense]
+	30
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`	`+`	25
+	`[ELEMENT_TOLERANCE_WATER]`	`+`	25
+	`[ELEMENT_TOLERANCE_DARK]`	`+`	25
+	`[ELEMENT_TOLERANCE_LIGHT]`	`+`	25
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`	`+`	40
+	`[INVENTORY_MAX_WEIGHT]`	`+`	9000
+[/avatar select ability]

@@ -1,0 +1,162 @@
+#PVF_File
+
+[name]
+	`驭剑凌天龙骨棒`
+
+[basic explain]
+	`    攻击时， 有2%%的几率使敌人进入眩晕状态。`
+
+[detail explain]
+	`    攻击时， 有2%%的几率使敌人进入眩晕状态2秒。 (若敌人高于Lv73， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)`
+
+[grade]
+	73
+
+[rarity]
+	5
+
+[part set index]
+	175
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	70
+
+[physical attack]
+	71
+
+[attack speed]
+	-30
+
+[stuck]
+	-1.0
+
+[price]
+	102200
+
+[repair price]
+	81760
+
+[value]
+	81760
+
+[equipment physical attack]
+	741	708
+
+[equipment magical attack]
+	640	612
+
+[separate attack]
+	367	248
+
+[icon]
+	`Item/weapon/swordman/club.img`	66
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	14	1
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	14	1
+
+[layer variation]
+	2150
+	`at_cluba`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_clubb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_clubx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`BLUNT_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[anti evil]
+	20
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	73
+[/then]
+
+[need material]
+	3311	50
+
+[icon mark]
+	`item/iconmark.img`	65

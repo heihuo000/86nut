@@ -1,0 +1,78 @@
+#PVF_File
+
+[name]
+	`猫咪王国白猫咪猫爪 鬼剑士(女)`
+
+[flavor text]
+	`猫咪王国`
+
+[grade]
+	2
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[avatar func filter]
+	0
+
+[equipment type]
+	`[skin avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	90	0
+[/avatar type select]
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`	`+`	25
+	`[ELEMENT_TOLERANCE_WATER]`	`+`	25
+	`[ELEMENT_TOLERANCE_DARK]`	`+`	25
+	`[ELEMENT_TOLERANCE_LIGHT]`	`+`	25
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`	`+`	40
+	`[INVENTORY_MAX_WEIGHT]`	`+`	9000
+[/avatar select ability]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/club/club.img`	200
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		68	0
+	[layer variation]
+		2150
+		`at_clubb`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/swordman/weapon/club/`
+[/expand ani]
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[move speed]
+	40
+
+[HP MAX]
+	200

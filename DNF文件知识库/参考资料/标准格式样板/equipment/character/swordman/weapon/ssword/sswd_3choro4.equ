@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`夜叉王的降神短剑`
+
+[grade]
+	73
+
+[rarity]
+	5
+
+[icon mark]
+	`item/iconmark.img`	65
+
+[part set index]
+	112
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	70
+
+[magical attack]
+	68
+
+[cast speed]
+	20
+
+[anti evil]
+	20
+
+[repair price]
+	85848
+
+[value]
+	8585
+
+[equipment physical attack]
+	640	612
+
+[equipment magical attack]
+	775	741
+
+[separate attack]
+	367	248
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	72
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	12	1
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[possible kiri protect]

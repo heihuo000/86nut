@@ -1,0 +1,51 @@
+#PVF_File
+
+[name]
+	`剑皇虞美人健康皮肤`
+
+[flavor text]
+	`<2019金秋礼包>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_abody.img`	2
+
+[equipment type]
+	`[skin avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+	0	0	0	4400	2
+	`[M socket]`	`[M socket]`
+[/avatar type select]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	2
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[hit recovery]
+	90
+
+[avatar select ability]
+	`[PHYSICAL ABSOLUTE DEFENSE]`	`+`	3.5
+	`[MAGICAL ABSOLUTE DEFENSE]`	`+`	3.5
+[/avatar select ability]

@@ -1,0 +1,120 @@
+#PVF_File
+
+[name]
+	`童话剑士的红色扣带裤`
+
+[explain]
+	`2009年 圣诞节活动角色`
+
+[grade]
+	2
+
+[part set index]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_apants.img`	245
+
+[equipment type]
+	`[pants avatar]`	0
+
+[avatar type select]
+	7	0	0	1700	0
+	30	0	0	3400	0
+	0	0	0	6800	0
+	0	0	0	7480	2
+	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[HP MAX]`	`+`	280
+	`[MP MAX]`	`+`	280
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`	`+`	660
+	`[SKILL_LEVEL]`	`[swordman]`	5	1
+	`[SKILL_LEVEL]`	`[swordman]`	46	1
+	`[SKILL_LEVEL]`	`[swordman]`	20	1
+	`[SKILL_LEVEL]`	`[swordman]`	11	1
+	`[SKILL_LEVEL]`	`[swordman]`	16	1
+	`[SKILL_LEVEL]`	`[common]`	177	1
+	`[SKILL_LEVEL]`	`[swordman]`	1	1
+	`[SKILL_LEVEL]`	`[swordman]`	8	1
+	`[SKILL_LEVEL]`	`[swordman]`	25	1
+	`[SKILL_LEVEL]`	`[common]`	175	1
+	`[SKILL_LEVEL]`	`[swordman]`	12	1
+	`[SKILL_LEVEL]`	`[swordman]`	13	1
+	`[SKILL_LEVEL]`	`[swordman]`	14	1
+	`[SKILL_LEVEL]`	`[swordman]`	15	1
+	`[SKILL_LEVEL]`	`[common]`	176	1
+	`[SKILL_LEVEL]`	`[common]`	180	1
+	`[SKILL_LEVEL]`	`[swordman]`	64	1
+	`[SKILL_LEVEL]`	`[swordman]`	58	1
+	`[SKILL_LEVEL]`	`[swordman]`	77	1
+	`[SKILL_LEVEL]`	`[swordman]`	65	1
+	`[SKILL_LEVEL]`	`[swordman]`	17	1
+	`[SKILL_LEVEL]`	`[common]`	190	1
+[/avatar select ability]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	76	0
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1300
+	`pants_b`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	76	0
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1300
+	`pants_b`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[stuck resistance]
+	10
+
+[stuck]
+	-2

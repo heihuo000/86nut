@@ -1,0 +1,117 @@
+#PVF_File
+
+[name]
+	`太初昆仑[男鬼剑]`
+
+[flavor text]
+	`<太初昆仑>`
+
+[grade]
+	1
+
+[value]
+	0
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[equipment type]
+	`[skin avatar]`	0
+
+[avatar select ability]
+	`[PHYSICAL ABSOLUTE DEFENSE]`	`+`	5.0
+	`[MAGICAL ABSOLUTE DEFENSE]`	`+`	5.0
+[/avatar select ability]
+
+[equipment magical attack]
+	200	200
+
+[equipment physical attack]
+	200	200
+
+[separate attack]
+	200	200
+
+[physical attack]
+	333
+
+[magical attack]
+	333
+
+[physical defense]
+	333
+
+[magical defense]
+	333
+
+[physical critical hit]
+	10.0
+
+[magical critical hit]
+	10.0
+
+[attack speed]
+	50
+
+[move speed]
+	50
+
+[cast speed]
+	50
+
+[all elemental attack]
+	68
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	180
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[hide equipment]
+	`[hat avatar]`
+	`[hair avatar]`
+	`[face avatar]`
+	`[breast avatar]`
+	`[coat avatar]`
+	`[pants avatar]`
+	`[waist avatar]`
+	`[shoes avatar]`
+[/hide equipment]
+
+[hide layer]
+	2880	2870	2860	2850	2840	2830	2820	2810	2780	2750	2700	2500	2400	2350	2300	2251	2200	2125	2100	2000	1975	1963	1951	1950	1925	1900	1850	1800	1700	1650	1601	1600	1501	1500	1450	1400	1300	1200	1151	1150	1100	1000	925	900	851	850	825	800	750	700	600	550	500	400	300	150	100	20	0
+[/hide layer]
+
+[icon]
+	`q/q24/icon/skin.img`	0
+
+[icon mark]
+	`Item/IconMark.img`	146
+
+[skill data up]
+	`[all]`	254	`[dungeon type]`	`[level]`	26	`+`	-11
+	`[all]`	254	`[dungeon type]`	`[level]`	0	`+`	10
+	`[all]`	254	`[dungeon type]`	`[level]`	1	`+`	10
+	`[all]`	254	`[dungeon type]`	`[level]`	2	`+`	10
+	`[all]`	254	`[dungeon type]`	`[level]`	3	`+`	10
+	`[all]`	254	`[dungeon type]`	`[level]`	8	`+`	10
+	`[all]`	254	`[dungeon type]`	`[level]`	9	`+`	10
+	`[all]`	254	`[dungeon type]`	`[level]`	10	`+`	10
+	`[all]`	254	`[dungeon type]`	`[level]`	11	`+`	10
+[/skill data up]
+
+[explain]
+	`- 力、智、体、精 +10%%
+  - 物理、魔法、独立攻击 +10%%
+  - 所有技能冷却-10%%`

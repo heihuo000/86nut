@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`八重樱 （女鬼剑）`
+
+[explain]
+	``
+
+[flavor text]
+	``
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_changqing.img`	7
+
+[equipment type]
+	`[skin avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+	0	0	0	4400	2
+	`[M socket]`	`[M socket]`
+[/avatar type select]
+
+[sub type]
+	0
+
+[avatar func filter]
+	2
+
+[hit recovery]
+	90
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	141
+
+[avatar select ability]
+	`[PHYSICAL ABSOLUTE DEFENSE]`	`+`	3.5
+	`[MAGICAL ABSOLUTE DEFENSE]`	`+`	3.5
+[/avatar select ability]
+
+[equipment physical attack]
+	10	10
+
+[equipment magical attack]
+	10	10
+
+[separate attack]
+	15	15
+
+[full avatar]
+
+[hide equipment]
+	`[hat avatar]`
+	`[hair avatar]`
+	`[face avatar]`
+	`[breast avatar]`
+	`[coat avatar]`
+	`[pants avatar]`
+	`[waist avatar]`
+	`[shoes avatar]`
+[/hide equipment]
+
+[hide layer]
+	2880	2870	2860	2850	2840	2830	2820	2810	2780	2750	2700	2300	2400	2350	2300	2251	2200	2125	2100	2000	1975	1963	1951	1950	1925	1900	1850	1800	1700	1650	1601	1600	1501	1500	1450	1400	1300	1200	1151	1150	1100	1000	925	900	851	850	825	800	750	700	600	550	500	400	300	150	100	20	0
+[/hide layer]
+
+[hide grow avatar]
+	`Sword Master Light`
+	`Demon Slayer Aura`
+[/hide grow avatar]

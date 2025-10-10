@@ -1,0 +1,214 @@
+#PVF_File
+
+[name]
+	`狱岩石光剑`
+
+[name2]
+	`Hellkarium Eblouir`
+
+[basic explain]
+	`[花开寒影]技能Lv +1
+ 
+攻击速度 +1%%`
+
+[flavor text]
+	`    用建造死亡之塔的地狱矿石——狱岩石制作的武器， 据说含有能让使用者潜力爆发的神秘力量。`
+
+[grade]
+	54
+
+[rarity]
+	2
+
+[icon mark]
+	`item/iconmark.img`	64
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[creation rate]
+	100
+
+[minimum level]
+	50
+
+[physical attack]
+	38
+
+[attack speed]
+	110
+
+[cast speed]
+	10
+
+[stuck]
+	1
+
+[price]
+	86400
+
+[repair price]
+	72576
+
+[value]
+	69120
+
+[equipment physical attack]
+	435	420
+
+[equipment magical attack]
+	421	407
+
+[separate attack]
+	233	156
+
+[skill levelup]
+	`[swordman]`	86	1
+	`[creator mage]`	221	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	34
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	2	6
+
+[layer variation]
+	2791
+	`hellkariumswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`hellkariumswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	2	6
+
+[layer variation]
+	2791
+	`hellkariumswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`hellkariumswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	2	6
+
+[layer variation]
+	2151
+	`at_beamswda1_none`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	2152
+	`at_beamswda2`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	651
+	`at_beamswdb1_none`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	652
+	`at_beamswdb2`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_beamswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+	`褐色春季校服长裤 (鬼剑)`
+
+[name2]
+	`Brown Spring Pants`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_apants.img`	212
+
+[equipment type]
+	`[pants avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	300	0
+	660	0	0	1250	0
+	0	0	0	288	0
+[/avatar type select]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	64	0
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1300
+	`pants_b`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	64	0
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1300
+	`pants_b`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[HP MAX]`	`+`	150
+	`[MP MAX]`	`+`	150
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`	`+`	300
+[/avatar select ability]
+
+[image packs]
+	`Character/Swordman/Equipment/Avatar/pants/sm_pants1103a.img`
+	`Character/Swordman/Equipment/Avatar/pants/sm_pants1103b.img`
+[/image packs]

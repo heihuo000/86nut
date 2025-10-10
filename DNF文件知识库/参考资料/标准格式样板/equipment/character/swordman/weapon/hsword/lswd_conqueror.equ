@@ -1,0 +1,117 @@
+#PVF_File
+
+[name]
+	`破旧的维尔特巨剑`
+
+[name2]
+	`Shabby Valde Sword`
+
+[basic explain]
+	`攻击时， 有5%%的几率出现爆炸。
+攻击时， 有5%%的几率击退敌人。
+对建筑型护甲敌人的攻击力 +20%%`
+
+[flavor text]
+	`    其实， 你也知道的......那人已经死了......  ——诺羽对阿甘左说`
+
+[grade]
+	60
+
+[attach type]
+	`[trade]`
+
+[creation rate]
+	500
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[weight]
+	4000
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	44
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[price]
+	108000
+
+[value]
+	86400
+
+[cool time]
+	10000
+
+[physical attack]
+	17
+
+[equipment physical attack]
+	658	581
+
+[equipment magical attack]
+	493	436
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[if]
+	[cooltime]
+		3000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		5
+	[knockback]
+		1
+[/then]
+
+[variation]
+	4	0
+
+[layer variation]
+	2600
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[possible kiri protect]

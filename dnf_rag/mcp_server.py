@@ -22,7 +22,8 @@ import threading  # 新增：用于后台初始化RAG服务器
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 from simple_rag_server import SimpleDNFRAGServer
-from enhanced_format_checker import EnhancedFormatChecker
+# 注释掉 enhanced_format_checker 的导入
+# from enhanced_format_checker import EnhancedFormatChecker
 
 
 class DNFRAGMCPServer:
@@ -32,7 +33,8 @@ class DNFRAGMCPServer:
     
     def __init__(self):
         self.rag_server = None  # 延迟到首次调用工具时再初始化
-        self.enhanced_checker = None  # 增强版格式检查器
+        # 注释掉增强版格式检查器
+        # self.enhanced_checker = None  # 增强版格式检查器
         # 以前在这里调用 init_rag_server()，现改为懒加载，避免阻塞 MCP initialize 握手
     
     def init_rag_server(self):
@@ -48,16 +50,16 @@ class DNFRAGMCPServer:
             self.rag_server = SimpleDNFRAGServer(index_path, config_path)
             print("[OK] DNF RAG服务器初始化成功", file=sys.stderr)
             
-            # 初始化增强版格式检查器
-            template_base_path = "../DNF文件知识库/参考资料/标准格式样板"
-            if os.path.exists(template_base_path):
-                self.enhanced_checker = EnhancedFormatChecker(
-                    self.rag_server.retriever, 
-                    template_base_path
-                )
-                print("[OK] 增强版格式检查器初始化成功", file=sys.stderr)
-            else:
-                print(f"[WARN] 标准格式模板路径不存在: {template_base_path}", file=sys.stderr)
+            # 注释掉增强版格式检查器的初始化
+            # template_base_path = "../DNF文件知识库/参考资料/标准格式样板"
+            # if os.path.exists(template_base_path):
+            #     self.enhanced_checker = EnhancedFormatChecker(
+            #         self.rag_server.retriever, 
+            #         template_base_path
+            #     )
+            #     print("[OK] 增强版格式检查器初始化成功", file=sys.stderr)
+            # else:
+            #     print(f"[WARN] 标准格式模板路径不存在: {template_base_path}", file=sys.stderr)
                 
         except Exception as e:
             print(f"[ERROR] RAG服务器初始化失败: {e}", file=sys.stderr)
@@ -107,35 +109,36 @@ class DNFRAGMCPServer:
                     },
                     "required": ["question"]
                 }
-            },
-            {
-                "name": "dnf_file_format_check",
-                "description": "检查DNF文件格式规范，提供格式验证和修正建议。支持增强模式，可直接引用标准模板进行对比分析",
-                "inputSchema": {
-                    "type": "object",
-                    "properties": {
-                        "file_type": {
-                            "type": "string",
-                            "description": "文件类型，如：'equ'(装备)、'skl'(技能)、'chr'(角色)、'stk'(消耗品)等",
-                            "enum": ["equ", "skl", "chr", "stk", "ani", "atk", "lay", "obj", "sho", "map", "mob", "nut"]
-                        },
-                        "content": {
-                            "type": "string",
-                            "description": "文件内容或代码片段"
-                        },
-                        "sub_type": {
-                            "type": "string",
-                            "description": "文件子类型，如装备类型：'weapon'(武器)、'armor'(防具)、'accessory'(饰品)等"
-                        },
-                        "enhanced": {
-                            "type": "boolean",
-                            "description": "是否使用增强模式（直接模板引用和字段对比），默认为True",
-                            "default": True
-                        }
-                    },
-                    "required": ["file_type"]
-                }
             }
+            # 注释掉 dnf_file_format_check 工具
+            # {
+            #     "name": "dnf_file_format_check",
+            #     "description": "检查DNF文件格式规范，提供格式验证和修正建议。支持增强模式，可直接引用标准模板进行对比分析",
+            #     "inputSchema": {
+            #         "type": "object",
+            #         "properties": {
+            #             "file_type": {
+            #                 "type": "string",
+            #                 "description": "文件类型，如：'equ'(装备)、'skl'(技能)、'chr'(角色)、'stk'(消耗品)等",
+            #                 "enum": ["equ", "skl", "chr", "stk", "ani", "atk", "lay", "obj", "sho", "map", "mob", "nut"]
+            #             },
+            #             "content": {
+            #                 "type": "string",
+            #                 "description": "文件内容或代码片段"
+            #             },
+            #             "sub_type": {
+            #                 "type": "string",
+            #                 "description": "文件子类型，如装备类型：'weapon'(武器)、'armor'(防具)、'accessory'(饰品)等"
+            #             },
+            #             "enhanced": {
+            #                 "type": "boolean",
+            #                 "description": "是否使用增强模式（直接模板引用和字段对比），默认为True",
+            #                 "default": True
+            #             }
+            #         },
+            #         "required": ["file_type"]
+            #     }
+            # }
         ]
     
     def call_tool(self, name: str, arguments: Dict[str, Any]) -> Dict[str, Any]:
@@ -145,8 +148,9 @@ class DNFRAGMCPServer:
                 return self._handle_search(arguments)
             elif name == "dnf_knowledge_qa":
                 return self._handle_qa(arguments)
-            elif name == "dnf_file_format_check":
-                return self._handle_format_check(arguments)
+            # 注释掉 dnf_file_format_check 工具的处理逻辑
+            # elif name == "dnf_file_format_check":
+            #     return self._handle_format_check(arguments)
             else:
                 return {
                     "error": f"未知工具: {name}",
@@ -215,87 +219,88 @@ class DNFRAGMCPServer:
             "timestamp": result["timestamp"]
         }
     
-    def _handle_format_check(self, arguments: Dict[str, Any]) -> Dict[str, Any]:
-        """处理格式检查请求（懒加载RAG服务器）"""
-        file_type = arguments["file_type"]
-        content = arguments.get("content", "")
-        sub_type = arguments.get("sub_type")
-        enhanced = arguments.get("enhanced", True)
-        
-        if not self.rag_server:
-            try:
-                self.init_rag_server()
-            except Exception as e:
-                return {"error": f"RAG服务器初始化失败: {e}", "success": False}
-        
-        # 使用增强版格式检查器
-        if enhanced and self.enhanced_checker:
-            try:
-                check_result = self.enhanced_checker.enhanced_format_check(
-                    file_type=file_type,
-                    content=content,
-                    sub_type=sub_type
-                )
-                
-                # 生成格式化报告
-                report = self.enhanced_checker.format_check_report(check_result)
-                
-                return {
-                    "success": True,
-                    "file_type": file_type,
-                    "sub_type": sub_type,
-                    "enhanced_mode": True,
-                    "format_check": report,
-                    "detailed_result": check_result,
-                    "summary": check_result["summary"]
-                }
-            except Exception as e:
-                import traceback
-                print(f"[ERROR] 增强版格式检查失败: {e}", file=sys.stderr)
-                print(f"[ERROR] 错误类型: {type(e).__name__}", file=sys.stderr)
-                print(f"[ERROR] 详细错误信息:", file=sys.stderr)
-                traceback.print_exc()
-                # 降级到传统模式
-                enhanced = False
-        
-        # 传统格式检查模式
-        if not enhanced or not self.enhanced_checker:
-            # 构建格式检查查询
-            format_query = f"{file_type}文件格式规范 标签要求 格式检查"
-            
-            # 搜索相关格式信息
-            search_results = self.rag_server.vector_search(format_query, 3)
-            
-            # 构建格式检查提示
-            if content:
-                check_query = f"请检查以下{file_type}文件内容的格式是否正确：\n\n{content}\n\n请指出格式问题并提供修正建议。"
-            else:
-                check_query = f"请提供{file_type}文件的标准格式要求和示例。"
-            
-            # 生成格式检查结果
-            result = self.rag_server.process_query(check_query, 3)
-            
-            return {
-                "success": True,
-                "file_type": file_type,
-                "enhanced_mode": False,
-                "format_check": result["answer"],
-                "references": [
-                    {
-                        "source": r["metadata"].get("source", "未知来源"),
-                        "content_preview": r["content"][:200] + "..." if len(r["content"]) > 200 else r["content"]
-                    }
-                    for r in search_results
-                ],
-                "summary": {
-                    "total_errors": 0,
-                    "total_warnings": 0,
-                    "templates_used": 0,
-                    "missing_required_fields": 0,
-                    "extra_fields": 0,
-                    "status": "traditional_mode"
-                }
-            }
+    # 注释掉 _handle_format_check 方法
+    # def _handle_format_check(self, arguments: Dict[str, Any]) -> Dict[str, Any]:
+    #     """处理格式检查请求（懒加载RAG服务器）"""
+    #     file_type = arguments["file_type"]
+    #     content = arguments.get("content", "")
+    #     sub_type = arguments.get("sub_type")
+    #     enhanced = arguments.get("enhanced", True)
+    #     
+    #     if not self.rag_server:
+    #         try:
+    #             self.init_rag_server()
+    #         except Exception as e:
+    #             return {"error": f"RAG服务器初始化失败: {e}", "success": False}
+    #     
+    #     # 使用增强版格式检查器
+    #     if enhanced and self.enhanced_checker:
+    #         try:
+    #             check_result = self.enhanced_checker.enhanced_format_check(
+    #                 file_type=file_type,
+    #                 content=content,
+    #                 sub_type=sub_type
+    #             )
+    #             
+    #             # 生成格式化报告
+    #             report = self.enhanced_checker.format_check_report(check_result)
+    #             
+    #             return {
+    #                 "success": True,
+    #                 "file_type": file_type,
+    #                 "sub_type": sub_type,
+    #                 "enhanced_mode": True,
+    #                 "format_check": report,
+    #                 "detailed_result": check_result,
+    #                 "summary": check_result["summary"]
+    #             }
+    #         except Exception as e:
+    #             import traceback
+    #             print(f"[ERROR] 增强版格式检查失败: {e}", file=sys.stderr)
+    #             print(f"[ERROR] 错误类型: {type(e).__name__}", file=sys.stderr)
+    #             print(f"[ERROR] 详细错误信息:", file=sys.stderr)
+    #             traceback.print_exc()
+    #             # 降级到传统模式
+    #             enhanced = False
+    #     
+    #     # 传统格式检查模式
+    #     if not enhanced or not self.enhanced_checker:
+    #         # 构建格式检查查询
+    #         format_query = f"{file_type}文件格式规范 标签要求 格式检查"
+    #         
+    #         # 搜索相关格式信息
+    #         search_results = self.rag_server.vector_search(format_query, 3)
+    #         
+    #         # 构建格式检查提示
+    #         if content:
+    #             check_query = f"请检查以下{file_type}文件内容的格式是否正确：\n\n{content}\n\n请指出格式问题并提供修正建议。"
+    #         else:
+    #             check_query = f"请提供{file_type}文件的标准格式要求和示例。"
+    #         
+    #         # 生成格式检查结果
+    #         result = self.rag_server.process_query(check_query, 3)
+    #         
+    #         return {
+    #             "success": True,
+    #             "file_type": file_type,
+    #             "enhanced_mode": False,
+    #             "format_check": result["answer"],
+    #             "references": [
+    #                 {
+    #                     "source": r["metadata"].get("source", "未知来源"),
+    #                     "content_preview": r["content"][:200] + "..." if len(r["content"]) > 200 else r["content"]
+    #                 }
+    #                 for r in search_results
+    #             ],
+    #             "summary": {
+    #                 "total_errors": 0,
+    #                 "total_warnings": 0,
+    #                 "templates_used": 0,
+    #                 "missing_required_fields": 0,
+    #                 "extra_fields": 0,
+    #                 "status": "traditional_mode"
+    #             }
+    #         }
 
 
 # 全局服务器单例与RAG初始化标记

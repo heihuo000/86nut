@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`极诣·驭剑士剑心战靴[款式3]`
+
+[flavor text]
+	`<2023春节礼包>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_ashoes.img`	433
+
+[equipment type]
+	`[shoes avatar]`	0
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	135	2
+
+[layer variation]
+	1400
+	`shoes_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1200
+	`shoes_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	202388
+
+[avatar select ability]
+	`[PHYSICAL_ATTACK]`	`+`	45
+	`[PHYSICAL_DEFENSE]`	`+`	45
+	`[MOVE_SPEED]`	`+`	55
+	`[JUMP_POWER]`	`+`	40
+[/avatar select ability]
+
+[enable dye]
+	1	0

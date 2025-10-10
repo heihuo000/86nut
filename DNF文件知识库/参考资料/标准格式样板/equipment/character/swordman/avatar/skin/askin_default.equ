@@ -1,0 +1,38 @@
+#PVF_File
+
+[name]
+	`默认皮肤(鬼剑士)`
+
+[grade]
+	0
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[attach type]
+	`[trade]`
+
+[icon]
+	`item/avatar/swordman/sm_abody.img`	0
+
+[equipment type]
+	`[skin avatar]`	0
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	0
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	0
+
+[move wav]
+	`CLOTH_TOUCH`

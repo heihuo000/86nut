@@ -1,0 +1,354 @@
+#PVF_File
+
+[name]
+	`阴剑 - 莫邪`
+
+[basic explain]
+	`    ↑↓+[宠物技能键]输入时， 发动阴气的气息， 效果持续60秒。 (消耗2个蓝色小晶块)
+    若队伍中存在佩戴[阳剑 - 干将]的成员， 将触发附加属性。`
+
+[detail explain]
+	`    ↑↓+[宠物技能键]输入时， 发动阴气的气息， 效果持续60秒。 (消耗2个蓝色小晶块； 冷却时间60秒)
+阴气的气息
+ - 使包括自身在内的队员的武器附加暗属性和冰属性。
+ - 使自身增加10%%的魔法暴击率和30点冰属性强化。
+ - 每1点冰属性强化， 使自身增加1点暗属性强化。 (最多增加70点)
+ - 暴击攻击时伤害 +15%% (暴击伤害加成效果取最高值， 且无法叠加)
+ 
+    若队伍中存在佩戴[阳剑 - 干将]的成员， 将触发附加属性。 
+    - 攻击时， 附加12%%的冰属性伤害。
+(解除装备后效果消失)`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[magical attack]
+	65
+
+[cast speed]
+	20
+
+[need material]
+	3285	5000
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	912	783
+
+[equipment magical attack]
+	1104	948
+
+[separate attack]
+	589	382
+
+[magical critical hit]
+	2
+
+[water attack]
+	35
+
+[water resistance]
+	15
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/sswd/sswd.img`	108
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	31	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	31	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[water element]`
+
+[cool time]
+	10000
+
+[command]
+	{6=`(UP)`}
+	{8=`,`}
+	{6=`(DOWN)`}
+	{8=`,`}
+	{6=`(CREATURE)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[consume item]
+		3036	2
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[appendage]
+		234
+[/then]
+
+[if]
+	[my appendage]
+		234
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[appendage]
+		235
+[/then]
+
+[if]
+	[my appendage]
+		235
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[equipment duration]
+		60000
+	[elemental weapon]
+		`dark`
+	[elemental weapon]
+		`water`
+[/then]
+
+[if]
+	[my appendage]
+		235
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		60000
+	[stat]
+		`water attack`
+		`+`	30
+	[stat]
+		`magical critical hit`
+		`+`	10
+[/then]
+
+[if]
+	[my appendage]
+		235
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		60000
+	[stat change by stat]
+		`myself`	-1
+		`water attack`	1
+		`dark attack`
+		`+`	1	70
+[/then]
+
+[if]
+	[my appendage]
+		235
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	15
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		3702
+[/then]
+
+[if]
+	[my appendage]
+		3701
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		1000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		1000
+	[appendage]
+		3703
+[/then]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	29	0
+
+[layer variation]
+	2150
+	`at_sswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_sswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_sswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

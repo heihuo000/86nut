@@ -1,0 +1,78 @@
+#PVF_File
+
+[name]
+	`夜阑九天玄女长剑`
+
+[rarity]
+	2
+
+[grade]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_abelt.img`	234
+
+[enable dye]
+	1	0
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1980	0
+	0	0	0	4500	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	72	0
+
+[layer variation]
+	1950
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	850
+	`belt_d`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	3
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`	`+`	35
+	`[ELEMENT_TOLERANCE_WATER]`	`+`	35
+	`[ELEMENT_TOLERANCE_DARK]`	`+`	35
+	`[ELEMENT_TOLERANCE_LIGHT]`	`+`	35
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`	`+`	55
+	`[INVENTORY_MAX_WEIGHT]`	`+`	14000
+[/avatar select ability]
+
+[effect part set index]
+	97
+
+[reference effect part set index]
+	111

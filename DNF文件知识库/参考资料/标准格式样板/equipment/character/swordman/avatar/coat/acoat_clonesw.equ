@@ -1,0 +1,104 @@
+#PVF_File
+
+[name]
+	`克隆装扮上衣 (鬼剑士)`
+
+[name2]
+	`Coat Clone Avatar`
+
+[explain]
+	`    可以复制穿戴中的装扮款式， 但属性值保留克隆装扮原有的属性。 如果装扮栏中存在被复制的装扮， 则该克隆装扮的款式一直保留复制后的款式。 但是， 如果被复制的装扮不在装扮栏， 则下次重新登录游戏时克隆装扮的款式变为最基本款式(不穿装扮时一样的款式)。`
+
+[grade]
+	2
+
+[part set index]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/IconClone.img`	4
+
+[equipment type]
+	`[coat avatar]`	0
+
+[avatar type select]
+	7	0	0	1500	0
+	30	0	0	3000	0
+	0	0	0	6000	0
+	0	0	0	6500	2
+	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[SKILL_LEVEL]`	`[swordman]`	39	1
+	`[SKILL_LEVEL]`	`[swordman]`	41	1
+	`[SKILL_LEVEL]`	`[swordman]`	34	1
+	`[SKILL_LEVEL]`	`[swordman]`	19	1
+	`[SKILL_LEVEL]`	`[swordman]`	31	1
+	`[SKILL_LEVEL]`	`[swordman]`	21	1
+	`[SKILL_LEVEL]`	`[swordman]`	47	1
+	`[SKILL_LEVEL]`	`[swordman]`	53	1
+	`[SKILL_LEVEL]`	`[swordman]`	67	1
+	`[SKILL_LEVEL]`	`[swordman]`	2	1
+	`[SKILL_LEVEL]`	`[swordman]`	38	1
+	`[SKILL_LEVEL]`	`[swordman]`	6	1
+	`[SKILL_LEVEL]`	`[swordman]`	32	1
+	`[SKILL_LEVEL]`	`[swordman]`	30	1
+	`[SKILL_LEVEL]`	`[swordman]`	4	1
+	`[SKILL_LEVEL]`	`[swordman]`	7	1
+	`[SKILL_LEVEL]`	`[swordman]`	40	1
+	`[SKILL_LEVEL]`	`[swordman]`	50	1
+	`[SKILL_LEVEL]`	`[swordman]`	3	1
+	`[SKILL_LEVEL]`	`[swordman]`	36	1
+	`[SKILL_LEVEL]`	`[swordman]`	52	1
+	`[SKILL_LEVEL]`	`[swordman]`	9	1
+	`[SKILL_LEVEL]`	`[swordman]`	18	1
+	`[SKILL_LEVEL]`	`[swordman]`	24	1
+	`[SKILL_LEVEL]`	`[swordman]`	22	1
+	`[SKILL_LEVEL]`	`[swordman]`	51	1
+	`[SKILL_LEVEL]`	`[swordman]`	44	1
+	`[SKILL_LEVEL]`	`[swordman]`	75	1
+	`[SKILL_LEVEL]`	`[swordman]`	68	1
+	`[SKILL_LEVEL]`	`[swordman]`	76	1
+	`[SKILL_LEVEL]`	`[swordman]`	62	1
+	`[SKILL_LEVEL]`	`[swordman]`	60	1
+	`[SKILL_LEVEL]`	`[swordman]`	72	1
+	`[SKILL_LEVEL]`	`[swordman]`	79	1
+	`[SKILL_LEVEL]`	`[swordman]`	57	1
+	`[SKILL_LEVEL]`	`[swordman]`	82	1
+	`[SKILL_LEVEL]`	`[swordman]`	73	1
+	`[SKILL_LEVEL]`	`[swordman]`	81	1
+	`[SKILL_LEVEL]`	`[swordman]`	74	1
+	`[SKILL_LEVEL]`	`[swordman]`	84	1
+	`[SKILL_LEVEL]`	`[swordman]`	103	1
+	`[SKILL_LEVEL]`	`[swordman]`	107	1
+	`[SKILL_LEVEL]`	`[swordman]`	108	1
+	`[SKILL_LEVEL]`	`[swordman]`	109	1
+	`[SKILL_LEVEL]`	`[swordman]`	110	1
+	`[SKILL_LEVEL]`	`[swordman]`	23	1
+	`[SKILL_LEVEL]`	`[swordman]`	111	1
+	`[SKILL_LEVEL]`	`[swordman]`	112	1
+	`[SKILL_LEVEL]`	`[swordman]`	27	1
+[/avatar select ability]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[clear avatar]
+	1
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	4
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	5

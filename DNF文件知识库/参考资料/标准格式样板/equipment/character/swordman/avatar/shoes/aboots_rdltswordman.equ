@@ -1,0 +1,91 @@
+#PVF_File
+
+[name]
+	`红色剑斗士皮靴`
+
+[name2]
+	`Red Leather Swordman Boots`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[icon]
+	`item/avatar/swordman/sm_ashoes.img`	96
+
+[equipment type]
+	`[shoes avatar]`	0
+
+[minimum level]
+	1
+
+[avatar type select]
+	7	0	0	300	0
+	660	0	0	1250	0
+	0	0	0	288	0
+[/avatar type select]
+
+[sub type]
+	0
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	25	0
+
+[layer variation]
+	1400
+	`shoes_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1200
+	`shoes_b`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	25	0
+
+[layer variation]
+	1400
+	`shoes_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1200
+	`shoes_b`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[PHYSICAL_ATTACK]`	`+`	45
+	`[PHYSICAL_DEFENSE]`	`+`	45
+	`[MOVE_SPEED]`	`+`	50
+	`[JUMP_POWER]`	`+`	40
+[/avatar select ability]

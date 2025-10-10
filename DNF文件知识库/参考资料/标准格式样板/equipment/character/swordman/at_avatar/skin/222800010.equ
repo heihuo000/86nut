@@ -1,0 +1,122 @@
+#PVF_File
+
+[name]
+	`紫炎燃武[女鬼剑]`
+
+[flavor text]
+	`<紫炎燃武>`
+
+[grade]
+	1
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[rarity]
+	2
+
+[icon]
+	`item/qq1908455896/kai6.img`	6
+
+[icon mark]
+	`Item/IconMark.img`	146
+
+[equipment type]
+	`[skin avatar]`	0
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	92
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar func filter]
+	2
+
+[hide equipment]
+	`[hat avatar]`
+	`[hair avatar]`
+	`[breast avatar]`
+	`[coat avatar]`
+	`[pants avatar]`
+	`[waist avatar]`
+	`[shoes avatar]`
+[/hide equipment]
+
+[hide layer]
+	2880	2870	2860	2850	2840	2830	2820	2810	2780	2750	2700	2500	2400	2350	2300	2251	2200	2125	2100	2000	1975	1963	1951	1950	1925	1900	1850	1800	1700	1650	1601	1600	1501	1500	1450	1400	1300	1200	1151	1150	1100	1000	925	900	851	850	825	800	750	700	600	550	500	400	300	270	260	20	0
+[/hide layer]
+
+[hit recovery]
+	80
+
+[equipment magical attack]
+	333	333
+
+[equipment physical attack]
+	333	333
+
+[separate attack]
+	333	333
+
+[physical attack]
+	520
+
+[magical attack]
+	520
+
+[physical defense]
+	520
+
+[magical defense]
+	520
+
+[physical critical hit]
+	10.0
+
+[magical critical hit]
+	10.0
+
+[attack speed]
+	100
+
+[move speed]
+	100
+
+[cast speed]
+	100
+
+[all elemental attack]
+	58
+
+[avatar select ability]
+	`[PHYSICAL ABSOLUTE DEFENSE]`	`+`	3.0
+	`[MAGICAL ABSOLUTE DEFENSE]`	`+`	3.0
+[/avatar select ability]
+
+[skill data up]
+	`[all]`	254	`[dungeon type]`	`[level]`	26	`+`	-12
+	`[all]`	254	`[dungeon type]`	`[level]`	0	`+`	16
+	`[all]`	254	`[dungeon type]`	`[level]`	1	`+`	16
+	`[all]`	254	`[dungeon type]`	`[level]`	2	`+`	16
+	`[all]`	254	`[dungeon type]`	`[level]`	3	`+`	16
+	`[all]`	254	`[dungeon type]`	`[level]`	8	`+`	16
+	`[all]`	254	`[dungeon type]`	`[level]`	9	`+`	16
+	`[all]`	254	`[dungeon type]`	`[level]`	10	`+`	16
+	`[all]`	254	`[dungeon type]`	`[level]`	11	`+`	16
+[/skill data up]
+
+[explain]
+	`- 力、智、体、精 +16%%
+  - 物理、魔法、独立攻击 +16%%
+  - 所有技能冷却-12%%`

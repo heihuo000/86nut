@@ -1,0 +1,49 @@
+#PVF_File
+
+[name]
+	`透明礼服腰带(男鬼剑士)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/ch_invisible.img`	5
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+	0	0	0	4500	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`	`+`	35
+	`[ELEMENT_TOLERANCE_WATER]`	`+`	35
+	`[ELEMENT_TOLERANCE_DARK]`	`+`	35
+	`[ELEMENT_TOLERANCE_LIGHT]`	`+`	35
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`	`+`	55
+	`[INVENTORY_MAX_WEIGHT]`	`+`	14000
+[/avatar select ability]

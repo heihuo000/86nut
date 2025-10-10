@@ -1,0 +1,118 @@
+#PVF_File
+
+[name]
+	`传承 : 极炎精灵之光影剑`
+
+[name2]
+	`Legacy : Nostlux of Selist`
+
+[basic explain]
+	`找不到代码basic_explain_28276`
+
+[grade]
+	57
+
+[spectrum]
+	50	20	200	200	500
+
+[attach type]
+	`[sealing]`
+
+[rarity]
+	2
+
+[weight]
+	2500
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	55
+
+[required skill]
+	33
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	13
+
+[icon mark]
+	`Item/IconMark.img`	5
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	5
+
+[durability]
+	38
+
+[price]
+	91200
+
+[cool time]
+	10000
+
+[physical attack]
+	21
+
+[equipment physical attack]
+	443	421
+
+[equipment magical attack]
+	492	468
+
+[attack speed]
+	120
+
+[elemental property]
+	`[fire element]`
+
+[stuck]
+	1
+
+[skill levelup]
+	`[swordman]`	4	1
+	`[swordman]`	72	1
+[/skill levelup]
+
+[variation]
+	1	5
+
+[layer variation]
+	2601
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2602
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[possible kiri protect]

@@ -1,0 +1,185 @@
+#PVF_File
+
+[name]
+	`(古老) 春阳融雪剑`
+
+[name2]
+	`Spring Fever`
+
+[basic explain]
+	`攻击时， 有2%%的几率使敌人进入睡眠状态。
+这时， 有5%%的几率使自身也进入睡眠状态并恢复100点HP。`
+
+[detail explain]
+	`    攻击时， 有2%%的几率使敌人进入睡眠状态6秒。 (若敌人高于Lv22， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)
+    敌人进入睡眠状态时， 有5%%的几率使自身进入睡眠状态5秒， 并恢复100点HP。`
+
+[flavor text]
+	`    只要我剑舞得好， 哪有敌人杀不了！`
+
+[grade]
+	24
+
+[rarity]
+	2
+
+[icon mark]
+	`item/iconmark.img`	64
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	22
+
+[magical attack]
+	17
+
+[cast speed]
+	20
+
+[price]
+	33600
+
+[repair price]
+	26880
+
+[value]
+	26880
+
+[equipment physical attack]
+	217	201
+
+[equipment magical attack]
+	262	244
+
+[separate attack]
+	115	75
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	47	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	13
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	6
+
+[layer variation]
+	2790
+	`bswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`bswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	6
+
+[layer variation]
+	2790
+	`bswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`bswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`BONESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		10800
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		6000
+	[reduce duration to human armor at pvp module]
+		75
+	[probability]
+		2
+	[active status]
+		`sleep`	22
+[/then]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	6
+
+[layer variation]
+	2150
+	`at_bswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_bswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_bswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

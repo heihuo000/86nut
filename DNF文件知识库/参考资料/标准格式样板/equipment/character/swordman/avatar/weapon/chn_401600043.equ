@@ -1,0 +1,102 @@
+#PVF_File
+
+[name]
+	`无形 : 心剑`
+
+[grade]
+	2
+
+[part set index]
+	4
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	170
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar type select]
+	7	0	0	1500	0
+	30	0	0	3000	0
+	0	0	0	6000	0
+	0	0	0	6500	2
+	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[ATTACK_SPEED]`	`+`	50
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	15
+	`[HIT_RECOVERY]`	`+`	160
+[/avatar select ability]
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		58	0
+	[layer variation]
+		2790
+		`beamswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		2791
+		`beamswdc1`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`beamswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		651
+		`beamswdb1`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		5
+	[expand path]
+		`equipment/character/swordman/weapon/beamsword/`
+[/expand ani]
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[attack speed]
+	50
+
+[cast speed]
+	50
+
+[move speed]
+	50
+
+[HP MAX]
+	300
+
+[physical attack]
+	50
+
+[magical attack]
+	50
+
+[physical defense]
+	50
+
+[magical defense]
+	50

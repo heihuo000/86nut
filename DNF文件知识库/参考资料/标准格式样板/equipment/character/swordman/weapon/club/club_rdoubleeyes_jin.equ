@@ -1,0 +1,224 @@
+#PVF_File
+
+[name]
+	`真·鲁道夫的鹰眼槌`
+
+[name2]
+	`Shin : Double Eyes Roduf`
+
+[basic explain]
+	`[波动之钝器精通]技能Lv +2
+[人剑合一]技能Lv +1
+[唤魔 : 狂暴]技能Lv +1
+[连环斩]技能Lv +1
+ 
+攻击速度 +1.5%%
+    攻击时， 有2%%的几率使敌人进入眩晕状态。`
+
+[detail explain]
+	`[波动之钝器精通]技能Lv +2
+[人剑合一]技能Lv +1
+[唤魔 : 狂暴]技能Lv +1
+[连环斩]技能Lv +1
+ 
+攻击速度 +1.5%%
+    攻击时， 有2%%的几率使敌人进入眩晕状态2秒； 但在决斗场中， 只能持续1秒。 (若敌人高于Lv67， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)`
+
+[grade]
+	69
+
+[rarity]
+	2
+
+[creation rate]
+	250
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	67
+
+[physical attack]
+	65
+
+[attack speed]
+	-15
+
+[stuck]
+	-1
+
+[HP MAX]
+	200
+
+[price]
+	96600
+
+[repair price]
+	81144
+
+[value]
+	77280
+
+[equipment physical attack]
+	675	653
+
+[equipment magical attack]
+	583	564
+
+[separate attack]
+	303	205
+
+[physical critical hit]
+	3
+
+[skill levelup]
+	`[swordman]`	15	2
+	`[creator mage]`	13	2
+	`[creator mage]`	32	1
+	`[creator mage]`	146	1
+	`[creator mage]`	150	1
+	`[swordman]`	38	1
+	`[swordman]`	76	1
+	`[swordman]`	8	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/weapon/swordman/club.img`	55
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	12	7
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	12	7
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	50
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[icon mark]
+	`Item/IconMark.img`	30
+
+[special monster drop]
+	1
+
+[difficulty for extra drop]
+	`[hero]`
+[/difficulty for extra drop]
+
+[dungeon type for extra drop]
+	`[all]`
+[/dungeon type for extra drop]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	67
+[/then]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	12	7
+
+[layer variation]
+	2150
+	`at_cluba`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_clubb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_clubx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

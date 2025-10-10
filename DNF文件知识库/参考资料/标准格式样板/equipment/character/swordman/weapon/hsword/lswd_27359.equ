@@ -1,0 +1,192 @@
+#PVF_File
+
+[name]
+	`破穹巨剑`
+
+[basic explain]
+	`[穿云破空剑]技能Lv +1
+[蛇腹剑 : 灭]技能Lv +1`
+
+[detail explain]
+	`    攻击时， 有2%%的几率使敌人进入束缚状态2秒。 (若敌人高于Lv72， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)`
+
+[grade]
+	72
+
+[rarity]
+	2
+
+[icon mark]
+	`item/iconmark.img`	64
+
+[creation rate]
+	250
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	70
+
+[physical attack]
+	45
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[price]
+	129600
+
+[repair price]
+	108864
+
+[value]
+	103680
+
+[equipment physical attack]
+	773	749
+
+[equipment magical attack]
+	580	562
+
+[separate attack]
+	318	215
+
+[skill levelup]
+	`[swordman]`	24	1
+	`[swordman]`	9	1
+	`[creator mage]`	132	1
+	`[creator mage]`	153	1
+[/skill levelup]
+
+[dark attack]
+	8
+
+[Force Result Item Rule]
+	0	250
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	93
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	22	3
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	22	3
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		6000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[reduce duration to human armor at pvp module]
+		50
+	[probability]
+		2
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`hold`	72
+[/then]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	22	3
+
+[layer variation]
+	2150
+	`at_lswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_lswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

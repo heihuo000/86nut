@@ -1,0 +1,68 @@
+#PVF_File
+
+[name]
+	`巧克力帽子(b)女鬼剑`
+
+[grade]
+	2
+
+[part set index]
+	2
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_acap.img`	418
+
+[equipment type]
+	`[hat avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+	0	0	0	4500	2
+	`[A socket]`	`[A socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`	`+`	55
+	`[MAGICAL_DEFENSE]`	`+`	55
+	`[HP_REGENRATE]`	`+`	75
+	`[MP_REGENRATE]`	`+`	15
+	`[CAST_SPEED]`	`+`	140
+[/avatar select ability]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	66	1
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	700
+	`cap_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`

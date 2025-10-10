@@ -1,0 +1,142 @@
+#PVF_File
+
+[name]
+	`胜 · 深渊之鳞巨剑 : [暴走]`
+
+[basic explain]
+	`[暴走]力量增加率 +17%%`
+
+[flavor text]
+	``
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[maximum level]
+	998
+
+[part set index]
+	12805
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	68
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[price]
+	180000
+
+[repair price]
+	144000
+
+[value]
+	144000
+
+[equipment physical attack]
+	1216	1097
+
+[equipment magical attack]
+	912	823
+
+[separate attack]
+	615	407
+
+[skill levelup]
+	`[swordman]`	40	1
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	187
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[icon mark]
+	`Item/IconMark.img`	331
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	64	1
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	64	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SWDC_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	40	`[all]`	`[level]`	1	`%`	17
+[/skill data up]
+
+[possible kiri protect]
+
+[anti evil]
+	160

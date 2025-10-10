@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`极诣·流浪武士剑星头饰[银色款]`
+
+[flavor text]
+	`<2023春节礼包>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_acap.img`	506
+
+[equipment type]
+	`[hat avatar]`	0
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	167	4
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	700
+	`cap_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	202388
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`	`+`	45
+	`[MAGICAL_DEFENSE]`	`+`	45
+	`[HP_REGENRATE]`	`+`	60
+	`[MP_REGENRATE]`	`+`	12
+	`[CAST_SPEED]`	`+`	130
+[/avatar select ability]
+
+[enable dye]
+	1	0

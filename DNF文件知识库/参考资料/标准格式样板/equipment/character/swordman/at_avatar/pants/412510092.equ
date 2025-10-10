@@ -1,0 +1,71 @@
+#PVF_File
+
+[name]
+	`剑帝恋香衾短裤[C款]`
+
+[flavor text]
+	`<2019金秋礼包>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_apants.img`	326
+
+[equipment type]
+	`[pants avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	450	0
+	30	0	0	990	0
+	0	0	0	2970	0
+	0	0	0	6500	2
+	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	93	2
+
+[layer variation]
+	1150
+	`pants_d`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[HP MAX]`	`+`	280
+	`[MP MAX]`	`+`	280
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`	`+`	660
+	`[PHYSICAL_ATTACK]`	`+`	10
+	`[MAGICAL_ATTACK]`	`+`	10
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	4
+	`[ATTACK_SPEED]`	`+`	15
+	`[CAST_SPEED]`	`+`	15
+	`[HIT_RECOVERY]`	`+`	45
+[/avatar select ability]
+
+[enable dye]
+	1	0

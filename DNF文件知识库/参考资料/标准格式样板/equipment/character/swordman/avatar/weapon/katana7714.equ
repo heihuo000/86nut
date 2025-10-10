@@ -1,0 +1,286 @@
+#PVF_File
+
+[name]
+	`星光传奇至尊武器装扮 - 鬼剑士(星光紫)`
+
+[explain]
+	`- 力、智、体、精 +20%%
+   - 物理、魔法、独立攻击 +20%%
+  - 技能攻击力 +50%%
+  - 技能冷却时间 -31%%
+  - <血气之刃>爆炸范围 +100%%
+  - <血气之刃>攻击力 +100%%
+  - 此宠物由 <华为定制> 玩家冠名定制！`
+
+[flavor text]
+	`<枯藤老树昏鸦，小桥流水人家>`
+
+[grade]
+	2
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	86
+
+[icon]
+	`item/qq2496899294/katana.img`	3
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	90	0
+[/avatar type select]
+
+[avatar select ability]
+	`[PHYSICAL ABSOLUTE DEFENSE]`	`+`	3.0
+	`[MAGICAL ABSOLUTE DEFENSE]`	`+`	3.0
+[/avatar select ability]
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		77	14
+	[layer variation]
+		650
+		`katanab`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		2790
+		`katanac`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/swordman/weapon/katana/`
+[/expand ani]
+
+[avatar func filter]
+	2
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	110	30	70	3	120	30	70	3	130	30	70
+[/int data]
+
+[move wav]
+	`KATANA_TOUCH`
+
+[equipment magical attack]
+	320	320
+
+[equipment physical attack]
+	320	320
+
+[separate attack]
+	320	320
+
+[physical attack]
+	320
+
+[magical attack]
+	320
+
+[physical defense]
+	320
+
+[magical defense]
+	320
+
+[anti evil]
+	500
+
+[physical critical hit]
+	20.0
+
+[magical critical hit]
+	20.0
+
+[attack speed]
+	200
+
+[move speed]
+	200
+
+[cast speed]
+	200
+
+[all elemental attack]
+	120
+
+[skill data up]
+	`[swordman]`	103	`[dungeon type]`	`[static]`	5	`%`	1000
+	`[swordman]`	103	`[dungeon type]`	`[level]`	0	`%`	100
+	`[swordman]`	103	`[dungeon type]`	`[level]`	1	`%`	100
+[/skill data up]
+
+[skill data up]
+	`[swordman]`	5	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	46	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	16	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	16	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	11	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	17	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	65	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	65	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	58	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	58	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	58	`[all]`	`[level]`	2	`%`	50
+	`[swordman]`	8	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	8	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	8	`[all]`	`[level]`	2	`%`	50
+	`[swordman]`	8	`[all]`	`[level]`	3	`%`	50
+	`[swordman]`	8	`[all]`	`[level]`	4	`%`	50
+	`[swordman]`	64	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	64	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	64	`[all]`	`[level]`	5	`%`	50
+	`[swordman]`	64	`[all]`	`[level]`	7	`%`	50
+	`[swordman]`	64	`[all]`	`[level]`	10	`%`	50
+	`[swordman]`	64	`[all]`	`[level]`	11	`%`	50
+	`[swordman]`	77	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	77	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	77	`[all]`	`[level]`	2	`%`	50
+	`[swordman]`	20	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	20	`[all]`	`[level]`	2	`%`	50
+	`[swordman]`	20	`[all]`	`[level]`	3	`%`	50
+	`[swordman]`	107	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	108	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	7	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	68	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	68	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	109	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	9	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	72	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	72	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	73	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	73	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	86	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	86	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	86	`[all]`	`[level]`	2	`%`	50
+	`[swordman]`	98	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	98	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	98	`[all]`	`[level]`	2	`%`	50
+	`[swordman]`	97	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	97	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	18	`[all]`	`[level]`	3	`%`	50
+	`[swordman]`	18	`[all]`	`[level]`	4	`%`	50
+	`[swordman]`	18	`[all]`	`[level]`	5	`%`	50
+	`[swordman]`	18	`[all]`	`[level]`	6	`%`	50
+	`[swordman]`	18	`[all]`	`[level]`	7	`%`	50
+	`[swordman]`	111	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	111	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	36	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	44	`[all]`	`[level]`	3	`%`	50
+	`[swordman]`	112	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	112	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	112	`[all]`	`[level]`	2	`%`	50
+	`[swordman]`	60	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	82	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	82	`[all]`	`[level]`	2	`%`	50
+	`[swordman]`	82	`[all]`	`[level]`	3	`%`	50
+	`[swordman]`	82	`[all]`	`[level]`	4	`%`	50
+	`[swordman]`	82	`[all]`	`[level]`	7	`%`	50
+	`[swordman]`	82	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	87	`[all]`	`[level]`	3	`%`	50
+	`[swordman]`	87	`[all]`	`[level]`	4	`%`	50
+	`[swordman]`	87	`[all]`	`[level]`	5	`%`	50
+	`[swordman]`	96	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	96	`[all]`	`[level]`	6	`%`	50
+	`[swordman]`	95	`[all]`	`[level]`	3	`%`	50
+	`[swordman]`	95	`[all]`	`[level]`	9	`%`	50
+	`[swordman]`	95	`[all]`	`[level]`	12	`%`	50
+	`[swordman]`	75	`[all]`	`[level]`	9	`%`	50
+	`[swordman]`	75	`[all]`	`[level]`	18	`%`	50
+	`[swordman]`	31	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	31	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	31	`[all]`	`[level]`	4	`%`	50
+	`[swordman]`	24	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	24	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	79	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	79	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	103	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	103	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	81	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	81	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	81	`[all]`	`[level]`	2	`%`	50
+	`[swordman]`	85	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	85	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	85	`[all]`	`[level]`	2	`%`	50
+	`[swordman]`	85	`[all]`	`[level]`	3	`%`	50
+	`[swordman]`	85	`[all]`	`[level]`	4	`%`	50
+	`[swordman]`	85	`[all]`	`[level]`	5	`%`	50
+	`[swordman]`	85	`[all]`	`[level]`	10	`%`	50
+	`[swordman]`	102	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	102	`[all]`	`[level]`	3	`%`	50
+	`[swordman]`	102	`[all]`	`[level]`	8	`%`	50
+	`[swordman]`	101	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	101	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	2	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	2	`[all]`	`[level]`	7	`%`	50
+	`[swordman]`	2	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	50	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	32	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	21	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	52	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	22	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	22	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	62	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	62	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	62	`[all]`	`[level]`	2	`%`	50
+	`[swordman]`	57	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	57	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	57	`[all]`	`[level]`	2	`%`	50
+	`[swordman]`	57	`[all]`	`[level]`	3	`%`	50
+	`[swordman]`	74	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	74	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	62	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	88	`[all]`	`[level]`	2	`%`	50
+	`[swordman]`	88	`[all]`	`[level]`	3	`%`	50
+	`[swordman]`	88	`[all]`	`[level]`	4	`%`	50
+	`[swordman]`	88	`[all]`	`[level]`	5	`%`	50
+	`[swordman]`	88	`[all]`	`[level]`	6	`%`	50
+	`[swordman]`	88	`[all]`	`[level]`	7	`%`	50
+	`[swordman]`	88	`[all]`	`[level]`	8	`%`	50
+	`[swordman]`	88	`[all]`	`[level]`	9	`%`	50
+	`[swordman]`	100	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	100	`[all]`	`[level]`	5	`%`	50
+	`[swordman]`	99	`[all]`	`[level]`	0	`%`	50
+	`[swordman]`	99	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	99	`[all]`	`[level]`	2	`%`	50
+	`[swordman]`	99	`[all]`	`[level]`	6	`%`	50
+	`[swordman]`	99	`[all]`	`[level]`	7	`%`	50
+	`[swordman]`	254	`[dungeon type]`	`[level]`	0	`+`	20
+	`[swordman]`	254	`[dungeon type]`	`[level]`	1	`+`	20
+	`[swordman]`	254	`[dungeon type]`	`[level]`	2	`+`	20
+	`[swordman]`	254	`[dungeon type]`	`[level]`	3	`+`	20
+	`[swordman]`	254	`[dungeon type]`	`[level]`	8	`+`	20
+	`[swordman]`	254	`[dungeon type]`	`[level]`	9	`+`	20
+	`[swordman]`	254	`[dungeon type]`	`[level]`	10	`+`	20
+	`[swordman]`	254	`[dungeon type]`	`[level]`	11	`+`	20
+[/skill data up]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`skill cool time`
+		`%`	-31
+[/then]

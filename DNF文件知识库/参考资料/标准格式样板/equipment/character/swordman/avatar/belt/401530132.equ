@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+	`夜刀神斩炎长剑`
+
+[flavor text]
+	`<一觉燃魂装扮>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_abelt.img`	587
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar type select]
+	7	0	0	1500	0
+	30	0	0	3000	0
+	0	0	0	6000	0
+	0	0	0	6500	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	171	2
+
+[layer variation]
+	1950
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	850
+	`belt_d`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	171	2
+
+[layer variation]
+	1950
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	850
+	`belt_d`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`	`+`	25
+	`[ELEMENT_TOLERANCE_WATER]`	`+`	25
+	`[ELEMENT_TOLERANCE_DARK]`	`+`	25
+	`[ELEMENT_TOLERANCE_LIGHT]`	`+`	25
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`	`+`	40
+	`[INVENTORY_MAX_WEIGHT]`	`+`	9000
+[/avatar select ability]

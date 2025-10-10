@@ -1,0 +1,77 @@
+#PVF_File
+
+[name]
+	`混沌剑舞天鸣长靴`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_ashoes.img`	361
+
+[equipment type]
+	`[shoes avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+	0	0	0	4500	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[PHYSICAL_ATTACK]`	`+`	55
+	`[PHYSICAL_DEFENSE]`	`+`	55
+	`[MOVE_SPEED]`	`+`	60
+	`[JUMP_POWER]`	`+`	48
+[/avatar select ability]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	109	0
+
+[layer variation]
+	1400
+	`shoes_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1200
+	`shoes_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1601
+	`shoes_f`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[icon mark]
+	`Item/IconMark.img`	64

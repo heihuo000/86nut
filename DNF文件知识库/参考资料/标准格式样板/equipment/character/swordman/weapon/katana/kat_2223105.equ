@@ -1,0 +1,156 @@
+#PVF_File
+
+[name]
+	`将军剑`
+
+[grade]
+	27
+
+[rarity]
+	2
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	25
+
+[physical attack]
+	18
+
+[magical attack]
+	27
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[price]
+	37800
+
+[repair price]
+	30240
+
+[value]
+	30240
+
+[equipment physical attack]
+	239	224
+
+[equipment magical attack]
+	265	248
+
+[separate attack]
+	126	82
+
+[physical critical hit]
+	2
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`Item/weapon/swordman/katana.img`	10
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	1	2
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	1	2
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	1	2
+
+[layer variation]
+	2150
+	`at_katanaa`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_katanab`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_katanax`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

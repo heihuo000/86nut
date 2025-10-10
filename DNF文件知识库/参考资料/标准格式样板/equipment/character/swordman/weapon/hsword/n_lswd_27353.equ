@@ -1,0 +1,111 @@
+#PVF_File
+
+[name]
+	`name_27353`
+
+[basic explain]
+	`[毁灭之巨剑精通]技能Lv +1
+ 
+`
+
+[grade]
+	42
+
+[attach type]
+	`[sealing]`
+
+[item group name]
+	`lswd`
+
+[rarity]
+	3
+
+[weight]
+	4000
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	38
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	89
+
+[icon mark]
+	`Item/IconMark.img`	52
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[sub type]
+	3
+
+[durability]
+	35
+
+[need material]
+	3323	20
+
+[value]
+	60480
+
+[cool time]
+	10000
+
+[physical attack]
+	30
+
+[equipment physical attack]
+	485	437
+
+[equipment magical attack]
+	364	328
+
+[separate attack]
+	235	157
+
+[attack speed]
+	-80
+
+[cast speed]
+	-20
+
+[skill levelup]
+	`[swordman]`	14	1
+	`[creator mage]`	12	1
+	`[swordman]`	9	1
+	`[swordman]`	68	1
+	`[swordman]`	24	1
+	`[swordman]`	76	1
+[/skill levelup]
+
+[variation]
+	1	7
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[possible kiri protect]

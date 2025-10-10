@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`瓦尔基里 : 天裁之剑`
+
+[flavor text]
+	`<2020年耕耘礼包>`
+
+[grade]
+	2
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[avatar type select]
+	7	0	0	1500	0
+	30	0	0	3000	0
+	0	0	0	6000	0
+	0	0	0	6500	2
+	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[ATTACK_SPEED]`	`+`	50
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	15
+	`[HIT_RECOVERY]`	`+`	160
+[/avatar select ability]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	207
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		73	0
+	[layer variation]
+		2050
+		`at_lswda`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		650
+		`at_lswdb`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		1350
+		`at_lswdx`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[sub type]
+		2
+	[expand path]
+		`equipment/character/swordman/weapon/hsword/`
+[/expand ani]
+
+[equipment type]
+	`[face avatar]`	0
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	110	30	70	3	120	30	70	3	130	30	70
+[/int data]
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[move speed]
+	40
+
+[HP MAX]
+	200
+
+[physical attack]
+	20
+
+[magical attack]
+	20
+
+[physical defense]
+	20
+
+[magical defense]
+	20

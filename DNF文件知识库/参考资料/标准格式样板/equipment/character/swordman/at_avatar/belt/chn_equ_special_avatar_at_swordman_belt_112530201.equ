@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`海军风情紫色剑鞘`
+
+[flavor text]
+	`<2017金秋礼包>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_abelt.img`	214
+
+[equipment type]
+	`[waist avatar]`	0
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	65	3
+
+[layer variation]
+	1950
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	850
+	`belt_d`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	30119
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`	`+`	25
+	`[ELEMENT_TOLERANCE_WATER]`	`+`	25
+	`[ELEMENT_TOLERANCE_DARK]`	`+`	25
+	`[ELEMENT_TOLERANCE_LIGHT]`	`+`	25
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`	`+`	45
+	`[INVENTORY_MAX_WEIGHT]`	`+`	9000
+[/avatar select ability]

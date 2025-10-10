@@ -1,0 +1,59 @@
+#PVF_File
+
+[name]
+	`克隆装扮鞋 (鬼剑士)`
+
+[name2]
+	`Shoes Clone Avatar`
+
+[explain]
+	`    可以复制穿戴中的装扮款式， 但属性值保留克隆装扮原有的属性。 如果装扮栏中存在被复制的装扮， 则该克隆装扮的款式一直保留复制后的款式。 但是， 如果被复制的装扮不在装扮栏， 则下次重新登录游戏时克隆装扮的款式变为最基本款式(不穿装扮时一样的款式)。`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[clear avatar]
+	1
+
+[icon]
+	`item/avatar/common/IconClone.img`	7
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	4
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	5
+
+[equipment type]
+	`[shoes avatar]`	0
+
+[minimum level]
+	1
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1	0
+	0	0	0	4500	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[PHYSICAL_ATTACK]`	`+`	45
+	`[PHYSICAL_DEFENSE]`	`+`	45
+	`[MOVE_SPEED]`	`+`	50
+	`[JUMP_POWER]`	`+`	40
+[/avatar select ability]

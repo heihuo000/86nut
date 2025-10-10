@@ -1,0 +1,81 @@
+#PVF_File
+
+[name]
+	`极道·灭世剑`
+
+[flavor text]
+	`<2023春节礼包>`
+
+[grade]
+	1
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[rarity]
+	4
+
+[icon mark]
+	`item/IconMark.img`	68
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	252
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	18
+	`[ATTACK_SPEED]`	`+`	60
+	`[HIT_RECOVERY]`	`+`	200
+[/avatar select ability]
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		91	11
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		3
+	[expand path]
+		`equipment/character/swordman/weapon/hsword/`
+[/expand ani]
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[HP MAX]
+	200
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[move speed]
+	40
+
+[part set index]
+	202388

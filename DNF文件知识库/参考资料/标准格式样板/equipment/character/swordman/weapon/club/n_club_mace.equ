@@ -1,0 +1,182 @@
+#PVF_File
+
+[name]
+	`钉头槌`
+
+[name2]
+	`Mace`
+
+[basic explain]
+	`    攻击时， 有2%%的几率使敌人进入眩晕状态。`
+
+[detail explain]
+	`    攻击时， 有2%%的几率使敌人进入眩晕状态2秒； 但在决斗场中， 只能持续1秒。 (若敌人高于Lv20， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)`
+
+[flavor text]
+	`    剑士啊......看看你沾满鲜血的双手吧。  ——G.S.D`
+
+[grade]
+	20
+
+[rarity]
+	1
+
+[icon mark]
+	`item/iconmark.img`	63
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	20
+
+[physical attack]
+	19
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[price]
+	20000
+
+[repair price]
+	16000
+
+[value]
+	14400
+
+[creation rate]
+	500
+
+[equipment physical attack]
+	189	189
+
+[equipment magical attack]
+	163	163
+
+[separate attack]
+	95	61
+
+[icon]
+	`Item/weapon/swordman/club.img`	8
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	20
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	1
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	1
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	20
+[/then]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	1
+
+[layer variation]
+	2150
+	`at_cluba`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_clubb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_clubx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

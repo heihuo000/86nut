@@ -1,0 +1,282 @@
+#PVF_File
+
+[name]
+	`天脊干坤剑`
+
+[name2]
+	`Hello Hella`
+
+[basic explain]
+	`攻击时， 有2%%的几率使敌人进入灼伤状态。
+对灼伤状态下敌人的伤害 +50%%`
+
+[detail explain]
+	`    攻击时， 有2%%的几率使敌人进入灼伤状态7秒； 灼伤状态下的敌人， 每0.5秒受到208点伤害， 同时其周围的敌人每3秒会受到625点伤害。 (若敌人高于Lv50， 则减少进入异常状态的几率； 反之， 则增加几率)
+对灼伤状态下敌人的伤害 +50%% (在决斗场中 +25%%)`
+
+[flavor text]
+	`    天地间的所有邪恶， 都会在它的光芒中化为灰烬。`
+
+[grade]
+	57
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	50
+
+[physical attack]
+	39
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[price]
+	102600
+
+[repair price]
+	86184
+
+[value]
+	82080
+
+[creation rate]
+	500
+
+[equipment physical attack]
+	495	450
+
+[equipment magical attack]
+	479	436
+
+[separate attack]
+	328	220
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	27
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	3	4
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	3	4
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[cooltime]
+		3500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		2
+	[active status]
+		`burn`	50	3850	1900	1	3000
+[/then]
+
+[if]
+	[target active status]
+		`burn`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	50
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			3500
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			7000
+		[probability]
+			2
+		[active status]
+			`burn`	50	3850	1900	1	3000
+	[/then]
+	[if]
+		[target active status]
+			`burn`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	25
+	[/then]
+[/pvp]
+
+[routing priority]
+	`swordman`	1
+	`demonic swordman`	0
+[/routing priority]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	3	4
+
+[layer variation]
+	2151
+	`at_beamswda1`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	2152
+	`at_beamswda2`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	651
+	`at_beamswdb1`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	652
+	`at_beamswdb2`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_beamswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

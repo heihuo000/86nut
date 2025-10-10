@@ -1,0 +1,73 @@
+#PVF_File
+
+[name]
+	`女鬼剑士蘑菇头装扮`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_acap.img`	804
+
+[equipment type]
+	`[hat avatar]`	0
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	204	0
+
+[layer variation]
+	2500
+	`cap_c`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	700
+	`cap_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`	`+`	45
+	`[MAGICAL_DEFENSE]`	`+`	45
+	`[HP_REGENRATE]`	`+`	60
+	`[MP_REGENRATE]`	`+`	12
+	`[CAST_SPEED]`	`+`	130
+[/avatar select ability]
+
+[hide equipment]
+	`[hair avatar]`
+	`[face avatar]`
+[/hide equipment]
+
+[hide layer]
+	2820	2400	2000	800	400	20	2750	2700	1925	270	260	150	100
+[/hide layer]

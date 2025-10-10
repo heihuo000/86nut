@@ -1,0 +1,61 @@
+#PVF_File
+
+[name]
+	`克隆装扮腰部 (鬼剑士)`
+
+[name2]
+	`Waist Clone Avatar`
+
+[explain]
+	`    可以复制穿戴中的装扮款式， 但属性值保留克隆装扮原有的属性。 如果装扮栏中存在被复制的装扮， 则该克隆装扮的款式一直保留复制后的款式。 但是， 如果被复制的装扮不在装扮栏， 则下次重新登录游戏时克隆装扮的款式变为最基本款式(不穿装扮时一样的款式)。`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[clear avatar]
+	1
+
+[icon]
+	`item/avatar/common/IconClone.img`	5
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	4
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	5
+
+[equipment type]
+	`[waist avatar]`	0
+
+[minimum level]
+	1
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1	0
+	0	0	0	4500	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`	`+`	25
+	`[ELEMENT_TOLERANCE_WATER]`	`+`	25
+	`[ELEMENT_TOLERANCE_DARK]`	`+`	25
+	`[ELEMENT_TOLERANCE_LIGHT]`	`+`	25
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`	`+`	40
+	`[INVENTORY_MAX_WEIGHT]`	`+`	9000
+[/avatar select ability]

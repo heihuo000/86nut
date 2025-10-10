@@ -1,0 +1,77 @@
+#PVF_File
+
+[name]
+	`金色剑术学院短发`
+
+[grade]
+	2
+
+[part set index]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_ahair.img`	299
+
+[equipment type]
+	`[hair avatar]`	0
+
+[avatar type select]
+	7	0	0	1400	0
+	30	0	0	2800	0
+	0	0	0	5600	0
+	0	0	0	6200	2
+	`[A socket]`	`[A socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[CAST_SPEED]`	`+`	120
+	`[MAGICAL_ATTACK]`	`+`	45
+	`[MAGICAL_DEFENSE]`	`+`	45
+	`[HP_REGENRATE]`	`+`	60
+	`[MP_REGENRATE]`	`+`	12
+[/avatar select ability]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	87	1
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	87	1
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`

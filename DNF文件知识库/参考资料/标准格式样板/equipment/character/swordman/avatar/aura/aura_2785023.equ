@@ -1,0 +1,77 @@
+#PVF_File
+
+[name]
+	`绿色游标(男鬼剑士)`
+
+[flavor text]
+	`SAO PACKAGE AVATAR`
+
+[grade]
+	1
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_aura_cn.img`	18
+
+[aura hud icon]
+	59
+
+[sub type]
+	0
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[emblem socket default]
+	`[M socket]`
+	`[M socket]`
+[/emblem socket default]
+
+[equipment physical attack]
+	15	15
+
+[equipment magical attack]
+	15	15
+
+[separate attack]
+	20	20
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[dark attack]
+	3
+
+[water attack]
+	3
+
+[light attack]
+	3
+
+[fire attack]
+	3
+
+[aura ability]
+	`[solo teleport]`	600
+[/aura ability]
+
+[aurora graphic effects]
+	3
+	1	`Character/Common/Animation/Aura/jp/2013_sao_front_screen_sm.ani`
+	1	`Character/Common/Animation/Aura/jp/2013_sao_front_screen_dodge_sm.ani`
+	1	`Character/Common/Animation/Aura/jp/2013_sao_front_greencursor_sm.ani`

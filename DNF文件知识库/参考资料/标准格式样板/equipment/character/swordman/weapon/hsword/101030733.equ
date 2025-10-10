@@ -1,0 +1,168 @@
+#PVF_File
+
+[name]
+	`圣剑 : 王者之剑`
+
+[basic explain]
+	`技能攻击力 +18%%`
+
+[flavor text]
+	`    拿起这把剑， 你会感觉到力量涌入自己体内。`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	68
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[price]
+	192000
+
+[repair price]
+	153600
+
+[value]
+	153600
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	1215	1049
+
+[equipment magical attack]
+	911	787
+
+[separate attack]
+	624	404
+
+[all elemental attack]
+	95
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	167
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	54	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	54	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	169	`[dungeon type]`	`[level]`	0	`+`	180
+	`[demonic swordman]`	169	`[dungeon type]`	`[level]`	0	`+`	180
+	`[creator mage]`	169	`[dungeon type]`	`[level]`	0	`+`	180
+[/skill data up]
+
+[possible kiri protect]
+
+[anti evil]
+	150
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	54	0
+
+[layer variation]
+	2150
+	`at_lswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_lswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

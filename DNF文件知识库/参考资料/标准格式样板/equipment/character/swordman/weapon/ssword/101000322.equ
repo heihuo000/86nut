@@ -1,0 +1,148 @@
+#PVF_File
+
+[name]
+	`翠玉短剑`
+
+[grade]
+	85
+
+[rarity]
+	1
+
+[icon mark]
+	`Item/IconMark.img`	63
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	85
+
+[magical attack]
+	51
+
+[cast speed]
+	20
+
+[price]
+	85000
+
+[repair price]
+	68000
+
+[value]
+	61200
+
+[creation rate]
+	187
+
+[equipment physical attack]
+	707	707
+
+[equipment magical attack]
+	856	856
+
+[separate attack]
+	360	245
+
+[magical critical hit]
+	2
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/sswd/sswd.img`	90
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	20
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	21	1
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	21	1
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	21	1
+
+[layer variation]
+	2150
+	`at_sswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_sswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_sswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

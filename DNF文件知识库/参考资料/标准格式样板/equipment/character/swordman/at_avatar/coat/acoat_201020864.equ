@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`混沌剑舞天鸣上衣`
+
+[grade]
+	3
+
+[explain]
+	`[浮空击]技能Lv +1
+[暗黑斩]技能Lv +1`
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_acoat.img`	384
+
+[equipment type]
+	`[coat avatar]`	0
+
+[avatar type select]
+	7	0	0	1500	0
+	30	0	0	3000	0
+	0	0	0	6000	0
+	0	0	0	6500	3
+	`[S socket]`	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	15
+	`[ATTACK_SPEED]`	`+`	15
+	`[HIT_RECOVERY]`	`+`	160
+[/avatar select ability]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	114	0
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	2300
+	`coat_c`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	500
+	`coat_d`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	2850
+	`coat_f`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[icon mark]
+	`Item/IconMark.img`	64
+
+[skill levelup]
+	`[creator mage]`	86	1
+	`[creator mage]`	143	1
+[/skill levelup]

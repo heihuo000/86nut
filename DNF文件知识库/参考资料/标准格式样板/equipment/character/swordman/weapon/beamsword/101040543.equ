@@ -1,0 +1,149 @@
+#PVF_File
+
+[name]
+	`深渊之鳞光剑 : [破极兵刃]`
+
+[basic explain]
+	`[破极兵刃]武器攻击力增加率 +12%%`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[maximum level]
+	998
+
+[icon mark]
+	`item/iconmark.img`	67
+
+[part set index]
+	12806
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[physical attack]
+	68
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[price]
+	180000
+
+[repair price]
+	144000
+
+[value]
+	144000
+
+[equipment physical attack]
+	943	850
+
+[equipment magical attack]
+	912	823
+
+[separate attack]
+	615	407
+
+[skill levelup]
+	`[swordman]`	38	1
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	152
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	50	1
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[skill data up]
+	`[swordman]`	38	`[all]`	`[level]`	2	`%`	12
+[/skill data up]
+
+[emancipate]
+	[input]
+		3262	120	3160	80	490016302	10
+	[/input]
+	[output]
+		101040551	1
+	[/output]
+	[emancipate explain]
+		`成功几率100%
+可升级为胜 · 深渊之鳞装备
+保留增幅、 强化、 附魔、 锻造效果`
+[/emancipate]
+
+[possible kiri protect]
+
+[anti evil]
+	160

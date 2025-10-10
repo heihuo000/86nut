@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+	`黄金战甲的荣耀巨剑`
+
+[flavor text]
+	`<深渊征服者礼包>`
+
+[grade]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	171
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar type select]
+	7	0	0	1100	0
+	30	0	0	2200	0
+	0	0	0	4400	0
+	0	0	0	4840	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[ATTACK_SPEED]`	`+`	50
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	15
+	`[HIT_RECOVERY]`	`+`	160
+[/avatar select ability]
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		58	0
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		0
+	[expand path]
+		`equipment/character/swordman/weapon/hsword/`
+[/expand ani]
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[move speed]
+	40
+
+[HP MAX]
+	200
+
+[physical attack]
+	20
+
+[magical attack]
+	20
+
+[physical defense]
+	20
+
+[magical defense]
+	20

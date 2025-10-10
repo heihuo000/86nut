@@ -1,0 +1,209 @@
+#PVF_File
+
+[name]
+	`邪龙的灵角巨剑`
+
+[basic explain]
+	`[毁灭之巨剑精通]技能Lv +1
+ 
+    攻击时， 有2%%的几率召唤出邪龙的铁索。
+    被攻击时， 有5%%的几率召唤出邪龙的铁索。 `
+
+[detail explain]
+	`[毁灭之巨剑精通]技能Lv +1
+ 
+    攻击时， 有2%%的几率召唤出3条邪龙的铁索攻击敌人。
+    被攻击时， 有5%%的几率召唤出1条邪龙的铁索攻击敌人。 `
+
+[grade]
+	54
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[icon mark]
+	`Item/IconMark.img`	66
+
+[minimum level]
+	50
+
+[physical attack]
+	45
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[need material]
+	10149508	85
+
+[price]
+	97200
+
+[repair price]
+	77760
+
+[value]
+	77760
+
+[equipment physical attack]
+	600	552
+
+[equipment magical attack]
+	450	414
+
+[separate attack]
+	298	199
+
+[skill levelup]
+	`[swordman]`	14	1
+	`[creator mage]`	12	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	84
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	19	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	19	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		2
+	[reduce probability at pvp module]
+		100
+	[passive object]
+		48194	0	0	0	0	0	``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		500
+	[hit]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		5
+	[reduce probability at pvp module]
+		100
+	[passive object]
+		48193	0	0	0	0	0	``
+	[/passive object]
+[/then]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	19	0
+
+[layer variation]
+	2150
+	`at_lswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_lswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

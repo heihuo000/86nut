@@ -1,0 +1,989 @@
+From fb18c98c6d2c7e18eedbaa674fa58b12f5000888 Mon Sep 17 00:00:00 2001
+From: 86nut <86nut@example.com>
+Date: Fri, 10 Oct 2025 02:12:18 +0800
+Subject: [PATCH] =?UTF-8?q?=E6=9B=B4=E6=96=B0PVF=E6=96=87=E4=BB=B6?=
+ =?UTF-8?q?=E6=A0=BC=E5=BC=8F=E8=A7=84=E8=8C=83=E5=92=8C=E6=96=B0=E5=A2=9E?=
+ =?UTF-8?q?=E6=A0=87=E7=AD=BE=E6=95=B0=E6=8D=AE=E7=B1=BB=E5=9E=8B=E5=BF=AB?=
+ =?UTF-8?q?=E9=80=9F=E5=8F=82=E8=80=83=E8=A1=A8?=
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+- 更新PVF文件格式规范.md：新增标签数据类型详细说明章节
+- 新增PVF标签数据类型快速参考表.md：提供完整的标签分类和格式参考
+- 修正暗影噬魂_90级短剑.equ：纠正数值类型格式错误
+- 新增雷霆之怒_90级光剑.equ：标准格式示例文件
+
+主要改进：
+1. 明确区分字符串类型（使用反引号）和数值类型（直接数值）
+2. 提供详细的标签分类和格式说明
+3. 增加常见错误示例和检查清单
+4. 完善PVF文件编辑规范
+---
+ ...74\345\274\217\350\247\204\350\214\203.md" | 182 +++++++++++
+ ...37\345\217\202\350\200\203\350\241\250.md" | 266 ++++++++++++++++
+ ...0\347\272\247\347\237\255\345\211\221.equ" | 287 ++++++++++++++++++
+ ...0\347\272\247\345\205\211\345\211\221.equ" | 188 ++++++++++++
+ 4 files changed, 923 insertions(+)
+ create mode 100644 "DNF\346\226\207\344\273\266\347\237\245\350\257\206\345\272\223/PVF\346\240\207\347\255\276\346\225\260\346\215\256\347\261\273\345\236\213\345\277\253\351\200\237\345\217\202\350\200\203\350\241\250.md"
+ create mode 100644 "\346\232\227\345\275\261\345\231\254\351\255\202_90\347\272\247\347\237\255\345\211\221.equ"
+ create mode 100644 "\351\233\267\351\234\206\344\271\213\346\200\222_90\347\272\247\345\205\211\345\211\221.equ"
+
+diff --git "a/DNF\346\226\207\344\273\266\347\237\245\350\257\206\345\272\223/PVF\346\226\207\344\273\266\346\240\274\345\274\217\350\247\204\350\214\203.md" "b/DNF\346\226\207\344\273\266\347\237\245\350\257\206\345\272\223/PVF\346\226\207\344\273\266\346\240\274\345\274\217\350\247\204\350\214\203.md"
+index 9472219..124eece 100644
+--- "a/DNF\346\226\207\344\273\266\347\237\245\350\257\206\345\272\223/PVF\346\226\207\344\273\266\346\240\274\345\274\217\350\247\204\350\214\203.md"
++++ "b/DNF\346\226\207\344\273\266\347\237\245\350\257\206\345\272\223/PVF\346\226\207\344\273\266\346\240\274\345\274\217\350\247\204\350\214\203.md"
+@@ -492,6 +492,188 @@ for error in errors:
+ 	print(error)
+ ```
+ 
++## 🏷️ 标签数据类型详细说明
++
++### 基础数据类型规则
++
++根据对真实PVF文件和标准样板的分析，PVF文件中的标签参数主要分为以下几种数据类型：
++
++#### 1. 字符串类型 (String) - 使用反引号 `` ` ``
++所有文本内容、路径、标识符等都属于字符串类型，必须使用反引号包围。
++
++**装备基础信息类：**
++- `[name]` - 装备名称：`` `装备名称` ``
++- `[name2]` - 英文名称：`` `English Name` ``
++- `[explain]` - 简要说明：`` `装备描述` ``
++- `[basic explain]` - 基础说明：`` `基础功能描述` ``
++- `[detail explain]` - 详细说明：`` `详细功能描述` ``
++- `[flavor text]` - 风味文本：`` `背景故事文本` ``
++
++**职业和类型类：**
++- `[usable job]` - 可用职业：`` `[swordman]` ``、`` `[all]` ``
++- `[attach type]` - 附加类型：`` `[trade]` ``、`` `[sealing]` ``
++- `[equipment type]` - 装备类型：`` `[weapon]` ``、`` `[aurora avatar]` ``
++- `[weapon type]` - 武器类型：`` `[ssword]` ``、`` `[sword]` ``
++- `[sub type]` - 子类型：`` `[ssword]` ``
++
++**资源路径类：**
++- `[icon]` - 图标路径：`` `item/weapon/thief/ssword/ssword_2choro1.img` ``
++- `[field image]` - 场景图像：`` `item/fieldimage/weapon/ssword.img` ``
++- `[move wav]` - 移动音效：`` `SWORD_TOUCH` ``
++
++**条件判断类：**
++- `[if]` - 条件判断：`` `[all]` ``、`` `[weapon]` ``
++- `[target]` - 目标选择：`` `[target]` ``
++
++#### 2. 数值类型 (Number) - 直接写数字
++所有数值参数都直接写数字，不使用任何引号。
++
++**等级和稀有度类：**
++- `[rarity]` - 稀有度：`3`（整数）
++- `[minimum level]` - 最低等级：`90`（整数）
++- `[grade]` - 等级：`73`（整数）
++
++**物理属性类：**
++- `[durability]` - 耐久度：`55`（整数）
++- `[weight]` - 重量：`2.8`（浮点数）
++- `[price]` - 价格：`2800000`（整数）
++- `[repair price]` - 修理费用：`112000`（整数）
++- `[value]` - 价值：`1400000`（整数）
++
++**战斗属性类：**
++- `[physical attack]` - 物理攻击：`685`（整数）
++- `[magical attack]` - 魔法攻击：`685`（整数）
++- `[independent attack]` - 独立攻击：`420`（整数）
++- `[attack speed]` - 攻击速度：`120`（整数）
++- `[cast speed]` - 施放速度：`15`（整数）
++- `[move speed]` - 移动速度：`15`（整数）
++- `[physical critical hit]` - 物理暴击：`8`（整数）
++- `[magical critical hit]` - 魔法暴击：`8`（整数）
++
++**生命值和魔法值类：**
++- `[HP MAX]` - 最大HP：`180`（整数）
++- `[MP MAX]` - 最大MP：`180`（整数）
++- `[hit recovery]` - 硬直恢复：`120`（整数）
++
++**其他数值类：**
++- `[creation rate]` - 制作成功率：`0`（整数）
++- `[random option]` - 随机选项：`1`（整数）
++- `[usable period]` - 使用期限：`300`（整数）
++- `[stuck]` - 卡住状态：`0`（整数）
++- `[attack success]` - 攻击成功率：`15`（整数）
++
++#### 3. 范围数值类型 (Range) - 两个数字用Tab分隔
++某些属性使用范围值，表示最小值和最大值。
++
++**装备攻击范围：**
++- `[equipment physical attack]` - 装备物理攻击：`685	735`
++- `[equipment magical attack]` - 装备魔法攻击：`685	735`
++- `[separate attack]` - 独立攻击范围：`420	450`
++
++#### 4. 复合类型 (Complex) - 多个参数组合
++某些标签包含多个不同类型的参数，按顺序用Tab分隔。
++
++**图标标记类：**
++- `[icon mark]` - 图标标记：`` `Item/IconMark.img` ``	`0`（字符串+数字）
++- `[icon]` - 图标：`` `item/weapon/thief/ssword/ssword_2choro1.img` ``（仅字符串）
++
++**技能数据类：**
++- `[skill data up]` - 技能数据提升：`` `[thief]` ``	`99`	`` `[all]` ``	`` `[level]` ``	`` `+2` ``
++- `[all skill data up]` - 全技能数据提升：`` `[thief]` ``	`99`	`` `[all]` ``	`` `[level]` ``	`` `+1` ``
++
++**强制结果类：**
++- `[Force Result]` - 强制结果：`1`	`` `[equipment physical attack]` ``
++
++**状态效果类：**
++- `[active status]` - 激活状态：`` `shadow_damage` ``	`99`	`3000`	`1000`	`1`	`` `%` ``	`` `[hp]` ``	`` `-8` ``
++
++#### 5. 数据段类型 (Data Section)
++文件末尾的数据段包含不同类型的数据。
++
++**整数数据段：**
++```
++[int data]
++	`装备等级`	90
++	`武器系列`	2001
++	`暗影伤害倍率`	150
++	`生命吸取率`	5
++```
++
++**字符串数据段：**
++```
++[string data]
++	`制作者`	`暗影工匠·瓦伦`
++	`武器来源`	`暗影教团秘宝`
++	`特殊效果`	`暗影爆发`
++```
++
++**浮点数据段：**
++```
++[float data]
++	`暴击伤害加成`	1.25
++	`暗影爆发概率`	0.15
++	`生命吸取系数`	0.05
++```
++
++### 特殊标签说明
++
++#### 1. 嵌套结构标签
++某些标签包含嵌套结构，需要使用开始和结束标签：
++
++```
++[appendage]
++	`[shadow burst]`
++	[name]
++		`暗影爆发`
++	[explain]
++		`释放暗影力量，对敌人造成魔法伤害并吸取生命力`
++	[icon]
++		`item/stackable/consumption.img`	58
++[/appendage]
++```
++
++#### 2. 条件判断标签
++```
++[if]
++	`[weapon]`
++[attack success]
++	15
++[then]
++	`[target]`
++		`[appendage]`
++			`[shadow burst]`
++		`[/appendage]`
++	`[/target]`
++[/if]
++```
++
++#### 3. 套装信息标签
++```
++[set item master]
++	`暗影套装`
++
++[set item]
++	2	`暗影之力：攻击速度 +10%，移动速度 +10%`
++	3	`噬魂之刃：攻击时有15%概率触发暗影爆发`
++	5	`暗影主宰：所有技能等级 +2，暗属性强化 +30`
++```
++
++#### 4. 材料需求标签
++```
++[need material]
++	`暗影精华`	120
++	`噬魂水晶`	50
++	`传说武器强化石`	10
++```
++
++### 数据类型验证规则
++
++1. **字符串验证**：必须使用反引号 `` ` `` 包围，不能使用双引号或单引号
++2. **数值验证**：直接写数字，不能使用任何引号
++3. **范围验证**：两个数值之间用Tab分隔
++4. **复合验证**：多个参数按类型要求，用Tab分隔
++5. **嵌套验证**：正确使用开始和结束标签，保持缩进一致
++
+ ## 📋 常见格式错误
+ 
+ ### 错误1: 使用空格代替TAB
+diff --git "a/DNF\346\226\207\344\273\266\347\237\245\350\257\206\345\272\223/PVF\346\240\207\347\255\276\346\225\260\346\215\256\347\261\273\345\236\213\345\277\253\351\200\237\345\217\202\350\200\203\350\241\250.md" "b/DNF\346\226\207\344\273\266\347\237\245\350\257\206\345\272\223/PVF\346\240\207\347\255\276\346\225\260\346\215\256\347\261\273\345\236\213\345\277\253\351\200\237\345\217\202\350\200\203\350\241\250.md"
+new file mode 100644
+index 0000000..4b6e9d5
+--- /dev/null
++++ "b/DNF\346\226\207\344\273\266\347\237\245\350\257\206\345\272\223/PVF\346\240\207\347\255\276\346\225\260\346\215\256\347\261\273\345\236\213\345\277\253\351\200\237\345\217\202\350\200\203\350\241\250.md"
+@@ -0,0 +1,266 @@
++# PVF标签数据类型快速参考表
++
++## 📖 使用说明
++
++本参考表基于真实PVF文件分析和标准样板文件，详细列出了各种标签的正确数据类型格式。
++
++**格式约定：**
++- 🔤 **字符串**：使用反引号 `` `内容` ``
++- 🔢 **数值**：直接写数字，无引号
++- 📊 **范围**：两个数值用Tab分隔
++- 🔗 **复合**：多个参数用Tab分隔
++
++---
++
++## 🏷️ 装备基础信息标签
++
++| 标签名 | 数据类型 | 格式示例 | 说明 |
++|--------|----------|----------|------|
++| `[name]` | 🔤 字符串 | `` `暗影·噬魂` `` | 装备名称 |
++| `[name2]` | 🔤 字符串 | `` `Shadow Soul Eater` `` | 英文名称 |
++| `[explain]` | 🔤 字符串 | `` `传说级短剑，蕴含着古老暗影力量` `` | 简要说明 |
++| `[basic explain]` | 🔤 字符串 | `` `攻击时有概率触发暗影爆发` `` | 基础说明 |
++| `[detail explain]` | 🔤 字符串 | `` `这把短剑曾经属于一位传说中的暗影刺客...` `` | 详细说明 |
++| `[flavor text]` | 🔤 字符串 | `` `"在黑暗中诞生，在血腥中成长..."` `` | 风味文本 |
++
++---
++
++## 🎯 等级和稀有度标签
++
++| 标签名 | 数据类型 | 格式示例 | 说明 |
++|--------|----------|----------|------|
++| `[rarity]` | 🔢 数值 | `3` | 稀有度（0-5） |
++| `[minimum level]` | 🔢 数值 | `90` | 最低等级 |
++| `[grade]` | 🔢 数值 | `73` | 装备等级 |
++
++---
++
++## 👥 职业和类型标签
++
++| 标签名 | 数据类型 | 格式示例 | 说明 |
++|--------|----------|----------|------|
++| `[usable job]` | 🔤 字符串 | `` `[thief]` `` | 可用职业 |
++| `[attach type]` | 🔤 字符串 | `` `[trade]` `` | 附加类型 |
++| `[equipment type]` | 🔤 字符串 | `` `[weapon]` `` | 装备类型 |
++| `[weapon type]` | 🔤 字符串 | `` `[ssword]` `` | 武器类型 |
++| `[sub type]` | 🔤 字符串 | `` `[ssword]` `` | 子类型 |
++
++---
++
++## 🖼️ 资源路径标签
++
++| 标签名 | 数据类型 | 格式示例 | 说明 |
++|--------|----------|----------|------|
++| `[icon]` | 🔤 字符串 | `` `item/weapon/thief/ssword/ssword_2choro1.img` `` | 图标路径 |
++| `[field image]` | 🔤 字符串 | `` `item/fieldimage/weapon/ssword.img` `` | 场景图像 |
++| `[move wav]` | 🔤 字符串 | `` `SWORD_TOUCH` `` | 移动音效 |
++
++---
++
++## 💰 物理属性标签
++
++| 标签名 | 数据类型 | 格式示例 | 说明 |
++|--------|----------|----------|------|
++| `[durability]` | 🔢 数值 | `55` | 耐久度 |
++| `[weight]` | 🔢 数值 | `2.8` | 重量（可为浮点数） |
++| `[price]` | 🔢 数值 | `2800000` | 价格 |
++| `[repair price]` | 🔢 数值 | `112000` | 修理费用 |
++| `[value]` | 🔢 数值 | `1400000` | 价值 |
++
++---
++
++## ⚔️ 战斗属性标签
++
++| 标签名 | 数据类型 | 格式示例 | 说明 |
++|--------|----------|----------|------|
++| `[physical attack]` | 🔢 数值 | `685` | 物理攻击力 |
++| `[magical attack]` | 🔢 数值 | `685` | 魔法攻击力 |
++| `[independent attack]` | 🔢 数值 | `420` | 独立攻击力 |
++| `[attack speed]` | 🔢 数值 | `120` | 攻击速度 |
++| `[cast speed]` | 🔢 数值 | `15` | 施放速度 |
++| `[move speed]` | 🔢 数值 | `15` | 移动速度 |
++| `[physical critical hit]` | 🔢 数值 | `8` | 物理暴击率 |
++| `[magical critical hit]` | 🔢 数值 | `8` | 魔法暴击率 |
++
++---
++
++## ❤️ 生命值和魔法值标签
++
++| 标签名 | 数据类型 | 格式示例 | 说明 |
++|--------|----------|----------|------|
++| `[HP MAX]` | 🔢 数值 | `180` | 最大HP |
++| `[MP MAX]` | 🔢 数值 | `180` | 最大MP |
++| `[hit recovery]` | 🔢 数值 | `120` | 硬直恢复 |
++
++---
++
++## 📊 范围数值标签
++
++| 标签名 | 数据类型 | 格式示例 | 说明 |
++|--------|----------|----------|------|
++| `[equipment physical attack]` | 📊 范围 | `685	735` | 装备物理攻击范围 |
++| `[equipment magical attack]` | 📊 范围 | `685	735` | 装备魔法攻击范围 |
++| `[separate attack]` | 📊 范围 | `420	450` | 独立攻击范围 |
++
++---
++
++## 🔗 复合类型标签
++
++| 标签名 | 数据类型 | 格式示例 | 说明 |
++|--------|----------|----------|------|
++| `[icon mark]` | 🔗 复合 | `` `Item/IconMark.img` ``	`0` | 图标标记（字符串+数字） |
++| `[skill data up]` | 🔗 复合 | `` `[thief]` ``	`99`	`` `[all]` ``	`` `[level]` ``	`` `+2` `` | 技能数据提升 |
++| `[all skill data up]` | 🔗 复合 | `` `[thief]` ``	`99`	`` `[all]` ``	`` `[level]` ``	`` `+1` `` | 全技能数据提升 |
++| `[Force Result]` | 🔗 复合 | `1`	`` `[equipment physical attack]` `` | 强制结果 |
++
++---
++
++## 🎮 其他功能标签
++
++| 标签名 | 数据类型 | 格式示例 | 说明 |
++|--------|----------|----------|------|
++| `[creation rate]` | 🔢 数值 | `0` | 制作成功率 |
++| `[random option]` | 🔢 数值 | `1` | 随机选项 |
++| `[usable period]` | 🔢 数值 | `300` | 使用期限 |
++| `[stuck]` | 🔢 数值 | `0` | 卡住状态 |
++| `[attack success]` | 🔢 数值 | `15` | 攻击成功率 |
++
++---
++
++## 🔄 条件判断标签
++
++| 标签名 | 数据类型 | 格式示例 | 说明 |
++|--------|----------|----------|------|
++| `[if]` | 🔤 字符串 | `` `[weapon]` `` | 条件判断 |
++| `[then]` | 🔤 字符串 | `` `[target]` `` | 条件执行 |
++| `[target]` | 🔤 字符串 | `` `[target]` `` | 目标选择 |
++
++---
++
++## 📦 套装信息标签
++
++| 标签名 | 数据类型 | 格式示例 | 说明 |
++|--------|----------|----------|------|
++| `[set item master]` | 🔤 字符串 | `` `暗影套装` `` | 套装名称 |
++| `[set item]` | 🔗 复合 | `2`	`` `暗影之力：攻击速度 +10%` `` | 套装效果（数字+字符串） |
++
++---
++
++## 🛠️ 材料需求标签
++
++| 标签名 | 数据类型 | 格式示例 | 说明 |
++|--------|----------|----------|------|
++| `[need material]` | 🔗 复合 | `` `暗影精华` ``	`120` | 材料需求（字符串+数字） |
++
++---
++
++## 📊 数据段标签
++
++### 整数数据段
++```
++[int data]
++	`装备等级`	90
++	`武器系列`	2001
++	`暗影伤害倍率`	150
++```
++
++### 字符串数据段
++```
++[string data]
++	`制作者`	`暗影工匠·瓦伦`
++	`武器来源`	`暗影教团秘宝`
++	`特殊效果`	`暗影爆发`
++```
++
++### 浮点数据段
++```
++[float data]
++	`暴击伤害加成`	1.25
++	`暗影爆发概率`	0.15
++	`生命吸取系数`	0.05
++```
++
++---
++
++## 🔧 嵌套结构标签
++
++### appendage 结构
++```
++[appendage]
++	`[shadow burst]`
++	[name]
++		`暗影爆发`
++	[explain]
++		`释放暗影力量，对敌人造成魔法伤害并吸取生命力`
++	[icon]
++		`item/stackable/consumption.img`	58
++	[cast info]
++		`[delay]`		300
++		`[recovery]`	1000
++	[level info]
++		0	1	0	100	0	``
++		1	1	0	100	0	``
++	[active status]
++		`shadow_damage`	99	3000	1000	1	`%`	`[hp]`	`-8`
++		`life_steal`	99	3000	1000	1	`%`	`[hp]`	`+5`
++	[speech on]
++		`暗影之力觉醒！`	0	70	16777215
++	[sound]
++		`SHADOW_BURST`
++	[graphic effect]
++		`character/thief/effect/animation/shadowburst/shadow_burst.ani`	0	-1	`bottom`
++	[attack info]
++		`[damage]`
++		`[attack type]`
++			`[magic]`
++		`[weapon damage apply]`
++			1.0
++		`[attack damage]`
++			1	180	220
++		`[hit wav]`
++			`SHADOW_HIT`
++[/appendage]
++```
++
++---
++
++## ⚠️ 常见错误示例
++
++### ❌ 错误格式
++```
++[name]          "装备名称"        // 错误：使用双引号
++[rarity]        `3`              // 错误：数值使用反引号
++[price] 1000000                  // 错误：使用空格分隔
++[icon mark]     `item.img`  14   // 错误：使用空格分隔
++```
++
++### ✅ 正确格式
++```
++[name]          `装备名称`        // 正确：字符串使用反引号
++[rarity]        3                // 正确：数值直接写
++[price]         1000000          // 正确：使用Tab分隔
++[icon mark]     `item.img`	14   // 正确：使用Tab分隔
++```
++
++---
++
++## 🔍 快速检查清单
++
++- [ ] 所有字符串都使用反引号 `` ` `` 包围
++- [ ] 所有数值都直接写，不使用引号
++- [ ] 参数之间使用Tab分隔，不使用空格
++- [ ] 缩进使用Tab，不使用空格
++- [ ] 嵌套结构正确使用开始和结束标签
++- [ ] 文件编码为UTF-8
++- [ ] 行尾符为CRLF（\r\n）
++
++---
++
++## 📚 相关文档
++
++- [PVF文件格式规范.md](PVF文件格式规范.md) - 完整的格式规范文档
++- [格式规范工具/](格式规范工具/) - 格式检查和验证工具
++
++---
++
++**💡 提示：建议将此参考表保存为书签，在编辑PVF文件时随时查阅！**
+\ No newline at end of file
+diff --git "a/\346\232\227\345\275\261\345\231\254\351\255\202_90\347\272\247\347\237\255\345\211\221.equ" "b/\346\232\227\345\275\261\345\231\254\351\255\202_90\347\272\247\347\237\255\345\211\221.equ"
+new file mode 100644
+index 0000000..e23a38d
+--- /dev/null
++++ "b/\346\232\227\345\275\261\345\231\254\351\255\202_90\347\272\247\347\237\255\345\211\221.equ"
+@@ -0,0 +1,287 @@
++#PVF_File
++
++[name]
++	`暗影·噬魂`
++
++[name2]
++	`Shadow Soul Eater`
++
++[explain]
++	`传说级短剑，蕴含着古老暗影力量的神秘武器。`
++
++[basic explain]
++	`攻击时有概率触发暗影爆发，对敌人造成额外伤害并吸取生命力。`
++
++[detail explain]
++	`这把短剑曾经属于一位传说中的暗影刺客，剑身上刻满了神秘的符文。当挥舞时，剑刃会散发出幽暗的光芒，仿佛能够吞噬敌人的灵魂。据说持有者能够感受到剑中蕴含的强大暗影力量，在战斗中获得超凡的敏捷和致命一击的能力。`
++
++[flavor text]
++	`"在黑暗中诞生，在血腥中成长，这把剑渴望着更多的灵魂..." - 暗影教团古籍`
++
++[attach type]
++	`[trade]`
++
++[rarity]
++	3
++
++[usable job]
++	`[thief]`
++	`[at thief]`
++
++[minimum level]
++	90
++
++[icon]
++	`item/weapon/thief/ssword/ssword_2choro1.img`
++
++[field image]
++	`item/fieldimage/weapon/ssword.img`
++
++[equipment type]
++	`[weapon]`
++
++[weapon type]
++	`[ssword]`
++
++[sub type]
++	`[ssword]`
++
++[move wav]
++	`SWORD_TOUCH`
++
++[durability]
++	55
++
++[weight]
++	2.8
++
++[if]
++	`[all]`
++
++[icon mark]
++	`Item/IconMark.img`	0
++
++[price]
++	2800000
++
++[repair price]
++	112000
++
++[value]
++	1400000
++
++[creation rate]
++	0
++
++[random option]
++	1
++
++[usable period]
++	300
++
++[physical attack]
++	685
++
++[magical attack]
++	685
++
++[attack speed]
++	120
++
++[cast speed]
++	15
++
++[move speed]
++	15
++
++[independent attack]
++	420
++
++[physical critical hit]
++	8
++
++[magical critical hit]
++	8
++
++[stuck]
++	0
++
++[HP MAX]
++	180
++
++[MP MAX]
++	180
++
++[hit recovery]
++	120
++
++[skill data up]
++	`[thief]`	99	`[all]`	`[level]`	`+2`
++	`[at thief]`	99	`[all]`	`[level]`	`+2`
++
++[all skill data up]
++	`[thief]`	99	`[all]`	`[level]`	`+1`
++	`[at thief]`	99	`[all]`	`[level]`	`+1`
++
++[Force Result]
++	1	`[equipment physical attack]`
++	1	`[equipment magical attack]`
++
++[if]
++	`[weapon]`
++
++[attack success]
++	15
++[then]
++	`[target]`
++		`[appendage]`
++			`[shadow burst]`
++		`[/appendage]`
++	`[/target]`
++[/if]
++
++[appendage]
++	`[shadow burst]`
++	[name]
++		`暗影爆发`
++	[explain]
++		`释放暗影力量，对敌人造成魔法伤害并吸取生命力`
++	[icon]
++		`item/stackable/consumption.img`	58
++	[cast info]
++		`[delay]`			300
++		`[recovery]`		1000
++	[level info]
++		0	1	0	100	0	``
++		1	1	0	100	0	``
++	[pvp level info]
++		0	1	0	100	0	``
++		1	1	0	100	0	``
++	[active status]
++		`shadow_damage`	99	3000	1000	1	`%`	`[hp]`	`-8`
++		`life_steal`	99	3000	1000	1	`%`	`[hp]`	`+5`
++	[speech on]
++		`暗影之力觉醒！`	0	70	16777215
++	[sound]
++		`SHADOW_BURST`
++	[graphic effect]
++		`character/thief/effect/animation/shadowburst/shadow_burst.ani`	0	-1	`bottom`
++	[attack info]
++		`[damage]`
++		`[attack type]`
++			`[magic]`
++		`[weapon damage apply]`
++			1.0
++		`[attack damage]`
++			1	180	220
++		`[hit wav]`
++			`SHADOW_HIT`
++[/appendage]
++
++[possible kiri protect]
++
++[icon mark]
++	`Item/IconMark.img`	64
++
++[move wav]
++	`SWORD_TOUCH`
++
++[equipment physical attack]
++	685	735
++
++[equipment magical attack]
++	685	735
++
++[separate attack]
++	420	450
++
++[icon]
++	`item/weapon/thief/ssword/ssword_2choro1.img`
++
++[field image]
++	`item/fieldimage/weapon/ssword.img`
++
++[equipment type]
++	`[weapon]`
++
++[weapon type]
++	`[ssword]`
++
++[sub type]
++	`[ssword]`
++
++[grade]
++	73
++
++[attach type]
++	`[sealing]`
++
++[physical attack]
++	685
++
++[magical attack]
++	685
++
++[attack speed]
++	120
++
++[cast speed]
++	15
++
++[move speed]
++	15
++
++[independent attack]
++	420
++
++[physical critical hit]
++	8
++
++[magical critical hit]
++	8
++
++[HP MAX]
++	180
++
++[MP MAX]
++	180
++
++[hit recovery]
++	120
++
++[skill data up]
++	`[thief]`	99	`[all]`	`[level]`	`+2`
++	`[at thief]`	99	`[all]`	`[level]`	`+2`
++
++[all skill data up]
++	`[thief]`	99	`[all]`	`[level]`	`+1`
++	`[at thief]`	99	`[all]`	`[level]`	`+1`
++
++[set item master]
++	`暗影套装`
++
++[set item]
++	2	`暗影之力：攻击速度 +10%，移动速度 +10%`
++	3	`噬魂之刃：攻击时有15%概率触发暗影爆发`
++	5	`暗影主宰：所有技能等级 +2，暗属性强化 +30`
++
++[need material]
++	`暗影精华`	120
++	`噬魂水晶`	50
++	`传说武器强化石`	10
++
++[int data]
++	`装备等级`	90
++	`武器系列`	2001
++	`暗影伤害倍率`	150
++	`生命吸取率`	5
++
++[string data]
++	`制作者`	`暗影工匠·瓦伦`
++	`武器来源`	`暗影教团秘宝`
++	`特殊效果`	`暗影爆发`
++
++[float data]
++	`暴击伤害加成`	1.25
++	`暗影爆发概率`	0.15
++	`生命吸取系数`	0.05
+\ No newline at end of file
+diff --git "a/\351\233\267\351\234\206\344\271\213\346\200\222_90\347\272\247\345\205\211\345\211\221.equ" "b/\351\233\267\351\234\206\344\271\213\346\200\222_90\347\272\247\345\205\211\345\211\221.equ"
+new file mode 100644
+index 0000000..29819aa
+--- /dev/null
++++ "b/\351\233\267\351\234\206\344\271\213\346\200\222_90\347\272\247\345\205\211\345\211\221.equ"
+@@ -0,0 +1,188 @@
++#PVF_File
++
++[name]
++	`雷霆之怒`
++
++[name2]
++	`Thunder's Wrath`
++
++[basic explain]
++	`蕴含雷电之力的神器光剑，攻击时有几率释放雷电链`
++
++[detail explain]
++	`这把光剑由远古雷神的力量锻造而成，剑身闪烁着蓝紫色的电光。每次攻击都有可能引发雷电风暴，对周围敌人造成连锁伤害。传说只有真正的勇者才能驾驭这股狂暴的雷电之力。`
++
++[flavor text]
++	`雷鸣震天，电光闪烁，万物皆惧`
++
++[grade]	5
++[rarity]	5
++[spectrum]	2
++
++[attach type]	[trade]
++[creation rate]	0
++
++[anti evil]	90
++
++[weight]	3800
++[usable job]
++	`[swordman]`
++	`[mage]`
++[/usable job]
++
++[minimum level]	90
++
++[icon]
++	`equipment/weapon/ssword/ssword_90_epic.img`
++
++[custom animation]
++	1
++
++[usable in peace]	1
++
++[equipment type]
++	`[weapon]`	1
++
++[hide equipment]	0
++[hide layer]	0
++
++[sub type]	[ssword]
++
++[durability]	200
++
++[price]	5000000
++
++[value]	1250000
++
++[repair price]	500000
++
++[material need]
++	3037	200
++	3038	50
++[/material need]
++
++[cash]	0
++
++[medal]	0
++
++[FP]	0
++
++[cool time]	0
++
++[equipment physical attack]
++	1680	1820
++
++[equipment magical attack]
++	1520	1680
++
++[separate attack]
++	950
++
++[physical attack]	150
++[magical attack]	180
++[HP MAX]	800
++[MP MAX]	450
++[physical defense]	150
++[magical defense]	180
++[accuracy]	8
++[attack speed]	20
++[critical hit]	12
++[all elemental attack]	25
++[lightning attack]	45
++
++[skill levelup]
++	`[swordman]`	1	3
++	`[swordman]`	7	2
++	`[mage]`	3	2
++	`[mage]`	15	1
++[/skill levelup]
++
++[active status control info]
++	[shock]	20	3	2000	; 20%几率造成感电，持续3秒，每秒2000伤害
++	[stun]	8	2	0		; 8%几率造成眩晕，持续2秒
++[/active status control info]
++
++[equipment option]
++	[lightning attack]	30
++	[attack speed]	10
++	[critical hit]	5
++	[MP MAX]	200
++[/equipment option]
++
++[move wav]	`sound/weapon/ssword_swing_thunder.wav`
++
++[use wav]	`sound/weapon/thunder_strike.wav`
++
++[equipment ani script]
++	`equipment/character/swordman.lay`
++
++[layer variation]
++	650
++	`sswordb`
++
++[equipment ani script]
++	`equipment/character/swordman.lay`
++
++[animation job]
++	`[swordman]`
++
++[variation]
++	7	8
++
++[layer variation]
++	2790
++	`sswordc`
++
++[equipment ani script]
++	`equipment/character/swordman.lay`
++
++[layer variation]
++	650
++	`sswordb`
++
++[equipment ani script]
++	`equipment/character/mage.lay`
++
++[animation job]
++	`[mage]`
++
++[variation]	4
++
++[limit upgradable level]	15
++
++[int data]
++	0	90001	; 装备ID
++	1	90		; 等级
++	2	1		; 雷电属性标识
++[/int data]
++
++[string data]
++	0	`史诗武器`
++	1	`雷霆系列`
++	2	`神器级别`
++[/string data]
++
++[special ability]
++	[lightning chain]
++		[trigger rate]	15
++		[chain count]	3
++		[chain damage]	150
++		[chain range]	300
++	[/lightning chain]
++	
++	[thunder storm]
++		[trigger rate]	5
++		[storm duration]	3000
++		[storm damage]	500
++		[storm range]	500
++	[/thunder storm]
++[/special ability]
++
++[set item]
++	[set name]	`雷神套装`
++	[set bonus]
++		[2 piece]	`雷电抗性 +20%, 攻击速度 +15%`
++		[3 piece]	`雷电伤害 +30%, 技能冷却时间 -10%`
++		[4 piece]	`攻击时有10%几率召唤雷电风暴`
++	[/set bonus]
++[/set item]
+\ No newline at end of file
+-- 
+2.50.1.windows.1
+

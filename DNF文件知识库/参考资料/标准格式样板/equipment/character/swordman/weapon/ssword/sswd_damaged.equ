@@ -1,0 +1,151 @@
+#PVF_File
+
+[name]
+	`破损的铁剑`
+
+[name2]
+	`Damaged Iron Sword`
+
+[flavor text]
+	`    喂！ 不要磨蹭了， 让我帮你修理吧。  ——林纳斯`
+
+[grade]
+	1
+
+[rarity]
+	0
+
+[icon mark]
+	`item/iconmark.img`	62
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	1
+
+[cast speed]
+	20
+
+[price]
+	700
+
+[repair price]
+	560
+
+[value]
+	504
+
+[equipment physical attack]
+	17	17
+
+[equipment magical attack]
+	21	21
+
+[separate attack]
+	21	10
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	1
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	17
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2150
+	`at_sswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_sswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_sswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[creation rate]
+	312

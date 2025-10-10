@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`晴空之岚巨剑`
+
+[flavor text]
+	`<2024春节礼包>`
+
+[grade]
+	1
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[icon mark]
+	`item/IconMark.img`	68
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/shizuku/sg_a2024spring.img`	56
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	18
+	`[ATTACK_SPEED]`	`+`	60
+	`[HIT_RECOVERY]`	`+`	200
+[/avatar select ability]
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		91	30
+	[layer variation]
+		2150
+		`at_lswda`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		650
+		`at_lswdb`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		1350
+		`at_lswdx`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[expand path]
+		`equipment/character/swordman/weapon/hsword/`
+[/expand ani]
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[move speed]
+	40
+
+[HP MAX]
+	200
+
+[physical attack]
+	20
+
+[magical attack]
+	20
+
+[physical defense]
+	20
+
+[magical defense]
+	20
+
+[part set index]
+	2

@@ -1,0 +1,108 @@
+#PVF_File
+
+[name]
+	`欧格里的光明之剑`
+
+[flavor text]
+	`<2020金秋礼包>`
+
+[grade]
+	2
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[avatar select ability]
+	`[ATTACK_SPEED]`	`+`	50
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	15
+	`[HIT_RECOVERY]`	`+`	160
+[/avatar select ability]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	169
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		57	0
+	[layer variation]
+		2151
+		`at_beamswda1`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		2152
+		`at_beamswda2`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		651
+		`at_beamswdb1`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		652
+		`at_beamswdb2`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		1351
+		`at_beamswdx1`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[layer variation]
+		1352
+		`at_beamswdx2`
+	[equipment ani script]
+		`equipment/character/atswordman.lay`
+	[sub type]
+		5
+	[expand path]
+		`equipment/character/swordman/weapon/beamsword/`
+[/expand ani]
+
+[equipment type]
+	`[face avatar]`	0
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	120	30	70	3	130	30	70	3	100	30	70
+[/int data]
+
+[string data]
+	``
+[/string data]
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[move speed]
+	40
+
+[HP MAX]
+	200
+
+[physical attack]
+	20
+
+[magical attack]
+	20
+
+[physical defense]
+	20
+
+[magical defense]
+	20

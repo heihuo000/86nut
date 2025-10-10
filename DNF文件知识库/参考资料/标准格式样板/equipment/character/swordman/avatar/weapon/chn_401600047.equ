@@ -1,0 +1,97 @@
+#PVF_File
+
+[name]
+	`泰达的圣焰长剑`
+
+[grade]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	233
+
+[avatar type select]
+	7	0	0	700	0
+	30	0	0	1300	0
+	0	0	0	2700	0
+	0	0	0	2700	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		82	0
+	[layer variation]
+		2790
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		2791
+		`lswdc1`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		651
+		`lswdb1`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		3
+	[expand path]
+		`equipment/character/swordman/weapon/hsword/`
+[/expand ani]
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[equipment type]
+	`[face avatar]`	0
+
+[flavor text]
+	`<2021金秋礼包>`
+
+[string data]
+	``
+[/string data]
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[move speed]
+	40
+
+[HP MAX]
+	200
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	30
+	`[ATTACK_SPEED]`	`+`	55
+	`[HIT_RECOVERY]`	`+`	160
+[/avatar select ability]

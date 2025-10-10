@@ -1,0 +1,170 @@
+#PVF_File
+
+[name]
+	`胜 · 深渊之鳞短剑 : [暗影蓄能]`
+
+[basic explain]
+	`[暗影蓄能]技能Lv +1
+[暗影蓄能]技能攻击力增加率 +10%%`
+
+[flavor text]
+	`分解时， 不会出现传说灵魂。`
+
+[grade]
+	100
+
+[rarity]
+	4
+
+[maximum level]
+	998
+
+[part set index]
+	12810
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	90
+
+[magical attack]
+	68
+
+[cast speed]
+	20
+
+[price]
+	160000
+
+[repair price]
+	128000
+
+[value]
+	128000
+
+[equipment physical attack]
+	963	868
+
+[equipment magical attack]
+	1166	1051
+
+[separate attack]
+	615	407
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[creator mage]`	76	1
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/sswd/sswd.img`	172
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[icon mark]
+	`Item/IconMark.img`	331
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	55	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	55	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	54	1
+
+[layer variation]
+	2150
+	`at_sswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_sswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_sswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`SWDB_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[creator mage]`	76	`[all]`	`[level]`	0	`+`	100
+[/skill data up]
+
+[possible kiri protect]
+
+[anti evil]
+	160

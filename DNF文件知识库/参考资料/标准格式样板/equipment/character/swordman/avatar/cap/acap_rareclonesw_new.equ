@@ -1,0 +1,63 @@
+#PVF_File
+
+[name]
+	`黄金克隆装扮帽子 (鬼剑士)`
+
+[name2]
+	`Rare Cap Clone Avatar`
+
+[explain]
+	`    直接穿戴不显示外观； 可以复制穿戴中的同部位装扮款式， 但属性值保留克隆装扮原属性。 如被复制的装扮消失， 则外观恢复透明， 反之则维持复制款式。 (拖动或右键点击穿戴装扮图标， 可以解除克隆)`
+
+[grade]
+	2
+
+[rarity]
+	4
+
+[part set index]
+	4
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/IconClone.img`	0
+
+[equipment type]
+	`[hat avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+	0	0	0	4500	2
+	`[A socket]`	`[A socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[CAST_SPEED]`	`+`	140
+	`[MAGICAL_ATTACK]`	`+`	55
+	`[MAGICAL_DEFENSE]`	`+`	55
+	`[HP_REGENRATE]`	`+`	75
+	`[MP_REGENRATE]`	`+`	15
+[/avatar select ability]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[clear avatar]
+	1
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	4
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	5

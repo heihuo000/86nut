@@ -1,0 +1,259 @@
+#PVF_File
+
+[name]
+	`名刀 - 观世正宗`
+
+[basic explain]
+	`[人剑合一]技能Lv +2
+[追踪术]技能Lv +2
+ 
+暴击伤害 +32%%
+ 
+    攻击时， 附加8%%的伤害。`
+
+[detail explain]
+	`[人剑合一]技能Lv +2
+[追踪术]技能Lv +2
+ 
+暴击伤害 +32%% (暴击伤害加成效果取最高值， 且无法叠加)
+ 
+    攻击时， 附加8%%的伤害。`
+
+[flavor text]
+	`    据说是某个岛国的十大名刀之一……嗯， 回头让小铁柱照着打一把更好的……  --西岚`
+
+[grade]
+	85
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	85
+
+[physical attack]
+	72
+
+[magical attack]
+	107
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[need material]
+	3285	5000
+
+[price]
+	163800
+
+[repair price]
+	131040
+
+[value]
+	131040
+
+[creation rate]
+	200
+
+[equipment physical attack]
+	912	783
+
+[equipment magical attack]
+	1008	865
+
+[separate attack]
+	589	382
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	10
+
+[skill levelup]
+	`[swordman]`	38	2
+	`[swordman]`	69	2
+	`[creator mage]`	228	2
+	`[creator mage]`	146	2
+[/skill levelup]
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/katana/katana.img`	118
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	58	0
+
+[layer variation]
+	660
+	`katanab1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2797
+	`katanac1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	670
+	`katanab2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2804
+	`katanac2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	58	0
+
+[layer variation]
+	660
+	`katanab1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2797
+	`katanac1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	670
+	`katanab2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2804
+	`katanac2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[light element]`
+
+[if]
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[increase critical damage]
+		`%`	32
+[/then]
+
+[skill data up]
+	`[all]`	169	`[dungeon type]`	`[static]`	5	`+`	8
+[/skill data up]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2060
+	`at_lkatanaa1`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	660
+	`at_lkatanab1`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1351
+	`at_lkatanax`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	2070
+	`at_lkatanaa2`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	670
+	`at_lkatanab2`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lkatanax`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

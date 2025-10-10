@@ -1,0 +1,90 @@
+#PVF_File
+
+[name]
+	`紫色鬼剑士之鞋`
+
+[grade]
+	1
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_ashoes.img`	7
+
+[equipment type]
+	`[shoes avatar]`	0
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1	0
+	0	0	0	4500	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[PHYSICAL_ATTACK]`	`+`	20
+	`[PHYSICAL_DEFENSE]`	`+`	20
+	`[MOVE_SPEED]`	`+`	40
+	`[JUMP_POWER]`	`+`	30
+[/avatar select ability]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	2
+
+[layer variation]
+	1400
+	`shoes_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1200
+	`shoes_b`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	2
+
+[layer variation]
+	1400
+	`shoes_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	1200
+	`shoes_b`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[price]
+	210000

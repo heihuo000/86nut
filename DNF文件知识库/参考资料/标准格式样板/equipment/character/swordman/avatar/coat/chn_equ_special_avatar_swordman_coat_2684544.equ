@@ -1,0 +1,440 @@
+#PVF_File
+
+[name]
+	`剑客的紫色勇猛软甲`
+
+[name2]
+	`Purple Scale Armor of Honorable Swordman`
+
+[explain]
+	`2010年国庆日装扮套装(鬼剑士4)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_acoat.img`	305
+
+[equipment type]
+	`[coat avatar]`	0
+
+[avatar type select]
+	7	0	0	1700	0
+	30	0	0	3400	0
+	0	0	0	6800	0
+	0	0	0	7480	2
+	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[sub type]
+	0
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	94	3
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2300
+	`coat_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	94	3
+
+[layer variation]
+	1800
+	`coat_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2300
+	`coat_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set name]
+	`2010年国庆日装扮套装(鬼剑士4)`
+
+[set item]
+	2684023	2684153	2684283	2684409	2684544	2684675	2684803	2684933
+[/set item]
+
+[physical attack]
+	5
+
+[magical attack]
+	5
+
+[avatar select ability]
+	`[SKILL_LEVEL]`	`[swordman]`	39	1
+	`[SKILL_LEVEL]`	`[swordman]`	41	1
+	`[SKILL_LEVEL]`	`[swordman]`	34	1
+	`[SKILL_LEVEL]`	`[swordman]`	19	1
+	`[SKILL_LEVEL]`	`[swordman]`	31	1
+	`[SKILL_LEVEL]`	`[swordman]`	21	1
+	`[SKILL_LEVEL]`	`[swordman]`	47	1
+	`[SKILL_LEVEL]`	`[swordman]`	53	1
+	`[SKILL_LEVEL]`	`[swordman]`	67	1
+	`[SKILL_LEVEL]`	`[swordman]`	2	1
+	`[SKILL_LEVEL]`	`[swordman]`	38	1
+	`[SKILL_LEVEL]`	`[swordman]`	6	1
+	`[SKILL_LEVEL]`	`[swordman]`	32	1
+	`[SKILL_LEVEL]`	`[swordman]`	30	1
+	`[SKILL_LEVEL]`	`[swordman]`	4	1
+	`[SKILL_LEVEL]`	`[swordman]`	7	1
+	`[SKILL_LEVEL]`	`[swordman]`	40	1
+	`[SKILL_LEVEL]`	`[swordman]`	50	1
+	`[SKILL_LEVEL]`	`[swordman]`	3	1
+	`[SKILL_LEVEL]`	`[swordman]`	36	1
+	`[SKILL_LEVEL]`	`[swordman]`	52	1
+	`[SKILL_LEVEL]`	`[swordman]`	9	1
+	`[SKILL_LEVEL]`	`[swordman]`	18	1
+	`[SKILL_LEVEL]`	`[swordman]`	24	1
+	`[SKILL_LEVEL]`	`[swordman]`	22	1
+	`[SKILL_LEVEL]`	`[swordman]`	51	1
+	`[SKILL_LEVEL]`	`[swordman]`	44	1
+	`[SKILL_LEVEL]`	`[swordman]`	75	1
+	`[SKILL_LEVEL]`	`[swordman]`	68	1
+	`[SKILL_LEVEL]`	`[swordman]`	76	1
+	`[SKILL_LEVEL]`	`[swordman]`	62	1
+	`[SKILL_LEVEL]`	`[swordman]`	60	1
+	`[SKILL_LEVEL]`	`[swordman]`	72	1
+	`[SKILL_LEVEL]`	`[swordman]`	79	1
+	`[SKILL_LEVEL]`	`[swordman]`	57	1
+	`[SKILL_LEVEL]`	`[swordman]`	82	1
+	`[SKILL_LEVEL]`	`[swordman]`	73	1
+	`[SKILL_LEVEL]`	`[swordman]`	81	1
+	`[SKILL_LEVEL]`	`[swordman]`	74	1
+	`[SKILL_LEVEL]`	`[swordman]`	84	1
+	`[SKILL_LEVEL]`	`[swordman]`	103	1
+	`[SKILL_LEVEL]`	`[swordman]`	107	1
+	`[SKILL_LEVEL]`	`[swordman]`	108	1
+	`[SKILL_LEVEL]`	`[swordman]`	109	1
+	`[SKILL_LEVEL]`	`[swordman]`	110	1
+	`[SKILL_LEVEL]`	`[swordman]`	23	1
+	`[SKILL_LEVEL]`	`[swordman]`	111	1
+	`[SKILL_LEVEL]`	`[swordman]`	112	1
+	`[SKILL_LEVEL]`	`[swordman]`	27	1
+[/avatar select ability]
+
+[set ability]
+	[HP MAX]
+		150
+	[MP MAX]
+		150
+	[physical attack]
+		25
+	[physical defense]
+		25
+	[magical attack]
+		25
+	[magical defense]
+		25
+	[inventory limit]
+		6000
+	[HP regen speed]
+		20
+	[MP regen speed]
+		4
+	[move speed]
+		20
+	[attack speed]
+		20
+	[cast speed]
+		20
+	[fullset explain]
+		`    攻击敌人或施放技能时， 有3%%的几率出现小仙女萌萌； 小仙女萌萌会随机发动Buff， 使召唤者和召唤者周围260px范围内的队员进入Buff状态。`
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[attack success effect animation]
+			2
+			`Common/Etc/Animation/2010na_Body.ani`	0	-160
+			`Common/Etc/Animation/2010na_Effect.ani`	0	-160
+		[attack success]
+			1
+		[cooltime]
+			50000
+	[/if]
+	[multiple then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				4
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				5
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				6
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				7
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				8
+			[then probability]
+				20.0
+		[/then]
+	[/multiple then]
+	[if]
+		[module]
+			`[dungeon type]`
+		[/module]
+		[attack success effect animation]
+			2
+			`Common/Etc/Animation/2010na_Body.ani`	0	-160
+			`Common/Etc/Animation/2010na_Effect.ani`	0	-160
+		[casting]
+			1
+		[cooltime]
+			50000
+	[/if]
+	[multiple then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				4
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				5
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				6
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				7
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				3
+			[aura]
+				8
+			[then probability]
+				20.0
+		[/then]
+	[/multiple then]
+	[if]
+		[module]
+			`[pvp type]`
+		[/module]
+		[attack success effect animation]
+			2
+			`Common/Etc/Animation/2010na_Body.ani`	0	-160
+			`Common/Etc/Animation/2010na_Effect.ani`	0	-160
+		[attack success]
+			1
+		[cooltime]
+			70000
+	[/if]
+	[multiple then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				4
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				5
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				6
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				7
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				8
+			[then probability]
+				20.0
+		[/then]
+	[/multiple then]
+	[if]
+		[module]
+			`[pvp type]`
+		[/module]
+		[attack success effect animation]
+			2
+			`Common/Etc/Animation/2010na_Body.ani`	0	-160
+			`Common/Etc/Animation/2010na_Effect.ani`	0	-160
+		[casting]
+			1
+		[cooltime]
+			70000
+	[/if]
+	[multiple then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				4
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				5
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				6
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				7
+			[then probability]
+				20.0
+		[/then]
+		[then]
+			[target]
+				`myself`	-1
+			[probability]
+				1
+			[aura]
+				8
+			[then probability]
+				20.0
+		[/then]
+	[/multiple then]
+[/set ability]

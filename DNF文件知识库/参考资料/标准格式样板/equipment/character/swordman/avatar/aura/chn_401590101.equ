@@ -1,0 +1,99 @@
+#PVF_File
+
+[name]
+	`仗剑万里行`
+
+[explain]
+	`最终伤害 +5%%`
+
+[flavor text]
+	`豪侠之怒， 十步伏尸。 万里之行， 无人可挡。`
+
+[grade]
+	2
+
+[usable job]
+	`[all]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/aura_cn.img`	89
+
+[move wav]
+	`BONE_TOUCH`
+
+[aura ability]
+	`[solo teleport]`	10
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[aura hud icon]
+	312
+
+[physical attack]
+	100
+
+[physical defense]
+	100
+
+[magical attack]
+	100
+
+[magical defense]
+	100
+
+[equipment magical attack]
+	70	70
+
+[equipment physical attack]
+	70	70
+
+[separate attack]
+	70	70
+
+[physical critical hit]
+	10.0
+
+[magical critical hit]
+	10.0
+
+[all elemental attack]
+	25
+
+[room list move speed rate]
+	0.3
+
+[attack speed]
+	50
+
+[cast speed]
+	50
+
+[move speed]
+	50
+
+[skill data up]
+	`[swordman]`	169	`[dungeon type]`	`[level]`	0	`+`	50
+	`[fighter]`	169	`[dungeon type]`	`[level]`	0	`+`	50
+	`[gunner]`	169	`[dungeon type]`	`[level]`	0	`+`	50
+	`[mage]`	169	`[dungeon type]`	`[level]`	0	`+`	50
+	`[priest]`	169	`[dungeon type]`	`[level]`	0	`+`	50
+	`[at gunner]`	169	`[dungeon type]`	`[level]`	0	`+`	50
+	`[thief]`	169	`[dungeon type]`	`[level]`	0	`+`	50
+	`[at fighter]`	169	`[dungeon type]`	`[level]`	0	`+`	50
+	`[at mage]`	169	`[dungeon type]`	`[level]`	0	`+`	50
+	`[demonic swordman]`	169	`[dungeon type]`	`[level]`	0	`+`	50
+	`[creator mage]`	169	`[dungeon type]`	`[level]`	0	`+`	50
+[/skill data up]
+
+[aurora graphic effects]
+	2
+	0	`Character/Common/Animation/Aura/chn_2021_chivarly_system3/Chivalry_S3_Bottom_00.ani`
+	1	`Character/Common/Animation/Aura/chn_2021_chivarly_system3/Chivalry_S3_Text.ani`

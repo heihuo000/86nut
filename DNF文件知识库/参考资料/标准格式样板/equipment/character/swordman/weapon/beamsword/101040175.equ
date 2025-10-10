@@ -1,0 +1,202 @@
+#PVF_File
+
+[name]
+	`巴塔路西斯的爆炎剑`
+
+[basic explain]
+	`    攻击时， 有2%%的几率使敌人进入灼伤状态。
+    攻击灼伤状态的敌人时， 附加10%%的伤害。`
+
+[detail explain]
+	`    攻击时， 有2%%的几率使敌人进入灼伤状态7秒； 灼伤状态下的敌人， 每0.5秒会受到140点伤害。 (冷却时间3秒)
+    攻击灼伤状态的敌人时， 附加10%%的伤害。`
+
+[grade]
+	39
+
+[rarity]
+	3
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[icon mark]
+	`Item/IconMark.img`	66
+
+[minimum level]
+	35
+
+[physical attack]
+	28
+
+[attack speed]
+	100
+
+[stuck]
+	1.0
+
+[need material]
+	10149508	50
+
+[price]
+	70200
+
+[repair price]
+	56160
+
+[value]
+	56160
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	353	316
+
+[equipment magical attack]
+	342	306
+
+[separate attack]
+	220	145
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	117
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	37	0
+
+[layer variation]
+	2790
+	`beamswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`beamswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	37	0
+
+[layer variation]
+	2790
+	`beamswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`beamswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[item category]
+	`boss drop`
+[/item category]
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		2
+	[duration]
+		7000
+	[active status]
+		`burn`	39	1960	0	1	0
+[/then]
+
+[if]
+	[attack success]
+		1
+	[target active status]
+		`burn`
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	35	0
+
+[layer variation]
+	2150
+	`at_beamswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_beamswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_beamswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

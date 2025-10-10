@@ -1,0 +1,192 @@
+#PVF_File
+
+[name]
+	`寒凌冰魄剑`
+
+[basic explain]
+	`[魔剑奥义]技能Lv +1
+ 
+    攻击时， 有3%%的几率使队员的武器属性变成冰属性， 效果持续30秒。`
+
+[grade]
+	54
+
+[rarity]
+	3
+
+[icon mark]
+	`item/iconmark.img`	66
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	50
+
+[magical attack]
+	42
+
+[need material]
+	10149508	88
+
+[cast speed]
+	20
+
+[price]
+	86400
+
+[repair price]
+	69120
+
+[value]
+	69120
+
+[equipment physical attack]
+	475	437
+
+[equipment magical attack]
+	575	529
+
+[separate attack]
+	299	200
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	21	1
+	`[swordman]`	36	1
+	`[creator mage]`	14	1
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	78
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	17	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	17	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[water element]`
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`party`	-1
+	[probability]
+		3
+	[duration]
+		30000
+	[elemental weapon]
+		`water`
+[/then]
+
+[routing priority]
+	`swordman`	2
+	`swordman`	4
+	`demonic swordman`	0
+[/routing priority]
+
+[item category]
+	`boss drop`
+[/item category]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	17	0
+
+[layer variation]
+	2150
+	`at_sswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_sswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_sswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

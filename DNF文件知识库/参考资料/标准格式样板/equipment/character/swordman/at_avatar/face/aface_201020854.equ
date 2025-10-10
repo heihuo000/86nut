@@ -1,0 +1,70 @@
+#PVF_File
+
+[name]
+	`光明剑舞天鸣耳坠`
+
+[grade]
+	3
+
+[rarity]
+	2
+
+[part set index]
+	3
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[free]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_aface.img`	311
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+	0	0	0	4500	2
+	`[B socket]`	`[B socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	36
+	`[ATTACK_SPEED]`	`+`	60
+	`[HIT_RECOVERY]`	`+`	200
+[/avatar select ability]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	93	1
+
+[layer variation]
+	2700
+	`face_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1925
+	`face_c`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`NECKLACE_TOUCH`
+
+[icon mark]
+	`Item/IconMark.img`	64

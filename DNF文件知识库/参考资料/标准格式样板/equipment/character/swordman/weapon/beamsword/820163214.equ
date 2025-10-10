@@ -1,0 +1,408 @@
+#PVF_File
+
+[name]
+	`dnf乘离剑.EA-烈焰
+【大佬定制】`
+
+[basic explain]
+	`   所有技能攻击力+100%%
+   攻击时,以 10%%的机率施展火焰龙息（冷却5秒）
+   攻击时，使300px 范围内的敌人进入灼伤状态。
+   对灼伤状态下敌人的伤害增加80%%
+   攻击时，有1%%几率使自身增加150点力量、智力、体力和精神，增加15%%攻击、施放和移动速度，效果持续30秒。（冷却30秒）`
+
+[grade]
+	99
+
+[rarity]
+	4
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	95
+
+[physical attack]
+	250
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[repair price]
+	34560
+
+[value]
+	34560
+
+[equipment physical attack]
+	2000	1900
+
+[equipment magical attack]
+	2000	1900
+
+[separate attack]
+	1000	900
+
+[physical critical hit]
+	50
+
+[magical critical hit]
+	50
+
+[all elemental attack]
+	150
+
+[price]
+	1000000
+
+[need material]
+	3242	10000
+
+[icon]
+	`Item/awwb01.img`	53
+
+[field image]
+	`Item/awwb01.img`	1
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	80	4
+
+[layer variation]
+	2790
+	`beamswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`beamswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	80	4
+
+[layer variation]
+	2790
+	`beamswdc`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	650
+	`beamswdb`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/dsswordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	55
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[fire element]`
+
+[all skill item]
+	[item growtype]
+		`[all]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			10
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[command]
+[/command]
+
+[skill data up]
+	`[swordman]`	46	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	5	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	16	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	11	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	25	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	1	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	17	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	12	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	13	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	14	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	15	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	65	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	58	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	64	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	77	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	8	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	20	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	4	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	37	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	27	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	67	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	49	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	39	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	105	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	38	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	107	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	108	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	3	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	7	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	68	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	110	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	109	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	9	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	72	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	73	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	91	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	86	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	98	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	97	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	30	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	41	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	29	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	73	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	84	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	80	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	18	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	6	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	111	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	36	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	44	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	112	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	75	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	60	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	82	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	89	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	87	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	96	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	95	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	76	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	34	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	31	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	40	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	24	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	23	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	79	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	103	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	81	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	85	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	90	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	102	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	90	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	47	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	55	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	2	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	50	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	32	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	51	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	53	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	21	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	52	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	22	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	62	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	57	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	74	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	88	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	92	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	100	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	99	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	216	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	214	`[all]`	`[level]`	0	`%`	100
+	`[swordman]`	213	`[all]`	`[level]`	0	`%`	100
+[/skill data up]
+
+[if]
+	[cooltime]
+		30000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		30000
+	[probability]
+		1
+	[stat]
+		`physical attack`
+		`+`	150
+	[stat]
+		`magical attack`
+		`+`	150
+	[stat]
+		`physical defense`
+		`+`	150
+	[stat]
+		`magical defense`
+		`+`	150
+	[stat]
+		`attack speed`
+		`+`	150
+	[stat]
+		`cast speed`
+		`+`	150
+	[stat]
+		`move speed`
+		`+`	150
+[/then]
+
+[if]
+	[cooltime]
+		100
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`all enemy`	300
+	[duration]
+		6000
+	[probability]
+		100
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`burn`	100	170000	100	1	200000
+[/then]
+
+[if]
+	[target active status]
+		`burn`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	80
+[/then]
+
+[if]
+	[cooltime]
+		3000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[probability]
+		10
+	[passive object]
+		48225	0	0	0	100	0	``
+	[/passive object]
+[/then]
+
+[icon mark]
+	`Item/awwb01.img`	2
+
+[spectrum]
+	255	0	0	200	1000
+
+[possible kiri protect]

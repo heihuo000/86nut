@@ -1,0 +1,87 @@
+#PVF_File
+
+[name]
+	`鬼剑士的像素帽子`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_acap.img`	578
+
+[equipment type]
+	`[hat avatar]`	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	4
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	195	0
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	195	0
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[avatar select ability]
+	`[CAST_SPEED]`	`+`	140
+	`[MAGICAL_ATTACK]`	`+`	55
+	`[MAGICAL_DEFENSE]`	`+`	55
+	`[HP_REGENRATE]`	`+`	75
+	`[MP_REGENRATE]`	`+`	15
+[/avatar select ability]
+
+[physical attack]
+	15
+
+[magical attack]
+	15
+
+[physical defense]
+	15
+
+[magical defense]
+	15
+
+[hide equipment]
+	`[hair avatar]`
+	`[face avatar]`
+[/hide equipment]
+
+[hide layer]
+	2000	800	2400	400	2820	20	2700	260	1925	2830	2750	270
+[/hide layer]

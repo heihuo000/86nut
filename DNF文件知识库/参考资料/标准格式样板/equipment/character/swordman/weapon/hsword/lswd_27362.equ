@@ -1,0 +1,192 @@
+#PVF_File
+
+[name]
+	`卡赞的诅咒[网咖]`
+
+[basic explain]
+	`攻击时以 3%% 的机率让敌人呈现出血状态
+自己出血状态时攻击力增加50%% 
+不可强化、增幅、提炼、解体、送礼、仓库储存`
+
+[detail explain]
+	`攻击时以3%%的机率10秒内让敌人呈现出血状态， 每0.5秒以65的攻击力给予伤害。 （高于Lv30的对象得到的机率减少， 低于Lv30的对象则会增加。）
+自己出血状态时攻击力增加 50%%。
+不可强化、增幅、提炼、解体、送礼、仓库储存`
+
+[flavor text]
+	`    它被卡赞诅咒了， 是一把嗜血的魔剑......`
+
+[grade]
+	34
+
+[rarity]
+	3
+
+[icon mark]
+	`item/iconmark.img`	66
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade delete]`
+
+[minimum level]
+	30
+
+[physical attack]
+	25
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[price]
+	61200
+
+[repair price]
+	48960
+
+[value]
+	48960
+
+[equipment physical attack]
+	408	360
+
+[equipment magical attack]
+	306	270
+
+[separate attack]
+	196	130
+
+[skill levelup]
+	`[swordman]`	40	2
+	`[swordman]`	64	2
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	18
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		15000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		10000
+	[probability]
+		3
+	[active status]
+		`bleeding`	30	1300
+[/then]
+
+[impossible contents]
+	`upgrade`
+	`amplify upgrade`
+	`disjoint`
+	`gift`
+	`separate upgrade`
+	`charac cargo`
+[/impossible contents]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2150
+	`at_lswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_lswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

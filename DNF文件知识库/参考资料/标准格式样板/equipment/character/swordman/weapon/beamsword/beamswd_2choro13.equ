@@ -1,0 +1,142 @@
+#PVF_File
+
+[name]
+	`加持的残忍之弑光剑 : [猛龙断空斩]`
+
+[name2]
+	`Beamsword of Powerful Fierce Attack : Valiant Dragon Rush`
+
+[basic explain]
+	`[猛龙断空斩]冷却时间 -18%%
+[猛龙断空斩]MP消耗量 -18%%`
+
+[flavor text]
+	`    收集[恶魔结晶]可以对2期勇者装备进行改造， 提升装备的基本攻击力、 防御力和基本属性； Lv70以上的角色可以穿戴。 (需消耗杜罗西处出售的勇者装备改造券)`
+
+[grade]
+	58
+
+[rarity]
+	5
+
+[icon mark]
+	`item/iconmark.img`	65
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[physical attack]
+	45
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[anti evil]
+	16
+
+[repair price]
+	93542
+
+[value]
+	9280
+
+[equipment physical attack]
+	480	458
+
+[equipment magical attack]
+	464	443
+
+[separate attack]
+	287	194
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	37
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	8	0
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[skill data up]
+	`[swordman]`	72	`[dungeon type]`	`[cooltime]`	0	`%`	-18
+	`[swordman]`	72	`[dungeon type]`	`[mp]`	0	`%`	-18
+[/skill data up]
+
+[emancipate]
+	[input]
+		3290	40
+	[/input]
+	[output]
+		540040	1
+	[/output]
+	[emancipate explain]
+		`物攻小幅增加
+魔攻小幅增加
+属性小幅提升
+攻击速度 +2%%`
+[/emancipate]
+
+[possible kiri protect]

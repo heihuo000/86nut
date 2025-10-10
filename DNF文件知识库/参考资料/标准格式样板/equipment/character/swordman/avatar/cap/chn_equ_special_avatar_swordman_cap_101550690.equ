@@ -1,0 +1,74 @@
+#PVF_File
+
+[name]
+	`闪瞎眼的秃头[男鬼剑士]`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_acap.img`	592
+
+[equipment type]
+	`[hat avatar]`	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	203	0
+
+[layer variation]
+	2100
+	`cap_f`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	203	0
+
+[layer variation]
+	2100
+	`cap_f`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[avatar select ability]
+	`[CAST_SPEED]`	`+`	120
+	`[MAGICAL_ATTACK]`	`+`	45
+	`[MAGICAL_DEFENSE]`	`+`	45
+	`[HP_REGENRATE]`	`+`	60
+	`[MP_REGENRATE]`	`+`	12
+[/avatar select ability]
+
+[hide equipment]
+	`[hair avatar]`
+[/hide equipment]
+
+[hide layer]
+	2820	2400	2000	800	400	20
+[/hide layer]

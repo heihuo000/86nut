@@ -1,0 +1,93 @@
+#PVF_File
+
+[name]
+	`褐色悬腰剑`
+
+[name2]
+	`Brown Three Sword`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[icon]
+	`item/avatar/swordman/sm_abelt.img`	70
+
+[equipment type]
+	`[waist avatar]`	0
+
+[minimum level]
+	1
+
+[avatar type select]
+	7	0	0	300	0
+	660	0	0	1250	0
+	0	0	0	288	0
+[/avatar type select]
+
+[sub type]
+	0
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	20	1
+
+[layer variation]
+	1950
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	850
+	`belt_d`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	20	1
+
+[layer variation]
+	1950
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	850
+	`belt_d`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`	`+`	25
+	`[ELEMENT_TOLERANCE_WATER]`	`+`	25
+	`[ELEMENT_TOLERANCE_DARK]`	`+`	25
+	`[ELEMENT_TOLERANCE_LIGHT]`	`+`	25
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`	`+`	40
+	`[INVENTORY_MAX_WEIGHT]`	`+`	9000
+[/avatar select ability]

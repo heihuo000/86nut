@@ -1,0 +1,68 @@
+#PVF_File
+
+[name]
+	`细剑 · 闪烁之光`
+
+[explain]
+	``
+
+[grade]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/katana/katana.img`	143
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar type select]
+	7	0	0	1100	0
+	30	0	0	2200	0
+	0	0	0	4400	0
+	0	0	0	4840	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[move wav]
+	`KATANA_TOUCH`
+
+[attack speed]
+	20
+
+[cast speed]
+	20
+
+[move speed]
+	20
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		51	0
+	[layer variation]
+		2600
+		`katanac`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`katanab`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[expand path]
+		`equipment/character/swordman/weapon/katana/`
+[/expand ani]
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]

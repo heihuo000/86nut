@@ -1,0 +1,86 @@
+#PVF_File
+
+[name]
+	`神器克隆装扮下装 (鬼剑士)`
+
+[explain]
+	`直接穿戴不显示外观； 可以复制穿戴中的同部位装扮款式， 但属性值保留克隆装扮原属性。 如被复制的装扮消失， 则重新登录后外观恢复透明， 反之则维持复制款式。 (拖动或右键点击穿戴装扮图标， 可以解除克隆)`
+
+[rarity]
+	3
+
+[grade]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/IconClone.img`	24
+
+[equipment type]
+	`[pants avatar]`	0
+
+[sub type]
+	0
+
+[avatar type select]
+	7	0	0	1500	0
+	30	0	0	3000	0
+	0	0	0	6000	0
+	0	0	0	6500	3
+	`[S socket]`	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	6
+
+[avatar select ability]
+	`[HP MAX]`	`+`	520
+	`[MP MAX]`	`+`	520
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`	`+`	1140
+	`[SKILL_LEVEL]`	`[swordman]`	5	1
+	`[SKILL_LEVEL]`	`[swordman]`	46	1
+	`[SKILL_LEVEL]`	`[swordman]`	20	1
+	`[SKILL_LEVEL]`	`[swordman]`	11	1
+	`[SKILL_LEVEL]`	`[swordman]`	16	1
+	`[SKILL_LEVEL]`	`[common]`	177	1
+	`[SKILL_LEVEL]`	`[swordman]`	1	1
+	`[SKILL_LEVEL]`	`[swordman]`	8	1
+	`[SKILL_LEVEL]`	`[swordman]`	25	1
+	`[SKILL_LEVEL]`	`[common]`	175	1
+	`[SKILL_LEVEL]`	`[swordman]`	12	1
+	`[SKILL_LEVEL]`	`[swordman]`	13	1
+	`[SKILL_LEVEL]`	`[swordman]`	14	1
+	`[SKILL_LEVEL]`	`[swordman]`	15	1
+	`[SKILL_LEVEL]`	`[common]`	176	1
+	`[SKILL_LEVEL]`	`[common]`	180	1
+	`[SKILL_LEVEL]`	`[swordman]`	64	1
+	`[SKILL_LEVEL]`	`[swordman]`	58	1
+	`[SKILL_LEVEL]`	`[swordman]`	77	1
+	`[SKILL_LEVEL]`	`[swordman]`	65	1
+	`[SKILL_LEVEL]`	`[swordman]`	17	1
+	`[SKILL_LEVEL]`	`[common]`	190	1
+[/avatar select ability]
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	0
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	1
+
+[clear avatar]
+	1
+
+[icon mark]
+	`Item/IconMark.img`	192

@@ -1,0 +1,65 @@
+#PVF_File
+
+[name]
+	`黑色剑舞蹁跹发带 (省赛)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[enable dye]
+	1	0
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_acap.img`	223
+
+[equipment type]
+	`[hat avatar]`	0
+
+[cast speed]
+	130
+
+[physical defense]
+	15
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	84	1
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	700
+	`cap_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	300
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	10
+	`[ATTACK_SPEED]`	`+`	40
+	`[HIT_RECOVERY]`	`+`	100
+[/avatar select ability]

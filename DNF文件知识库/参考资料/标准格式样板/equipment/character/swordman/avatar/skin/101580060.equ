@@ -1,0 +1,72 @@
+#PVF_File
+
+[name]
+	`黄金克隆装扮皮肤 (男鬼剑士)`
+
+[explain]
+	`直接穿戴不显示外观； 可以复制穿戴中的同部位装扮款式， 但属性值保留克隆装扮原属性。 如被复制的装扮消失， 则重新登录后外观恢复透明， 反之则维持复制款式。 (拖动或右键点击穿戴装扮图标， 可以解除克隆)`
+
+[grade]
+	0
+
+[rarity]
+	4
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/iconclone.img`	8
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+	0	0	0	4400	2
+	`[M socket]`	`[M socket]`
+[/avatar type select]
+
+[equipment type]
+	`[skin avatar]`	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar select ability]
+	`[PHYSICAL ABSOLUTE DEFENSE]`	`+`	3.5
+	`[MAGICAL ABSOLUTE DEFENSE]`	`+`	3.5
+[/avatar select ability]
+
+[hit recovery]
+	100
+
+[physical attack]
+	30
+
+[magical attack]
+	30
+
+[physical defense]
+	30
+
+[magical defense]
+	30
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	4
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	5
+
+[clear avatar]
+	1
+
+[part set index]
+	-1

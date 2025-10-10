@@ -1,0 +1,62 @@
+#PVF_File
+
+[name]
+	`稀有克隆装扮脸部 (女鬼剑士)`
+
+[name2]
+	`Rare Face Clone Avatar`
+
+[explain]
+	`    直接穿戴不显示外观； 可以复制穿戴中的同部位装扮款式， 但属性值保留克隆装扮原属性。 如被复制的装扮消失， 则外观恢复透明， 反之则维持复制款式。 (拖动或右键点击穿戴装扮图标， 可以解除克隆)`
+
+[grade]
+	3
+
+[attach type]
+	`[trade]`
+
+[rarity]
+	2
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[clear avatar]
+	1
+
+[icon]
+	`item/avatar/common/IconClone.img`	11
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	2
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	3
+
+[equipment type]
+	`[face avatar]`	0
+
+[minimum level]
+	1
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1	0
+	0	0	0	4500	2
+	`[B socket]`	`[B socket]`
+[/avatar type select]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	3
+
+[avatar select ability]
+	`[ATTACK_SPEED]`	`+`	60
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	900
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	18
+	`[HIT_RECOVERY]`	`+`	200
+[/avatar select ability]

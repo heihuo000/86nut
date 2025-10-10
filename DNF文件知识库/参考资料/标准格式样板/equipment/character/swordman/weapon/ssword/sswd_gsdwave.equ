@@ -1,0 +1,196 @@
+#PVF_File
+
+[name]
+	`G.S.D的究极波动刃`
+
+[name2]
+	`Ultimate Wave Sword of  G.S.D`
+
+[basic explain]
+	`[冰刃·波动剑]小冰柱持续时间 +5%%
+[冰刃·波动剑]小冰柱生成数 +2%%
+[冰刃·波动剑]冰冻几率 +100%%
+[格挡]无冷却时间
+[招架]无冷却时间
+[自动格挡]冷却时间 +50%%
+[自动格挡]发动几率 +100%
+[自动格挡]持续时间 +50%%
+[自动招架]冷却时间 +50%%
+[自动招架]发动几率 +100%
+[自动招架]持续时间 +50%%
+[逆转反击]施放几率 +100%%
+[暗天波动眼]冷却时间增加1万倍
+[暗天波动眼]持续时间增加1万倍
+[波动眼·天照]冷却时间 -2.5秒
+[波动剑·光翼]冷却时间 -1秒
+[波动剑·闪枪]冷却时间 -3秒`
+
+[grade]
+	57
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[creation rate]
+	125
+
+[minimum level]
+	50
+
+[magical attack]
+	39
+
+[cast speed]
+	20
+
+[price]
+	91200
+
+[repair price]
+	76608
+
+[value]
+	72960
+
+[equipment physical attack]
+	505	460
+
+[equipment magical attack]
+	612	557
+
+[separate attack]
+	328	220
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	32
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2790
+	`bswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`bswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2790
+	`bswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`bswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	21	`[all]`	`[level]`	0	`%`	500
+	`[swordman]`	21	`[all]`	`[level]`	1	`%`	200
+	`[swordman]`	21	`[all]`	`[level]`	4	`+`	1000
+	`[swordman]`	21	`[all]`	`[level]`	5	`+`	5
+	`[swordman]`	3	`[all]`	`[cooltime]`	0	`%`	50
+	`[swordman]`	3	`[all]`	`[level]`	0	`+`	100
+	`[swordman]`	3	`[all]`	`[level]`	1	`%`	50
+	`[swordman]`	7	`[all]`	`[level]`	0	`+`	100
+	`[swordman]`	88	`[all]`	`[cooltime]`	0	`%`	1000000
+	`[swordman]`	88	`[all]`	`[level]`	13	`%`	1000000
+	`[swordman]`	88	`[all]`	`[static]`	6	`+`	-2500
+	`[swordman]`	88	`[all]`	`[level]`	12	`+`	-1000
+	`[swordman]`	88	`[all]`	`[static]`	8	`+`	-3000
+	`[swordman]`	1	`[all]`	`[cooltime]`	0	`+`	-2000
+	`[creator mage]`	85	`[all]`	`[cooltime]`	0	`+`	-2000
+	`[creator mage]`	126	`[all]`	`[cooltime]`	0	`%`	50
+	`[creator mage]`	126	`[all]`	`[level]`	0	`+`	100
+	`[creator mage]`	126	`[all]`	`[level]`	1	`%`	50
+[/skill data up]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	1	1
+
+[layer variation]
+	2150
+	`at_bswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_bswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_bswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[need material]
+	19100131	1

@@ -1,0 +1,193 @@
+#PVF_File
+
+[name]
+	`夺命毒龙剑`
+
+[name2]
+	`Venom Slayer`
+
+[basic explain]
+	`[蛇腹剑 : 缠]技能Lv +1
+[人剑合一]技能Lv +1
+ 
+攻击时， 有3%%的几率使敌人进入中毒状态。`
+
+[detail explain]
+	`    攻击时， 有3%%的几率使敌人进入中毒状态7秒； 中毒状态下的敌人， 每0.5秒受到135点伤害。 (若敌人高于Lv40， 则减少进入异常状态的几率； 反之， 则增加几率)`
+
+[flavor text]
+	`    含有猛毒气息的巨剑。`
+
+[grade]
+	42
+
+[rarity]
+	2
+
+[icon mark]
+	`item/iconmark.img`	64
+
+[creation rate]
+	250
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	40
+
+[physical attack]
+	27
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[price]
+	67200
+
+[repair price]
+	53760
+
+[value]
+	53760
+
+[equipment physical attack]
+	446	427
+
+[equipment magical attack]
+	335	320
+
+[separate attack]
+	183	122
+
+[skill levelup]
+	`[swordman]`	31	1
+	`[swordman]`	38	1
+	`[creator mage]`	152	1
+	`[creator mage]`	146	1
+[/skill levelup]
+
+[Force Result Item Rule]
+	0	500
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	24
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	1	5
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	1	5
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[cooltime]
+		12600
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		3
+	[active status]
+		`poison`	40	1900
+[/then]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	1	5
+
+[layer variation]
+	2150
+	`at_lswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_lswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

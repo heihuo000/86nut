@@ -1,0 +1,154 @@
+#PVF_File
+
+[name]
+	`冬季雪人套 - 男鬼剑`
+
+[explain]
+	`- 所有技能冷却-10%%。
+- 所有技能攻击力+10%%。
+- Lv1 ~ Lv70级技能 +1。`
+
+[flavor text]
+	`<冬季雪人套>`
+
+[grade]
+	1
+
+[price]
+	2500000
+
+[value]
+	5
+
+[usable period]
+	3
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[icon]
+	`item/qq1908455896/kai.img`	0
+
+[equipment type]
+	`[skin avatar]`	0
+
+[avatar select ability]
+	`[PHYSICAL ABSOLUTE DEFENSE]`	`+`	5.0
+	`[MAGICAL ABSOLUTE DEFENSE]`	`+`	5.0
+[/avatar select ability]
+
+[room list move speed rate]
+	0.8
+
+[inventory limit]
+	4693000
+
+[attack speed]
+	150
+
+[cast speed]
+	150
+
+[move speed]
+	150
+
+[stuck]
+	-10
+
+[stuck resistance]
+	100
+
+[all skill item]
+	[item growtype]
+		`[all]`	3
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`skill cool time`
+		`%`	-10
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	10
+	[stat by condition]
+		`magical attack bonus`
+		`%`	10
+	[stat by condition]
+		`separate attack`
+		`%`	10
+[/then]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	77
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	77
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[hide equipment]
+	`[hat avatar]`
+	`[hair avatar]`
+	`[face avatar]`
+	`[breast avatar]`
+	`[coat avatar]`
+	`[pants avatar]`
+	`[waist avatar]`
+	`[shoes avatar]`
+[/hide equipment]
+
+[hide layer]
+	2880	2870	2860	2850	2840	2830	2820	2810	2780	2750	2700	2500	2400	2350	2300	2251	2200	2125	2100	2000	1975	1963	1951	1950	1925	1900	1850	1800	1700	1650	1601	1600	1501	1500	1450	1400	1300	1200	1151	1150	1100	1000	925	900	851	850	825	800	750	700	600	550	500	400	300	150	100	20	0
+[/hide layer]

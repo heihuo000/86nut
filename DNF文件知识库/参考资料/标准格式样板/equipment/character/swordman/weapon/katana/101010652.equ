@@ -1,0 +1,216 @@
+#PVF_File
+
+[name]
+	`炽炎炼魂太刀`
+
+[basic explain]
+	`[破极兵刃]武器攻击力增加率 +10%%
+[鬼影步]基本攻击力和技能攻击力增加率 +10%%
+[双魂共鸣]暴击伤害增加率 +10%%
+[黑暗释放]基本攻击力和技能攻击力增加率 +10%%
+[人剑合一]暴击伤害追加比率 +10%%
+[追踪术]基本攻击力和技能攻击力增加率 +10%%
+ 
+    暴击时， 额外增加20%%的伤害增加量。
+    装备时， 每4秒强化增加4点火属性强化。
+`
+
+[detail explain]
+	`[破极兵刃]武器攻击力增加率 +10%%
+[鬼影步]基本攻击力和技能攻击力增加率 +10%%
+[双魂共鸣]暴击伤害增加率 +10%%
+[黑暗释放]基本攻击力和技能攻击力增加率 +10%%
+[人剑合一]暴击伤害追加比率 +10%%
+[追踪术]基本攻击力和技能攻击力增加率 +10%%
+ 
+    暴击时， 额外增加20%%的伤害增加量。
+    装备时， 每4秒强化增加4点火属性强化。 (最多重叠5次)`
+
+[grade]
+	90
+
+[rarity]
+	4
+
+[maximum level]
+	998
+
+[icon mark]
+	`item/iconmark.img`	67
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[need material]
+	19100131	1
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	62
+
+[magical attack]
+	92
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[price]
+	144000
+
+[repair price]
+	115200
+
+[value]
+	115200
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	865	773
+
+[equipment magical attack]
+	956	855
+
+[separate attack]
+	552	363
+
+[physical critical hit]
+	2
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/katana/katana.img`	149
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	55	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	55	0
+
+[layer variation]
+	2790
+	`katanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`katanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[fire element]`
+
+[if]
+	[time]
+		4000	1	0
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		0
+	[appendage]
+		452
+[/then]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	52	0
+
+[layer variation]
+	2150
+	`at_katanaa`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_katanab`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_katanax`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[skill data up]
+	`[all]`	254	`[dungeon type]`	`[level]`	27	`+`	34
+	`[all]`	254	`[dungeon type]`	`[level]`	28	`+`	34
+	`[swordman]`	38	`[dungeon type]`	`[level]`	2	`%`	10
+	`[swordman]`	69	`[dungeon type]`	`[level]`	5	`+`	10
+	`[swordman]`	18	`[dungeon type]`	`[level]`	10	`+`	100
+	`[creator mage]`	228	`[dungeon type]`	`[level]`	0	`+`	100
+	`[creator mage]`	146	`[dungeon type]`	`[level]`	1	`+`	100
+	`[demonic swordman]`	235	`[dungeon type]`	`[level]`	3	`+`	100
+[/skill data up]

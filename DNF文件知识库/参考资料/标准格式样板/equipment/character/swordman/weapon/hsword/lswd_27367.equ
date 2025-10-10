@@ -1,0 +1,194 @@
+#PVF_File
+
+[name]
+	`魔之密语巨剑`
+
+[basic explain]
+	`攻击速度 +3%%
+    攻击时， 附加8000点伤害。 (在决斗场中无效)
+    攻击时， 有10%%的几率出现冥炎之卡洛。 (在决斗场中无效)`
+
+[detail explain]
+	`攻击速度 +3%%
+    攻击时， 附加8000点伤害。 (在决斗场中无效)
+    攻击时， 有10%%的几率出现冥炎之卡洛， 并且每秒造成400点暗属性伤害， 效果持续10秒。 (在决斗场中无效)`
+
+[grade]
+	75
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	70
+
+[physical attack]
+	50
+
+[attack speed]
+	-60
+
+[cast speed]
+	-20
+
+[price]
+	135000
+
+[repair price]
+	113400
+
+[value]
+	108000
+
+[equipment physical attack]
+	811	754
+
+[equipment magical attack]
+	608	565
+
+[separate attack]
+	441	299
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	103
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	23	2
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	23	2
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`+`	8000
+[/then]
+
+[if]
+	[cooltime]
+		15000
+	[event attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		6
+	[duration]
+		20000
+	[passive object]
+		48304	0	0	0	0	0	``
+	[/passive object]
+[/then]
+
+[routing priority]
+	`swordman`	3
+	`demonic swordman`	0
+[/routing priority]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	23	2
+
+[layer variation]
+	2150
+	`at_lswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_lswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

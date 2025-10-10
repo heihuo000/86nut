@@ -1,0 +1,74 @@
+#PVF_File
+
+[name]
+	`黑色剑舞蹁跹裤子 (省赛)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[enable dye]
+	1	0
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_apants.img`	203
+
+[equipment type]
+	`[pants avatar]`	0
+
+[sub type]
+	0
+
+[HP MAX]
+	250
+
+[hit recovery]
+	25
+
+[attack speed]
+	5
+
+[cast speed]
+	10
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	63	0
+
+[layer variation]
+	1500
+	`pants_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1300
+	`pants_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	300
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	10
+	`[ATTACK_SPEED]`	`+`	40
+	`[HIT_RECOVERY]`	`+`	100
+[/avatar select ability]

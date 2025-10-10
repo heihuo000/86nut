@@ -1,0 +1,78 @@
+#PVF_File
+
+[name]
+	`极诣·流浪武士剑星腰饰[银色款]`
+
+[flavor text]
+	`<2023春节礼包>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_abelt.img`	404
+
+[equipment type]
+	`[waist avatar]`	0
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	107	4
+
+[layer variation]
+	1951
+	`belt_g`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1950
+	`belt_c`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1100
+	`belt_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	851
+	`belt_h`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	202388
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`	`+`	25
+	`[ELEMENT_TOLERANCE_WATER]`	`+`	25
+	`[ELEMENT_TOLERANCE_DARK]`	`+`	25
+	`[ELEMENT_TOLERANCE_LIGHT]`	`+`	25
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`	`+`	45
+	`[INVENTORY_MAX_WEIGHT]`	`+`	9000
+[/avatar select ability]
+
+[enable dye]
+	1	0

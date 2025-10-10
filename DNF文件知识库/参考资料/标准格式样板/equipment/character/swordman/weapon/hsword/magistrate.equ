@@ -1,0 +1,202 @@
+#PVF_File
+
+[name]
+	`裁决刃 - 国殇`
+
+[name2]
+	`Magistrate`
+
+[basic explain]
+	`[恶即斩]技能Lv +1
+[唤魔 : 蛇腹剑]技能Lv +1
+[毁灭之巨剑精通]技能Lv +1
+[魔剑控制]技能Lv +2
+ 
+攻击时， 有1%%的几率出现驱散效果。`
+
+[detail explain]
+	`[毁灭之巨剑精通]技能Lv +1
+ 
+    攻击时， 有1%%的几率驱散敌人身上的所有有益状态和Buff。`
+
+[flavor text]
+	`    诚既勇兮又以武 
+    终刚强兮不可凌 
+    身既死兮神以灵 
+    魂魄毅兮为鬼雄`
+
+[grade]
+	56
+
+[rarity]
+	3
+
+[icon mark]
+	`item/iconmark.img`	66
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[need material]
+	19100131	1
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	50
+
+[physical attack]
+	38
+
+[attack speed]
+	-90
+
+[cast speed]
+	-20
+
+[price]
+	100800
+
+[repair price]
+	84672
+
+[value]
+	80640
+
+[creation rate]
+	500
+
+[equipment physical attack]
+	619	571
+
+[equipment magical attack]
+	464	428
+
+[separate attack]
+	311	208
+
+[physical critical hit]
+	3
+
+[skill levelup]
+	`[swordman]`	73	1
+	`[swordman]`	76	2
+	`[swordman]`	14	1
+	`[creator mage]`	12	1
+	`[creator mage]`	136	1
+	`[creator mage]`	148	1
+	`[creator mage]`	154	2
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/lswd.img`	31
+
+[field image]
+	`Item/FieldImage.img`	13
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	2	5
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	2	5
+
+[layer variation]
+	2790
+	`lswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	3
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	4000
+
+[item group name]
+	`lswd`
+
+[cool time]
+	10000
+
+[if]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		1
+	[disenchant]
+		1
+[/then]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	2	5
+
+[layer variation]
+	2150
+	`at_lswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_lswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

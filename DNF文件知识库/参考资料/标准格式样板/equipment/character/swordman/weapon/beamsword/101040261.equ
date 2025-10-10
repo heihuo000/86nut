@@ -1,0 +1,209 @@
+#PVF_File
+
+[name]
+	`密制爆裂光剑`
+
+[basic explain]
+	`[花舞千魂杀]技能Lv +2
+[游龙掌]技能Lv +2`
+
+[grade]
+	87
+
+[rarity]
+	2
+
+[icon mark]
+	`Item/IconMark.img`	64
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	85
+
+[physical attack]
+	54
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[price]
+	139200
+
+[repair price]
+	111360
+
+[value]
+	111360
+
+[creation rate]
+	187
+
+[equipment physical attack]
+	738	720
+
+[equipment magical attack]
+	715	697
+
+[separate attack]
+	387	263
+
+[skill levelup]
+	`[swordman]`	73	2
+	`[swordman]`	9	2
+	`[creator mage]`	220	2
+	`[creator mage]`	216	2
+[/skill levelup]
+
+[Force Result Item Rule]
+	1	0
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/beamswd/beamswd.img`	118
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	23	7
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	23	7
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	48
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	23	7
+
+[layer variation]
+	2151
+	`at_beamswda1`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	2152
+	`at_beamswda2`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	651
+	`at_beamswdb1`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	652
+	`at_beamswdb2`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_beamswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

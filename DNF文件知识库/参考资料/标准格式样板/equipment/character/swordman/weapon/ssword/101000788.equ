@@ -1,0 +1,195 @@
+#PVF_File
+
+[name]
+	`誓约之缚短剑`
+
+[basic explain]
+	`攻击时， 附加24%%的伤害。`
+
+[grade]
+	95
+
+[rarity]
+	4
+
+[maximum level]
+	998
+
+[icon mark]
+	`item/iconmark.img`	67
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	95
+
+[magical attack]
+	68
+
+[cast speed]
+	20
+
+[anti evil]
+	300
+
+[need material]
+	10305787	400
+[/need material]
+
+[price]
+	160000
+
+[repair price]
+	128000
+
+[value]
+	128000
+
+[creation rate]
+	0
+
+[equipment physical attack]
+	963	868
+
+[equipment magical attack]
+	1166	1051
+
+[separate attack]
+	617	407
+
+[physical critical hit]
+	10
+
+[magical critical hit]
+	12
+
+[all elemental attack]
+	17
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/sswd/sswd.img`	168
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	55	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	55	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	54	0
+
+[layer variation]
+	2150
+	`at_sswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_sswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_sswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`SWDB_TOUCH`
+
+[durability]
+	45
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[all skill item container]
+	[all skill item]
+		[item growtype]
+			`[all]`	0
+		[skill apply condition]
+			[skill group]
+				`[all]`
+			[lower bound level]
+				1
+			[upper bound level]
+				70
+			[value]
+				1
+			[extra condition]
+				`[except for ex skill]`
+			[/extra condition]
+		[/skill apply condition]
+		[skill phase]
+			`[all]`
+	[/all skill item]
+[/all skill item container]
+
+[skill data up]
+	`[all]`	169	`[dungeon type]`	`[static]`	5	`+`	24
+[/skill data up]
+
+[possible kiri protect]

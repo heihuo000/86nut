@@ -1,0 +1,73 @@
+#PVF_File
+
+[name]
+	`粉红色吉祥猪面具 (鬼剑士)`
+
+[name2]
+	`Pink Fortune Pig Mask`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[icon]
+	`item/avatar/swordman/sm_acap.img`	82
+
+[equipment type]
+	`[hat avatar]`	0
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1	0
+	0	0	0	4500	2
+	`[A socket]`	`[A socket]`
+[/avatar type select]
+
+[minimum level]
+	1
+
+[sub type]
+	0
+
+[hide equipment]
+	`[hair avatar]`
+[/hide equipment]
+
+[hide layer]
+	2820	2400	2000	800	400
+[/hide layer]
+
+[HP regen speed]
+	40
+
+[MP regen speed]
+	8
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	26	1
+
+[layer variation]
+	2500
+	`cap_c`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	2

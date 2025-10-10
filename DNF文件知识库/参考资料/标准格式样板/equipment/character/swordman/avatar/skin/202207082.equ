@@ -1,0 +1,109 @@
+#PVF_File
+
+[name]
+	`机甲龙袍-男鬼剑士(皮肤版)`
+
+[grade]
+	3
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`character/swordman/equipment/avatar/skin/100.img`	1
+
+[equipment type]
+	`[skin avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+[/avatar type select]
+
+[sub type]
+	0
+
+[avatar func filter]
+	2
+
+[hit recovery]
+	90
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	99101
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	99101
+
+[avatar select ability]
+	`[PHYSICAL ABSOLUTE DEFENSE]`	`+`	3.5
+	`[MAGICAL ABSOLUTE DEFENSE]`	`+`	3.5
+[/avatar select ability]
+
+[hide equipment]
+	`[hat avatar]`
+	`[hair avatar]`
+	`[face avatar]`
+	`[breast avatar]`
+	`[coat avatar]`
+	`[pants avatar]`
+	`[waist avatar]`
+	`[shoes avatar]`
+[/hide equipment]
+
+[hide layer]
+	2880	2870	2860	2850	2840	2830	2820	2810	2780	2750	2700	2500	2400	2350	2300	2251	2200	2125	2100	2000	1975	1963	1951	1950	1925	1900	1850	1800	1700	1650	1601	1600	1501	1500	1450	1400	1300	1200	1151	1150	1100	1000	925	900	851	850	825	800	750	700	600	550	500	400	300	270	260	20	0	2780	2200	1975	1000	600	290	2781	2201	1976	1960	1901	1001	601	291	1952
+[/hide layer]
+
+[command]
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(RIGHT)`}
+	{8=`,`}
+	{6=`(BUFF)`}
+[/command]
+
+[if]
+	[use command]
+		1
+	[cooltime]
+		2
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[duration]
+		600000
+	[replace avatar ani]
+		`[hat avatar]`	-1
+		`[hair avatar]`	-1
+		`[face avatar]`	-1
+		`[shoes avatar]`	-1
+		`[breast avatar]`	-1
+		`[waist avatar]`	-1
+		`[coat avatar]`	-1
+		`[pants avatar]`	-1
+		`[skin avatar]`	202207083
+	[/replace avatar ani]
+[/then]
+
+[part set index]
+	6

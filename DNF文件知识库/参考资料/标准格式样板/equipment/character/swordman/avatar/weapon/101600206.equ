@@ -1,0 +1,66 @@
+#PVF_File
+
+[name]
+	`雷电之神的黄金巨剑`
+
+[grade]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/lswd/lswd.img`	155
+
+[equipment type]
+	`[face avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+	0	0	0	4500	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[move wav]
+	`SQUARESWD_TOUCH`
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		49	0
+	[layer variation]
+		2600
+		`lswdc`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`lswdb`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[expand path]
+		`equipment/character/swordman/weapon/hsword/`
+	[attack speed]
+		30
+	[cast speed]
+		30
+	[move speed]
+		30
+	[HP MAX]
+		150
+	[spectrum avatar]
+		255	255	255	120	500	0
+[/expand ani]
+
+[int data]
+	654321	3	3	100	30	70	3	100	30	70	3	120	30	70	3	130	30	70	3	100	30	70
+[/int data]

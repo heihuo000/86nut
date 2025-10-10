@@ -1,0 +1,74 @@
+#PVF_File
+
+[name]
+	`可口可乐时装上衣 (鬼剑士3)`
+
+[grade]
+	0
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_acoat.img`	90
+
+[equipment type]
+	`[coat avatar]`	0
+
+[avatar type select]
+	7	0	0	1200	0
+	30	0	0	2400	0
+	0	0	0	4800	0
+[/avatar type select]
+
+[skill levelup]
+	`[swordman]`	46	1
+[/skill levelup]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	29	0
+
+[layer variation]
+	500
+	`coat_d`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	29	0
+
+[layer variation]
+	500
+	`coat_d`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[attack speed]
+	20
+
+[physical critical hit]
+	1

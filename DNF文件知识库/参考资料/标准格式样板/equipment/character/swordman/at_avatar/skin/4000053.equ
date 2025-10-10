@@ -1,0 +1,176 @@
+#PVF_File
+
+[name]
+	`武侠系列-女鬼剑女侠客`
+
+[explain]
+	`-所有技能冷却-5%%。
+-所有技能攻击力+5%%。
+-Lv1 ~ Lv60级技能 +1。`
+
+[flavor text]
+	`无厘头武侠风`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[equipment type]
+	`[skin avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+	0	0	0	4400	2
+	`[M socket]`	`[M socket]`
+[/avatar type select]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	8808
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[avatar func filter]
+	2
+
+[hit recovery]
+	90
+
+[avatar select ability]
+	`[PHYSICAL ABSOLUTE DEFENSE]`	`+`	5.0
+	`[MAGICAL ABSOLUTE DEFENSE]`	`+`	5.0
+[/avatar select ability]
+
+[equipment physical attack]
+	60	60
+
+[equipment magical attack]
+	60	60
+
+[separate attack]
+	60	60
+
+[physical attack]
+	60
+
+[physical defense]
+	60
+
+[magical attack]
+	60
+
+[magical defense]
+	60
+
+[move speed]
+	40
+
+[attack speed]
+	40
+
+[cast speed]
+	40
+
+[physical critical hit]
+	5
+
+[magical critical hit]
+	5
+
+[all elemental attack]
+	30
+
+[room list move speed rate]
+	0.1
+
+[all elemental resistance]
+	30
+
+[all skill item]
+	[item growtype]
+		`[all]`	3
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			60
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`skill cool time`
+		`%`	-5
+[/then]
+
+[if]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[stat by condition]
+		`physical attack bonus`
+		`%`	5
+	[stat by condition]
+		`magical attack bonus`
+		`%`	5
+	[stat by condition]
+		`separate attack`
+		`%`	5
+[/then]
+
+[hide equipment]
+	`[hat avatar]`
+	`[hair avatar]`
+	`[breast avatar]`
+	`[coat avatar]`
+	`[pants avatar]`
+	`[waist avatar]`
+	`[shoes avatar]`
+[/hide equipment]
+
+[hide layer]
+	2880	2870	2860	2850	2840	2830	2820	2810	2780	2750	2700	2500	2400	2350	2300	2251	2200	2125	2100	2000	1975	1963	1951	1950	1925	1900	1850	1800	1700	1650	1601	1600	1501	1500	1450	1400	1300	1200	1151	1150	1100	1000	925	900	851	850	825	800	750	700	600	550	500	400	300	270	260	20	0
+[/hide layer]
+
+[icon]
+	`item/wuxia/wuxiaaaa/wuxia.img`	8

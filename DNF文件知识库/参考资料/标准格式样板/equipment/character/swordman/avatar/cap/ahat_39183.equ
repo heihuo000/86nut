@@ -1,0 +1,75 @@
+#PVF_File
+
+[name]
+	`木罐的头盔(鬼剑士)`
+
+[grade]
+	1
+
+[part set index]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	21
+
+[icon]
+	`item/avatar/swordman/sm_acap.img`	65
+
+[equipment type]
+	`[hat avatar]`	0
+
+[avatar type select]
+	7	0	0	700	0
+	30	0	0	1400	0
+	0	0	0	2800	0
+[/avatar type select]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	20	0
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	20	0
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[hide equipment]
+	`[hair avatar]`
+[/hide equipment]
+
+[hide layer]
+	2820	2400	2000	800	400
+[/hide layer]
+
+[sub type]
+	0
+
+[move wav]
+	`BONE_TOUCH`

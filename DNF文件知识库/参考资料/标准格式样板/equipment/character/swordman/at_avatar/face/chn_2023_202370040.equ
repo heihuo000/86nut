@@ -1,0 +1,72 @@
+#PVF_File
+
+[name]
+	`极诣·流浪武士剑星耳坠[银色款]`
+
+[flavor text]
+	`<2023春节礼包>`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_aface.img`	399
+
+[equipment type]
+	`[face avatar]`	0
+
+[sub type]
+	0
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	105	4
+
+[layer variation]
+	2700
+	`face_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1925
+	`face_c`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	260
+	`face_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[part set index]
+	202388
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	30
+	`[ATTACK_SPEED]`	`+`	55
+	`[HIT_RECOVERY]`	`+`	160
+[/avatar select ability]
+
+[enable dye]
+	1	0

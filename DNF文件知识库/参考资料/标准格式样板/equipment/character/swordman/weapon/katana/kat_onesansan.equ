@@ -1,0 +1,228 @@
+#PVF_File
+
+[name]
+	`十字斩刀 - 闪`
+
+[name2]
+	`One-Sword Way SanSan`
+
+[basic explain]
+	`[拔刀斩]、 [猛龙断空斩]、 [噬灵鬼斩]、 [鬼影闪]、 [破灭斩]、 [瞬影斩]、 [禁魂斩]、 [共鸣 : 鬼灵斩]、 [共鸣 : 离魂一闪]、 [破军旋舞斩]、 [瞬影三绝斩]、 [冲击斩]、 [夜之风]攻击力 +40%%`
+
+[detail explain]
+	`[拔刀斩]、 [猛龙断空斩]、 [噬灵鬼斩]、 [鬼影闪]、 [破灭斩]、 [瞬影斩]、 [禁魂斩]、 [共鸣 : 鬼灵斩]、 [共鸣 : 离魂一闪]、 [破军旋舞斩]、 [瞬影三绝斩]、 [冲击斩]、 [夜之风]攻击力 +40%% (在决斗场中 +20%%)`
+
+[flavor text]
+	`    真正的剑士， 用一把剑就可以斩断所有阻碍！  ——短剑达人巴恩领悟了剑之奥义后说`
+
+[grade]
+	62
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[need material]
+	2749095	15
+
+[creation rate]
+	125
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[physical attack]
+	42
+
+[magical attack]
+	63
+
+[attack speed]
+	80
+
+[cast speed]
+	40
+
+[stuck]
+	1
+
+[price]
+	99200
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[equipment physical attack]
+	543	498
+
+[equipment magical attack]
+	601	550
+
+[separate attack]
+	360	243
+
+[physical critical hit]
+	2
+
+[icon]
+	`Item/weapon/swordman/katana.img`	33
+
+[field image]
+	`Item/FieldImage.img`	11
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2790
+	`lkatanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lkatanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2790
+	`lkatanac`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`lkatanab`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	1
+
+[move wav]
+	`KATANA_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	2800
+
+[item group name]
+	`katana`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	9	`[all]`	`[level]`	0	`%`	40
+	`[swordman]`	72	`[all]`	`[level]`	0	`%`	40
+	`[swordman]`	72	`[all]`	`[level]`	1	`%`	40
+	`[swordman]`	6	`[all]`	`[level]`	0	`%`	40
+	`[swordman]`	6	`[all]`	`[level]`	1	`%`	40
+	`[swordman]`	6	`[all]`	`[level]`	2	`%`	40
+	`[swordman]`	6	`[all]`	`[level]`	3	`%`	40
+	`[swordman]`	60	`[all]`	`[level]`	0	`%`	40
+	`[swordman]`	28	`[all]`	`[level]`	0	`%`	40
+	`[swordman]`	66	`[all]`	`[level]`	0	`%`	40
+	`[swordman]`	66	`[all]`	`[level]`	1	`%`	40
+	`[creator mage]`	134	`[all]`	`[level]`	1	`%`	40
+	`[creator mage]`	240	`[all]`	`[level]`	0	`%`	40
+	`[creator mage]`	133	`[all]`	`[level]`	0	`%`	40
+	`[creator mage]`	247	`[all]`	`[level]`	0	`%`	40
+	`[demonic swordman]`	9	`[all]`	`[level]`	0	`%`	40
+	`[demonic swordman]`	72	`[all]`	`[level]`	0	`%`	40
+	`[demonic swordman]`	72	`[all]`	`[level]`	1	`%`	40
+	`[demonic swordman]`	60	`[all]`	`[level]`	0	`%`	40
+[/skill data up]
+
+[pvp]
+	[skill data up]
+		`[swordman]`	9	`[all]`	`[level]`	0	`%`	20
+		`[swordman]`	72	`[all]`	`[level]`	0	`%`	20
+		`[swordman]`	72	`[all]`	`[level]`	1	`%`	20
+		`[swordman]`	6	`[all]`	`[level]`	0	`%`	20
+		`[swordman]`	6	`[all]`	`[level]`	1	`%`	20
+		`[swordman]`	6	`[all]`	`[level]`	2	`%`	20
+		`[swordman]`	6	`[all]`	`[level]`	3	`%`	20
+		`[swordman]`	60	`[all]`	`[level]`	0	`%`	20
+		`[swordman]`	28	`[all]`	`[level]`	0	`%`	20
+		`[swordman]`	66	`[all]`	`[level]`	0	`%`	20
+		`[swordman]`	66	`[all]`	`[level]`	1	`%`	20
+		`[creator mage]`	134	`[all]`	`[level]`	1	`%`	20
+		`[creator mage]`	240	`[all]`	`[level]`	0	`%`	20
+		`[creator mage]`	133	`[all]`	`[level]`	0	`%`	20
+		`[creator mage]`	247	`[all]`	`[level]`	0	`%`	20
+		`[demonic swordman]`	9	`[all]`	`[level]`	0	`%`	20
+		`[demonic swordman]`	72	`[all]`	`[level]`	0	`%`	20
+		`[demonic swordman]`	72	`[all]`	`[level]`	1	`%`	20
+		`[demonic swordman]`	60	`[all]`	`[level]`	0	`%`	20
+	[/skill data up]
+[/pvp]
+
+[routing priority]
+	`swordman`	1
+	`swordman`	2
+	`swordman`	3
+	`swordman`	4
+	`demonic swordman`	0
+[/routing priority]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	0	0
+
+[layer variation]
+	2150
+	`at_lkatanaa`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_lkatanab`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_lkatanax`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

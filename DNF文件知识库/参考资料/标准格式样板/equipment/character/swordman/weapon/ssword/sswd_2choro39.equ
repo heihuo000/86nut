@@ -1,0 +1,125 @@
+#PVF_File
+
+[name]
+	`加持的残忍之弑短剑 : [鬼影闪]`
+
+[name2]
+	`Sword of Powerful Fierce Attack : Ghost Step Slash`
+
+[basic explain]
+	`[鬼影闪]冷却时间 -18%%
+[鬼影闪]MP消耗量 -18%%`
+
+[flavor text]
+	`    收集[恶魔结晶]可以对2期勇者装备进行改造， 提升装备的基本攻击力、 防御力和基本属性； Lv70以上的角色可以穿戴。 (需消耗杜罗西处出售的勇者装备改造券)`
+
+[grade]
+	58
+
+[rarity]
+	5
+
+[icon mark]
+	`item/iconmark.img`	65
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[magical attack]
+	45
+
+[cast speed]
+	20
+
+[anti evil]
+	16
+
+[repair price]
+	81849
+
+[value]
+	8120
+
+[equipment physical attack]
+	490	467
+
+[equipment magical attack]
+	593	566
+
+[separate attack]
+	287	194
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	46
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	22
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	7	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[skill data up]
+	`[swordman]`	60	`[dungeon type]`	`[cooltime]`	0	`%`	-18
+	`[swordman]`	60	`[dungeon type]`	`[mp]`	0	`%`	-18
+[/skill data up]
+
+[emancipate]
+	[input]
+		3290	40
+	[/input]
+	[output]
+		500117	1
+	[/output]
+	[emancipate explain]
+		`物攻小幅增加
+魔攻小幅增加
+属性小幅提升
+施放速度 +2%%`
+[/emancipate]
+
+[possible kiri protect]

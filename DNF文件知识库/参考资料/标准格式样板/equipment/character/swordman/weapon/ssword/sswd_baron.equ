@@ -1,0 +1,180 @@
+#PVF_File
+
+[name]
+	`骑士佩剑`
+
+[name2]
+	`Baron Sword`
+
+[basic explain]
+	`攻击时， 有1%%的几率使敌人进入眩晕状态。`
+
+[detail explain]
+	`    攻击时， 有1%%的几率使敌人进入眩晕状态4秒。 (若敌人高于Lv35， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)`
+
+[grade]
+	37
+
+[rarity]
+	2
+
+[icon mark]
+	`item/iconmark.img`	64
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	35
+
+[magical attack]
+	24
+
+[cast speed]
+	20
+
+[price]
+	800000
+
+[repair price]
+	50000
+
+[value]
+	50000
+
+[equipment physical attack]
+	315	300
+
+[equipment magical attack]
+	382	363
+
+[separate attack]
+	164	109
+
+[physical critical hit]
+	2
+
+[magical critical hit]
+	2
+
+[icon]
+	`Item/weapon/swordman/sswd.img`	31
+
+[field image]
+	`Item/FieldImage.img`	10
+
+[equipment type]
+	`[weapon]`	17
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2790
+	`bswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`bswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2790
+	`bswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`bswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`BONESWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[medal]
+	2500
+
+[if]
+	[cooltime]
+		8000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		4000
+	[probability]
+		1
+	[active status]
+		`stun`	35
+[/then]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	1	0
+
+[layer variation]
+	2150
+	`at_bswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_bswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_bswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

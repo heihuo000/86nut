@@ -1,0 +1,432 @@
+#PVF_File
+
+[name]
+	`灵魂伴侣 - 雷电`
+
+[name2]
+	`Soulmate : Thunder`
+
+[basic explain]
+	`[破军旋舞斩]技能Lv +2
+[恶即斩]技能Lv +2
+ 
+    [拔刀斩]、 [破空拔刀斩]、 [破灭斩]、 [破军旋舞斩]命中敌人时， 可以对敌人发动闪电攻击。 (在决斗场中无效)
+    [幻影剑舞]、 [魔影剑舞]、 [恶即斩]攻击时， 可以对敌人发动闪电攻击。 (在决斗场中无效)
+    攻击时， 有2%%的几率使敌人进入眩晕状态。`
+
+[detail explain]
+	`[破军旋舞斩]技能Lv +2
+[恶即斩]技能Lv +2
+ 
+    [拔刀斩]、 [破空拔刀斩]、 [破灭斩]、 [破军旋舞斩]命中敌人时， 可以对敌人发动闪电攻击。 (在决斗场中无效)
+    [幻影剑舞]、 [魔影剑舞]、 [恶即斩]攻击时， 可以对敌人发动闪电攻击。 (在决斗场中无效)
+    攻击时， 有2%%的几率使敌人进入眩晕状态2秒； 但在决斗场中， 只能持续1秒。 (若敌人高于Lv60， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果)`
+
+[grade]
+	62
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[need material]
+	2749095	15
+
+[creation rate]
+	125
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	55
+
+[physical attack]
+	64
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[repair price]
+	83328
+
+[value]
+	79360
+
+[equipment physical attack]
+	629	576
+
+[equipment magical attack]
+	543	498
+
+[separate attack]
+	360	243
+
+[skill levelup]
+	`[swordman]`	9	2
+	`[swordman]`	73	2
+	`[creator mage]`	133	2
+	`[creator mage]`	136	2
+[/skill levelup]
+
+[light attack]
+	8
+
+[icon]
+	`Item/weapon/swordman/club.img`	60
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	5	3
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	5	3
+
+[layer variation]
+	2790
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	2
+
+[move wav]
+	`STICK_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3400
+
+[item group name]
+	`club`
+
+[cool time]
+	10000
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+	[/module]
+	[skill]
+		`swordman`	9
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[passive object]
+		48092	0	0	0	40	0	``
+		48092	0	0	0	40	0	``
+	[/passive object]
+[/then]
+
+[if]
+	[skill]
+		`creator mage`	133
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[passive object]
+		48092	0	0	0	40	0	``
+		48092	0	0	0	40	0	``
+	[/passive object]
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+	[/module]
+	[cooltime]
+		100
+	[skill]
+		`swordman`	73
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[passive object]
+		48092	0	0	0	40	0	``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		100
+	[skill]
+		`creator mage`	136
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[passive object]
+		48092	0	0	0	40	0	``
+	[/passive object]
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+	[/module]
+	[skill]
+		`swordman`	97
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[passive object]
+		48092	0	0	0	40	0	``
+		48092	0	0	0	40	0	``
+	[/passive object]
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+		`[assault]`
+	[/module]
+	[skill]
+		`swordman`	9
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[passive object]
+		48100	0	0	0	40	0	``
+		48100	0	0	0	40	0	``
+	[/passive object]
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+		`[assault]`
+	[/module]
+	[cooltime]
+		100
+	[skill]
+		`swordman`	73
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[passive object]
+		48100	0	0	0	40	0	``
+	[/passive object]
+[/then]
+
+[if]
+	[module]
+		`[pvp]`
+		`[assault]`
+	[/module]
+	[skill]
+		`swordman`	97
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[passive object]
+		48100	0	0	0	40	0	``
+		48100	0	0	0	40	0	``
+	[/passive object]
+[/then]
+
+[routing priority]
+	`swordman`	1
+	`demonic swordman`	0
+[/routing priority]
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+	[/module]
+	[skill]
+		`demonic swordman`	9
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[passive object]
+		48092	0	0	0	40	0	``
+		48092	0	0	0	40	0	``
+	[/passive object]
+[/then]
+
+[if]
+	[module]
+		`[dungeon type]`
+		`[war room]`
+	[/module]
+	[cooltime]
+		100
+	[skill]
+		`demonic swordman`	73
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[probability]
+		100
+	[passive object]
+		48092	0	0	0	40	0	``
+	[/passive object]
+[/then]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability to human armor at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	59
+[/then]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	5	3
+
+[layer variation]
+	2150
+	`at_cluba`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_clubb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_clubx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

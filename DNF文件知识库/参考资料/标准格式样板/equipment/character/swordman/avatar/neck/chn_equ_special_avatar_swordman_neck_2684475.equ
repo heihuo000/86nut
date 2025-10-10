@@ -1,0 +1,56 @@
+#PVF_File
+
+[name]
+	`夏日透明多芒星项链`
+
+[name2]
+	`Invisible Avatar(Neck)`
+
+[explain]
+	`沙滩派对  套装1 (鬼剑士)`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/ch_invisible.img`	1
+
+[equipment type]
+	`[breast avatar]`	0
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1	0
+	0	0	0	4500	2
+	`[B socket]`	`[B socket]`
+[/avatar type select]
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[set item master]
+	40911
+
+[avatar select ability]
+	`[EQUIPMENT_MAGICAL_DEFENSE]`	`+`	660
+	`[ACTIVESTATUS_TOLERANCE_ALL]`	`+`	15
+	`[ATTACK_SPEED]`	`+`	55
+	`[HIT_RECOVERY]`	`+`	160
+[/avatar select ability]

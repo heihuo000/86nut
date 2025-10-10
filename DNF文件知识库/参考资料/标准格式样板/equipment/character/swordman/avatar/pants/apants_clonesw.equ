@@ -1,0 +1,58 @@
+#PVF_File
+
+[name]
+	`克隆装扮下装 (鬼剑士)`
+
+[name2]
+	`Pants Clone Avatar`
+
+[explain]
+	`    可以复制穿戴中的装扮款式， 但属性值保留克隆装扮原有的属性。 如果装扮栏中存在被复制的装扮， 则该克隆装扮的款式一直保留复制后的款式。 但是， 如果被复制的装扮不在装扮栏， 则下次重新登录游戏时克隆装扮的款式变为最基本款式(不穿装扮时一样的款式)。`
+
+[grade]
+	2
+
+[part set index]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/IconClone.img`	6
+
+[equipment type]
+	`[pants avatar]`	0
+
+[avatar type select]
+	7	0	0	1500	0
+	30	0	0	3000	0
+	0	0	0	6000	0
+	0	0	0	6500	2
+	`[C socket]`	`[C socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[HP MAX]`	`+`	280
+	`[MP MAX]`	`+`	280
+	`[EQUIPMENT_PHYSICAL_DEFENSE]`	`+`	660
+[/avatar select ability]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[clear avatar]
+	1
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	4
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	5

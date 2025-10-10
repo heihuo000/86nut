@@ -1,0 +1,75 @@
+#PVF_File
+
+[name]
+	`巧克力头发(b)女鬼剑`
+
+[grade]
+	2
+
+[part set index]
+	2
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_ahair.img`	363
+
+[equipment type]
+	`[hair avatar]`	0
+
+[avatar type select]
+	7	0	0	1500	0
+	30	0	0	3000	0
+	0	0	0	6000	0
+	0	0	0	6600	2
+	`[A socket]`	`[A socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`	`+`	55
+	`[MAGICAL_DEFENSE]`	`+`	55
+	`[HP_REGENRATE]`	`+`	75
+	`[MP_REGENRATE]`	`+`	15
+	`[CAST_SPEED]`	`+`	140
+[/avatar select ability]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	50	1
+
+[layer variation]
+	2000
+	`hair_a`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	800
+	`hair_b`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	400
+	`hair_d`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`

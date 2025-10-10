@@ -1,0 +1,260 @@
+#PVF_File
+
+[name]
+	`武动之魂短剑`
+
+[basic explain]
+	`    攻击时， 附加8%%的伤害。
+ 
+    随着角色的成长而成长， 最高可成长到Lv86。`
+
+[grade]
+	70
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[possible kiri protect]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[cast speed]
+	20
+
+[level section ability]
+	0	
+	[HP MAX]
+		50
+	[MP MAX]
+		50
+[/level section ability]
+
+[level section ability]
+	21	
+	[HP MAX]
+		100
+	[MP MAX]
+		100
+[/level section ability]
+
+[level section ability]
+	40	
+	[HP MAX]
+		300
+	[MP MAX]
+		300
+	[physical critical hit]
+		3
+	[magical critical hit]
+		3
+[/level section ability]
+
+[level section ability]
+	60	
+	[HP MAX]
+		1000
+	[MP MAX]
+		1000
+	[physical critical hit]
+		4
+	[magical critical hit]
+		4
+	[stuck]
+		-1
+[/level section ability]
+
+[level linear ability]
+	1	86	
+	[grade]
+		1	86
+	[equipment physical attack]
+		103	65	640	593
+	[equipment magical attack]
+		124	78	775	718
+	[separate attack]
+		56	32	401	272
+	[physical attack]
+		10	50
+	[magical attack]
+		10	50
+	[physical defense]
+		10	50
+	[magical defense]
+		10	50
+[/level linear ability]
+
+[impossible contents]
+	`disjoint`
+[/impossible contents]
+
+[icon]
+	`Item/new_equipment/01_weapon/swordman/sswd/sswd.img`	159
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	44	1
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	44	1
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[all skill item]
+	[item growtype]
+		`[swordman]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[all skill item]
+	[item growtype]
+		`[creator mage]`	0
+	[skill apply condition]
+		[skill group]
+			`[all]`
+		[lower bound level]
+			1
+		[upper bound level]
+			70
+		[value]
+			1
+		[extra condition]
+			`[except for ex skill]`
+		[/extra condition]
+	[/skill apply condition]
+	[skill phase]
+		`[all]`
+[/all skill item]
+
+[if]
+	[module]
+		`[dead tower]`
+		`[dungeon]`
+		`[tournament dungeon]`
+		`[war room]`
+		`[blood system]`
+	[/module]
+	[change status]
+		`hp`
+		`>`
+		`%`	0
+		`end`
+	[cooltime]
+		5000
+[/if]
+
+[then]
+	[target]
+		`myself`	-1
+	[equipment duration]
+		5000
+	[appendage]
+		2658
+[/then]
+
+[anti evil]
+	10
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	42	0
+
+[layer variation]
+	2150
+	`at_sswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_sswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_sswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

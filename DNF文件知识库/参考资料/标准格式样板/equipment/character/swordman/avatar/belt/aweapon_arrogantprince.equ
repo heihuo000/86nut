@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+	`小王子的佩剑`
+
+[name2]
+	`Saber of Arrogant Prince`
+
+[explain]
+	`2010年劳动节礼包`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[enable dye]
+	1	0
+
+[minimum level]
+	1
+
+[icon]
+	`item/weapon/swordman/katana.img`	41
+
+[equipment type]
+	`[waist avatar]`	0
+
+[avatar type select]
+	7	0	0	300	0
+	30	0	0	660	0
+	0	0	0	1	0
+	0	0	0	4500	2
+	`[D socket]`	`[D socket]`
+[/avatar type select]
+
+[sub type]
+	0
+
+[attack speed]
+	10
+
+[cast speed]
+	10
+
+[move speed]
+	10
+
+[move wav]
+	`SCRAP_TOUCH`
+
+[part set index]
+	2
+
+[expand ani]
+	10	1	0	1	
+	[variation]
+		9	0
+	[layer variation]
+		2600
+		`katanac`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`katanab`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[variation]
+		9	0
+	[layer variation]
+		2600
+		`katanac`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[layer variation]
+		650
+		`katanab`
+	[equipment ani script]
+		`equipment/character/swordman.lay`
+	[sub type]
+		1
+	[expand path]
+		`equipment/character/swordman/weapon/katana/`
+[/expand ani]
+
+[int data]
+	654321	3	3	100	0	70	3	100	0	70	3	120	0	70	3	130	0	70	3	100	0	70
+[/int data]
+
+[string data]
+	`Common/Particle/childrenday_sw.ptl`
+[/string data]
+
+[avatar select ability]
+	`[ELEMENT_TOLERANCE_FIRE]`	`+`	25
+	`[ELEMENT_TOLERANCE_WATER]`	`+`	25
+	`[ELEMENT_TOLERANCE_DARK]`	`+`	25
+	`[ELEMENT_TOLERANCE_LIGHT]`	`+`	25
+	`[ACTIVESTATUS_TOLERANCE_STUCK]`	`+`	40
+	`[INVENTORY_MAX_WEIGHT]`	`+`	10000
+[/avatar select ability]

@@ -1,0 +1,283 @@
+#PVF_File
+
+[name]
+	`古代的命中注定的光剑[网咖]`
+
+[basic explain]
+	`攻击时以3%% 的机率让敌人陷入诅咒状态
+诅咒状态的敌人攻击时敌人10%%的附加伤害
+不可强化、增幅、提炼、解体、送礼、仓库储存`
+
+[detail explain]
+	`攻击时以3%%的机率在7秒内让敌人陷入诅咒状态， 力量减少25， 体力减少25， 智能减少25， 精神力减少25。 （高于Lv64的对象得到的机率减少， 低于Lv64的对象则会增加）诅咒状态的敌人攻击时敌人 10%%的附加伤害（决斗场内5%% 附加伤害）
+不可强化、增幅、提炼、解体、送礼、仓库储存`
+
+[grade]
+	64
+
+[rarity]
+	3
+
+[icon mark]
+	`item/iconmark.img`	66
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[attach type]
+	`[trade delete]`
+
+[minimum level]
+	60
+
+[physical attack]
+	43
+
+[attack speed]
+	100
+
+[stuck]
+	1
+
+[price]
+	115200
+
+[repair price]
+	96768
+
+[value]
+	92160
+
+[equipment physical attack]
+	562	515
+
+[equipment magical attack]
+	544	499
+
+[separate attack]
+	360	242
+
+[skill levelup]
+	`[swordman]`	38	2
+[/skill levelup]
+
+[icon]
+	`Item/weapon/swordman/beamswd.img`	52
+
+[field image]
+	`Item/FieldImage.img`	35
+
+[equipment type]
+	`[weapon]`	24
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	9	6
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	9	6
+
+[layer variation]
+	2791
+	`beamswdc1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	2792
+	`beamswdc2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	651
+	`beamswdb1`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	652
+	`beamswdb2`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	5
+
+[move wav]
+	`BEAMSWD_TOUCH`
+
+[durability]
+	38
+
+[weight]
+	2500
+
+[item group name]
+	`beamswd`
+
+[cool time]
+	10000
+
+[required skill]
+	33
+
+[if]
+	[cooltime]
+		10500
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		7000
+	[probability]
+		3
+	[reduce probability to human armor at pvp module]
+		80
+	[active status]
+		`curse`	64	25	25	25	25
+[/then]
+
+[if]
+	[target active status]
+		`curse`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	10
+[/then]
+
+[pvp]
+	[if]
+		[cooltime]
+			10500
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[duration]
+			7000
+		[probability]
+			3
+		[reduce probability to human armor at pvp module]
+			80
+		[active status]
+			`curse`	64	25	25	25	25
+	[/then]
+	[if]
+		[target active status]
+			`curse`
+		[attack success]
+			1
+	[/if]
+	[then]
+		[target]
+			`enemy`	-1
+		[add absolute damage]
+			`all`
+			`%`	5
+	[/then]
+[/pvp]
+
+[impossible contents]
+	`upgrade`
+	`amplify upgrade`
+	`disjoint`
+	`gift`
+	`separate upgrade`
+	`charac cargo`
+[/impossible contents]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	9	6
+
+[layer variation]
+	2151
+	`at_beamswda1`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	2152
+	`at_beamswda2`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	651
+	`at_beamswdb1`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	652
+	`at_beamswdb2`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_beamswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`

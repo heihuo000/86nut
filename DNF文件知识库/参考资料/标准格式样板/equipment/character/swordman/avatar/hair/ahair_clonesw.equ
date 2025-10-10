@@ -1,0 +1,60 @@
+#PVF_File
+
+[name]
+	`克隆装扮头部 (鬼剑士)`
+
+[name2]
+	`Hair Clone Avatar`
+
+[explain]
+	`    可以复制穿戴中的装扮款式， 但属性值保留克隆装扮原有的属性。 如果装扮栏中存在被复制的装扮， 则该克隆装扮的款式一直保留复制后的款式。 但是， 如果被复制的装扮不在装扮栏， 则下次重新登录游戏时克隆装扮的款式变为最基本款式(不穿装扮时一样的款式)。`
+
+[grade]
+	2
+
+[part set index]
+	2
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/common/IconClone.img`	1
+
+[equipment type]
+	`[hair avatar]`	0
+
+[avatar type select]
+	7	0	0	1400	0
+	30	0	0	2800	0
+	0	0	0	5600	0
+	0	0	0	6200	2
+	`[A socket]`	`[A socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[CAST_SPEED]`	`+`	120
+	`[MAGICAL_ATTACK]`	`+`	45
+	`[MAGICAL_DEFENSE]`	`+`	45
+	`[HP_REGENRATE]`	`+`	60
+	`[MP_REGENRATE]`	`+`	12
+[/avatar select ability]
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[clear avatar]
+	1
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	4
+
+[extra icon]
+	`item/avatar/common/IconCloneCover.img`	5

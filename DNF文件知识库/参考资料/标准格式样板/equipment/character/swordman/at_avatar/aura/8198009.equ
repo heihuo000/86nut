@@ -1,0 +1,55 @@
+#PVF_File
+
+[name]
+	`龙族的威严 (女鬼剑士)`
+
+[explain]
+	`穿戴光环装扮时， 游戏画面左侧会产生相应的光环图标。 单击图标， 可以移动到目标NPC或玩家面前。`
+
+[grade]
+	2
+
+[attach type]
+	`[trade]`
+
+[usable job]
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/atswordman/sg_aura_cn.img`	1
+
+[aura hud icon]
+	45
+
+[equipment type]
+	`[aurora avatar]`	0
+
+[avatar func filter]
+	2
+
+[sub type]
+	0
+
+[move wav]
+	`BONE_TOUCH`
+
+[physical attack]
+	15
+
+[magical attack]
+	15
+
+[aura ability]
+	`[solo teleport]`	60
+[/aura ability]
+
+[aurora graphic effects]
+	4
+	1	`Character/Common/Animation/Aura/chn_2013_blue_front_dodge.ani`
+	0	`Character/Common/Animation/Aura/chn_2013_blue_back_dodge.ani`
+	0	`Character/Common/Animation/Aura/chn_2013_blue_back_normal.ani`
+	0	`Character/Common/Animation/Aura/chn_2013_blue_front_normal.ani`

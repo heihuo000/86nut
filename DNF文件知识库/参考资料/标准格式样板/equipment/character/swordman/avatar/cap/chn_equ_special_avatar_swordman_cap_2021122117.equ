@@ -1,0 +1,92 @@
+#PVF_File
+
+[name]
+	`表情像素头（鬼剑士）`
+
+[flavor text]
+	`表情像素头`
+
+[grade]
+	3
+
+[rarity]
+	3
+
+[part set index]
+	3
+
+[usable job]
+	`[swordman]`
+[/usable job]
+
+[icon mark]
+	`Item/IconMark.img`	25
+
+[attach type]
+	`[trade]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/avatar/swordman/sm_acap.img`	578
+
+[equipment type]
+	`[hat avatar]`	0
+
+[avatar type select]
+	7	0	0	1000	0
+	30	0	0	2000	0
+	0	0	0	4000	0
+	0	0	0	4500	2
+	`[A socket]`	`[A socket]`
+[/avatar type select]
+
+[avatar select ability]
+	`[MAGICAL_ATTACK]`	`+`	55
+	`[MAGICAL_DEFENSE]`	`+`	55
+	`[HP_REGENRATE]`	`+`	75
+	`[MP_REGENRATE]`	`+`	15
+	`[CAST_SPEED]`	`+`	140
+[/avatar select ability]
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	2021	0
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	195	0
+
+[layer variation]
+	2100
+	`cap_a`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[hide equipment]
+	`[hair avatar]`
+	`[face avatar]`
+[/hide equipment]
+
+[sub type]
+	0
+
+[move wav]
+	`CLOTH_TOUCH`
+
+[hide layer]
+	2000	800	2400	400	2820	20	2700	260	1925	2830	2750	270
+[/hide layer]

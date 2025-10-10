@@ -1,0 +1,132 @@
+#PVF_File
+
+[name]
+	`修罗吞灵槌`
+
+[name2]
+	`Proteus Staff`
+
+[basic explain]
+	`[修罗邪光斩]最大蓄气时的剑气大小 +20%%
+    攻击时， 有2%%的几率使敌人进入眩晕状态。 `
+
+[flavor text]
+	`    现在让你见识下开天辟海的无上剑气！ 修！ 罗！ 邪！ 光！ 斩！`
+
+[grade]
+	60
+
+[attach type]
+	`[trade]`
+
+[creation rate]
+	250
+
+[rarity]
+	4
+
+[icon mark]
+	`item/iconmark.img`	68
+
+[weight]
+	3400
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[minimum level]
+	55
+
+[icon]
+	`Item/weapon/swordman/club.img`	38
+
+[field image]
+	`Item/FieldImage.img`	8
+
+[equipment type]
+	`[weapon]`	23
+
+[sub type]
+	2
+
+[durability]
+	35
+
+[price]
+	96000
+
+[value]
+	76800
+
+[cool time]
+	10000
+
+[physical attack]
+	25
+
+[equipment physical attack]
+	603	532
+
+[equipment magical attack]
+	521	460
+
+[attack speed]
+	-30
+
+[stuck]
+	-1
+
+[skill data up]
+	`[swordman]`	51	`[all]`	`[static]`	1	`%`	20
+[/skill data up]
+
+[skill levelup]
+	`[swordman]`	50	2
+	`[swordman]`	51	2
+[/skill levelup]
+
+[variation]
+	4	0
+
+[layer variation]
+	2600
+	`clubc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`clubb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[move wav]
+	`STICK_TOUCH`
+
+[possible kiri protect]
+
+[if]
+	[cooltime]
+		4000
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[reduce duration to human armor at pvp module]
+		50
+	[duration]
+		2000
+	[reduce probability at pvp module]
+		80
+	[probability]
+		2
+	[active status]
+		`stun`	55
+[/then]

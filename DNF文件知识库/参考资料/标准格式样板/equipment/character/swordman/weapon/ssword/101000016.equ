@@ -1,0 +1,274 @@
+#PVF_File
+
+[name]
+	`御龙决`
+
+[basic explain]
+	`[释魂飞弹]技能Lv +1
+[魔影轰杀]技能Lv +1
+ 
+[冰霜之萨亚]、 [冰刃·波动剑]、 [极冰·裂波剑]的冰冻Lv +6
+    使用[释魂飞弹]或[毁灭突进]时可使敌人进入冰冻状态。
+对冰冻状态下敌人的伤害 +7%%
+    当HP低于20%以下且被击时， 可以使500px范围内的所有敌人进入冰冻状态2秒。 (在决斗场中无效)`
+
+[detail explain]
+	`[释魂飞弹]技能Lv +1
+[魔影轰杀]技能Lv +1
+ 
+[冰霜之萨亚]、 [冰刃·波动剑]、 [极冰·裂波剑]的冰冻Lv +6
+    使用[释魂飞弹]或[毁灭突进]时可使敌人进入冰冻状态。 (若敌人高于Lv84， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果； 冷却时间0.5秒)
+对冰冻状态下敌人的伤害 +7%%
+    当HP低于20%以下且被击时， 可以使500px范围内的所有敌人进入冰冻状态2秒。 (若敌人高于Lv84， 则减少进入异常状态的几率和效果； 反之， 则增加几率和效果； 在决斗场中无效)`
+
+[grade]
+	84
+
+[rarity]
+	3
+
+[icon mark]
+	`item/iconmark.img`	66
+
+[usable job]
+	`[swordman]`
+	`[creator mage]`
+[/usable job]
+
+[need material]
+	19100131	1
+
+[attach type]
+	`[sealing]`
+
+[minimum level]
+	80
+
+[magical attack]
+	55
+
+[cast speed]
+	20
+
+[price]
+	134400
+
+[repair price]
+	112896
+
+[value]
+	107520
+
+[creation rate]
+	250
+
+[equipment physical attack]
+	764	716
+
+[equipment magical attack]
+	925	867
+
+[separate attack]
+	481	327
+
+[magical critical hit]
+	2
+
+[skill levelup]
+	`[swordman]`	21	1
+	`[swordman]`	100	1
+	`[swordman]`	96	1
+	`[swordman]`	36	1
+	`[creator mage]`	75	1
+	`[creator mage]`	73	1
+[/skill levelup]
+
+[icon]
+	`item/new_equipment/01_weapon/swordman/sswd/sswd.img`	92
+
+[field image]
+	`Item/FieldImage.img`	9
+
+[equipment type]
+	`[weapon]`	23
+
+[animation job]
+	`[swordman]`
+
+[variation]
+	22	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[animation job]
+	`[demonic swordman]`
+
+[variation]
+	22	0
+
+[layer variation]
+	2790
+	`sswdc`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[layer variation]
+	650
+	`sswdb`
+
+[equipment ani script]
+	`equipment/character/swordman.lay`
+
+[sub type]
+	0
+
+[move wav]
+	`MINERALSWD_TOUCH`
+
+[durability]
+	35
+
+[weight]
+	3100
+
+[item group name]
+	`ssword`
+
+[cool time]
+	10000
+
+[elemental property]
+	`[water element]`
+
+[if]
+	[target active status]
+		`freeze`
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[add absolute damage]
+		`all`
+		`%`	7
+[/then]
+
+[if]
+	[hit]
+		1
+	[change status]
+		`hp`
+		`<`
+		`%`	20
+		`end`
+	[cooltime]
+		60000
+[/if]
+
+[then]
+	[target]
+		`all enemy`	500
+	[duration]
+		2000
+	[probability]
+		100
+	[active status]
+		`freeze`	84
+[/then]
+
+[if]
+	[cooltime]
+		500
+	[skill]
+		`creator mage`	75
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[probability]
+		100
+	[reduce probability at pvp type module]
+		100
+	[active status]
+		`freeze`	84
+[/then]
+
+[if]
+	[cooltime]
+		500
+	[skill]
+		`creator mage`	73
+	[/skill]
+	[attack success]
+		1
+[/if]
+
+[then]
+	[target]
+		`enemy`	-1
+	[duration]
+		3000
+	[probability]
+		100
+	[reduce probability at pvp type module]
+		100
+	[active status]
+		`freeze`	84
+[/then]
+
+[skill data up]
+	`[swordman]`	21	`[dungeon type]`	`[level]`	5	`+`	6
+	`[swordman]`	100	`[dungeon type]`	`[level]`	5	`+`	6
+	`[swordman]`	96	`[dungeon type]`	`[level]`	3	`+`	6
+	`[swordman]`	36	`[dungeon type]`	`[level]`	3	`+`	6
+[/skill data up]
+
+[possible kiri protect]
+
+[animation job]
+	`[creator mage]`
+
+[variation]
+	22	0
+
+[layer variation]
+	2150
+	`at_sswda`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	650
+	`at_sswdb`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
+
+[layer variation]
+	1350
+	`at_sswdx`
+
+[equipment ani script]
+	`equipment/character/atswordman.lay`
