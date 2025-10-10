@@ -1,0 +1,115 @@
+#PVF_File
+
+[name]
+	`神圣强化石`
+
+[explain]
+	`蕴含神圣力量的强化石，能够大幅提升装备的基础属性。使用时有几率触发神圣祝福效果。`
+
+[basic explain]
+	`<基础强化>
+	装备强化成功率 +15%
+	强化失败时装备不会损坏
+	强化成功时额外获得 +2 强化等级
+	
+	<特殊效果>
+	使用时有10%几率触发"神圣祝福"
+	- 下次强化必定成功
+	- 强化等级额外 +1
+	- 持续时间：30分钟
+	
+	<被动能力>
+	背包中存在时，所有强化操作成功率 +5%
+	每次强化成功后，有3%几率不消耗此材料
+	
+	<特殊属性>
+	对史诗级以上装备强化效果翻倍
+	可用于强化 +15 以上的装备`
+
+[grade]
+	3	// 稀有级
+
+[rarity]
+	2	// 稀有
+
+[usable job]
+	`[all]`
+
+[minimum level]
+	1
+
+[icon]
+	`item/stackable/consume.img`	0
+
+[field image]
+	`item/fieldimage.img`	0
+
+[stackable type]
+	`[booster]`	// 强化类材料
+
+[move wav]
+	`BONE_TOUCH`
+
+[stack limit]
+	999
+
+[price]
+	50000
+
+[repair price]
+	0
+
+[value]
+	25000
+
+[cool time]
+	1000	// 1秒冷却
+
+[icon mark]
+	`Item/IconMark.img`	64	// 稀有标记
+
+[usable world type]
+	`[all]`
+
+[item category]
+	`consume`	// 消耗品类别
+
+[item type]
+	`material`	// 材料类型
+
+[weight]
+	10
+
+[if]
+	[cooltime]
+		1000
+	[/cooltime]
+	[icon mark]
+		`Item/IconMark.img`	64
+	[/icon mark]
+[/if]
+
+// 使用效果
+[use effect]
+	0	// 强化成功率提升效果
+[/use effect]
+
+// 特殊属性标签
+[special property]
+	`enhance_success_rate`	15	// 强化成功率+15%
+	`enhance_protection`	1	// 强化保护
+	`enhance_bonus_level`	2	// 额外强化等级
+	`blessing_chance`	10	// 神圣祝福几率10%
+[/special property]
+
+// 材料等级
+[material grade]
+	3	// 高级材料
+[/material grade]
+
+// 适用装备类型
+[applicable equipment]
+	`[weapon]`	// 武器
+	`[armor]`	// 防具
+	`[accessory]`	// 饰品
+[/applicable equipment]

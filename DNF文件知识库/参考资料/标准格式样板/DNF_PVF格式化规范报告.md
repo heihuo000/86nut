@@ -9,9 +9,9 @@
 ## 2. 标签分类与使用规则
 
 ### 2.1 基本信息标签
-- `[name]` - 物品名称
-- `[name2]` - 物品英文名称
-- `[basic explain]` 或 `[explain]` - 物品属性说明
+- `[name]` - 物品名称,要换行
+- `[name2]` - 物品英文名称,要换行
+- `[basic explain]` 或 `[explain]` - 物品属性说明,要换行
 - `[flavor text]` - 物品描述文本
 - `[grade]` - 品质等级
 - `[rarity]` - 稀有度

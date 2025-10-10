@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+`测试·龙鳞项链`
+
+[name2]
+`Test Dragon Scale Necklace`
+
+[flavor text]
+`<测试装备系列>`
+
+[grade]
+52	
+[rarity]
+5	
+[icon mark]
+`item/iconmark.img`
+72	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+48	
+[physical attack]
+25	
+[magical attack]
+28	
+[physical defense]
+15	
+[magical defense]
+18	
+[HP MAX]
+380	
+[MP MAX]
+280	
+[price]
+180000	
+[repair price]
+144000	
+[value]
+126000	
+[equipment physical attack]
+45	40	
+[equipment magical attack]
+50	45	
+[physical critical hit]
+6.5	
+[magical critical hit]
+7.2	
+[all elemental attack]
+18	
+[all elemental resistance]
+8	
+[skill levelup]
+`[common]`
+179	2	
+`[common]`
+180	1	
+[/skill levelup]
+
+[icon]
+`Item/stackable/necklace.img`
+8	
+[field image]
+`Item/field_equip.img`
+5	
+[equipment type]
+`[necklace]`
+2	
+[sub type]
+0	
+[move wav]
+`BONE_TOUCH`
+
+[durability]
+50	
+[weight]
+150	
+[if]
+	[HP MAX]
+		150	
+	[/HP MAX]
+	[MP MAX]
+		120	
+	[/MP MAX]
+	[all elemental attack]
+		8	
+	[/all elemental attack]
+[/if]
+
+[possible kiri protect]

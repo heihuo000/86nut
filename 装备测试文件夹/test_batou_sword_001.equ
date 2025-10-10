@@ -1,0 +1,122 @@
+#PVF_File
+
+[name]
+`测试·拔刀斩专精剑`
+
+[name2]
+`Test Momentary Slash Mastery Sword`
+
+[flavor text]
+`<测试装备系列>`
+
+[basic explain]
+	`[拔刀斩]攻击力 +50%%
+[拔刀斩]冷却时间 -30%%
+[拔刀斩]MP消耗量 -25%%
+[拔刀斩]施法速度 +20%%
+攻击速度 +10%%`
+
+[grade]
+55	
+[rarity]
+5	
+[icon mark]
+`item/iconmark.img`
+75	
+[usable job]
+`[swordman]`
+`[demonic swordman]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+50	
+[physical attack]
+680	
+[magical attack]
+620	
+[attack speed]
+30	
+[price]
+250000	
+[repair price]
+200000	
+[value]
+175000	
+[equipment physical attack]
+850	765	
+[equipment magical attack]
+780	702	
+[separate attack]
+720	648	
+[physical critical hit]
+12.0	
+[magical critical hit]
+10.5	
+[fire attack]
+35	
+[skill levelup]
+`[swordman]`
+1	3	
+`[swordman]`
+2	2	
+`[swordman]`
+9	5	
+[/skill levelup]
+
+[skill data up]
+`[swordman]`	9	`[dungeon type]`	`[level]`	0	`%`	35
+`[swordman]`	9	`[dungeon type]`	`[cooltime]`	0	`%`	-25
+`[swordman]`	9	`[dungeon type]`	`[mp]`	0	`%`	-20
+`[swordman]`	9	`[dungeon type]`	`[cast speed]`	0	`%`	15
+[/skill data up]
+
+[icon]
+`Item/weapon/sword/sword.img`
+25	
+[field image]
+`Item/field_weapon.img`
+5	
+[equipment type]
+`[weapon]`
+1	
+[weapon type]
+`[sword]`
+
+[move wav]
+`SWORD_TOUCH`
+
+[durability]
+50	
+[weight]
+3200	
+[if]
+	[cooltime]
+		-800	
+	[/cooltime]
+	[attack speed]
+		30	
+	[/attack speed]
+	[cast speed]
+		20	
+	[/cast speed]
+[/if]
+
+[cool time]
+	10000
+
+[skill levelup]
+	`[swordman]`	9	5
+[/skill levelup]
+
+[skill data up]
+	`[swordman]`	9	`[dungeon type]`	`[level]`	0	`%`	50
+	`[swordman]`	9	`[dungeon type]`	`[cooltime]`	0	`%`	-30
+	`[swordman]`	9	`[dungeon type]`	`[mp]`	0	`%`	-25
+	`[swordman]`	9	`[dungeon type]`	`[cast speed]`	0	`%`	20
+[/skill data up]
+
+[possible kiri protect]

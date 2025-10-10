@@ -1,0 +1,190 @@
+#PVF_File
+
+[name]
+	`高级魔力药剂`
+
+[explain]
+	`由炼金大师精心调制的高级魔力药剂，能够快速恢复MP并提供临时的魔法增益效果。`
+
+[basic explain]
+	`<基础强化>
+	瞬间恢复 50% MP
+	在30秒内持续恢复MP（每秒恢复 2% 最大MP）
+	使用后无冷却时间
+	
+	<特殊效果>
+	使用时有25%几率触发"魔力涌动"
+	- 魔法攻击力 +30%
+	- 施法速度 +25%
+	- MP消耗减少 20%
+	- 持续时间：60秒
+	
+	<被动能力>
+	背包中每有10瓶药剂，最大MP +5%
+	与其他药剂叠加使用时，效果增强 20%
+	死亡时自动使用（如果背包中有）
+	
+	<炼金配方>
+	可用于制作更高级的药剂：
+	- 大师级魔力药剂：高级魔力药剂 x3 + 魔法精华 x5
+	- 永恒魔力药剂：高级魔力药剂 x10 + 永恒之水 x1
+	- 魔力爆发药剂：高级魔力药剂 x5 + 爆裂粉末 x3
+	
+	<特殊属性>
+	对法师职业效果翻倍
+	可用于激活某些魔法装备的隐藏属性
+	在魔法阵中使用时，效果持续时间翻倍`
+
+[grade]
+	2	// 高级
+
+[rarity]
+	1	// 普通
+
+[usable job]
+	`[all]`
+
+[minimum level]
+	20
+
+[icon]
+	`item/stackable/potion.img`	3
+
+[field image]
+	`item/fieldimage.img`	3
+
+[stackable type]
+	`[potion]`	// 药剂类
+
+[move wav]
+	`POTION_TOUCH`
+
+[stack limit]
+	999
+
+[price]
+	5000
+
+[repair price]
+	0
+
+[value]
+	2500
+
+[cool time]
+	0	// 无冷却
+
+[icon mark]
+	`Item/IconMark.img`	62	// 高级标记
+
+[usable world type]
+	`[all]`
+
+[item category]
+	`consume`	// 消耗品类别
+
+[item type]
+	`potion`	// 药剂类型
+
+[weight]
+	5
+
+// 使用效果
+[use effect]
+	[immediate_recovery]
+		`mp_recovery_percent`	50	// 瞬间恢复50% MP
+	[/immediate_recovery]
+	[continuous_recovery]
+		`mp_recovery_per_second`	2	// 每秒恢复2% MP
+		`duration`	30000	// 持续30秒
+	[/continuous_recovery]
+[/use effect]
+
+// 药剂属性
+[potion property]
+	`mana_surge_chance`	25	// 魔力涌动几率25%
+	`auto_use_on_death`	1	// 死亡时自动使用
+	`stack_bonus`	20	// 叠加使用增强20%
+[/potion property]
+
+// 特殊效果
+[special effects]
+	[mana_surge]
+		`magic_attack_increase`	30	// 魔攻+30%
+		`cast_speed_increase`	25	// 施法速度+25%
+		`mp_cost_reduction`	20	// MP消耗减少20%
+		`duration`	60000	// 持续60秒
+	[/mana_surge]
+	[passive_mp_bonus]
+		`max_mp_increase_per_10_potions`	5	// 每10瓶药剂最大MP+5%
+	[/passive_mp_bonus]
+[/special effects]
+
+// 炼金配方
+[alchemy recipes]
+	[recipe]
+		`master_mana_potion`	// 大师级魔力药剂
+		[materials]
+			`mana_potion`	3
+			`magic_essence`	5
+		[/materials]
+		[result_properties]
+			`mp_recovery_percent`	80
+			`mana_surge_chance`	50
+		[/result_properties]
+	[/recipe]
+	[recipe]
+		`eternal_mana_potion`	// 永恒魔力药剂
+		[materials]
+			`mana_potion`	10
+			`eternal_water`	1
+		[/materials]
+		[result_properties]
+			`mp_recovery_percent`	100
+			`permanent_mp_bonus`	10
+		[/result_properties]
+	[/recipe]
+	[recipe]
+		`mana_burst_potion`	// 魔力爆发药剂
+		[materials]
+			`mana_potion`	5
+			`burst_powder`	3
+		[/materials]
+		[result_properties]
+			`instant_skill_reset`	1
+			`magic_damage_boost`	100
+		[/result_properties]
+	[/recipe]
+[/alchemy recipes]
+
+// 职业加成
+[job bonus]
+	`[mage]`	100	// 法师职业效果翻倍
+	`[priest]`	75	// 圣职者效果+75%
+	`[creator]`	50	// 缔造者效果+50%
+[/job bonus]
+
+// 环境加成
+[environment bonus]
+	`magic_circle`	100	// 在魔法阵中效果翻倍
+	`mana_zone`	50	// 在魔力区域中效果+50%
+	`library`	25	// 在图书馆中效果+25%
+[/environment bonus]
+
+// 材料等级
+[material grade]
+	2	// 高级材料
+[/material grade]
+
+// 药剂类型
+[potion type]
+	`mana_recovery`	// 魔力恢复类
+	`magic_enhancement`	// 魔法增强类
+[/potion type]
+
+// 自动使用条件
+[auto use conditions]
+	`mp_below_percent`	20	// MP低于20%时自动使用
+	`in_combat`	1	// 战斗中可自动使用
+	`death_prevention`	1	// 死亡预防
+[/auto use conditions]

@@ -1,0 +1,212 @@
+#PVF_File
+
+[name]
+	`时空结晶`
+
+[explain]
+	`蕴含时空之力的神秘结晶，据说能够操控时间与空间的流动。极其稀有的传说级材料。`
+
+[basic explain]
+	`<基础强化>
+	可用于制作传说级时空系装备
+	提供时空抗性 +50
+	所有属性强化 +5
+	
+	<特殊效果>
+	使用时有20%几率触发"时空扭曲"
+	- 技能冷却时间减少 50%
+	- 移动速度 +100%
+	- 攻击速度 +50%
+	- 持续时间：10秒
+	
+	<被动能力>
+	背包中存在时，每5分钟自动恢复 10% HP/MP
+	死亡时有30%几率原地复活（每天限1次）
+	进入副本时，队伍获得"时空加速"状态 30秒
+	
+	<时空魔法>
+	可用于学习时空系技能
+	- 时间停止：冻结所有敌人 3秒
+	- 空间跳跃：瞬移到指定位置
+	- 时光倒流：恢复到 5秒前的状态
+	- 未来预知：显示敌人下次攻击轨迹
+	
+	<传说制作>
+	时空法杖：时空结晶 x1 + 永恒之石 x10 + 虚空精华 x20
+	时空护甲：时空结晶 x2 + 星辰碎片 x50 + 时间沙砾 x100
+	时空戒指：时空结晶 x1 + 命运之线 x5 + 因果之珠 x3
+	
+	<特殊属性>
+	对时空系怪物伤害 +200%
+	免疫时间停止、减速等时空类负面效果
+	可穿越时空裂缝进入隐藏区域`
+
+[grade]
+	5	// 传说级
+
+[rarity]
+	4	// 传说
+
+[usable job]
+	`[all]`
+
+[minimum level]
+	60
+
+[icon]
+	`item/stackable/special.img`	10
+
+[field image]
+	`item/fieldimage.img`	10
+
+[stackable type]
+	`[special]`	// 特殊材料
+
+[move wav]
+	`CRYSTAL_TOUCH`
+
+[stack limit]
+	99
+
+[price]
+	1000000
+
+[repair price]
+	0
+
+[value]
+	500000
+
+[cool time]
+	5000	// 5秒冷却
+
+[icon mark]
+	`Item/IconMark.img`	68	// 传说标记
+
+[usable world type]
+	`[all]`
+
+[item category]
+	`special`	// 特殊类别
+
+[item type]
+	`legendary_material`	// 传说材料类型
+
+[weight]
+	1
+
+// 时空属性
+[spacetime property]
+	`spacetime_resistance`	50	// 时空抗性+50
+	`all_element_enhance`	5	// 全属强+5
+	`time_distortion_chance`	20	// 时空扭曲几率20%
+	`revival_chance`	30	// 复活几率30%
+[/spacetime property]
+
+// 时空技能
+[spacetime skills]
+	[skill]
+		`time_stop`	// 时间停止
+		[effect]
+			`freeze_all_enemies`	3000	// 冻结所有敌人3秒
+			`cooldown`	60000	// 冷却60秒
+		[/effect]
+	[/skill]
+	[skill]
+		`space_jump`	// 空间跳跃
+		[effect]
+			`teleport_to_cursor`	1	// 瞬移到光标位置
+			`cooldown`	10000	// 冷却10秒
+		[/effect]
+	[/skill]
+	[skill]
+		`time_rewind`	// 时光倒流
+		[effect]
+			`restore_state_5s_ago`	1	// 恢复到5秒前状态
+			`cooldown`	300000	// 冷却5分钟
+		[/effect]
+	[/skill]
+	[skill]
+		`future_sight`	// 未来预知
+		[effect]
+			`show_enemy_attack_path`	5000	// 显示敌人攻击轨迹5秒
+			`cooldown`	30000	// 冷却30秒
+		[/effect]
+	[/skill]
+[/spacetime skills]
+
+// 传说制作配方
+[legendary recipes]
+	[recipe]
+		`spacetime_staff`	// 时空法杖
+		[materials]
+			`spacetime_crystal`	1
+			`eternal_stone`	10
+			`void_essence`	20
+		[/materials]
+		[properties]
+			`legendary_weapon`	1
+			`spacetime_mastery`	50
+		[/properties]
+	[/recipe]
+	[recipe]
+		`spacetime_armor`	// 时空护甲
+		[materials]
+			`spacetime_crystal`	2
+			`star_fragment`	50
+			`time_sand`	100
+		[/materials]
+		[properties]
+			`legendary_armor`	1
+			`spacetime_protection`	100
+		[/properties]
+	[/recipe]
+	[recipe]
+		`spacetime_ring`	// 时空戒指
+		[materials]
+			`spacetime_crystal`	1
+			`fate_thread`	5
+			`causality_orb`	3
+		[/materials]
+		[properties]
+			`legendary_accessory`	1
+			`spacetime_control`	25
+		[/properties]
+	[/recipe]
+[/legendary recipes]
+
+// 特殊效果
+[special effects]
+	[time_distortion]
+		`skill_cooldown_reduction`	50	// 技能冷却减少50%
+		`move_speed_increase`	100	// 移动速度+100%
+		`attack_speed_increase`	50	// 攻击速度+50%
+		`duration`	10000	// 持续10秒
+	[/time_distortion]
+	[auto_recovery]
+		`hp_recovery_percent`	10	// HP恢复10%
+		`mp_recovery_percent`	10	// MP恢复10%
+		`interval`	300000	// 每5分钟
+	[/auto_recovery]
+	[team_acceleration]
+		`team_buff_duration`	30000	// 队伍加速30秒
+		`trigger_on_dungeon_enter`	1	// 进入副本时触发
+	[/team_acceleration]
+[/special effects]
+
+// 材料等级
+[material grade]
+	5	// 传说级材料
+[/material grade]
+
+// 时空材料标识
+[spacetime material]
+	1	// 标识为时空材料
+[/spacetime material]
+
+// 隐藏区域通行证
+[hidden area access]
+	`spacetime_rift`	1	// 可进入时空裂缝
+	`temporal_dungeon`	1	// 可进入时间副本
+	`void_realm`	1	// 可进入虚空领域
+[/hidden area access]

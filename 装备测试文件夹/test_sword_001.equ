@@ -1,0 +1,107 @@
+#PVF_File
+
+[name]
+`测试·烈焰之剑`
+
+[flavor text]
+`<测试装备系列>`
+
+[basic explain]
+	`[拔刀斩]攻击力 +25%%
+[拔刀斩]冷却时间 -15%%
+[拔刀斩]MP消耗量 -10%%`
+
+[grade]
+50	
+[rarity]
+4	
+[icon mark]
+`item/iconmark.img`
+70	
+[usable job]
+`[swordman]`
+`[demonic swordman]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+45	
+[physical attack]
+520	
+[magical attack]
+480	
+[price]
+125000	
+[repair price]
+100000	
+[value]
+87500	
+[equipment physical attack]
+650	585	
+[equipment magical attack]
+600	540	
+[separate attack]
+580	522	
+[physical critical hit]
+8.5	
+[magical critical hit]
+7.2	
+[fire attack]
+25	
+[skill levelup]
+`[swordman]`
+1	2	
+`[swordman]`
+2	1	
+`[swordman]`
+9	3	
+[/skill levelup]
+
+[skill data up]
+`[swordman]`	9	`[dungeon type]`	`[level]`	0	`%`	25
+`[swordman]`	9	`[dungeon type]`	`[cooltime]`	0	`%`	-15
+`[swordman]`	9	`[dungeon type]`	`[mp]`	0	`%`	-10
+[/skill data up]
+
+[icon]
+`Item/weapon/sword/sword.img`
+15	
+[field image]
+`Item/field_weapon.img`
+3	
+[equipment type]
+`[weapon]`
+1	
+[weapon type]
+`[sword]`
+
+[move wav]
+`SWORD_TOUCH`
+
+[durability]
+45	
+[weight]
+2800	
+[if]
+	[cooltime]
+		-500	
+	[/cooltime]
+[/if]
+
+[cool time]
+	10000
+
+[skill levelup]
+	`[swordman]`	9	3
+[/skill levelup]
+
+[skill data up]
+	`[swordman]`	9	`[dungeon type]`	`[level]`	0	`%`	25
+	`[swordman]`	9	`[dungeon type]`	`[cooltime]`	0	`%`	-15
+	`[swordman]`	9	`[dungeon type]`	`[mp]`	0	`%`	-10
+[/skill data up]
+
+[possible kiri protect]

@@ -1,0 +1,469 @@
+#PVF_File
+
+[name]
+`测试·雷鸣念气图腾`
+
+[flavor text]
+`<测试装备系列>`
+
+[basic explain]
+	`[念气波]攻击力 +35%%
+[念气波]冷却时间 -25%%
+[念气波]MP消耗量 -20%%
+[狮子吼]攻击力 +40%%
+[狮子吼]冷却时间 -30%%
+物理攻击力 +6%%
+
+<雷鸣战神特效>
+攻击时有概率触发雷电链、眩晕、燃烧、冰冻效果
+暴击时获得攻击速度加成
+连击10次以上释放雷暴攻击所有敌人
+击杀敌人时获得MP回复
+
+<战神之力>
+每8秒获得物理攻击力加成
+随机释放雷击攻击所有敌人
+进入房间时队友获得移动速度加成
+雷雨天气时获得全元素攻击力加成
+
+<套装效果：雷鸣战神套装>
+2件套：物理攻击力 +120
+3件套：攻击速度 +25%%
+4件套：物理暴击 +15%%
+5件套：全技能等级 +2
+
+<特殊属性>
+对野兽伤害 +35%%
+对机械伤害 +30%%
+对BOSS伤害 +20%%`
+
+[grade]
+52	
+[rarity]
+4	
+[icon mark]
+`item/iconmark.img`
+70	
+[usable job]
+`[priest]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+48	
+[physical attack]
+580	
+[magical attack]
+520	
+[price]
+145000	
+[repair price]
+115000	
+[value]
+102000	
+[equipment physical attack]
+720	648
+
+[set item]
+	`雷鸣战神套装`
+
+[set effect]
+	2	`[physical attack]`	120
+	3	`[attack speed]`	25
+	4	`[physical critical]`	15
+	5	`[all skill lv]`	2
+
+[special property]
+	`[beast killer]`	35
+	`[machine killer]`	30
+	`[boss killer]`	20
+
+[random option]
+	`[physical attack]`	60	180
+	`[physical critical]`	12	35
+	`[attack speed]`	8	20
+	`[hp max]`	200	500
+
+[enchant]
+	`[physical attack]`	90	140
+	`[all elemental attack]`	18	28
+
+[upgrade]
+	`[physical attack]`	90
+	`[physical critical]`	10
+	`[attack speed]`	4
+
+[amplify]
+	`[physical attack]`	140
+	`[all elemental attack]`	25
+	`[physical critical]`	15	
+[equipment magical attack]
+650	585	
+[separate attack]
+620	558	
+[physical critical hit]
+8.0	
+[magical critical hit]
+7.5	
+[attack speed]
+8	
+[cast speed]
+10	
+[move speed]
+5	
+[HP MAX]
+220	
+[MP MAX]
+180	
+[MP regen speed]
+8	
+[hit recovery]
+140	
+[physical defense]
+3200	
+[magical defense]
+2800	
+[stuck resistance]
+18	
+[stuck tolerance]
+10	
+[fire resistance]
+10	
+[water resistance]
+10	
+[light resistance]
+8	
+[dark resistance]
+8	
+[poison resistance]
+18	
+[bleed resistance]
+18	
+[stun resistance]
+18	
+[slow resistance]
+18	
+[curse resistance]
+15	
+[blind resistance]
+18	
+[sleep resistance]
+18	
+[freeze resistance]
+18	
+[stone resistance]
+18	
+[burn resistance]
+18	
+[shock resistance]
+20	
+
+[skill levelup]
+`[priest]`	40	`[all]`	1
+`[priest]`	42	`[all]`	2
+
+[/skill levelup]
+
+[possible kiri protect]
+
+[icon]
+`item/weapon/priest/totem/totem.img`	0
+
+[field image]
+`item/weapon/priest/totem/totem.img`	1
+
+[equipment type]
+`[weapon]`	19
+
+[weapon category]
+`[totem]`
+
+[weapon type]
+`[blunt weapon]`
+
+[move wav]
+`WEAPON_TOTEM_01`
+
+[durability]
+48	
+
+[weight]
+3200	
+
+[if]
+	[cooltime]
+		`[all]`	-800
+[/if]
+
+[if]
+	[equipment duration]
+		1000
+	[/equipment duration]
+[/if]
+
+[if]
+	[hit]
+		[target]
+			`[enemy]`	-1
+		[probability]
+			12
+		[active status]
+			`[shock]`	35	4000	1	`[priest]`
+		[/active status]
+	[/target]
+[/if]
+
+[if]
+	[attack success]
+		1
+[/if]
+[then]
+	[target]
+		`[all enemy]`	-1
+	[probability]
+		18
+	[passive object]
+		60023	0	0	0	0	0	
+	[/passive object]
+[/then]
+
+[if]
+	[time]
+		8000
+[/if]
+[then]
+	[target]
+		`[self]`	0
+	[probability]
+		100
+	[active status]
+		`[physical attack]`	80	10000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[random]
+		3
+[/if]
+[then]
+	[target]
+		`[all enemy]`	-1
+	[probability]
+		100
+	[passive object]
+		8027	0	0	0	0	0	
+	[/passive object]
+[/then]
+
+[if]
+	[level up]
+		1
+[/if]
+[then]
+	[target]
+		`[self]`	0
+	[probability]
+		100
+	[active status]
+		`[all skill lv]`	1	30000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[dungeon clear]
+		1
+[/if]
+[then]
+	[target]
+		`[party]`	-1
+	[probability]
+		100
+	[active status]
+		`[gold bonus]`	25	60000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[boss appear]
+		1
+[/if]
+[then]
+	[target]
+		`[party]`	-1
+	[probability]
+		100
+	[active status]
+		`[physical attack]`	120	20000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[party member count]
+		`[>=]`	3
+[/if]
+[then]
+	[target]
+		`[party]`	-1
+	[probability]
+		100
+	[active status]
+		`[attack speed]`	20	999999	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[weather]
+		`[thunder]`
+[/if]
+[then]
+	[target]
+		`[self]`	0
+	[probability]
+		100
+	[active status]
+		`[all elemental attack]`	50	999999	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[hit]
+		[target]
+			`[enemy]`	-1
+		[probability]
+			10
+		[active status]
+			`[stun]`	40	3000	1	`[priest]`
+		[/active status]
+	[/target]
+[/if]
+
+[if]
+	[hit]
+		[target]
+			`[enemy]`	-1
+		[probability]
+			20
+		[active status]
+			`[burn]`	45	6000	1	`[priest]`
+		[/active status]
+	[/target]
+[/if]
+
+[if]
+	[critical hit]
+		1
+[/if]
+[then]
+	[target]
+		`[self]`	0
+	[probability]
+		30
+	[active status]
+		`[attack speed]`	60	5000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[use skill]
+		`[priest]`	30	`[all]`
+[/if]
+[then]
+	[target]
+		`[party]`	-1
+	[probability]
+		100
+	[active status]
+		`[physical attack]`	40	8000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[kill enemy]
+		1
+[/if]
+[then]
+	[target]
+		`[self]`	0
+	[probability]
+		100
+	[active status]
+		`[mp regen]`	80	5000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[equipment duration]
+		2000
+	[/equipment duration]
+[/if]
+
+[if]
+	[room enter]
+		1
+[/if]
+[then]
+	[target]
+		`[party]`	-1
+	[probability]
+		100
+	[active status]
+		`[move speed]`	30	15000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[combo]
+		`[>=]`	10
+[/if]
+[then]
+	[target]
+		`[all enemy]`	-1
+	[probability]
+		50
+	[passive object]
+		8025	0	0	0	0	0	
+	[/passive object]
+[/then]
+
+[if]
+	[hit]
+		[target]
+			`[enemy]`	-1
+		[probability]
+			6
+		[active status]
+			`[freeze]`	30	3500	1	`[priest]`
+		[/active status]
+	[/target]
+[/if]
+
+[if]
+	[attack success]
+		1
+[/if]
+[then]
+	[target]
+		`[self]`	0
+	[probability]
+		8
+	[active status]
+		`[cast speed]`	50	4000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[attack success]
+		1
+[/if]
+[then]
+	[target]
+		`[all enemy]`	-1
+	[probability]
+		8
+	[passive object]
+		11040	0	0	0	0	0	
+	[/passive object]
+[/then]

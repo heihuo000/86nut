@@ -1,0 +1,87 @@
+#PVF_File
+
+[name]
+`测试·守护者战甲`
+
+[name2]
+`Test Guardian Armor`
+
+[flavor text]
+`<测试装备系列>`
+
+[grade]
+45	
+[rarity]
+3	
+[icon mark]
+`item/iconmark.img`
+65	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+40	
+[physical defense]
+35	
+[magical defense]
+32	
+[HP MAX]
+450	
+[MP MAX]
+180	
+[price]
+85000	
+[repair price]
+68000	
+[value]
+59500	
+[equipment physical defense]
+890	801	
+[equipment magical defense]
+820	738	
+[HP regen speed]
+15	
+[MP regen speed]
+8	
+[all elemental resistance]
+5	
+[skill levelup]
+`[common]`
+180	2	
+`[common]`
+181	1	
+[/skill levelup]
+
+[icon]
+`Item/common/coat.img`
+5	
+[field image]
+`Item/field_equip.img`
+2	
+[equipment type]
+`[coat]`
+16	
+[sub type]
+1	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+40	
+[weight]
+1800	
+[if]
+	[physical defense]
+		50	
+	[/physical defense]
+	[magical defense]
+		45	
+	[/magical defense]
+[/if]
+
+[possible kiri protect]

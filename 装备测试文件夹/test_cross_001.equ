@@ -1,0 +1,418 @@
+#PVF_File
+
+[name]
+`测试·神圣之光十字架`
+
+[flavor text]
+`<测试装备系列>`
+
+[basic explain]
+	`[圣光球]攻击力 +30%%
+[圣光球]冷却时间 -20%%
+[圣光球]MP消耗量 -15%%
+[圣光球]施法速度 +25%%
+魔法攻击力 +8%%
+
+<神圣守护特效>
+攻击时有概率触发神圣光束、缓慢、诅咒效果
+暴击时释放光明爆炸，对所有敌人造成伤害
+使用技能时为队友回复HP
+危机时刻自动获得防御和MP回复
+
+<随机神迹>
+每10秒为队友提供全元素抗性
+随机释放神圣审判攻击所有敌人
+升级时获得技能等级提升
+通关时获得经验加成
+BOSS战时队友获得魔法攻击力加成
+
+<套装效果：神圣守护套装>
+2件套：全元素抗性 +25
+3件套：魔法攻击力 +150
+4件套：施法速度 +20%%
+5件套：全技能等级 +2
+
+<特殊属性>
+对不死族伤害 +30%%
+对恶魔伤害 +25%%
+对BOSS伤害 +15%%`
+
+[grade]
+50	
+[rarity]
+4	
+[icon mark]
+`item/iconmark.img`
+70	
+[usable job]
+`[priest]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+45	
+[physical attack]
+380	
+[magical attack]
+620	
+[price]
+135000	
+[repair price]
+110000	
+[value]
+95000	
+[equipment physical attack]
+450	405	
+[equipment magical attack]
+750	675
+
+[set item]
+	`神圣守护套装`
+
+[set effect]
+	2	`[all elemental resistance]`	25
+	3	`[magical attack]`	150
+	4	`[cast speed]`	20
+	5	`[all skill lv]`	2
+
+[special property]
+	`[undead killer]`	30
+	`[demon killer]`	25
+	`[boss killer]`	15
+
+[random option]
+	`[magical attack]`	50	150
+	`[magical critical]`	10	30
+	`[cast speed]`	5	15
+	`[mp max]`	100	300
+
+[enchant]
+	`[magical attack]`	80	120
+	`[all elemental attack]`	15	25
+
+[upgrade]
+	`[magical attack]`	80
+	`[magical critical]`	8
+	`[cast speed]`	3
+
+[amplify]
+	`[magical attack]`	120
+	`[all elemental attack]`	20
+	`[magical critical]`	12	
+[separate attack]
+580	522	
+[physical critical hit]
+6.5	
+[magical critical hit]
+9.5	
+[attack speed]
+-5	
+[cast speed]
+15	
+[move speed]
+-2	
+[HP MAX]
+180	
+[MP MAX]
+250	
+[MP regen speed]
+12	
+[hit recovery]
+120	
+[physical defense]
+2800	
+[magical defense]
+3200	
+[stuck resistance]
+15	
+[stuck tolerance]
+8	
+[fire resistance]
+8	
+[water resistance]
+8	
+[light resistance]
+12	
+[dark resistance]
+8	
+[poison resistance]
+15	
+[bleed resistance]
+15	
+[stun resistance]
+15	
+[slow resistance]
+15	
+[curse resistance]
+20	
+[blind resistance]
+15	
+[sleep resistance]
+15	
+[freeze resistance]
+15	
+[stone resistance]
+15	
+[burn resistance]
+15	
+[shock resistance]
+15	
+
+[skill levelup]
+`[priest]`	40	`[all]`	1
+`[priest]`	41	`[all]`	1
+`[priest]`	42	`[all]`	1
+`[priest]`	43	`[all]`	1
+`[priest]`	44	`[all]`	1
+
+[/skill levelup]
+
+[possible kiri protect]
+
+[icon]
+`item/weapon/priest/cross/cross.img`	0
+
+[field image]
+`item/weapon/priest/cross/cross.img`	1
+
+[equipment type]
+`[weapon]`	18
+
+[weapon category]
+`[cross]`
+
+[weapon type]
+`[blunt weapon]`
+
+[move wav]
+`WEAPON_CROSS_01`
+
+[durability]
+45	
+
+[weight]
+2800	
+
+[if]
+	[cooltime]
+		`[all]`	-500
+[/if]
+
+[if]
+	[equipment duration]
+		1000
+	[/equipment duration]
+[/if]
+
+[if]
+	[hit]
+		[target]
+			`[enemy]`	-1
+		[probability]
+			10
+		[active status]
+			`[blessing]`	40	3000	1	`[priest]`
+		[/active status]
+	[/target]
+[/if]
+
+[if]
+	[attack success]
+		1
+[/if]
+[then]
+	[target]
+		`[all enemy]`	-1
+	[probability]
+		12
+	[passive object]
+		60021	0	0	0	0	0	
+	[/passive object]
+[/then]
+
+[if]
+	[hit]
+		[target]
+			`[enemy]`	-1
+		[probability]
+			8
+		[active status]
+			`[slow]`	35	4000	1	`[priest]`
+		[/active status]
+	[/target]
+[/if]
+
+[if]
+	[hit]
+		[target]
+			`[enemy]`	-1
+		[probability]
+			15
+		[active status]
+			`[curse]`	30	5000	1	`[priest]`
+		[/active status]
+	[/target]
+[/if]
+
+[if]
+	[attack success]
+		1
+[/if]
+[then]
+	[target]
+		`[self]`	0
+	[probability]
+		5
+	[active status]
+		`[light resistance]`	50	8000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[critical hit]
+		1
+[/if]
+[then]
+	[target]
+		`[all enemy]`	-1
+	[probability]
+		25
+	[passive object]
+		8024	0	0	0	0	0	
+	[/passive object]
+[/then]
+
+[if]
+	[use skill]
+		`[priest]`	40	`[all]`
+[/if]
+[then]
+	[target]
+		`[party]`	-1
+	[probability]
+		100
+	[active status]
+		`[hp regen]`	25	6000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[equipment duration]
+		1000
+	[/equipment duration]
+[/if]
+
+[if]
+	[hp]
+		`[<=]`	30
+[/if]
+[then]
+	[target]
+		`[self]`	0
+	[probability]
+		100
+	[active status]
+		`[physical defense]`	80	10000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[mp]
+		`[<=]`	20
+[/if]
+[then]
+	[target]
+		`[self]`	0
+	[probability]
+		100
+	[active status]
+		`[mp regen]`	50	8000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[time]
+		10000
+[/if]
+[then]
+	[target]
+		`[party]`	-1
+	[probability]
+		100
+	[active status]
+		`[all elemental resistance]`	30	12000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[random]
+		5
+[/if]
+[then]
+	[target]
+		`[all enemy]`	-1
+	[probability]
+		100
+	[passive object]
+		8026	0	0	0	0	0	
+	[/passive object]
+[/then]
+
+[if]
+	[level up]
+		1
+[/if]
+[then]
+	[target]
+		`[self]`	0
+	[probability]
+		100
+	[active status]
+		`[all skill lv]`	1	30000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[dungeon clear]
+		1
+[/if]
+[then]
+	[target]
+		`[party]`	-1
+	[probability]
+		100
+	[active status]
+		`[exp bonus]`	20	60000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[boss appear]
+		1
+[/if]
+[then]
+	[target]
+		`[party]`	-1
+	[probability]
+		100
+	[active status]
+		`[magical attack]`	100	20000	1	`[priest]`
+	[/active status]
+[/then]
+
+[if]
+	[party member count]
+		`[>=]`	2
+[/if]
+[then]
+	[target]
+		`[party]`	-1
+	[probability]
+		100
+	[active status]
+		`[magical critical]`	15	999999	1	`[priest]`
+	[/active status]
+[/then]

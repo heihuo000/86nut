@@ -1,0 +1,96 @@
+#PVF_File
+
+[name]
+`测试·星辰之光`
+
+[flavor text]
+`<测试装备系列>`
+
+[grade]
+2	
+[usable job]
+`[all]`
+
+[/usable job]
+
+[attach type]
+`[trade]`
+
+[minimum level]
+1	
+[icon]
+`item/avatar/swordman/sm_aura.img`
+200	
+[move wav]
+`BONE_TOUCH`
+
+[equipment type]
+`[aurora avatar]`
+0	
+[aura hud icon]
+250	
+[physical attack]
+80	
+[physical defense]
+80	
+[magical attack]
+80	
+[magical defense]
+80	
+[equipment magical attack]
+60	60	
+[equipment physical attack]
+60	60	
+[separate attack]
+60	60	
+[physical critical hit]
+5.0	
+[magical critical hit]
+5.0	
+[all elemental attack]
+12	
+[HP MAX]
+200	
+[MP MAX]
+150	
+[cast speed]
+3	
+[move speed]
+3	
+[attack speed]
+3	
+[skill levelup]
+`[common]`
+176	1	
+`[common]`
+177	1	
+`[common]`
+178	1	
+[/skill levelup]
+
+[price]
+0	
+[repair price]
+0	
+[value]
+0	
+[icon mark]
+`item/iconmark.img`
+75	
+[field image]
+`Item/field_equip.img`
+10	
+[move wav]
+`BONE_TOUCH`
+
+[durability]
+999	
+[weight]
+0	
+[if]
+	[all status resistance]
+		10	
+	[/all status resistance]
+[/if]
+
+[possible kiri protect]

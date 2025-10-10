@@ -1,0 +1,149 @@
+#PVF_File
+
+[name]
+	`龙鳞碎片`
+
+[explain]
+	`古代巨龙身上脱落的鳞片碎片，蕴含强大的龙族魔力。是制作高级装备和附魔的珍贵材料。`
+
+[basic explain]
+	`<基础强化>
+	可用于制作史诗级武器和防具
+	提供火属性抗性 +20
+	制作成功率 +10%
+	
+	<特殊效果>
+	制作装备时有15%几率附加"龙之庇护"
+	- 火属性伤害减免 25%
+	- 龙族怪物伤害减免 30%
+	- 持续时间：永久
+	
+	<被动能力>
+	背包中每有10个龙鳞碎片，火属性强化 +1
+	与其他龙族材料合成时，成功率 +20%
+	可用于强化龙族系列装备
+	
+	<制作配方>
+	龙鳞战甲：龙鳞碎片 x50 + 精钢锭 x20 + 火焰精华 x10
+	龙息法杖：龙鳞碎片 x30 + 魔法水晶 x15 + 龙之心 x1
+	龙鳞护符：龙鳞碎片 x20 + 秘银丝 x10 + 龙血 x5
+	
+	<特殊属性>
+	对龙族怪物制作的装备效果翻倍
+	可用于附魔火属性强化`
+
+[grade]
+	4	// 史诗级
+
+[rarity]
+	3	// 史诗
+
+[usable job]
+	`[all]`
+
+[minimum level]
+	30
+
+[icon]
+	`item/stackable/material.img`	5
+
+[field image]
+	`item/fieldimage.img`	5
+
+[stackable type]
+	`[material]`	// 制作材料
+
+[move wav]
+	`CRYSTAL_TOUCH`
+
+[stack limit]
+	999
+
+[price]
+	100000
+
+[repair price]
+	0
+
+[value]
+	50000
+
+[cool time]
+	0	// 无冷却
+
+[icon mark]
+	`Item/IconMark.img`	66	// 史诗标记
+
+[usable world type]
+	`[all]`
+
+[item category]
+	`material`	// 材料类别
+
+[item type]
+	`crafting`	// 制作类型
+
+[weight]
+	5
+
+// 材料属性
+[material property]
+	`fire_resistance`	20	// 火抗+20
+	`craft_success_rate`	10	// 制作成功率+10%
+	`dragon_protection_chance`	15	// 龙之庇护几率15%
+[/material property]
+
+// 制作配方信息
+[crafting recipes]
+	[recipe]
+		`dragon_scale_armor`	// 龙鳞战甲
+		[materials]
+			`dragon_scale_fragment`	50
+			`steel_ingot`	20
+			`fire_essence`	10
+		[/materials]
+	[/recipe]
+	[recipe]
+		`dragon_breath_staff`	// 龙息法杖
+		[materials]
+			`dragon_scale_fragment`	30
+			`magic_crystal`	15
+			`dragon_heart`	1
+		[/materials]
+	[/recipe]
+	[recipe]
+		`dragon_scale_amulet`	// 龙鳞护符
+		[materials]
+			`dragon_scale_fragment`	20
+			`mithril_thread`	10
+			`dragon_blood`	5
+		[/materials]
+	[/recipe]
+[/crafting recipes]
+
+// 特殊效果
+[special effects]
+	[dragon_protection]
+		`fire_damage_reduction`	25	// 火伤减免25%
+		`dragon_damage_reduction`	30	// 龙族伤害减免30%
+		`duration`	-1	// 永久持续
+	[/dragon_protection]
+[/special effects]
+
+// 材料等级
+[material grade]
+	4	// 史诗级材料
+[/material grade]
+
+// 适用制作类型
+[applicable crafting]
+	`[weapon]`	// 武器制作
+	`[armor]`	// 防具制作
+	`[accessory]`	// 饰品制作
+	`[enchant]`	// 附魔材料
+[/applicable crafting]
+
+// 龙族材料标识
+[dragon material]
+	1	// 标识为龙族材料
+[/dragon material]

@@ -1,0 +1,64 @@
+{
+  "total_items": 2693,
+  "type_distribution": {
+    "equipment": 2685,
+    "stackable": 8
+  },
+  "rarity_distribution": {
+    "0": 1365,
+    "5": 460,
+    "3": 228,
+    "4": 197,
+    "2": 304,
+    "1": 139
+  },
+  "level_distribution": {
+    "1-20": 1668,
+    "41-60": 209,
+    "21-40": 264,
+    "61-80": 395,
+    "81-100": 157
+  },
+  "equipment_type_distribution": {
+    "weapon": 1232,
+    "waist avatar": 197,
+    "hat avatar": 166,
+    "face avatar": 165,
+    "coat avatar": 159,
+    "pants avatar": 133,
+    "aurora avatar": 131,
+    "shoes avatar": 126,
+    "breast avatar": 110,
+    "hair avatar": 106
+  },
+  "job_distribution": {
+    "swordman": 1987,
+    "creator mage": 1306,
+    "all": 221,
+    "demonic swordman": 6,
+    "priest": 2,
+    "mage": 1
+  },
+  "skill_enhancement_count": 306,
+  "special_items_count": {
+    "高攻击力装备": 7,
+    "技能增强装备": 741,
+    "多职业通用": 221,
+    "高价值物品": 314,
+    "低等级高稀有度": 203
+  },
+  "price_analysis": {
+    "total_items_with_price": 907,
+    "min_price": 1,
+    "max_price": 2500000,
+    "average_price": 123028,
+    "median_price": 72000,
+    "price_ranges": {
+      "0-10000": 53,
+      "10001-50000": 278,
+      "50001-100000": 262,
+      "100001-500000": 274,
+      "500000+": 40
+    }
+  }
+}

@@ -1,0 +1,95 @@
+#PVF_File
+
+[name]
+`测试·奥术师长袍`
+
+[name2]
+`Test Arcane Robe`
+
+[flavor text]
+`<测试装备系列>`
+
+[grade]
+48	
+[rarity]
+4	
+[icon mark]
+`item/iconmark.img`
+68	
+[usable job]
+`[mage]`
+`[creator mage]`
+
+[/usable job]
+
+[attach type]
+`[sealing]`
+
+[minimum level]
+43	
+[magical attack]
+42	
+[magical defense]
+38	
+[HP MAX]
+320	
+[MP MAX]
+580	
+[price]
+95000	
+[repair price]
+76000	
+[value]
+66500	
+[equipment physical defense]
+650	585	
+[equipment magical defense]
+920	828	
+[cast speed]
+8	
+[move speed]
+5	
+[ice attack]
+20	
+[light attack]
+15	
+[skill levelup]
+`[mage]`
+10	3	
+`[mage]`
+15	2	
+`[common]`
+175	1	
+[/skill levelup]
+
+[icon]
+`Item/IconArmor.img`
+45	
+[field image]
+`Item/field_equip.img`
+1	
+[equipment type]
+`[coat]`
+16	
+[sub type]
+2	
+[move wav]
+`CLOTH_TOUCH`
+
+[durability]
+35	
+[weight]
+1200	
+[if]
+	[magical attack]
+		60	
+	[/magical attack]
+	[cast speed]
+		12	
+	[/cast speed]
+	[MP MAX]
+		200	
+	[/MP MAX]
+[/if]
+
+[possible kiri protect]
